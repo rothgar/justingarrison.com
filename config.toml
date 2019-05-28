@@ -1,0 +1,43 @@
+baseurl = "https://justingarrison.com"
+title = "home/jgarr"
+theme ="hugo-theme-basic"
+languageCode = "en-us"
+googleAnalytics = "UA-140948948-1"
+enableEmoji = true
+copyright = "© 2016-19 Justin Garrison <a href='https://twitter.com/rothgar'>@rothgar</a>."
+description = "Personal website"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[params]
+  titleEmoji = ":tada:"
+  # change this!
+  twitter = "rothgar"
+
+[Permalinks]
+  post = "blog/:slug"
+
+[[params.menu]]
+  name = "blog"
+  url = "blog/"
+
+[[params.menu]]
+  name = "post series"
+  url = "series/"
+
+[[params.menu]]
+  name = "about"
+  url = "about/"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
