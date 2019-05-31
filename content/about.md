@@ -4,7 +4,7 @@ subtitle: man justin
 comments: false
 ---
 
-Hi, my name is Justin. I like to learn new things and teach things.
+Hi, my name is Justin. I like to learn new things and help people.
 
 - I tweet at [@rothgar](https://twitter.com/rothgar)
 - I work at [Disney Streaming](http://disneystreaming.com)
@@ -14,5 +14,5 @@ Hi, my name is Justin. I like to learn new things and teach things.
 
 ### history
 
-I previously wrote at [1n73r.net](https://web.archive.org/web/20170701000000*/1n73r.net), [howtogeek.com](https://www.howtogeek.com/author/rothgar/), and [Medium](https://medium.com/@rothgar).
+I previously wrote at [Medium](https://medium.com/@rothgar), [howtogeek.com](https://www.howtogeek.com/author/rothgar/), and [1n73r.net](https://web.archive.org/web/20170701000000*/1n73r.net).
 I didn't bother migrating everything from those platforms here.
