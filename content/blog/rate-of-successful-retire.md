@@ -1,7 +1,8 @@
 ---
 title: "Rate of Successful Retire"
 date: 2019-09-03T00:00:00Z
-draft: true
+tags = ["work"]
+categories = ["work"]
 ---
 
 > The only sustainable competitive advantage is an organization's ability to learn faster than the competition.
