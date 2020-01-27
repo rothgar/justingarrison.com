@@ -69,7 +69,7 @@ Yes, I still have it.
 
 And here it is in my hand.
 
-https://twitter.com/rothgar/status/1215134319578009600
+{{< tweet 1215134319578009600 >}}
 
 Something this size has trade-offs.
 There is only 1 button on the side of the device which does triple duty as power on/off, long press (standard Android long press), double press shortcut can do different things configured in the settings.
@@ -85,12 +85,14 @@ Make sure you adjust the keyboard size in the settings to make it a little bit b
 Sometimes Gboard refused to get the words I wanted with swiping and I had to tap out a few words.
 Lots fo mistypong you kust get usde to.
 
-https://twitter.com/rothgar/status/1215330182925602816
+{{< tweet 1215330182925602816 >}}
 
 The camera was able to take pictures, but don't rely on those pictures being good at low light or high quality in the current market.
 Here are some examples.
 
-![](/img/palm-companion-sample-1.jpg =600x800) ![](/img/palm-companion-sample-3.jpg =800x600) ![](/img/palm-companion-sample-2.jpg =600x800)
+![](/img/palm-companion-sample-1.jpg =600x800)
+![](/img/palm-companion-sample-3.jpg =800x600)
+![](/img/palm-companion-sample-2.jpg =600x800)
 
 My biggest hardware problem using the Companion as my main phone was the battery life.
 I could use the phone for 30 minutes and watch the battery drain.
@@ -118,7 +120,7 @@ I got used to it, but not something I would want to give to a less technical sav
 The best part of the hardware is the reactions people give when they see you using the phone or try to scan a pass with it.
 On more than one occasion people thought it was a joke and then were amazed at how capable the tiny device is.
 
-https://twitter.com/rothgar/status/1216942251651125249
+{{< tweet 1216942251651125249 >}}
 
 ## Software
 
