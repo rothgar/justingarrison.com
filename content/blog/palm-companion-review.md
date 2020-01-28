@@ -90,9 +90,9 @@ Lots fo mistypong you kust get usde to.
 The camera was able to take pictures, but don't rely on those pictures being good at low light or high quality in the current market.
 Here are some examples.
 
-![](/img/palm-companion-sample-1.jpg =600x800)
-![](/img/palm-companion-sample-3.jpg =800x600)
-![](/img/palm-companion-sample-2.jpg =600x800)
+![](/img/palm-companion-sample-1.jpg)
+![](/img/palm-companion-sample-3.jpg)
+![](/img/palm-companion-sample-2.jpg)
 
 My biggest hardware problem using the Companion as my main phone was the battery life.
 I could use the phone for 30 minutes and watch the battery drain.
