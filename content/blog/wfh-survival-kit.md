@@ -84,7 +84,7 @@ Get a monitor big enough for your daily work and tall enough to raise your camer
 
 I really like this LG because it's true 4K UHD resolution (cheaper monitors skimp here) and it has USB-C, DisplayPort, and HDMI inputs.
 
-{{< amazon asin="B07G379ZBH" affiliate="wfhsurvival-20-20" title="LG 27 4K Monitor" >}}
+{{< amazon asin="B078GVTD9N" affiliate="wfhsurvival-20-20" title="LG 27 4K Monitor" >}}
 
 ## Desk
 
