@@ -50,7 +50,7 @@ The Logitech c920 is my go-to camera.
 It's not too expensive, has a good stereo microphone, and works out of the box on all operating systems.
 It also has mounting options if you don't have a monitor to rest it on.
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=jgarr0a-20&language=en_US&marketplace=amazon&region=US&placement=B006JH8T3S&asins=B006JH8T3S&linkId=957a7ffa5de70803ba4445a3092d709c&show_border=false&link_opens_in_new_window=true"></iframe>
+{{< amazon asin="B006JH8T3S" affiliate="wfhsurvival-20-20" title="Logitech HD Pro Webcam C920" >}}
 
 If you don't have natural light (e.g. a window) behind your webcam the next best thing is a light ring.
 This one is nice because it's flexible and has a stand but make sure it's positioned behind your webcam and in the direction you face.
@@ -62,12 +62,12 @@ You'll get distracted and communication will break down.
 
 While it's impossible to look each other in the eyes in a conference call, it helps a lot if you're facing your camera.
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=jgarr0a-20&language=en_US&marketplace=amazon&region=US&placement=B07G379ZBH&asins=B07G379ZBH&linkId=be60a37498cb39514790f4fbef34333e&show_border=false&link_opens_in_new_window=true"></iframe>
+{{< amazon asin="B07G379ZBH" affiliate="wfhsurvival-20-20" title="Webcam light ring and stand" >}}
 
 An optional upgrade to a webcam is a good microphone.
 There's lots of options here but if you have the budget the Blue Yeti will make you sound even more clear on the other side.
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=jgarr0a-20&language=en_US&marketplace=amazon&region=US&placement=B00N1YPXW2&asins=B00N1YPXW2&linkId=1c4bd5db00ebf85d4ea70c79ac20fe45&show_border=false&link_opens_in_new_window=true"></iframe>
+{{< amazon asin="B00N1YPXW2" affiliate="wfhsurvival-20-20" title="Blue Yeti Microphone" >}}
 
 ## Display
 
@@ -84,7 +84,7 @@ Get a monitor big enough for your daily work and tall enough to raise your camer
 
 I really like this LG because it's true 4K UHD resolution (cheaper monitors skimp here) and it has USB-C, DisplayPort, and HDMI inputs.
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=jgarr0a-20&language=en_US&marketplace=amazon&region=US&placement=B078GVTD9N&asins=B078GVTD9N&linkId=81b7a2b905eb7b8322412680c0786ea7&show_border=false&link_opens_in_new_window=true"></iframe>
+{{< amazon asin="B07G379ZBH" affiliate="wfhsurvival-20-20" title="LG 27 4K Monitor" >}}
 
 ## Desk
 
@@ -104,7 +104,7 @@ I love mine but this is in the "expensive and maybe not necessary" category.
 
 I recommend getting them without grommet holes because the desk doesn't have edges and (at least for me) the holes only limited where I could put things on my desk.
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=jgarr0a-20&language=en_US&marketplace=amazon&region=US&placement=B07T748JVP&asins=B07T748JVP&linkId=39f1420d93a603c0ccf3c334da058cdb&show_border=false&link_opens_in_new_window=true"></iframe>
+{{< amazon asin="B07T748JVP" affiliate="wfhsurvival-20-20" title="Jarvis Desk" >}}
 
 ## Whiteboarding
 
@@ -122,8 +122,10 @@ The drawing ability is really good and it has some nice features like shape snap
 I bought an iPad mini with an apple pencil mainly to be able to do collaborative whiteboarding.
 To be honest I've only done it successfully a few times and mostly use the tablet for long form reading and as a secondary display for video calls.
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=jgarr0a-20&language=en_US&marketplace=amazon&region=US&placement=B07PRD2NQ7&asins=B07PRD2NQ7&linkId=72acd220bce5d3f60baef7c9980dcd1f&show_border=false&link_opens_in_new_window=true"></iframe>
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=jgarr0a-20&language=en_US&marketplace=amazon&region=US&placement=B016NY7784&asins=B016NY7784&linkId=cbd773450a29436ca896f5c041de91d0&show_border=false&link_opens_in_new_window=true"></iframe>
+{{< amazon asin="B07PRD2NQ7" affiliate="wfhsurvival-20-20" title="iPad Mini" >}}
+
+{{< amazon asin="B016NY7784" affiliate="wfhsurvival-20-20" title="Apple Pencil" >}}
+
 
 At the very least I recommend you pick up a refurbished iPad mini because you can get one for under $100 which is a great deal.
 
@@ -132,7 +134,7 @@ These are hard to share but help me when I need to see a high level diagram of s
 
 The widescreen aspect ratio is great vertically for lists too!
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=jgarr0a-20&language=en_US&marketplace=amazon&region=US&placement=B084DGDZMQ&asins=B084DGDZMQ&linkId=be4ac09b363626e30d641830998f6ee4&show_border=false&link_opens_in_new_window=true"></iframe>
+{{< amazon asin="B084DGDZMQ" affiliate="wfhsurvival-20-20" title="Story Pad" >}}
 
 ## Snacks and drinks
 
@@ -146,7 +148,7 @@ For me a regular subscribe and save on Amazon was enough.
 
 I really like Bohana Popped Water Lilly seeds
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=jgarr0a-20&language=en_US&marketplace=amazon&region=US&placement=B079RM289K&asins=B079RM289K&linkId=b50f246e9758db93e6ecec69e8032abc&show_border=false&link_opens_in_new_window=true"></iframe>
+{{< amazon asin="B079RM289K" affiliate="wfhsurvival-20-20" title="Popped Water Lilly seeds" >}}
 
 ## Conclusion
 
