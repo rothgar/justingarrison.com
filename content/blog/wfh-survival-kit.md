@@ -50,7 +50,7 @@ The Logitech c920 is my go-to camera.
 It's not too expensive, has a good stereo microphone, and works out of the box on all operating systems.
 It also has mounting options if you don't have a monitor to rest it on.
 
-{{< amazon asin="B006JH8T3S" affiliate="wfhsurvival-20-20" title="Logitech HD Pro Webcam C920" >}}
+{{< amazon asin="B006JH8T3S" affiliate="wfhsurvival-20" title="Logitech HD Pro Webcam C920" >}}
 
 If you don't have natural light (e.g. a window) behind your webcam the next best thing is a light ring.
 This one is nice because it's flexible and has a stand but make sure it's positioned behind your webcam and in the direction you face.
@@ -62,12 +62,12 @@ You'll get distracted and communication will break down.
 
 While it's impossible to look each other in the eyes in a conference call, it helps a lot if you're facing your camera.
 
-{{< amazon asin="B07G379ZBH" affiliate="wfhsurvival-20-20" title="Webcam light ring and stand" >}}
+{{< amazon asin="B07G379ZBH" affiliate="wfhsurvival-20" title="Webcam light ring and stand" >}}
 
 An optional upgrade to a webcam is a good microphone.
 There's lots of options here but if you have the budget the Blue Yeti will make you sound even more clear on the other side.
 
-{{< amazon asin="B00N1YPXW2" affiliate="wfhsurvival-20-20" title="Blue Yeti Microphone" >}}
+{{< amazon asin="B00N1YPXW2" affiliate="wfhsurvival-20" title="Blue Yeti Microphone" >}}
 
 ## Display
 
@@ -84,7 +84,7 @@ Get a monitor big enough for your daily work and tall enough to raise your camer
 
 I really like this LG because it's true 4K UHD resolution (cheaper monitors skimp here) and it has USB-C, DisplayPort, and HDMI inputs.
 
-{{< amazon asin="B078GVTD9N" affiliate="wfhsurvival-20-20" title="LG 27 4K Monitor" >}}
+{{< amazon asin="B078GVTD9N" affiliate="wfhsurvival-20" title="LG 27 4K Monitor" >}}
 
 ## Desk
 
@@ -104,7 +104,7 @@ I love mine but this is in the "expensive and maybe not necessary" category.
 
 I recommend getting them without grommet holes because the desk doesn't have edges and (at least for me) the holes only limited where I could put things on my desk.
 
-{{< amazon asin="B07T748JVP" affiliate="wfhsurvival-20-20" title="Jarvis Desk" >}}
+{{< amazon asin="B07T748JVP" affiliate="wfhsurvival-20" title="Jarvis Desk" >}}
 
 ## Whiteboarding
 
@@ -122,9 +122,9 @@ The drawing ability is really good and it has some nice features like shape snap
 I bought an iPad mini with an apple pencil mainly to be able to do collaborative whiteboarding.
 To be honest I've only done it successfully a few times and mostly use the tablet for long form reading and as a secondary display for video calls.
 
-{{< amazon asin="B07PRD2NQ7" affiliate="wfhsurvival-20-20" title="iPad Mini" >}}
+{{< amazon asin="B07PRD2NQ7" affiliate="wfhsurvival-20" title="iPad Mini" >}}
 
-{{< amazon asin="B016NY7784" affiliate="wfhsurvival-20-20" title="Apple Pencil" >}}
+{{< amazon asin="B016NY7784" affiliate="wfhsurvival-20" title="Apple Pencil" >}}
 
 
 At the very least I recommend you pick up a refurbished iPad mini because you can get one for under $100 which is a great deal.
@@ -134,7 +134,7 @@ These are hard to share but help me when I need to see a high level diagram of s
 
 The widescreen aspect ratio is great vertically for lists too!
 
-{{< amazon asin="B084DGDZMQ" affiliate="wfhsurvival-20-20" title="Story Pad" >}}
+{{< amazon asin="B084DGDZMQ" affiliate="wfhsurvival-20" title="Story Pad" >}}
 
 ## Snacks and drinks
 
@@ -148,7 +148,7 @@ For me a regular subscribe and save on Amazon was enough.
 
 I really like Bohana Popped Water Lilly seeds
 
-{{< amazon asin="B079RM289K" affiliate="wfhsurvival-20-20" title="Popped Water Lilly seeds" >}}
+{{< amazon asin="B079RM289K" affiliate="wfhsurvival-20" title="Popped Water Lilly seeds" >}}
 
 ## Conclusion
 
