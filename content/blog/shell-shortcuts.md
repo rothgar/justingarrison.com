@@ -1,5 +1,5 @@
 +++
-title = Shell Shortcuts
+title = "Shell Shortcuts"
 description = "Helpful shell shortcuts"
 tags = ["development"]
 categories = ["Development"]
