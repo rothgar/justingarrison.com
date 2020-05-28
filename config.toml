@@ -4,7 +4,7 @@ theme ="hugo-theme-basic"
 languageCode = "en-us"
 googleAnalytics = "UA-140948948-1"
 enableEmoji = true
-copyright = "© 2016-19 Justin Garrison <a href='https://twitter.com/rothgar'>@rothgar</a>."
+copyright = "© 2016-2020 Justin Garrison <a href='https://twitter.com/rothgar'>@rothgar</a>."
 description = "Personal website"
 
 [taxonomies]
