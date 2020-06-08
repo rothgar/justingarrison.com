@@ -1,6 +1,6 @@
 ---
 title: Snap out of it
-date: 2020-06-16T06:12:10.056Z
+date: 2020-06-08T06:12:10.056Z
 description: How to uninstall and block snapd on Ubuntu
 ---
 There has been a lot of bad news about snap recently.
