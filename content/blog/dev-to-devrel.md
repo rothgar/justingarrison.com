@@ -3,7 +3,7 @@ title = From Dev to DevRel After Three Months
 description = "My experience switching from an engineer to a Developer Advocate"
 tags = ["Career"]
 categories = ["Career"]
-date = 2020-07-22T06:03:57Z
+date = 2020-07-23T11:00:57Z
 +++
 I switched from a role as a Sr. Software Engineer leading a team of Site Reliability Engineers for Disney+ to a Developer Advocate for containers at AWS.
 Here are some of my experiences and observations about the role change, and what it might mean for you if you're looking to do a similar switch.
