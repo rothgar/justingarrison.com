@@ -20,7 +20,7 @@ I was also responsible for a lot of infrastructure that I was on call for every 
 After 7 years of being responsible for building and maintaining production systems I switched to a developer advocate role for a lot of reasons.
 Theh main reason was a lot of the parts of my job that I enjoyed (e.g. teaching people, guiding product) were things that appeared to be responsibilities for a developer advocate.
 
-I have been [][public speaking] in my free time for a while because I loved the opportunity to help people learn from my experience and it always taught me new things.
+I have been [public speaking](https://github.com/rothgar/rothgar/blob/master/SPEAKING.md) in my free time for a while because I loved the opportunity to help people learn from my experience and it always taught me new things.
 
 It may also be important to point out that I became a developer advocate right when COVID-19 quarantine happened.
 The usual things you may associtae with a developer advocate (e.g. traveling, conference, etc.) I haven't done.
@@ -69,7 +69,7 @@ I have a lot of experience with tools from my 7 years as a practitioner, but the
 I've heard devrel is different at lots of companies and so far I'm happy with how it is structured at AWS.
 Devrel at AWS is part of the product organization.
 
-I'm in product design conversations, I review [][PRFAQs], I give product feedback, and write my own documents for ideas I think would be useful.
+I'm in product design conversations, I review [PRFAQs](https://www.forbes.com/sites/innovatorsdna/2017/08/08/how-does-amazon-stay-at-day-one/#25f881a57e4d), I give product feedback, and write my own documents for ideas I think would be useful.
 Even when I'm wrong (which has been frequent) everyone I've talked to has been helpful in showing me where my assumptions were innacurate or gaps in information were leading me down a different train of thought.
 
 I am directly able to take things I've learned using AWS services and tell the product team how I would like to see things different or where a use case may not be supported and they have always been receptive to my feedback.
@@ -191,5 +191,3 @@ I see a lot of talk about management to IC switching, but rarely see devrel to e
 Some days I wish I was still an engineer talking to other engineers.
 It's probably just me, but it seems like now that my title has changed all of my experience and desire to help people are invalidated behind a pretence that I'm trying to sell something.
 
-[public speaking]: https://github.com/rothgar/rothgar/blob/master/SPEAKING.md
-[PRFAQ]: https://www.forbes.com/sites/innovatorsdna/2017/08/08/how-does-amazon-stay-at-day-one/#25f881a57e4d
