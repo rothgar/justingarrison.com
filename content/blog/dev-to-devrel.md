@@ -1,6 +1,6 @@
 +++
-title = From Dev to DevRel After Three Months
-description = "My experience switching from an engineer to a Developer Advocate"
+title = "From Dev to Devrel"
+description = "My experience switching from an engineer to a developer advocate"
 tags = ["Career"]
 categories = ["Career"]
 date = 2020-07-23T11:00:57Z
