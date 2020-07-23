@@ -18,7 +18,7 @@ As a lead software engineer I was responsible for prioritizing team initiatives,
 I was also responsible for a lot of infrastructure that I was on call for every other month.
 
 After 7 years of being responsible for building and maintaining production systems I switched to a developer advocate role for a lot of reasons.
-Theh main reason was a lot of the parts of my job that I enjoyed (e.g. teaching people, guiding product) were things that appeared to be responsibilities for a developer advocate.
+The main reason was a lot of the parts of my job that I enjoyed (e.g. teaching people, guiding product) were things that appeared to be responsibilities for a developer advocate.
 
 I have been [public speaking](https://github.com/rothgar/rothgar/blob/master/SPEAKING.md) in my free time for a while because I loved the opportunity to help people learn from my experience and it always taught me new things.
 
@@ -48,7 +48,7 @@ You know how you have a backlog to learn a new tool, framework, service, library
 
 Even when you take 4 hours you still feel guilty because there's an entire backlog of bugs, feature requests, and deadlines you're not doing.
 
-As a DA I've been lucky enough to sepend ~50% of my time learning new things.
+As a DA I've been lucky enough to spend ~50% of my time learning new things.
 I spend a ton of time reading about new products and services we've shipped or will be shipping.
 
 I equally spend time writing code to test the things we've made.
@@ -70,7 +70,7 @@ I've heard devrel is different at lots of companies and so far I'm happy with ho
 Devrel at AWS is part of the product organization.
 
 I'm in product design conversations, I review [PRFAQs](https://www.forbes.com/sites/innovatorsdna/2017/08/08/how-does-amazon-stay-at-day-one/#25f881a57e4d), I give product feedback, and write my own documents for ideas I think would be useful.
-Even when I'm wrong (which has been frequent) everyone I've talked to has been helpful in showing me where my assumptions were innacurate or gaps in information were leading me down a different train of thought.
+Even when I'm wrong (which has been frequent) everyone I've talked to has been helpful in showing me where my assumptions were inaccurate or gaps in information were leading me down a different train of thought.
 
 I am directly able to take things I've learned using AWS services and tell the product team how I would like to see things different or where a use case may not be supported and they have always been receptive to my feedback.
 I've been asked to participate in additional conversations to help refine those ideas and literally advocate on behalf of the customer.
@@ -78,12 +78,12 @@ I've been asked to participate in additional conversations to help refine those 
 I always felt like I got great customer support as an engineer at Disney, but being one step removed from the product engineers always made it seem like the process took longer than it needed to.
 Even if implementation still takes the same amount of time I now get more regular feedback loops and it's my job to help improve the products and I feel even more invested.
 
-## I talk to customers less
+## I'm not in sales or support calls
 
 I've only been at AWS for 3 months.
-Onboarding and meeting people internally is a big reason for this.
+On-boarding and meeting people internally is a big reason for this.
 
-Some other possible reasons include:
+Some possible reasons I don't have these types of calls include:
 
 * COVID-19 and travel restrictions
 * I'm new and don't have established relationships (internally or externally)
@@ -91,11 +91,11 @@ Some other possible reasons include:
 
 In any case, I expected there to be at least 1-2 customer meetings per week.
 For the past 3 months that has not been the case.
-I have only had 1 customer meeting in my first 3 months.
+I have only had 1 customer meeting and that was because I volunteered for it.
 
 I'm happy for that, but also I know there will be times when I'll want to dive deep with customers to understand their use cases and pain points.
 
-## I have a lot less meetings
+## I have a lot fewer meetings
 
 I didn't expect this at all.
 Between product, customer, team, and community I assumed I would be in meetings a lot.
@@ -106,7 +106,7 @@ I easily averaged 4 meetings a day and that includes a day dedicated to no sched
 Some of that is cultural differences at AWS and some of that is freedom and responsibility in the role to work on what I think is the most important.
 Also, a good portion of that is not having sprint planning, backlog grooming, sprint showcase, etc.
 
-Even though I don't feel like I've been very productive (mostly because I've been onboarding) I can see how only having a handful of recurring meetings on my calendar will help me be way more productive and focus.
+Even though I don't feel like I've been very productive (mostly because I've been on-boarding) I can see how only having a handful of recurring meetings on my calendar will help me be way more productive and focus.
 
 The way meetings are conducted at AWS is unlike anything I've ever experienced.
 In 3 months of meetings only 1 has had a slide deck, but that's information for a future post.
@@ -129,7 +129,7 @@ I had heard AWS was customer obsessed and I assumed they paid attention to big u
 I know this isn't the case everywhere, but not only devrel employees are paying attention.
 Project managers, engineers, and maybe even management show up in threads I would have never seen at previous companies.
 
-As a matter of fact previous employeers actively discouraged engaging with anyone online about work related topics.
+As a matter of fact previous employers actively discouraged engaging with anyone online about work related topics.
 For a long time I was terrified to post personal things online for fear of getting in trouble at work.
 
 ## I write a lot
@@ -141,7 +141,7 @@ Providing feedback and writing my own internal content takes time.
 In the 3 months I've being doing devrel I only have 1 blog post and a 3 other documents that will be made public.
 Everything else, so far, has been internal facing.
 
-The amount I've written has been greatly impacted by onboarding, learning processes, learning projects, and generally just trying to focus while the world seemingly falls apart.
+The amount I've written has been greatly impacted by on-boarding, learning processes, learning projects, and generally just trying to focus while the world seemingly falls apart.
 
 This obviously varies for different people and different teams.
 For right now I'm still learning and am pretty comfortable with focusing on internal docs.
@@ -151,7 +151,7 @@ For right now I'm still learning and am pretty comfortable with focusing on inte
 In 6 years as an engineer I was able to open source 1 project and had 1 public PR related to work which each took 3 months of legal reviews.
 All of my other contributions were to internal, private repositories or were made in my free time.
 
-In the past 3 months I haven't been commiting code to open source projects yet, but I've been a lot more active in issues, community slack channels, and SIG email lists and calls than I previously was allowed.
+In the past 3 months I haven't been committing code to open source projects yet, but I've been a lot more active in issues, community slack channels, and SIG email lists and calls than I previously was allowed.
 
 This is great for me because I love community.
 I love helping new people, providing feedback to issues, and also contributing code.
