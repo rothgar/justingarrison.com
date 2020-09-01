@@ -1,5 +1,5 @@
 +++
-title = How to On-board New Hires Remotely
+title = "How to On-board New Hires Remotely"
 description = "Tips for new employee's first week"
 tags = ["onboarding, job"]
 categories = ["management"]
