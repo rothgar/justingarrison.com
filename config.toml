@@ -45,3 +45,6 @@ description = "Personal website"
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
+
+[markup.goldmark.renderer]
+unsafe= true

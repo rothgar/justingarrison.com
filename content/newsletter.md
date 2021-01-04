@@ -15,4 +15,19 @@ The goal is to help you become a better developer no matter if you're a seasoned
 I also want to make you smile.
 Every week I will pick my favorite gif from the past week or create something original.
 
-Please [subscribe here](https://buttondown.email/123dev).
+### Sign up for [123 dev](https://buttondown.email/123dev) here.
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/123dev"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/123dev', 'popupwindow')"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  <input type="hidden" value="1" name="embed" />
+  <input type="submit" value="Subscribe" />
+  <p>
+    <a href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
+  </p>
+</form>
