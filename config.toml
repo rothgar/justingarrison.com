@@ -32,6 +32,10 @@ description = "Personal website"
   name = "about"
   url = "about/"
 
+[[params.menu]]
+  name = "123 dev newsletter"
+  url = "newsletter/"
+
 [privacy]
   [privacy.googleAnalytics]
     anonymizeIP = true
