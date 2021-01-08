@@ -13,7 +13,7 @@ description = "Personal site and blog of Justin Garrison"
   tag = "tags"
 
 [params]
-  titleEmoji = ":sign_of_the_horns:"
+  titleEmoji = ":metal:"
   # change this!
   twitter = "rothgar"
   images = "img/og-banner.png"
