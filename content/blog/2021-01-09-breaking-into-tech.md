@@ -1,7 +1,7 @@
 ---
 title: Breaking into tech
 date: 2021-01-09T06:14:03.531Z
-image: /img/breaking-into-tech.jpg
+image: https://justingarrison.com/img/breaking-into-tech.jpg
 description: Resources and advice for beginning a career in tech
 ---
 ![](/img/breaking-into-tech.jpg)
