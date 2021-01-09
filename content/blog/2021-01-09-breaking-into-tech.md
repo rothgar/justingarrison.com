@@ -3,7 +3,7 @@ title: Breaking into tech
 date: 2021-01-09T06:14:03.531Z
 description: Resources and advice for beginning a career in tech
 ---
-![](/img/breaking-into-tech.jpg "Breaking Into Tech")
+![](/img/breaking-into-tech.jpg)
 
 I've been talking to a lot of people about how they can get a job in technology.
 Some people are starting from knowing nothing and others have done some coding lessons or maybe an idea about what they want to do.
@@ -60,7 +60,7 @@ I can't possibly list all of the resources available online but here's some reso
 
 {{< youtube jA14r2ujQ7s >}}
 
-{{< tweet 1212372169734475777 >}}
+{{< tweet 1212372163442958338 >}}
 
 [How I learned to code](https://www.brilimitless.com/single-post/2018/09/26/How-I-Learned-How-To-Code-Using-Free-Resources) from [Brianna McCullough](https://twitter.com/BriLimitless?s=20)
 
