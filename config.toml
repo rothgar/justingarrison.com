@@ -2,6 +2,7 @@ baseurl = "https://justingarrison.com"
 title = "home"
 theme ="hugo-theme-basic"
 languageCode = "en-us"
+image = "/img/og-banner.jpg"
 googleAnalytics = "UA-140948948-1"
 enableEmoji = true
 copyright = "© 2016-2021 Justin Garrison <a href='https://twitter.com/rothgar'>@rothgar</a>."
@@ -14,9 +15,8 @@ description = "Personal site and blog of Justin Garrison"
 
 [params]
   titleEmoji = ":metal:"
-  # change this!
   twitter = "rothgar"
-  images = "img/og-banner.png"
+  image = "/img/og-banner.jpg"
   title = "Justin Garrison dot com"
   description = "Personal site and blog of Justin Garrison"
 
