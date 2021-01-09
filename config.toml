@@ -1,6 +1,7 @@
 baseurl = "https://justingarrison.com"
 title = "home"
-theme ="hugo-theme-basic"
+siteTitle = "Justin Garrison dot com"
+theme = "hugo-theme-basic"
 languageCode = "en-us"
 image = "/img/og-banner.jpg"
 googleAnalytics = "UA-140948948-1"
@@ -17,7 +18,7 @@ description = "Personal site and blog of Justin Garrison"
   titleEmoji = ":metal:"
   twitter = "rothgar"
   image = "/img/og-banner.jpg"
-  title = "Justin Garrison dot com"
+  siteTitle = "Justin Garrison dot com"
   description = "Personal site and blog of Justin Garrison"
 
 [Permalinks]
