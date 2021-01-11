@@ -149,6 +149,7 @@ This is distinctly different than how iMessage and Telegram work because in both
 Pins are important because they will enable Signal to get rid of phone number requirements.
 
 The [support page](https://support.signal.org/hc/en-us/articles/360007059792-Signal-PIN) says it best
+
 >Your Signal PIN is a code used to support features like non-phone number based identifiers. This means that your PIN can recover your profile, settings, contacts, and who you’ve blocked if you ever lose or switch devices. A PIN can also serve as an optional registration lock to prevent others from registering your number on your behalf.
 
 It hasn't rolled out yet but has been in the works for a while.
