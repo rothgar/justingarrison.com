@@ -123,7 +123,11 @@ You can create a group message from the main screen clicking the pencil and then
 
 Add contacts to the group and you're ready to go.
 
-You have similar settings to 1:1 chats but you also can change who can invite people to the group or make a group link easier for someone to share if they're not in your contacts.
+You have similar settings to 1:1 chats.
+You can have a group video call with up to 8 people and a group chat with up to 150 people—RIP notifications!
+If you want to have a group call without video you need to start a video call and disable your camera before you join.
+
+You can change who can invite people to the group or make a group link easier for someone to share if they're not in your contacts.
 
 The links are public but an admin needs to approve members joining the group by default.
 
