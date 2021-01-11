@@ -17,7 +17,7 @@ description = "Personal site and blog of Justin Garrison"
 [params]
   titleEmoji = ":metal:"
   twitter = "rothgar"
-  image = "/img/og-banner.jpg"
+  image = "https://justingarrison.com/img/og-banner.jpg"
   siteTitle = "Justin Garrison dot com"
   description = "Personal site and blog of Justin Garrison"
 

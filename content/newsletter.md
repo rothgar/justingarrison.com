@@ -1,6 +1,7 @@
 ---
 title: 123 dev newsletter
 subtitle: Weekly dev focused newsletter
+image: https://justingarrison.com/img/123dev/og-123dev-banner.jpg
 comments: false
 ---
 
