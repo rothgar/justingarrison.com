@@ -81,3 +81,6 @@ It looks more like a Miro competitor but still being maintained if that's what y
 
 [Awwapp](https://awwapp.com/#) and [Browserboard](https://browserboard.com/) are simple hosted whiteboards which worked well for me the few times I tried them.
 They have some paid options which add nice features, but I never stuck with them.
+
+[Vibe](https://app.vibe.us/) has a really nice web app which fixes some of my complaints with WBO.
+Similar to Jamboard, Vibe also have an optional $3000 "whiteboard" they'll sell you with their app running full screen for a more traditional whiteboarding experience.
