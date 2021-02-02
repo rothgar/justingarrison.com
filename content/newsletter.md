@@ -17,7 +17,9 @@ The goal is to help you become a better developer no matter if you're a seasoned
 I also want to make you smile.
 Every week I will pick my favorite gif from the past week or create something original.
 
-### Sign up for [123 dev](https://buttondown.email/123dev) here.
+If you would like to get the newsletter but hate email then you can also subscribe via RSS [here](https://buttondown.email/123dev/rss).
+
+### Sign up for [123 dev](https://buttondown.email/123dev).
 <form
   action="https://buttondown.email/api/emails/embed-subscribe/123dev"
   method="post"
