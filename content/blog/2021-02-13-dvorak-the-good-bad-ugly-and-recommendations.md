@@ -3,6 +3,7 @@ title = "Dvorak: the good, bad, ugly, and recommendations"
 description = "What it's really like to use Dvorak"
 tags = ["development"]
 categories = ["Development"]
+image = "https://justingarrison.com/img/dvorak-layout.png"
 date = 2021-02-13T06:42:51Z
 +++
 
