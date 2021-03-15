@@ -1,11 +1,9 @@
-+++
-title = "The Document Culture of Amazon"
-description = "A look at Amazon's culture of writing and reading."
-tags = ["culture"]
-categories = ["Culture"]
-image = "https://justingarrison.com/img/documents-banner.jpg"
-date = 2021-03-15T09:00:00Z
-+++
+---
+title: The Document Culture of Amazon
+description: A look at Amazon's culture of writing and reading
+image: "https://justingarrison.com/img/documents-banner.jpg"
+date: 2021-03-15T09:00:00Z
+---
 
 ![picture of paper, pens, and phone](https://justingarrison.com/img/documents-banner.jpg)
 
@@ -102,3 +100,8 @@ I'm sure with more practice I will get better at writing with a more Amazonian s
 I thoroughly enjoy not having to prep for meetings, because I'm confident the document will give me the context I need to participate.
 I know the person who called the meeting invested their time so they don't waste mine.
 I recipricate the same thoughtfulness with meetings I create and documents I write.
+
+---
+
+Thank you everyone who reviewed this document. ☺️
+Banner image credit [pixbay](https://pixabay.com/illustrations/paper-messy-notes-abstract-3033204/)
