@@ -1,13 +1,13 @@
 baseurl = "https://justingarrison.com"
 title = "home"
-siteTitle = "Justin Garrison dot com"
+siteTitle = "Justin Garrison"
 theme = "hugo-theme-basic"
 languageCode = "en-us"
 image = "/img/og-banner.jpg"
 googleAnalytics = "UA-140948948-1"
 enableEmoji = true
 copyright = "© 2016-2021 Justin Garrison <a href='https://twitter.com/rothgar'>@rothgar</a>."
-description = "Personal site and blog of Justin Garrison"
+description = "Blog, newsletter, links, and whatever else seems like a good thing to keep publicly available."
 
 [taxonomies]
   category = "categories"
@@ -18,8 +18,8 @@ description = "Personal site and blog of Justin Garrison"
   titleEmoji = ":metal:"
   twitter = "rothgar"
   image = "https://justingarrison.com/img/og-banner.jpg"
-  siteTitle = "Justin Garrison dot com"
-  description = "Personal site and blog of Justin Garrison"
+  siteTitle = "Justin Garrison's personal site"
+  description = "Blog, newsletter, links, and whatever else seems like a good thing to keep publicly available."
 
 [Permalinks]
   post = "blog/:slug"

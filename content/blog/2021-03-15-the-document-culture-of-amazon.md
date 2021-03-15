@@ -4,7 +4,7 @@ description = "A look at Amazon's culture of writing and reading."
 tags = ["culture"]
 categories = ["Culture"]
 image = "https://justingarrison.com/img/documents-banner.jpg"
-date = 2021-03-15T10:34:29Z
+date = 2021-03-15T09:00:00Z
 +++
 
 ![picture of paper, pens, and phone](image = "https://justingarrison.com/img/documents-banner.jpg)
