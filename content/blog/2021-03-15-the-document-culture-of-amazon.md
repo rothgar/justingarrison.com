@@ -23,7 +23,7 @@ Most of the time, if there isn't a doc there isn't a meeting.
 Depending on the meeting, the document could be a six-pager, a PR/FAQ, a one-pager about an idea, a narrative to help find a solution to a problem, or even a service review full of charts, graphs and bullet points.
 The document adapts to fit the audience and purpose of the meeting.
 
-Reading documents is so ingrained in our culture and process that our scheduling tools have checkboxes to automatically create a document.
+Reading documents is so ingrained in our culture and process that our scheduling tools have check boxes to automatically create a document.
 If I'm catching up on a new service or feature launch, I will find the document rather than emailing or calling the product manager.
 
 The interesting part to me isn't in the format of the document, but how it is used.
@@ -82,7 +82,7 @@ Not all docs are interesting, but they are crucial to the decision making proces
 
 I've said multiple times that Amazon has the foundation for a great remote-first company.
 The document-based process provides employees in multiple timezones the same context as someone in Seattle.
-The discussions in meetings enable faster feedback loops, but the downside is they can limit the potential for asynchronus engagements if notes and questions aren't captured in the document.
+The discussions in meetings enable faster feedback loops, but the downside is they can limit the potential for asynchronous engagements if notes and questions aren't captured in the document.
 
 I've never had the benefit of attending an Amazon meeting in person.
 From what I've heard document-centered meetings have been extremely successful in transitioning to remote requirements.
@@ -99,7 +99,7 @@ I'm sure with more practice I will get better at writing with a more Amazonian s
 
 I thoroughly enjoy not having to prep for meetings, because I'm confident the document will give me the context I need to participate.
 I know the person who called the meeting invested their time so they don't waste mine.
-I recipricate the same thoughtfulness with meetings I create and documents I write.
+I reciprocate the same thoughtfulness with meetings I create and documents I write.
 
 ---
 
