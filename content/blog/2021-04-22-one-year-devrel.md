@@ -2,7 +2,7 @@
 title: One year as a developer advocate
 description: My experience switching from an engineer to a developer advocate
 image: https://justingarrison.com/img/one-year-devrel-banner.jpg
-date: 2021-04-23T10:00:57Z
+date: 2021-04-23T00:00:00Z
 ---
 ![a dog looks at a computer](img/one-year-devrel-banner.jpg)
 
