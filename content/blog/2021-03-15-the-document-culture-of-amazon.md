@@ -35,16 +35,19 @@ Reading the doc is part of the scheduled time.
 I've worked at plenty of places that I've tried to document everything for a meeting ahead of time.
 I've written well thought-out emails, shared links to documents, and written detailed wiki pages.
 In all of my meetings outside of Amazon I had one of three outcomes:
+
 * No one read the email/document and I had to explain everything in the meeting
 * Some people read the document but forgot what it said because they read it days or hours before
 * At least one person had a question that I could have answered via email
 
 Before I started at Amazon these were some of the expected benefits to reading in meetings.
+
 * All of the information for the meeting is contained in the doc
 * People are not expected to find their own time to read
 * The document is fresh in everyone's mind
 
 Some other benefits I've found while putting it in practice are:
+
 * Presenters, including myself, don't have to feel nervous about presenting in front of people.
 * Documents help eliminate many biases, for or against, the person who wrote the document.
 * You read everything in your own voice and vocal communication barriers such as accents, vocal ticks, or handicaps (e.g. stuttering or hearing loss) are not present in the document.
