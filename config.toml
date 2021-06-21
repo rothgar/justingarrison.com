@@ -1,6 +1,6 @@
 baseurl = "https://justingarrison.com"
 title = "home"
-siteTitle = "Justin Garrison"
+siteTitle = "Justin Garrison's personal site"
 theme = "hugo-theme-basic"
 languageCode = "en-us"
 image = "/img/og-banner.jpg"
