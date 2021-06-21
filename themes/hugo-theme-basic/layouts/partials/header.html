@@ -9,7 +9,7 @@
 
     {{ partial "meta.html" . }}
 
-    <title>{{ .Site.Params.siteTitle }}</title>
+    <title>{{ .Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}" />
 {{ $title := .Title }}
 {{ with .OutputFormats.Get "RSS" }}
