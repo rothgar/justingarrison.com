@@ -5,11 +5,11 @@
   itemscope
   itemtype="http://schema.org/Article"
 >
-  
-  <span class="b">/ </span>
+
+  <span><span class="b">/ </span>
   <a href="{{ .Site.BaseURL  }}" class="b bb bw1 pb1 no-underline black">{{ .Site.Title }}</a>
   <span class="b"> / </span>
-  <a href="/post" class="b bb bw1 pb1 no-underline black">blog</a>
+  <a href="/blog" class="b bb bw1 pb1 no-underline black">blog</a></span>
 
   <section id="main" class="mt5">
     <h1 itemprop="name" id="title">{{ .Title }}</h1>
@@ -31,9 +31,9 @@
           {{ $readMore := ":wave:" }}
           {{ $series := .Params.series | urlize}}
           <h3>{{ $readMore | emojify }} Related posts in the <a href="/series/{{ $series }}" class="b bb bw1 pb1 no-underline black">{{ .Params.Series }}</a> series...</h3>
-      
+
           {{ $posts := index .Site.Taxonomies.series $series }}
-         
+
           {{ if (gt ($posts | len) 1)}}
             <ul class="list pl0">
               {{ range where $posts "Title" "!=" .Title }}
@@ -46,11 +46,11 @@
                   <span class="f6 gray">{{ .Date.Format "January 2, 2006" }}</span>
                 </li>
               {{ end }}
-            </ul>  
+            </ul>
           {{ else }}
             <div class="ph2 i">
               No follow up posts yet. Check back soon!
-            </div>    
+            </div>
           {{ end }}
         </section>
       {{ end }}

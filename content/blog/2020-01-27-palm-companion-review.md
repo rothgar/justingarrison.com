@@ -3,7 +3,6 @@ title = "Palm Companion Phone Review"
 description = "Palm Companion Review: Mission Accomplished"
 tags = ["review", "gadgets"]
 categories = ["review", "phones", "gadgets"]
-series = ["reviews"]
 date = 2020-01-27T06:41:20Z
 +++
 
