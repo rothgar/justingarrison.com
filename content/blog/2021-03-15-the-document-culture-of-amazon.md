@@ -5,7 +5,7 @@ image: "https://justingarrison.com/img/documents-banner.jpg"
 date: 2021-03-15T09:00:00Z
 ---
 
-![picture of paper, pens, and phone](https://justingarrison.com/img/documents-banner.jpg)
+![picture of paper, pens, and phone](../../img/documents-banner.jpg)
 
 In my time at Amazon, I've observed the way we use documents is incredibly unique.
 A lot has been written about the six-pager and PR/FAQ so I'm not going focus on document formats, but I wanted to share how our process benefits from document-based meetings.
