@@ -29,7 +29,7 @@ https://github.com/rothgar.png
 
 ## Public GPG keys
 
-If you want to get gpg public keys you can add `.gpg` to the ond of their user profile URL.
+If you want to get gpg public keys you can add `.gpg` to the end of their user profile URL.
 I don't actually have any gpg keys so you can see what it looks like if a user doesn't have them with my profile.
 
 https://github.com/rothgar.gpg
