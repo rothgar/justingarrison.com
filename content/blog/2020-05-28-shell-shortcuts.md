@@ -67,7 +67,7 @@ cp ~/this-is/{my-long-file,new-folder}/name.txt
 
 ### Enter last argument from previous command(s)
 There is a default shell variable `$?` which represents the last argument from the preceeding command (e.g. `echo $?`)
-`Ctrl+.` is the keyboard shortcut to do the same thing.
+`Alt+.` is the keyboard shortcut to do the same thing.
 Not only is it easier to type but you can push it multiple times to cycle through the last argument from previous commands.
 
 ### Prepend sudo
