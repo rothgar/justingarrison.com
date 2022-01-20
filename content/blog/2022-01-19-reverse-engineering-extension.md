@@ -1,7 +1,7 @@
 ---
 title: Reverse engineering a chrome extension
 description: Finding hidden APIs for fun and flexibility
-date: 2022-01-20T00:15:00-07:00
+date: 2022-01-19T00:15:00-07:00
 image: https://justingarrison.com/img/revue-banner.png
 ---
 ![](../../img/revue-banner.png)
