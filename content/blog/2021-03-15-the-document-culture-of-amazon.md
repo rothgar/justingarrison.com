@@ -13,8 +13,6 @@ I also have identified some areas for improvement if you are looking to adopt do
 
 I've been wanting to write this blog post for a while and Jaana's tweet finally gave me the inspiration to share my thoughts.
 
-{{< twitter 1369744993099780096 >}}
-
 My role is a Sr. Developer Advocate within AWS Container Services so my experience may be different from other areas and roles at Amazon.
 A majority of my meetings start with reading a document.
 This takes "this meeting could have been..." and flips it upside down.
