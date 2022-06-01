@@ -2,10 +2,10 @@
 title = "Infrastructure as software"
 description = "What is beyond infrastructure as code?"
 date = 2022-06-01T08:00:00Z
-image = "https://justingarrison.com/img/infrastructure-as-software-banner.png"
+image = "https://justingarrison.com/img/infrastructure-as-software-banner.jpg"
 +++
 
-![A picture of a breadboard with wires and lights](../../img/infrastructure-as-software-banner.png)
+![A picture of a breadboard with wires and lights](../../img/infrastructure-as-software-banner.jpg)
 Photo by [Victor Aznabaev](https://unsplash.com/@avkshift?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/circuit-board?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 Infrastructure has changed a lot, but the mantra of Infrastructure as Code (IaC) has been the goal for organizations for far too long.
