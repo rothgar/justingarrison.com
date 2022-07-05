@@ -22,6 +22,7 @@ All prices are approximate and rounded to the nearest dollar.
 Taxes and shipping not included.
 
 Compute and networking
+
 * 1x - $200 - Apple Power Mac G4 Cube (via [OfferUp](https://offerup.com/))
 * 4x - $1345 - [LP-179 computers with 32GB memory](https://globalamericaninc.com/product/commell-lp-179-pico-itx-motherboard-with-intel-tiger-lake-up3-processor/)
 * 4x - $94 - [1TB NVMe drive](https://www.amazon.com/gp/product/B08DKB5LWY?psc=1)
@@ -34,6 +35,7 @@ Compute and networking
 * 1x - $25 - [Maxtrx Portal M4](https://www.adafruit.com/product/4745)
 
 Power
+
 * 2x - $37 - [MEAN WELL LRS-350-12 Switching Power Supply](https://www.amazon.com/dp/B07WHJF1Q8?psc=1)
 * 1x - $12 - [15A power sockets](https://www.amazon.com/dp/B07RQV2NPN?psc=1)
 * 1x - $11 - [Molex 12 wire connector](https://www.amazon.com/dp/B079SXZD5M?psc=1)
@@ -41,6 +43,7 @@ Power
 * 1x - $12 - [1/2" braided cable sleeving](https://www.amazon.com/dp/B07F5G1RNF?psc=1)
 
 Lights
+
 * 1x - $8 - [NeoPixel Ring - 12x](https://www.adafruit.com/product/1643)
 * 1x - $30 - [32x32 RGB LED Matrix Panel - 4mm Pitch](https://www.adafruit.com/product/607)
 * 1x - $65 - [Skinny RGB strip lights](https://www.adafruit.com/product/2969)
@@ -50,6 +53,7 @@ Lights
 * 1x - $10 - [1/8" Frosted acrylic](https://www.amazon.com/dp/B082ZC2C2L?psc=1)
 
 Tools
+
 * 1x - $236 - [Creality Ender 3 Pro 3D printer](https://www.amazon.com/dp/B07GYRQVYV?psc=1)
 * 1x - $19 - [Blue Filament](https://www.amazon.com/dp/B086BV5HK9?psc=1)
 * 1x - $16 - [Wire crimp connectors](https://www.amazon.com/dp/B07ZH1F5KV?psc=1)
