@@ -106,7 +106,7 @@ Taking apart the Mac wasn't hard.
 I wanted to re-use the central handle mounting mechanism to take the compute cage in and out of the outer shell.
 If you've never seen the original keynote [it was quite amazing back in 2000](https://www.youtube.com/watch?v=AwDOJ7HztXM).
 
-VIDEO
+{{< youtube CSdroWTUbdY >}}
 
 When took everything apart I thought I would have a lot of room left over.
 That didn't turn out to be true, but I was able to fit all the networking components inside the case which I didn't expect initially.
