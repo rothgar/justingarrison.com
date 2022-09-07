@@ -1,0 +1,75 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = ' Justin Garrison'
+
+
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+  
+  # Enable search in header
+  enableSearch = true
+
+  # Custom copyright - optional
+  copyright = "© 2016-2022 Justin Garrison @rothgar."
+  favicon = "🤘"
+
+  logo = ""
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-blue-100"
+
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
+
+  # Used to hide the post metadata such as posted date, reading time and word count
+  # Can be used at site level or page level
+  hideMeta = false
+
+  # To hide "Other languages" option if the post is available in multiple languages
+  # Can be used at site level or page level
+  hideOtherLanguages = false
+
+  #intro
+  introTitle =  "Hi, my name is Justin. "
+  introSubtitle =  " I like to learn new things and help people."
+  introPhoto = "/images/picture.png"
+
+[params.homepage.social]
+  # Global params common for both languages
+  title = "Follow me"
+  description = "I work on everything coding and tweet developer things"
+  twitter = "https://twitter.com/rothgar"
+
+
+[[menu.main]]
+  name = "Home"
+  url = "/home"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[[menu.main]]
+  name = "Newsletter"
+  url = "https://www.123dev.email/"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
