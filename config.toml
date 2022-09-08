@@ -46,19 +46,23 @@ title = ' Justin Garrison'
 
 [[menu.main]]
   name = "Home"
-  url = "/home"
+  url = "/"
+  weight = 1
 
 [[menu.main]]
   name = "Blog"
   url = "/blog"
+  weight = 2
 
 [[menu.main]]
   name = "About"
   url = "/about"
+  weight = 3
 
 [[menu.main]]
   name = "Newsletter"
   url = "https://www.123dev.email/"
+  weight = 4
 
 [build]
   writeStats = true

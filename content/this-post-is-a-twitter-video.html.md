@@ -4,7 +4,7 @@ title: About Me
 date: 2021-07-15
 description:
 keywords: ["about-us", "about-hugo", "contact"]
-
+type: about
 ---
 
 If you tweet this page it will show up in Twitter as an embedded player with this gif.
@@ -16,8 +16,6 @@ If you tweet this page it will show up in Twitter as an embedded player with thi
 Here’s how it works so you can do it too. There are a few alternative options at the end of this post so you can implement it different ways depending on your needs. If you want to see how to use embedded videos or want to see how I got this to work with `hugo` check out [this post first](https://justingarrison.com/blog/2021-06-04-making-123dev-website/).
 
 Subscribe to my newsletter if you like content like this.
-
- 
 
 I created this page content manually so that I didn't have to modify my hugo template. If you want to see how this could works on a full site check out [123dev.email](https://123dev.email/).
 

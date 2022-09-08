@@ -1,62 +1,91 @@
 ---
 author: "Hugo Authors"
-title: "Experience from Six Months of Remote Work"
+title: "Rate of Successful Retire"
 date: 2019-05-29
 description: "Rate of Successful Retire"
 tags: ["shortcodes", "privacy"]
 thumbnail: https://picsum.photos/id/1002/400/250
 ---
 
-I’ve been working full time remote for Disney Streaming for the past 6 months. This is my first full time remote position.
+> The only sustainable competitive advantage is an organization’s ability to learn faster than the competition. – Peter Senge
 
-While I’ve had lots of experience working in open source and tons of experience with communicating asynchronously doing full time work remotely is different. I wanted to share some things I’ve learned so far.
+I think about how companies get a competitive advantage a lot. While I agree with the above statement I don’t think it’s enough.
 
-It’s important to note my life situation is likely different than yours. I’ve been working in technology for >10 years, I’m married, and I have 2 kids (one less than a year old).
+I’ve worked long enough to know learning something isn’t the thing that gives you a competitive advantage. Acting on what you’ve learned is where the real value lies.
 
-I’m more of an extrovert than an introvert and love meeting new people.
+I’ve seen organizations learn things at the micro (individuals) and macro (divisions) levels and still fail at executing. Sometimes it doesn’t matter if you know the right thing to do. If you can’t execute on the new thing you’ve learned then it would have been better for you to never know it.
 
-### It’s very isolating
+It’s also important to not limit where ideas come from. To quote Ratatouille “Anyone can cook” is the idea that great cooks can come from anywhere, but that’s a story for a different post.
 
-Even with daily meetings via video calls I still don’t get the human connection I did when going to an office. It’s hard to go out after work hours because I have a family I want to spend time with, and I live far enough away from major tech hubs that I cannot meet friends easily for lunch. On the occasions I have driven to see friends for lunch it adds 3+ hours to my day (1 hour drive both ways and time for lunch).
+The thing you have learned will be a worm in your brain that will eat away at every decision you make until you can do the right thing.
 
-On the other hand, I get lots of time with my family which is amazing! I love my family! I don’t get the mental stimulation from them that I do from talking with co-workers or friends, but the time spent with them is more rewarding long term.
+Rate of new features or time from learning to execution could be a better measurement for innovation at a company, but that incentivizes the wrong things. If you look at “high performers” in the [State of DevOps Report](https://cloud.google.com/devops/) you’ll see time to deployment is only part of the equation. Short mean time to recovery (MTTR) also plays a huge part in what makes a “high performer.”
 
-Here are some other thoughts from the past 6 months.
+Measuring how fast you can act on ideas pushes you to learn and produce things as quickly as possible. Throwing things at the wall to see what sticks. Learning from the things that stick and then adding to them.
 
-### I miss
+The problem with this is all the stuff that didn’t stick is going to leave you with a lot of insurmountable crap you have to get over. If you keep throwing things at the wall more and more won’t stick over time.
 
-- Lunch with friends (see above)
-- Free snacks/breakfast: This isn’t a big deal and in general I have more options while working from home (I’ve also gained 6lbs). Sometimes it just feels nice to get a free snack, drink, or meal.
-- Building events and swag: Disney Animation was very good at having events that celebrated wins. On a regular basis there were all hands gatherings, celebrations, and parties for our movies and to celebrate each others accomplishments. We still do that remotely but it’s not the same as a catered special event.
+This is the point where companies pivot and start throwing things at a new wall/industry with a little more knowledge of where to start.
 
-### I don’t miss
+Sometimes that’s okay.
 
-- Driving in traffic: My input from podcasts and audiobooks has plummeted in the past 6 months, but it’s worth the trade-off to not sit in mind numbing traffic.
-- 3 hours of travel per day: My day was in general longer because of my distance to work. Moving was an option but after years of looking we never found something better than our current situation.
-- Not being able to focus: I’ve never been in a truely open office, but any shared space with a lot of people will have distractions. Finding time to focus on work has been much easier being remote.
+You can just leave all the old stuff behind. Light it on fire and walk away.
 
-### I like
+This tends to work well for companies that are strictly project based and not product based (usually non-software companies). Companies that make physical products or things like movies can more easily start anew with each endeavor.
 
-- Being home when my family needs me: With a new baby this has been especially great.
-- Being more involved in my kids lives: I get to see my kids throughout the day instead of just when they wake up and go to sleep. They have learned when to not inturrupt me while I’m working, but summer vacation is soon here and I have a feeling I may need to leave the house more often.
-- Flexibility in my schedule: Not only has it been great to be at home (or at least nearby), but occational breaks are easier to accomidate when I don’t need to go to a parking garage and drive somewhere to get something done.
-- Turning on DND and being able to focus: This is possible because of a good culture and management style IMO.
-- Remote first communication: I don’t have to worry about missing things in the office because the team I’m on is 100% remote. Many of the other teams I communicate with frequently are either remote or spread across multiple office locations so communication is generally remote friendly. However, I’ve also never been to our main office so I have no idea if there’s something I’m missing. I don’t feel like there is though. Compared to my last position where if you were remote you were an outlier there was often decisions remote employees were not involved with.
-- Not moving because of my job: I was looking to move closer to my office for >2 years. It was a lot of work and emotially draining. I like my current house and community and now I don’t need to give those things up to save time on a commute.
-- Being able to explore my local community: I’ve lived in my house for almost 10 years but never had the chance to visit some of the local businesses becase they were only open hours while I was at work. I have now gone to multiple small businesses in the area and generally fell more connected to my community.
+Businesses with sustained products don’t have that luxury, nor do companies with recurring, paying customers. They have to support their existing customers on their existing wall even if it’s now 3⁄4 covered with crap that didn’t stick. Disrupting your own customers is the essence of *The Innovator’s Dilemma*.
 
-### I don’t like
+What could be a better measurement for tracking innovation?
 
-- Not leaving my house: I generally get outside for my kids school drop-off and pick-up. But some days I feel cooped up inside and need to just go for a walk or a long drive (without traffic).
-- Eating the same thing frequently: I’m not a great cook and am not very creative in the kitchen. I have a few different go-to options for lunch but I need to figure out a better way to add healthy variety to my diet.
-- Starting my day at full speed: Because I’m on the West Coast and our main office is on the East Coast every day when I sign on I feel like I’ve shown up 3 hours late and I need to catch up on lots of context and jump straight into meetings. Occationally, I also need to give a presentation first thing. I’m not a morning person (especially with lack of sleep from a newborn) and this has been hard to adjust to.
-- Troubleshooting video conferencing: There’s always problems no matter what the service is. Not every meeting, but I experience network, audio, or video problems at least a few times per week from myself or other people in the meeting.
-- Effort to meet new people (work and locally): We use [Donut](https://www.donut.com/) which has been helpful but nothing can replace a human introduction. I suggest you ask your manager to make introductions for you to other people because those connections will likely have more meaning for your work relationships.
-- Effort to be recognized by upper management: This is hard even when you’re in the office. I have not found a way to measure my impact or visibility as a remote employee.
-- It’s harder to make meaningful connections: I talk to my team on a daily basis, but almost every time I talk to them it’s about work or because I need something. This makes building meaningful relationships much harder than when I was in an office. I also attribute this to a lack of building events and casual lunches.
+What is actually important is how fast you can clean up all the stuff that didn’t stick. In other words, how fast you can successfully retire things.
 
-I hope some of these things can help you understand what it might be like working remote full time. At this point in my life I can’t see myself taking another job that requires me to work in an office full time.
+Retiring things successfully is a lot of work. You can’t just turn something off or stop supporting it.
 
-But that’s not to say there aren’t hard things and difficulties.
+To be successful you have to measure usage, update code, or change processes. In most cases (when you have customers) you also need something to replace the old thing.
 
-If you have any insights on how I can make some of these things better or what you have done to make being remote better for yourself I’d love to hear it. I’m available on twitter for any comments or further discussions [@rothgar](https://twitter.com/rothgar).
+If you had a process that no longer serves the business needs at its current scale how long will it take you to replace that process with something that is more suitable for your current needs? Even if you have a replacement, how quickly will it be adopted and the old process retired?
+
+What about retiring a v1 API path? How many people do you have to communicate that to? How many clients and lines of code do you have to update before you can delete that path? Do you need to push out code changes to gain insights into usage?
+
+Companies that learn the fastest can move faster than others only up to a point. Sooner or later all the things you’ve learned don’t scale. All the things you’ve learned become a human scaling problem.
+
+You have to shed to scale. The faster you can shed old learnings the faster you can act on new ones.
+
+If you just turn things off you’ll lose trust. You need to make sure people are ready to accept the new things. This means bringing the laggards along with you or forcing them to go somewhere else, if that’s an option.
+
+Being too early is the same thing as being wrong. This is why measuring a “successful retire” is important.
+
+So how can you successfully retire things? There’s only two ways I’ve found.
+
+1. You force people to do work
+2. You do the work for them
+
+Users hate number 1. Owners hate number 2.
+
+Doing the work for your users is often faster and makes your users like you more. It also can’t always be done and often leaves systems fragile or unchangable in the future.
+
+Making users do work is slower and cannot be done often. If you keep pushing work onto your users the service/process/thing you offer won’t solve their problems and they’ll leave, assuming they can.
+
+Both approaches need a balance. Knowing which one to choose requires you to learn about your users and the thing you want to retire.
+
+Imagine we want to change a process to request access to cloud resources. Let’s pretend our current process requires opening a Jira ticket with a template and then evaluating and manually acting on that information.
+
+Can you, the owner of the process, do the work for your users? Yes. You could automate the manual work you have to do after a ticket has been opened. This will save you a ton of time and require no work from your users.
+
+Maybe your users want to also save some time so they create a script that opens tickets when new people are hired. Great, but now we have two automated systems using Jira as a queuing system Trust me, this happens.
+
+It would save time on both sides to create a new process and ask users to do work to learn/use it instead. Now that automation exists the process is much harder to change and will require work.
+
+The company who can understand their users and what things no longer serve their purpose the better they will be at innovating. The faster they can get rid of the things holding them back the faster they can move forward.
+
+Balance is important. If you get rid of things too fast you’ll end up with [no customer trust](https://killedbygoogle.com/) and new walls will be incredibly difficult to get things to stick.
+
+The only sustainable way to learn is from data. You can sometimes use existing data, but if you expect to grow you need to change. Change requires new data and new hypotheses.
+
+Measure. Test. Retire. Repeat.
+
+Free yourself from the old things you’ve learned. At some point you have to.
+
+Innovative companies will do this at the right time and in the right way repeatedly. Companies that don’t sunset old services will eventually hit limits (usually with people) and become fragile.
+
+Or maybe we’ll find new ways to organize people and none of this matters.

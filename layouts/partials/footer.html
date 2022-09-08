@@ -24,26 +24,9 @@
     </svg>
   </span>
 </footer>
-<script src="/js/scripts.min.js"></script>
 
 {{ if .Site.Params.enableSearch }} {{- partial "search-ui.html" . -}} {{ end }}
-{{ template "_internal/google_analytics.html" . }} {{ if ge (len
-.Site.Languages) 3 }}
-<script>
-  const languageMenuButton = document.querySelector(".language-switcher");
-  const languageDropdown = document.querySelector(".language-dropdown");
-  languageMenuButton.addEventListener("click", (evt) => {
-    evt.preventDefault();
-    if (languageDropdown.classList.contains("hidden")) {
-      languageDropdown.classList.remove("hidden");
-      languageDropdown.classList.add("flex");
-    } else {
-      languageDropdown.classList.add("hidden");
-      languageDropdown.classList.remove("flex");
-    }
-  });
-</script>
-{{ end }} {{ if .Site.Params.darkModeToggle }}
+{{ if .Site.Params.darkModeToggle }}
 <script>
   // On page load or when changing themes
   const darkmode = document.querySelector(".toggle-dark-mode");
@@ -86,3 +69,11 @@
     mobileMenuButton.addEventListener("click", toggleMenu);
   }
 </script>
+<script src="/js/fuse.min"></script>
+<script src="/js/search.js"></script>
+<script src="/js/scripts.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"
+></script>

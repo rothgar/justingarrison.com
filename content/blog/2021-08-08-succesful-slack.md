@@ -7,6 +7,8 @@ tags: ["shortcodes", "privacy"]
 thumbnail: https://picsum.photos/id/1002/400/250
 ---
 
+![a picture with the slack logo](https://d33wubrfki0l68.cloudfront.net/69382c1b38c17fd1de15d986fbb440bdd16f7bd3/e3745/img/slack-banner.png)
+
 Slack is a major part of how we communicate at work. If you still think it’s just about chat then chances are you’re using it wrong. Other collaboration tools exist and some have similar features but Slack is the dominant choice.
 
 After using Slack, and similar collaboration focused tools, in multiple jobs here are some practices I’ve found that will make it better for everyone. Some of these tips work best in a remote-first, asynchronous environments, but many of them apply to fully co-located teams and companies as well.
