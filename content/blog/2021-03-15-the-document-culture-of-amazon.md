@@ -4,10 +4,8 @@ title: "The Document Culture of Amazon"
 date: 2021-03-15
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/documents-banner.jpg
 ---
-
-![picture of paper, pens, and phone](https://d33wubrfki0l68.cloudfront.net/85b6553da921436414e2874a47909dda3ac32ea0/a6fdb/img/documents-banner.jpg)
 
 In my time at Amazon, I’ve observed the way we use documents is incredibly unique. A lot has been written about the six-pager and PR/FAQ so I’m not going focus on document formats, but I wanted to share how our process benefits from document-based meetings. I also have identified some areas for improvement if you are looking to adopt document-based meetings for your workplace.
 

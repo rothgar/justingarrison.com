@@ -4,10 +4,10 @@ title: "Palm Companion Phone Review"
 date: 2020-01-27
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/palm-phone.jpg
 ---
 
-![Palm Companion](https://d33wubrfki0l68.cloudfront.net/8fd66b1e1be03c6b76762116d6555b7a21d4c733/0b114/img/palm-companion-1.jpg)
+![Palm Companion](/images/palm-companion-1.jpg)
 
 The fine folks at Palm offered to send me their new [Companion phone](https://palm.com/pages/companion) in exchange for writing a review. I am grateful for their generosity and wish to fulfill my portion of the bargain below.
 
@@ -53,7 +53,7 @@ Let’s get the easy stuff out of the way. This thing is tiny!
 
 Here it is next to my Veer. Yes, I still have it.
 
-![img](https://d33wubrfki0l68.cloudfront.net/f3c594c148897fad25d1181c0be475e7dd13be9e/ad97d/img/palm-and-veer.jpg)
+![img](/images/palm-and-veer.jpg)
 
 And here it is in my hand.
 
@@ -71,7 +71,7 @@ Make sure you adjust the keyboard size in the settings to make it a little bit b
 
 The camera was able to take pictures, but don’t rely on those pictures being good at low light or high quality in the current market. Here are some examples.
 
-![img](https://d33wubrfki0l68.cloudfront.net/2bf63bfd6399c7330ca9dcfb61604f8169dc76c3/57408/img/palm-companion-sample-1.jpg) ![img](https://d33wubrfki0l68.cloudfront.net/c0a8afedd70014433682c621719be1830db3fff5/ce73c/img/palm-companion-sample-3.jpg) ![img](https://d33wubrfki0l68.cloudfront.net/d7ee3b79d9718e73193a7990ed92c6f077592d77/b4f13/img/palm-companion-sample-2.jpg)
+![img](/images/palm-companion-sample-1.jpg) ![img](/images/palm-companion-sample-3.jpg) ![img](/images/palm-companion-sample-2.jpg)
 
 My biggest hardware problem using the Companion as my main phone was the battery life. I could use the phone for 30 minutes and watch the battery drain. Fear of killing the battery was the biggest thing that kept me from using the phone.
 
@@ -83,7 +83,7 @@ One great hardware feature that made me not use the phone was the fact that I si
 
 Even with a small case the phone is practically invisible in my pocket and I thought I lost it multiple times.
 
-![img](https://d33wubrfki0l68.cloudfront.net/41e655e62f72fea530fc30efe54454b7214af20b/cf619/img/palm-and-airpods.jpg)
+![img](/images/palm-and-airpods.jpg)
 
 I occasionally had other seemingly random hardware problems with bluetooth and WiFi not connecting to devices or needing a power cycle to wake up. Sometimes I had signal and couldn’t use data.
 
@@ -91,7 +91,11 @@ My guess is most of these problems are because of optimizations for low power an
 
 The best part of the hardware is the reactions people give when they see you using the phone or try to scan a pass with it. On more than one occasion people thought it was a joke and then were amazed at how capable the tiny device is.
 
-<iframe id="twitter-widget-2" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="" title="Twitter Tweet" src="https://platform.twitter.com/embed/Tweet.html?creatorScreenName=rothgar&amp;dnt=true&amp;embedId=twitter-widget-2&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOlsibGlua3RyLmVlIiwidHIuZWUiXSwidmVyc2lvbiI6bnVsbH0sInRmd19ob3Jpem9uX3RpbWVsaW5lXzEyMDM0Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfY2hpbl9waWxsc18xNDc0MSI6eyJidWNrZXQiOiJjb2xvcl9pY29ucyIsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfcmVzdWx0X21pZ3JhdGlvbl8xMzk3OSI6eyJidWNrZXQiOiJ0d2VldF9yZXN1bHQiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3NlbnNpdGl2ZV9tZWRpYV9pbnRlcnN0aXRpYWxfMTM5NjMiOnsiYnVja2V0IjoiaW50ZXJzdGl0aWFsIiwidmVyc2lvbiI6bnVsbH0sInRmd19leHBlcmltZW50c19jb29raWVfZXhwaXJhdGlvbiI6eyJidWNrZXQiOjEyMDk2MDAsInZlcnNpb24iOm51bGx9LCJ0ZndfZHVwbGljYXRlX3NjcmliZXNfdG9fc2V0dGluZ3MiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X2VkaXRfZnJvbnRlbmQiOnsiYnVja2V0Ijoib2ZmIiwidmVyc2lvbiI6bnVsbH19&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=1216942251651125249&amp;lang=en&amp;origin=https%3A%2F%2Fjustingarrison.com%2Fblog%2F2020-01-27-palm-companion-review%2F&amp;sessionId=b5e156eed067c815786bce07ede014070924ac2f&amp;siteScreenName=rothgar&amp;theme=light&amp;widgetsVersion=1bfeb5c3714e8%3A1661975971032&amp;width=550px" data-tweet-id="1216942251651125249" style="position: static; visibility: visible; width: 550px; height: 393px; display: block; flex-grow: 1;"></iframe>
+
+
+{{< twitter_simple 1216942251651125249>}}
+
+
 
 ## Software
 

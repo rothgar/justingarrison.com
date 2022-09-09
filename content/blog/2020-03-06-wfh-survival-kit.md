@@ -4,7 +4,7 @@ title: "The WFH Survival Kit"
 date: 2020-03-06
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/wfh-kit.jpg
 ---
 
 Working from home can be a great opportunity to focus, get a better work life balance, and not get sick. It may be a benefit of your position, or mandated by your employer.

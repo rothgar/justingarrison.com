@@ -4,12 +4,8 @@ title: "GitHub URL Hacks"
 date: 2021-07-11
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/octocat-banner.jpg
 ---
-
-![3d printed GitHub Octocat](https://d33wubrfki0l68.cloudfront.net/c29d0c185426842fa27bca13dee75c2c4457f9a8/ff26b/img/octocat-banner.jpg)
-
-Photo by [Roman Synkevych](https://unsplash.com/@synkevych?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/github?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 GitHub’s UI has improved a lot over the years but sometimes you just need quick access without clicking. Here are a few GitHub URL tips to get you data you want faster. One cool thing is all of these tips give raw text output so they work great with `curl` and other CLI tools.
 

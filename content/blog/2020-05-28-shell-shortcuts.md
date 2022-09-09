@@ -4,7 +4,7 @@ title: "Shell Shortcuts"
 date: 2020-05-28
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/prepend-sudo.gif
 ---
 
 If your an engineer you probably spend a lot of time using a terminal. Some of your best productivity gains will come from understanding it better and making small improvements to repetitive tasks.
@@ -86,7 +86,7 @@ zle -N prepend-sudo
 bindkey "\es" prepend-sudo
 ```
 
-![img](https://github.com/rothgar/mastering-zsh/raw/master/img/prepend-sudo.gif)
+![img](/images/prepend-sudo.gif)
 
 If you’re using oh-my-zsh you can add the [sudo plugin](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/sudo/sudo.plugin.zsh#L32) and the default key binding is `esc, esc`.
 
@@ -105,7 +105,7 @@ zle -N edit-command-line
 bindkey "\ev" edit-command-line
 ```
 
-![img](https://github.com/rothgar/mastering-zsh/raw/master/img/fc-example.gif)
+![img](/images/fc-example.gif)
 
 Now next time you copy/paste a multi-line command from somewhere it’ll be easy to edit.
 
@@ -113,7 +113,7 @@ Now next time you copy/paste a multi-line command from somewhere it’ll be easy
 
 If you need to run a command before the command you currently have typed you can cut/yank it and then paste/pop it at your next prompt with yank-pop. This gif explains it better.
 
-![img](https://github.com/rothgar/mastering-zsh/raw/master/img/push-input.gif)
+![img](/images/push-input.gif)
 
 In zsh this is called `push-line-or-edit` and it’s a default widget you can enable with.
 

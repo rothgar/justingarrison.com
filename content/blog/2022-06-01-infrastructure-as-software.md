@@ -4,10 +4,8 @@ title: "Infrastructure as software"
 date: 2022-06-01
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/infrastructure-as-software-banner.jpg
 ---
-
-![A pixelated picture with the article title](https://d33wubrfki0l68.cloudfront.net/698e7a5df1e202159aa6fd7d9dfe576836db31c4/f333d/img/infrastructure-as-software-banner.jpg)
 
 Infrastructure has changed a lot, but the mantra of Infrastructure as Code (IaC) has been the goal for organizations for far too long. The idea that you can create infrastructure with text was a big shift for the industry 10 years ago, but it hasn’t held up to the test of time.
 

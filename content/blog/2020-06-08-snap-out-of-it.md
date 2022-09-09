@@ -4,7 +4,7 @@ title: "Snap out of it"
 date: 2020-06-08
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/snap.jpg
 ---
 
 There has been a lot of bad news about snap recently. I’m not a fan, and it looks like [other people](https://jatan.blog/2020/05/02/ubuntu-snap-obsession-has-snapped-me-off-of-it/) are [speaking out](https://techtudor.blogspot.com/2020/06/four-reasons-why-snaps-are-anti-pattern.html) too. Linux Mint has even decided to [drop snap](https://www.zdnet.com/article/linux-mint-dumps-ubuntu-snap/) altogether.

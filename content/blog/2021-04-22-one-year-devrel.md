@@ -4,10 +4,8 @@ title: "One year as a developer advocate"
 date: 2021-04-22
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/one-year-devrel-banner.jpg
 ---
-
-![a dog looks at a computer](https://d33wubrfki0l68.cloudfront.net/512a8bd7fb90bd9fe2b303e1d04d12e5d335eae8/8f4b1/img/one-year-devrel-banner.jpg)
 
 I [posted last year](https://www.justingarrison.com/blog/2020-07-23-dev-to-devrel/) about what it was like to move from a full time development role into a developer advocate (DA) position. I wanted to follow it up with my experience after one full year for anyone interested in this type of role.
 

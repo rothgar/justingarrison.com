@@ -4,7 +4,7 @@ title: "Devops vs SRE"
 date: 2022-08-30
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/developer.jpg
 ---
 
 I hosted a Twitter space to discuss the differences between devops and Site Reliability Engineering (SRE). It was very insightful and I was lucky to have amazing guests [Liz Fong-Jones](https://twitter.com/lizthegrey) and [Emily Freeman](https://twitter.com/lizthegrey) who I learned a lot from.

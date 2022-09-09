@@ -4,7 +4,7 @@ title: "Rate of Successful Retire"
 date: 2019-05-29
 description: "Rate of Successful Retire"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/retire.jpg
 ---
 
 > The only sustainable competitive advantage is an organization’s ability to learn faster than the competition. – Peter Senge

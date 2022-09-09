@@ -4,12 +4,12 @@ title: "Dvorak: the good, bad, ugly, and recommendations"
 date: 2021-02-13
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/bad.jpg
 ---
 
 Maybe you want to switch your keyboard layout because you hear there are benefits for alternative layouts. Some people do it for speed, others for ergonomics.
 
-![dvorak keyboard layout](https://d33wubrfki0l68.cloudfront.net/05738e7e48ba672c52d751c8d2794fbdc0dfb4ae/6d0fc/img/dvorak-layout.png)
+![dvorak keyboard layout](/images/dvorak-layout.png)
 
 I learned to touch type with QWERTY and could type 50+ words per minute. I later switched to Dvorak after having wrist pains typing for extended periods of time. I’ve been typing with Dvorak for nearly 20 years and here’s my experience.
 
@@ -51,4 +51,4 @@ If you’re switching for ergonomic reasons look for a proper ergonomic keyboard
 
 Layouts such as Colemak might be a good alternate to Dvorak because it keeps some of the keyboard shortcuts the same but still puts more commonly used keys on the home row.
 
-![colemak keyboard layout](https://d33wubrfki0l68.cloudfront.net/bc405e06ae561fec55fd8d6d555427a2a6e64b98/90a73/img/colemak-layout.png)
+![colemak keyboard layout](/images/colemak-layout.png)

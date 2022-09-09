@@ -4,10 +4,8 @@ title: "Making 123dev Website"
 date: 2021-06-04
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/123dev-post-banner.png
 ---
-
-![screenshot of 123dev.email home page](https://d33wubrfki0l68.cloudfront.net/c7cea1e4be9fd5c6c8d0be2e1eb39f7952f900ba/45bd6/img/123dev-post-banner.png)
 
 I wanted a landing page for the [123dev newsletter](https://123dev.email/) and it was the perfect opportunity to try a few new things.
 

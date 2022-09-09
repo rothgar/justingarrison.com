@@ -4,7 +4,7 @@ title: "Experience from Six Months of Remote Work"
 date: 2019-05-29
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/remote-working.jpg
 ---
 
 I’ve been working full time remote for Disney Streaming for the past 6 months. This is my first full time remote position.

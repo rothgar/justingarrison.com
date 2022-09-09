@@ -4,7 +4,7 @@ title: "From Dev to Devrel"
 date: 2020-07-23
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/se.jpg
 ---
 
 I switched from a role as a Sr. Software Engineer leading a team of Site Reliability Engineers for Disney+ to a Developer Advocate for containers at AWS. Here are some of my experiences and observations about the role change, and what it might mean for you if you’re looking to do a similar switch.

@@ -4,10 +4,8 @@ title: "Breaking into tech"
 date: 2021-01-09
 description: "A brief description of Hugo Shortcodes"
 tags: ["shortcodes", "privacy"]
-thumbnail: https://picsum.photos/id/1002/400/250
+thumbnail: /images/break-tech.jpg
 ---
-
-![img](https://d33wubrfki0l68.cloudfront.net/1fbb00dc9029974fc9cb1908f945163981f4d8b3/a4281/img/breaking-into-tech.jpg)
 
 I’ve been talking to a lot of people about how they can get a job in technology. Some people are starting from knowing nothing and others have done some coding lessons or maybe an idea about what they want to do.
 
