@@ -1,8 +1,8 @@
 <footer class="container p-6 mx-auto flex justify-between items-center">
   <span class="text-sm font-light">
-    {{ if (isset .Site.Params "copyright") }} {{ .Site.Params.copyright |
-    safeHTML }} {{ else }} {{ dateFormat "2006" now }} © {{ .Site.Title }} {{
-    end }}
+    {{ if (isset .Site.Params "copyright") }}
+    {{ .Site.Params.copyright |safeHTML }} {{ else }}
+    {{ dateFormat "2006" now }} © {{ .Site.Title }} {{ end }}
   </span>
   <span
     onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
@@ -25,7 +25,8 @@
   </span>
 </footer>
 
-{{ if .Site.Params.enableSearch }} {{- partial "search-ui.html" . -}} {{ end }}
+{{ if .Site.Params.enableSearch }}
+{{- partial "search-ui.html" . -}} {{ end }}
 {{ if .Site.Params.darkModeToggle }}
 <script>
   // On page load or when changing themes
