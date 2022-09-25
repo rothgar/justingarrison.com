@@ -32,16 +32,20 @@ title = ' Justin Garrison'
   hideOtherLanguages = false
 
   #intro
-  introTitle =  "Hi, my name is Justin. "
-  introSubtitle =  " I like to learn new things and help people."
+  introTitle =  "Hi, I'm Justin. "
+  introSubtitle =  " I'm a developer who works in the cloud and open source. I've helped create Oscar winning movies, build Disney+, and now work at AWS. I'm a Linux and Kubernetes nerd who loves to help people learn tech."
   introPhoto = "/images/picture.png"
 
 [params.homepage.social]
   # Global params common for both languages
   title = "Follow me"
-  description = "I work on everything coding and tweet developer things"
+  description = "Here's where I hang out in social media"
   twitter = "https://twitter.com/rothgar"
-
+  github = "https://github.com/rothgar"
+  linkedin = "https://www.linkedin.com/in/justingarrison/"
+  tiktok = "https://www.tiktok.com/@justinleegarrison"
+  youtube = "https://youtube.com/justingarrison"
+  reddit = "https://www.reddit.com/user/xrothgarx"
 
 [[menu.main]]
   name = "Home"
@@ -59,14 +63,14 @@ title = ' Justin Garrison'
   weight = 3
 
 [[menu.main]]
-  name = "Twitter Card"
-  url = "/this-post-is-a-twitter-video.html"
-  weight = 3
+  name = "Timeline"
+  url = "https://timeline.justingarrison.com"
+  weight = 4
 
 [[menu.main]]
   name = "Newsletter"
   url = "https://www.123dev.email/"
-  weight = 4
+  weight = 5
 
 [build]
   writeStats = true

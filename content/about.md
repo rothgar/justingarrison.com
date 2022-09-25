@@ -9,12 +9,11 @@ type: about
 
 Hi, my name is Justin. I like to learn new things and help people.
 
-- I tweet at [@rothgar](https://twitter.com/rothgar)
+- My public activity is available at [timeline.justingarrison.com](https://timeline.justingarrison.com)
 - I work at [Amazon Web Services](http://aws.amazon.com/)
 - I wrote a book [Cloud Native Infrastructure](https://cnibook.info/)
-- I sometimes [give talks and interviews](https://github.com/rothgar/me/blob/master/SPEAKING.md)
 - I helped make some [movies](https://www.imdb.com/name/nm7463292)
-- I have a [resume](https://justingarrison.com/resume.html)
+- Here's my [resume](https://justingarrison.com/resume.html)
 
 ### history
 

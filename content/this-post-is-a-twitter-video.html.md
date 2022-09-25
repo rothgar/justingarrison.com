@@ -1,6 +1,6 @@
 ---
-author: Katheryn Fox
-title: About Me
+author: Justin Garrison
+title: This post is a twitter video
 date: 2021-07-15
 description: "If you share this post on Twitter it will show up as an embedded video"
 keywords: ["about-us", "about-hugo", "contact"]
