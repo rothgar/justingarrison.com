@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Making 123dev Website"
 date: 2021-06-04
-description: "A brief description of Hugo Shortcodes"
+description: "Problems I figured out when creating 123dev.email"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/123dev-post-banner.png
 ---

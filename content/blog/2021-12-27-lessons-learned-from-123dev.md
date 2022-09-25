@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Lessons learned from 123dev newsletter"
 date: 2021-12-27
-description: "A brief description of Hugo Shortcodes"
+description: "One year of failures and tips for new and existing newsletters"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/123-dev.jpg
 ---

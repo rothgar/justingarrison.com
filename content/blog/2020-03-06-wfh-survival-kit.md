@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "The WFH Survival Kit"
 date: 2020-03-06
-description: "A brief description of Hugo Shortcodes"
+description: "What you need to survive, be productive, and collaborate remotely"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/wfh-kit.jpg
 ---

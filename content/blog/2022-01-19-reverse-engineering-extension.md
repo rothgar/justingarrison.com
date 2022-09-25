@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Reverse engineering a chrome extension"
 date: 2022-01-19
-description: "A brief description of Hugo Shortcodes"
+description: "Finding hidden APIs for fun and flexibility"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/revue-banner.png
 ---

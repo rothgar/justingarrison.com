@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Getting started with signal"
 date: 2021-01-11
-description: "A brief description of Hugo Shortcodes"
+description: "How to take advantage of Signal for secure messages and calls"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/signal.jpg
 ---

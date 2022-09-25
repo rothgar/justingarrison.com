@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "From Dev to Devrel"
 date: 2020-07-23
-description: "A brief description of Hugo Shortcodes"
+description: "My experience switching from an engineer to a developer advocate"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/se.jpg
 ---

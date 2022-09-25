@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Cubernetes"
 date: 2022-07-05
-description: "A brief description of Hugo Shortcodes"
+description: "Parts list and process for creating a home lab Kuberenetes cluster"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/cubernetes-banner.jpg
 ---

@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Dvorak: the good, bad, ugly, and recommendations"
 date: 2021-02-13
-description: "A brief description of Hugo Shortcodes"
+description: "What it's really like to use Dvorak"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/bad.jpg
 ---

@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Devops vs SRE"
 date: 2022-08-30
-description: "A brief description of Hugo Shortcodes"
+description: "Should you be doing Devops or SRE? The answer is yes!"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/developer.jpg
 ---

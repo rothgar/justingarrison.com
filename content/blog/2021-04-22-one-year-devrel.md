@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "One year as a developer advocate"
 date: 2021-04-22
-description: "A brief description of Hugo Shortcodes"
+description: "My experience switching from an engineer to a developer advocate"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/one-year-devrel-banner.jpg
 ---

@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Experience from Six Months of Remote Work"
 date: 2019-05-29
-description: "A brief description of Hugo Shortcodes"
+description: "Things I've learned from working remote full time for 6 months"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/remote-working.jpg
 ---

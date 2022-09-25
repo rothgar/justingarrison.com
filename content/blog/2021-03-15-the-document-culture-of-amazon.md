@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "The Document Culture of Amazon"
 date: 2021-03-15
-description: "A brief description of Hugo Shortcodes"
+description: "A look at Amazon's culture of writing and reading"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/documents-banner.jpg
 ---

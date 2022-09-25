@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Palm Companion Phone Review"
 date: 2020-01-27
-description: "A brief description of Hugo Shortcodes"
+description: "Palm Companion Review: Mission Accomplished"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/palm-phone.jpg
 ---

@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Whiteboarding software and hardware"
 date: 2021-02-02
-description: "A brief description of Hugo Shortcodes"
+description: "Options for personal and shared whiteboarding"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/wbo-2.png
 ---

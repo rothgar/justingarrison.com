@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Breaking into tech"
 date: 2021-01-09
-description: "A brief description of Hugo Shortcodes"
+description: "Resources and advice for beginning a career in tech"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/break-tech.jpg
 ---

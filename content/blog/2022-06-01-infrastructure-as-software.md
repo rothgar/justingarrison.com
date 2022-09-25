@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Infrastructure as software"
 date: 2022-06-01
-description: "A brief description of Hugo Shortcodes"
+description: "What is beyond infrastructure as code?"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/infrastructure-as-software-banner.jpg
 ---

@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "How to On-board New Hires Remotely"
 date: 2020-08-31
-description: "A brief description of Hugo Shortcodes"
+description: "Tips for new employee's first week"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/remotly.jpg
 ---

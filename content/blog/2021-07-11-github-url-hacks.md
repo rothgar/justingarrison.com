@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "GitHub URL Hacks"
 date: 2021-07-11
-description: "A brief description of Hugo Shortcodes"
+description: "Handy tricks and shortcuts while using GitHub"
 tags: ["shortcodes", "privacy"]
 thumbnail: /images/octocat-banner.jpg
 ---
