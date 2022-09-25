@@ -2,7 +2,7 @@
 author: Katheryn Fox
 title: About Me
 date: 2021-07-15
-description = "If you share this post on Twitter it will show up as an embedded video"
+description: "If you share this post on Twitter it will show up as an embedded video"
 keywords: ["about-us", "about-hugo", "contact"]
 type: about
 ---

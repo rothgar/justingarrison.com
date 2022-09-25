@@ -2,11 +2,10 @@ baseURL = 'https://draft--jgarr.netlify.app/'
 languageCode = 'en-us'
 title = ' Justin Garrison'
 
-
 [params]
   # Enable the darkmode toggle in header
   darkModeToggle = true
-  
+
   # Enable search in header
   enableSearch = true
 
