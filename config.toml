@@ -60,6 +60,11 @@ title = ' Justin Garrison'
   weight = 3
 
 [[menu.main]]
+  name = "Twitter Card"
+  url = "/this-post-is-a-twitter-video.html"
+  weight = 3
+
+[[menu.main]]
   name = "Newsletter"
   url = "https://www.123dev.email/"
   weight = 4
