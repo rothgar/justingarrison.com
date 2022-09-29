@@ -4,7 +4,7 @@ title: "How to On-board New Hires Remotely"
 date: 2020-08-31
 description: "Tips for new employee's first week"
 tags: ["shortcodes", "privacy"]
-thumbnail: /images/remotly.jpg
+thumbnail: /img/remotly.jpg
 ---
 
 I think there’s a rule that any helpful tweet with 10k likes should be a blog post. So here’s mine.

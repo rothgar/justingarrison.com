@@ -4,7 +4,7 @@ title: "Cubernetes"
 date: 2022-07-05
 description: "Parts list and process for creating a home lab Kuberenetes cluster"
 tags: ["shortcodes", "privacy"]
-thumbnail: /images/cubernetes-banner.jpg
+thumbnail: /img/cubernetes-banner.jpg
 ---
 
 It took a few months to plan and about three weeks to build my latest Kubernetes hardware lab. I tested with the new [EKS Anywhere bare metal provisioner](https://aws.amazon.com/blogs/containers/getting-started-with-eks-anywhere-on-bare-metal/) to install the OS and manage Kubernetes. The cluster is going to be used for training and video content for the [Containers from the Couch](https://cftc.info/) channel and various in person conferences. Let me know if you have a meetup/conference you would like me to come to via [twitter](https://twitter.com/rothgar) or [email](mailto:justin@linux.com).
@@ -77,11 +77,11 @@ The LP-179 has Intel AMT support for out-of-band management and this was the per
 
 Once the computers arrived I did some initial testing with early EKS Anywhere builds to make sure everything would work and then started ordering the rest of the lights and case components.
 
-![computers held up with temporary lego stand](/images/cubernetes-compute-1.jpg)
+![computers held up with temporary lego stand](/img/cubernetes-compute-1.jpg)
 
 ## Case Build
 
-![Mac case disassembled](/images/cubernetes-case-0.jpg)
+![Mac case disassembled](/img/cubernetes-case-0.jpg)
 
 Taking apart the Mac wasn’t hard. I wanted to re-use the central handle mounting mechanism to take the compute cage in and out of the outer shell. If you’ve never seen the original keynote [it was quite amazing back in 2000](https://www.youtube.com/watch?v=AwDOJ7HztXM).
 
@@ -89,21 +89,21 @@ Taking apart the Mac wasn’t hard. I wanted to re-use the central handle mounti
 
 When took everything apart I thought I would have a lot of room left over. That didn’t turn out to be true, but I was able to fit all the networking components inside the case which I didn’t expect initially.
 
-![one computer board inside an empty cube case](/images/cubernetes-case-1.jpg)
+![one computer board inside an empty cube case](/img/cubernetes-case-1.jpg)
 
 The cage gave a lot of structure for the inner cube, but didn’t give me a lot of options for where to mount the computers. I would need to take apart after building the case to work on the computers so I didn’t want to glue anything and wanted to make components as modular as possible. I 3D printed a center bracket to hold the latch handle in place. I later realized it would be the best place to mount the network switch so I printed a version with mounting holes and parts to hold the bracket to the bottom of the case.
 
-![center bracket core](/images/cubernetes-case-2.jpg)
+![center bracket core](/img/cubernetes-case-2.jpg)
 
 I thought I could 3D print a bracket for the computers, but they’re too heavy and the part needed extra holes for air flow so filiment wouldn’t be strong enough. A friend cut the front Kubernetes logo with their Glowforge and offered to cut computer brackets for me too.
 
 My initial measurements were off and I didn’t mount the computers low enough in the case for the handle latches, but after lowering the mounting holes I was able to make it work. The acrylic is pretty strong and the whole compute module can slide out of the case as one piece which makes it much easier to work on.
 
-![center bracket with computers mounted](/images/cubernetes-case-3.jpg) ![center bracket with computers mounted](/images/cubernetes-case-4.jpg)
+![center bracket with computers mounted](/img/cubernetes-case-3.jpg) ![center bracket with computers mounted](/img/cubernetes-case-4.jpg)
 
 The computers don’t have much clearence on the edges so I had to buy special network cables with really small connectors to clear the sides. I was a bit worride I wouldn’t be able to find somethnig small enough, but thankfully I found some that worked.
 
-![network plug clearence](/images/cubernetes-case-5.jpg)
+![network plug clearence](/img/cubernetes-case-5.jpg)
 
 ## Power
 
@@ -111,21 +111,21 @@ The cluster is powered by two 350w power supplies each with 3 power terminals (6
 
 I bought a 12-pin molex connector so I could have a single power plug for everything. I cut four PC power cables to re-use the internal wires (3 each). That gave me a total of 12 wires in 4 cables which I bundled together and wired into the molex connector. The molex receptical required a bit of dremeling and hot glue.
 
-![12 pin molex connector](/images/cubernetes-power-1.jpg)
+![12 pin molex connector](/img/cubernetes-power-1.jpg)
 
 The power supply case took me some time to design after taking multiple measurements of the power supplies. I designed it so the top portion would come off so I could adjust wiring if needed. Each half of the case took over 2 days to print.
 
-![3D printed power case](/images/cubernetes-power-2.jpg)
+![3D printed power case](/img/cubernetes-power-2.jpg)
 
 It’s great having two separate switches to power on the computers and very satisfying to turn on.
 
-![power switches](/images/cubernetes-power-4.jpg)
+![power switches](/img/cubernetes-power-4.jpg)
 
 For the computer power switches I printed a small bracket and hot glued them in place. The hardest part was remembering which switch goes to which computer.
 
 I also soldered LEDs onto each board where the case fan pins are so I could know when each computer was powered on.
 
-![blue LEDs soldered on computers](/images/cubernetes-power-3.jpg)
+![blue LEDs soldered on computers](/img/cubernetes-power-3.jpg)
 
 ## Lights
 
@@ -135,35 +135,35 @@ The first is the front logo which uses an attiny85 controller and 12 LED neopixe
 
 The attiny is programmed in C using the Arduino IDE. The program for the front lights cycles in a loading pattern for about 2 minutes and then switches to an infinite breathing pattern. The front lights are not dynamically controled but I can take off the logo and re-program it if I need to.
 
-![lights inside the kubernetes logo](/images/cubernetes-lights-1.gif)
+![lights inside the kubernetes logo](/img/cubernetes-lights-1.gif)
 
 The hardest part of the logo was getting power to the front of the case that could also be easily disconnected when the internals are removed. I decided on using magnetic pogo pins and 3D printing a bracket that would sit where the old power button was.
 
-![magnetic pogo pins](/images/cubernetes-lights-1.jpg)
+![magnetic pogo pins](/img/cubernetes-lights-1.jpg)
 
 It took multiple attempts to get this printed correctly to hold the pogo pins and align when the inner cube was in the case. It still doesn’t work 100% of the time and the internal wires get pinched sometimes which stops the lights from working. I’ll likely need to re-wire this part to keep the wires on the outside of the cube.
 
-![kubernetes logo on front of case](/images/cubernetes-lights-2.jpg)
+![kubernetes logo on front of case](/img/cubernetes-lights-2.jpg)
 
 The rear lights are connected with the same magnetic connector and are controlled via the raspberry pi pico controller. The reason I wanted this controller was because it works with [Circuit Python](https://circuitpython.org/).
 
-![lights in a chase pattern on the back of the case](/images/cubernetes-lights-2.gif)
+![lights in a chase pattern on the back of the case](/img/cubernetes-lights-2.gif)
 
 Circuit Python has a lot of libraries for programming the lights and it mounts to the computer as a USB mass storage drive. Using the USB drive with a Kubernetes volume I’m able to re-program the lights using a Kubernetes deployment.
 
 The final light for the case is the 32x32 light panel mounted inside the case. I wanted these lights to show more details about what was happening in the cluster and they have the most flexibility to program. It fits nicely mounted to the the old CD-ROM drive mount (once it was heavily modified).
 
-![light panel mounted inside case](/images/cubernetes-lights-3.jpg)
+![light panel mounted inside case](/img/cubernetes-lights-3.jpg)
 
 After installing the panel the LEDs were too hash and hard to see so I put some frosted acrylic in front of it to diffuse the light. It’s much easier to see now, especially when the room is already light.
 
-![light panel with frosted acrylic](/images/cubernetes-lights-3.gif)
+![light panel with frosted acrylic](/img/cubernetes-lights-3.gif)
 
 ## Usage
 
 Once everything was built the cluster can be plugged in with a single power cable and single network cable. The cluster is portable, but only time will tell how durable it is. It’s very satisfying pulling the compute out of the case. This gif was an early test that everything would work.
 
-![pulling out the inner cube](/images/cubernetes-case-1.gif)
+![pulling out the inner cube](/img/cubernetes-case-1.gif)
 
 I’ve been able to re-deploy EKS Anywhere to the cluster without any issues and heat hasn’t been a problem (so far). With additional fans in the case it seems there’s enough airflow even without a lot of space.
 

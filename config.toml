@@ -33,8 +33,8 @@ title = ' Justin Garrison'
 
   #intro
   introTitle =  "Hi, I'm Justin. "
-  introSubtitle =  " I'm a developer who works in the cloud and open source. I've helped create Oscar winning movies, build Disney+, and now work at AWS. I'm a Linux and Kubernetes nerd who loves to help people learn tech."
-  introPhoto = "/images/picture.png"
+  introSubtitle =  " I'm a developer who works in the cloud and open source. I've helped create Oscar winning movies, build Disney+, and work at AWS. I'm a Linux and Kubernetes nerd who loves to help people."
+  introPhoto = "/img/profile.png"
 
 [params.homepage.social]
   # Global params common for both languages

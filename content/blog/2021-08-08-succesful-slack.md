@@ -4,7 +4,7 @@ title: "Successful Slack"
 date: 2021-08-08
 description: "Tips for using Slack in a work environment."
 tags: ["shortcodes", "privacy"]
-thumbnail: /images/slack-banner.png
+thumbnail: /img/slack-banner.png
 ---
 
 Slack is a major part of how we communicate at work. If you still think it’s just about chat then chances are you’re using it wrong. Other collaboration tools exist and some have similar features but Slack is the dominant choice.
@@ -28,7 +28,7 @@ Some things need to be agreed upon at a company or team level. If your team has 
 
 If there’s one practice you should learn it’s to use statuses to provide current, passive information. **Don’t** set an emoji as a permanent status because you like the picture next to your name. You have no idea how many people will hover over your status only to find it’s not useful. It erodes trust which makes statuses less useful for people who actually use them. This doesn’t apply for a community workspace where expectations are drastically different.
 
-![a status message without any text](/images/slack-bad-status.png)
+![a status message without any text](/img/slack-bad-status.png)
 
 A status should be current, passive information for everyone to see. It’s better than sending a message to a team channel because:
 
@@ -60,7 +60,7 @@ Profile pictures don’t *have* to be of you. It is not always comfortable for p
 
 Seeing a picture of you helps a lot of people know who they’re talking to and remember that you’re a real person—empathy is easily forgotten. It also helps for people who have never met you in person because maybe there are two Justin Garrison’s at the company and it’s hard to track down which one is you in the company directory. A consistent picture can save people a lot of time.
 
-![slack profile picture for Justin Garrison](/images/slack-profile.png)
+![slack profile picture for Justin Garrison](/img/slack-profile.png)
 
 ### You are responsible for your notifications
 

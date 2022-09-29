@@ -4,7 +4,7 @@ title: "Whiteboarding software and hardware"
 date: 2021-02-02
 description: "Options for personal and shared whiteboarding"
 tags: ["shortcodes", "privacy"]
-thumbnail: /images/wbo-2.png
+thumbnail: /img/whiteboarding-banner.jpg
 ---
 
 One of the things I miss most about working in an office is diagramming with coworkers. I’m a very visual learner and drawing what I’m thinking and having others explain their thoughts in picture form help me a lot. If you’ve seen any of my conference talks you’ll also probably know that I like props too!
@@ -15,7 +15,7 @@ Let me start with what I’m using and then can explain some other options and t
 
 I love how simple it is. No signup, just create a board and share the URL with someone. The board interface is minimal but has *most* everything I want and already has keyboard shortcuts without needing any config.
 
-![img](/images/wbo-1.png)
+![img](/img/wbo-1.png)
 
 WBO was the best performing web whiteboard software I tried from an iPad with pencil. It’s not perfect and has some glitching when zooming on a touch device, but the trade-offs have been well worth it for me. The “app” is a web wrapper—with no back or share buttons—but it works when I don’t want to be at my desk.
 
@@ -23,7 +23,7 @@ It’s open source and already packaged in a container so running it in AWS ECS 
 
 Drawing with a mouse is never easy so I would recommend if you want a better experience you’re going to need some way to use a pen/stylus. If you don’t have something with a touch screen there are quite a few cheap convertable chromebooks on the market or [Wacom tablets](https://estore.wacom.com/en-US/tablets.html) range from $60-$200.
 
-![img](/images/whiteboarding-cintiq.jpg)
+![img](/img/whiteboarding-cintiq.jpg)
 
 I was drawing boards from my iPad but recently I bought a Wacom Cintiq 16 tablet which has been great. It has more space than a typical tablet and is more sturdy while sitting on my desk. It’s not a cheap option though so make sure you’ll benefit from the hardware. As an added bonus it makes a great 2nd display and has perfect resolution for sharing my screen in Twitch streams and meetings.
 

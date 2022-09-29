@@ -4,10 +4,8 @@ title: "Palm Companion Phone Review"
 date: 2020-01-27
 description: "Palm Companion Review: Mission Accomplished"
 tags: ["shortcodes", "privacy"]
-thumbnail: /images/palm-phone.jpg
+thumbnail: /img/palm-phone.jpg
 ---
-
-![Palm Companion](/images/palm-companion-1.jpg)
 
 The fine folks at Palm offered to send me their new [Companion phone](https://palm.com/pages/companion) in exchange for writing a review. I am grateful for their generosity and wish to fulfill my portion of the bargain below.
 
@@ -53,7 +51,7 @@ Let’s get the easy stuff out of the way. This thing is tiny!
 
 Here it is next to my Veer. Yes, I still have it.
 
-![img](/images/palm-and-veer.jpg)
+![img](/img/palm-and-veer.jpg)
 
 And here it is in my hand.
 
@@ -71,7 +69,7 @@ Make sure you adjust the keyboard size in the settings to make it a little bit b
 
 The camera was able to take pictures, but don’t rely on those pictures being good at low light or high quality in the current market. Here are some examples.
 
-![img](/images/palm-companion-sample-1.jpg) ![img](/images/palm-companion-sample-3.jpg) ![img](/images/palm-companion-sample-2.jpg)
+![img](/img/palm-companion-sample-1.jpg) ![img](/img/palm-companion-sample-3.jpg) ![img](/img/palm-companion-sample-2.jpg)
 
 My biggest hardware problem using the Companion as my main phone was the battery life. I could use the phone for 30 minutes and watch the battery drain. Fear of killing the battery was the biggest thing that kept me from using the phone.
 
@@ -83,7 +81,7 @@ One great hardware feature that made me not use the phone was the fact that I si
 
 Even with a small case the phone is practically invisible in my pocket and I thought I lost it multiple times.
 
-![img](/images/palm-and-airpods.jpg)
+![img](/img/palm-and-airpods.jpg)
 
 I occasionally had other seemingly random hardware problems with bluetooth and WiFi not connecting to devices or needing a power cycle to wake up. Sometimes I had signal and couldn’t use data.
 

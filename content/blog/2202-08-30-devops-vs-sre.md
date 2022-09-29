@@ -4,7 +4,7 @@ title: "Devops vs SRE"
 date: 2022-08-30
 description: "Should you be doing Devops or SRE? The answer is yes!"
 tags: ["shortcodes", "privacy"]
-thumbnail: /images/developer.jpg
+thumbnail: /img/devops-vs-sre-banner.jpg
 ---
 
 I hosted a Twitter space to discuss the differences between devops and Site Reliability Engineering (SRE). It was very insightful and I was lucky to have amazing guests [Liz Fong-Jones](https://twitter.com/lizthegrey) and [Emily Freeman](https://twitter.com/lizthegrey) who I learned a lot from.

@@ -1,19 +1,23 @@
 ---
-author: Katheryn Fox
+author: Justin Garrison
 title: About Me
 date: 2021-07-15
-description:
+description: Some other information about what I've done and where you can find me.
 keywords: ["about-us", "about-hugo", "contact"]
 type: about
 ---
 
-Hi, my name is Justin. I like to learn new things and help people.
+![](/img/profile-surprised-round.png)
 
-- My public activity is available at [timeline.justingarrison.com](https://timeline.justingarrison.com)
-- I work at [Amazon Web Services](http://aws.amazon.com/)
-- I wrote a book [Cloud Native Infrastructure](https://cnibook.info/)
-- I helped make some [movies](https://www.imdb.com/name/nm7463292)
+I'm Justin.
+
+- My public activity is available on Polywork at [timeline.justingarrison.com](https://timeline.justingarrison.com).
+- I work at [Amazon Web Services](http://aws.amazon.com/) on the Kubernetes team.
+- I wrote a book with [Kris Nóva](https://nivenly.com/) called [Cloud Native Infrastructure](https://cnibook.info/).
+- I helped make some [movies](https://www.imdb.com/name/nm7463292) while I worked at Disney.
 - Here's my [resume](https://justingarrison.com/resume.html)
+- You can also find me other places online in the social links below.
+- If you need a profile picture you can use one available on [GitHub here](https://github.com/rothgar/rothgar/tree/master/img).
 
 ### history
 

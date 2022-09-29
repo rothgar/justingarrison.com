@@ -4,7 +4,7 @@ title: "Breaking into tech"
 date: 2021-01-09
 description: "Resources and advice for beginning a career in tech"
 tags: ["shortcodes", "privacy"]
-thumbnail: /images/break-tech.jpg
+thumbnail: /img/breaking-into-tech.jpg
 ---
 
 I’ve been talking to a lot of people about how they can get a job in technology. Some people are starting from knowing nothing and others have done some coding lessons or maybe an idea about what they want to do.

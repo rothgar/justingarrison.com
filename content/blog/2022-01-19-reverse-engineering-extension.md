@@ -4,12 +4,12 @@ title: "Reverse engineering a chrome extension"
 date: 2022-01-19
 description: "Finding hidden APIs for fun and flexibility"
 tags: ["shortcodes", "privacy"]
-thumbnail: /images/revue-banner.png
+thumbnail: /img/revue-banner.png
 ---
 
 I’ve been using [Revue](https://www.getrevue.co/) for my [123dev](https://123dev.email/) newsletter and wanted an easier way to save URLs to include in future emails. If you’re not familiar with it, Revue has a chrome extension so you can send URLs to a queue which shows up next to the editor.
 
-![Revue sidebar showing staged links](/images/revue-sidebar.png)
+![Revue sidebar showing staged links](/img/revue-sidebar.png)
 
 It’s a really handy feature and I wanted to use it without the extension. Ideally, I could send these URL from my phone via a Siri Shortcut (I haven’t figured this part out yet).
 
@@ -23,7 +23,7 @@ Without having a man in the middle to decode https it wasn’t going to work. Th
 
 First, we need to get the extension ID from the [installation URL](https://chrome.google.com/webstore/detail/revue-chrome/fdnhneinocoonabhfbmelgkcmilaokcg).
 
-![img](/images/revue-extension.png)
+![img](/img/revue-extension.png)
 
 The long string in the URL `fdnhneinocoonabhfbmelgkcmilaokcg` will be in our home folder with the source code.
 
@@ -33,7 +33,7 @@ It was minified so first I had to unminify it as best as possible. Formatting th
 
 From there I looked for `POST` url verbs to see what it was calling. I found this relevant code which looked like what I needed. It’s calling `https://www.getrevue.co/extension/add`.
 
-![img](/images/revue-code.png)
+![img](/img/revue-code.png)
 
 You’ll see from the code the only thing it’s sending is a `POST` with a body. At this point I don’t know what the body should be, but I’ll try to figure that out later.
 
@@ -43,7 +43,7 @@ Now I need to jump over to Chrome to get my session cookie. Open getrevue.co in 
 
 Go to the Application tab and then find Cookie in the left sidebar. Copy the value for _revue_session.
 
-![img](/images/revue-cookie.png)
+![img](/img/revue-cookie.png)
 
 ## Send a curl request
 
@@ -64,7 +64,7 @@ Sure enough that worked!
 
 Here’s a snippet of the response
 
-![img](/images/revue-response.png)
+![img](/img/revue-response.png)
 
 The response gives us a much better idea of the full body data we can use. Adding a description will be a minimal amount of information that would be useful.
 
@@ -76,7 +76,7 @@ Siri shortcuts are very powerful but also very cryptic.
 
 I was able to make a shortcut with the “Get contents of URL” function which is able to make a POST call.
 
-![img](/images/revue-shortcut.png)
+![img](/img/revue-shortcut.png)
 
 I can put in the URL, change the method to POST, and add a body with the required title and url variables.
 
