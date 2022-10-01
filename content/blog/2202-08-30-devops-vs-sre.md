@@ -22,7 +22,7 @@ For years the devops community fought, and lost, the battle to keep “devops”
 Devops requires companies to work inefficiently because you have a lot of role duplication on teams, but you gain in speed and flexibility in team ownership. Devops jobs became new names for sysadmins, Jenkins administers, and occasionally a permanent member of an application team.
 
 
-{{< twitter_simple user="rothgar" id="1561073602832650241" >}}
+{{< tweet user="rothgar" id="1561073602832650241" >}}
 
 
 

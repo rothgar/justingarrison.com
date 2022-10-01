@@ -88,7 +88,7 @@ If you ask someone to do something and they do not acknowledge the message it is
 
 Channels should be named in a way that make sense to your company. Team channels, product channels, support channels, and water cooler channels are all pretty normal and you can figure out the best way to name them.
 
-{{< twitter_simple user="rothgar" id="1296935070436007938" >}}
+{{< tweet user="rothgar" id="1296935070436007938" >}}
 
 Make sure each channel has a description of what it is used for. New people to the channel or new hires don’t know the social norms and having a description will quickly let them understand what they should put there instead of watching behavior and trying to figure it out on their own.
 
