@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = ' Justin Garrison'
 theme = 'blist'
 
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+
 [params]
   # Enable the darkmode toggle in header
   darkModeToggle = true
