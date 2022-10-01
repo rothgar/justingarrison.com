@@ -9,7 +9,7 @@ HUGO_ENABLEGITINFO = "true"
 NODE_VERSION = "18.10.0"
 
 [context.branch-deploy]
-publish = public
+publish = "public"
 command = "npm i && hugo --gc -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
