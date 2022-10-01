@@ -4,7 +4,8 @@ title: "Dvorak: the good, bad, ugly, and recommendations"
 date: 2021-02-13
 description: "What it's really like to use Dvorak"
 tags: ["shortcodes", "privacy"]
-thumbnail: /img/bad.jpg
+thumbnail: /img/bad.jpg 
+images: [/img/bad.jpg]
 ---
 
 Maybe you want to switch your keyboard layout because you hear there are benefits for alternative layouts. Some people do it for speed, others for ergonomics.

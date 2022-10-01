@@ -4,7 +4,8 @@ title: "The WFH Survival Kit"
 date: 2020-03-06
 description: "What you need to survive, be productive, and collaborate remotely"
 tags: ["shortcodes", "privacy"]
-thumbnail: /img/wfh-kit-banner.jpg
+thumbnail: /img/wfh-kit-banner.jpg 
+images: [/img/wfh-kit-banner.jpg]
 ---
 
 Working from home can be a great opportunity to focus, get a better work life balance, and not get sick. It may be a benefit of your position, or mandated by your employer.

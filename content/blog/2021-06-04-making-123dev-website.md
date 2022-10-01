@@ -4,7 +4,8 @@ title: "Making 123dev Website"
 date: 2021-06-04
 description: "Problems I figured out when creating 123dev.email"
 tags: ["shortcodes", "privacy"]
-thumbnail: /img/123dev-post-banner.png
+thumbnail: /img/123dev-post-banner.png 
+images: [/img/123dev-post-banner.png]
 ---
 
 I wanted a landing page for the [123dev newsletter](https://123dev.email/) and it was the perfect opportunity to try a few new things.

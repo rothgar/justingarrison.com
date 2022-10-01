@@ -4,7 +4,8 @@ title: "One year as a developer advocate"
 date: 2021-04-22
 description: "My experience switching from an engineer to a developer advocate"
 tags: ["shortcodes", "privacy"]
-thumbnail: /img/one-year-devrel-banner.jpg
+thumbnail: /img/one-year-devrel-banner.jpg 
+images: [/img/one-year-devrel-banner.jpg]
 ---
 
 I [posted last year](https://www.justingarrison.com/blog/2020-07-23-dev-to-devrel/) about what it was like to move from a full time development role into a developer advocate (DA) position. I wanted to follow it up with my experience after one full year for anyone interested in this type of role.

@@ -4,7 +4,8 @@ title: "Shell Shortcuts"
 date: 2020-05-28
 description: "My experience switching from an engineer to a developer advocate"
 tags: ["shortcodes", "privacy"]
-thumbnail: /img/prepend-sudo.gif
+thumbnail: /img/prepend-sudo.gif 
+images: [/img/prepend-sudo.gif]
 ---
 
 If your an engineer you probably spend a lot of time using a terminal. Some of your best productivity gains will come from understanding it better and making small improvements to repetitive tasks.

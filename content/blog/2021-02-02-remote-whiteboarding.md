@@ -4,7 +4,8 @@ title: "Whiteboarding software and hardware"
 date: 2021-02-02
 description: "Options for personal and shared whiteboarding"
 tags: ["shortcodes", "privacy"]
-thumbnail: /img/whiteboarding-banner.jpg
+thumbnail: /img/whiteboarding-banner.jpg 
+images: [/img/whiteboarding-banner.jpg]
 ---
 
 One of the things I miss most about working in an office is diagramming with coworkers. I’m a very visual learner and drawing what I’m thinking and having others explain their thoughts in picture form help me a lot. If you’ve seen any of my conference talks you’ll also probably know that I like props too!

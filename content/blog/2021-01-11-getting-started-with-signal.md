@@ -4,7 +4,8 @@ title: "Getting started with signal"
 date: 2021-01-11
 description: "How to take advantage of Signal for secure messages and calls"
 tags: ["shortcodes", "privacy"]
-thumbnail: /img/signal-og-banner.png
+thumbnail: /img/signal-og-banner.png 
+images: [/img/signal-og-banner.png]
 ---
 
 You’ve discovered that [Signal](https://signal.org/) can provide you with secure communication from your phone that is cross platform and free!

@@ -4,7 +4,8 @@ title: "Experience from Six Months of Remote Work"
 date: 2019-05-29
 description: "Things I've learned from working remote full time for 6 months"
 tags: ["shortcodes", "privacy"]
-thumbnail: /img/six-months-remote-banner.png
+thumbnail: /img/six-months-remote-banner.png 
+images: [/img/six-months-remote-banner.png]
 ---
 
 I’ve been working full time remote for Disney Streaming for the past 6 months. This is my first full time remote position.

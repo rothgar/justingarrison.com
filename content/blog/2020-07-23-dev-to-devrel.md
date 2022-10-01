@@ -4,7 +4,8 @@ title: "From Dev to Devrel"
 date: 2020-07-23
 description: "My experience switching from an engineer to a developer advocate"
 tags: ["shortcodes", "privacy"]
-thumbnail: /img/dev-to-devrel-banner.png
+thumbnail: /img/dev-to-devrel-banner.png 
+images: [/img/dev-to-devrel-banner.png]
 ---
 
 I switched from a role as a Sr. Software Engineer leading a team of Site Reliability Engineers for Disney+ to a Developer Advocate for containers at AWS. Here are some of my experiences and observations about the role change, and what it might mean for you if you’re looking to do a similar switch.

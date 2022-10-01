@@ -4,7 +4,8 @@ title: "Cubernetes"
 date: 2022-07-05
 description: "Parts list and process for creating a home lab Kuberenetes cluster"
 tags: ["shortcodes", "privacy"]
-thumbnail: /img/cubernetes-banner.jpg
+thumbnail: /img/cubernetes-banner.jpg 
+images: [/img/cubernetes-banner.jpg]
 ---
 
 It took a few months to plan and about three weeks to build my latest Kubernetes hardware lab. I tested with the new [EKS Anywhere bare metal provisioner](https://aws.amazon.com/blogs/containers/getting-started-with-eks-anywhere-on-bare-metal/) to install the OS and manage Kubernetes. The cluster is going to be used for training and video content for the [Containers from the Couch](https://cftc.info/) channel and various in person conferences. Let me know if you have a meetup/conference you would like me to come to via [twitter](https://twitter.com/rothgar) or [email](mailto:justin@linux.com).
