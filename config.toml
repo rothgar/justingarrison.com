@@ -1,6 +1,7 @@
 baseURL = 'https://draft--jgarr.netlify.app/'
 languageCode = 'en-us'
 title = ' Justin Garrison'
+theme = 'blist'
 
 [params]
   # Enable the darkmode toggle in header
@@ -73,7 +74,7 @@ title = ' Justin Garrison'
   weight = 5
 
 [build]
-  writeStats = true
+  writeStats = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

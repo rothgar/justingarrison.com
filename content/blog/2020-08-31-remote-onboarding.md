@@ -9,7 +9,7 @@ thumbnail: /img/remotly.jpg
 
 I think there’s a rule that any helpful tweet with 10k likes should be a blog post. So here’s mine.
 
-{{< twitter_simple 1296911972215058432 >}}
+{{< twitter_simple user="rothgar" id="1296911972215058432" >}}
 
 My past two on-boardings have taught me a lot about what it takes for me to feel comfortable in a new job. I owe these insights to my managers for good and bad experiences that showed me things that mattered to me and things that I thought important that turned out not to be.
 
@@ -127,7 +127,7 @@ Disney Animation had a “work room” which was a secret room where employees w
 
 In the digital world this often takes the form of no-management private chat rooms, out of band group chat (e.g. WhatsApp, sms), or public #YELLING channel. There needs to be space for that and personally I think within the first week is a good time to be invited.
 
-{{< twitter_simple 1296935070436007938 >}}
+{{< twitter_simple user="rothgar" id="1296935070436007938" >}}
 
 ## Day 5
 
@@ -147,7 +147,7 @@ On-boarding remote isn’t incredibly different from in person but you have to b
 
 In person on-boarding benefits a lot from asking the same questions multiple times and meeting lots of people quickly through lunches and organic meeting spaces (e.g. coffee, cafe, bathrooms). Focus on making your information easy to search and ways you can help build trust on the team and your new hire should be able to on-board quickly.
 
-{{< twitter_simple 1296916038810873856 >}}
+{{< twitter_simple user="rothgar" id="1296916038810873856" >}}
 
 I found a lot of great resources in replies to my thread (thank you all). Some things I don’t think would work at companies I’ve worked for but it may be worth reading to get ideas on how you would like to change on-boarding.
 

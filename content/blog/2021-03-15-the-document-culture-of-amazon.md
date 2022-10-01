@@ -44,7 +44,7 @@ Some other benefits I’ve found while putting it in practice are:
 
 
 
-{{< twitter_simple 1350133181316431872 >}}
+{{< twitter_simple user="rothgar" id="1350133181316431872" >}}
 
 There are some limitations to document based meetings. The first I have noticed is if you’re not a very good writer you will be at a disadvantage communicating your ideas. Amazon has a lot of internal training to help you write good Amazon documents, but even with training it still requires a good foundation. I’m very thankful for my years of practice writing for [How-To Geek](https://www.howtogeek.com/author/rothgar/) and *[Cloud Native Infrastructure](https://www.cnibook.info/)*. Even with that background, my first one-pager review was intimidating.
 

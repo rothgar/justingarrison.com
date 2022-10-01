@@ -55,7 +55,7 @@ Here it is next to my Veer. Yes, I still have it.
 
 And here it is in my hand.
 
-{{< twitter_simple 1215134319578009600>}}
+{{< twitter_simple user="rothgar" id="1215134319578009600" >}}
 
 Something this size has trade-offs. There is only 1 button on the side of the device which does triple duty as power on/off, long press (standard Android long press), double press shortcut can do different things configured in the settings. I configured double press to open the camera because that’s what I’m used to now with the Pixel.
 
@@ -65,7 +65,7 @@ The screen is obviously small and hard to type on with the default Fleksey keybo
 
 Make sure you adjust the keyboard size in the settings to make it a little bit bigger. Sometimes Gboard refused to get the words I wanted with swiping and I had to tap out a few words. Lots fo mistypong you kust get usde to.
 
-{{< twitter_simple 1215326718220652544 >}}
+{{< twitter_simple user="rothgar" id="1215326718220652544" >}}
 
 The camera was able to take pictures, but don’t rely on those pictures being good at low light or high quality in the current market. Here are some examples.
 
@@ -91,7 +91,7 @@ The best part of the hardware is the reactions people give when they see you usi
 
 
 
-{{< twitter_simple 1216942251651125249>}}
+{{< twitter_simple user="rothgar" id="1216942251651125249" >}}
 
 
 
