@@ -6,9 +6,11 @@ command = "npm i && hugo --gc --minify"
 HUGO_VERSION = "0.104.2"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+NODE_VERSION = "18.10.0"
 
 [context.branch-deploy]
-command = "npm i && hugo --gc --minify -b $DEPLOY_PRIME_URL"
+publish = public
+command = "npm i && hugo --gc -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.104.2"
