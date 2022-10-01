@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Snap out of it"
 date: 2020-06-08
 description: "How to uninstall and block snapd on Ubuntu"

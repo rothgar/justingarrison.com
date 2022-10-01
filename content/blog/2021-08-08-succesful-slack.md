@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Successful Slack"
 date: 2021-08-08
 description: "Tips for using Slack in a work environment."

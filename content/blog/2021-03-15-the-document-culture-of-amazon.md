@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "The Document Culture of Amazon"
 date: 2021-03-15
 description: "A look at Amazon's culture of writing and reading"

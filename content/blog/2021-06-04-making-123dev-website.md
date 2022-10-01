@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Making 123dev Website"
 date: 2021-06-04
 description: "Problems I figured out when creating 123dev.email"

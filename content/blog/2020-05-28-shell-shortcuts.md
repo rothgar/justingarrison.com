@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Shell Shortcuts"
 date: 2020-05-28
 description: "My experience switching from an engineer to a developer advocate"

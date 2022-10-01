@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Dvorak: the good, bad, ugly, and recommendations"
 date: 2021-02-13
 description: "What it's really like to use Dvorak"

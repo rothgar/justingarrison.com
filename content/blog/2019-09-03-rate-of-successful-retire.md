@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Rate of Successful Retire"
 date: 2019-05-29
 description: "Rate of Successful Retire"

@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Lessons learned from 123dev newsletter"
 date: 2021-12-27
 description: "One year of failures and tips for new and existing newsletters"

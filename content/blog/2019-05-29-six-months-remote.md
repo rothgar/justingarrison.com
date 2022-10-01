@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Experience from Six Months of Remote Work"
 date: 2019-05-29
 description: "Things I've learned from working remote full time for 6 months"

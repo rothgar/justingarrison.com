@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "The WFH Survival Kit"
 date: 2020-03-06
 description: "What you need to survive, be productive, and collaborate remotely"

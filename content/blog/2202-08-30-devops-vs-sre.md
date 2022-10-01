@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Devops vs SRE"
 date: 2022-08-30
 description: "Should you be doing Devops or SRE? The answer is yes!"

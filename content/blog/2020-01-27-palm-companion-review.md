@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Palm Companion Phone Review"
 date: 2020-01-27
 description: "Palm Companion Review: Mission Accomplished"

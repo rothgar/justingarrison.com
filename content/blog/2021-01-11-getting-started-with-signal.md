@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Getting started with signal"
 date: 2021-01-11
 description: "How to take advantage of Signal for secure messages and calls"

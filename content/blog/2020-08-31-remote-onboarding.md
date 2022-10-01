@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "How to On-board New Hires Remotely"
 date: 2020-08-31
 description: "Tips for new employee's first week"

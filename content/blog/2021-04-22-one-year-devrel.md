@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "One year as a developer advocate"
 date: 2021-04-22
 description: "My experience switching from an engineer to a developer advocate"

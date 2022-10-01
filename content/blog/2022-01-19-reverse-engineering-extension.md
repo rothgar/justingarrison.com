@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Reverse engineering a chrome extension"
 date: 2022-01-19
 description: "Finding hidden APIs for fun and flexibility"

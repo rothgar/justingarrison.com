@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Breaking into tech"
 date: 2021-01-09
 description: "Resources and advice for beginning a career in tech"

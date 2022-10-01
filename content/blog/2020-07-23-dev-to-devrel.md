@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "From Dev to Devrel"
 date: 2020-07-23
 description: "My experience switching from an engineer to a developer advocate"

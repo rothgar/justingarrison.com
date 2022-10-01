@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Whiteboarding software and hardware"
 date: 2021-02-02
 description: "Options for personal and shared whiteboarding"

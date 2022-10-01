@@ -1,5 +1,5 @@
 ---
-author: "Hugo Authors"
+autho: "Justin Garrison"
 title: "Infrastructure as software"
 date: 2022-06-01
 description: "What is beyond infrastructure as code?"
