@@ -52,14 +52,14 @@ DefaultContentLanguageInSubdir = true
   reddit = "https://www.reddit.com/user/xrothgarx"
 
 [[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
-
-[[menu.main]]
   name = "Blog"
   url = "/blog"
   weight = 2
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
 
 [[menu.main]]
   name = "About"
