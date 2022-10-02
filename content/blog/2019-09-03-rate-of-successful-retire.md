@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "Rate of Successful Retire"
 date: 2019-05-29
 description: "Rate of Successful Retire"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/retire-banner.jpg 
 images: [/img/retire-banner.jpg]
 ---

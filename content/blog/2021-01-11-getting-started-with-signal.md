@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "Getting started with signal"
 date: 2021-01-11
 description: "How to take advantage of Signal for secure messages and calls"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/signal-og-banner.png 
 images: [/img/signal-og-banner.png]
 ---

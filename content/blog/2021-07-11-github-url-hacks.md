@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "GitHub URL Hacks"
 date: 2021-07-11
 description: "Handy tricks and shortcuts while using GitHub"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/octocat-banner.jpg 
 images: [/img/octocat-banner.jpg]
 ---

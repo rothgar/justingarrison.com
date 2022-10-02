@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "How to On-board New Hires Remotely"
 date: 2020-08-31
 description: "Tips for new employee's first week"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/remotly.jpg 
 images: [/img/remotly.jpg]
 ---

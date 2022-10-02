@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "Infrastructure as software"
 date: 2022-06-01
 description: "What is beyond infrastructure as code?"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/infrastructure-as-software-banner.jpg 
 images: [/img/infrastructure-as-software-banner.jpg]
 ---

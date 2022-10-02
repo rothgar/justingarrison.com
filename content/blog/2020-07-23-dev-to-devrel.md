@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "From Dev to Devrel"
 date: 2020-07-23
 description: "My experience switching from an engineer to a developer advocate"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/dev-to-devrel-banner.png 
 images: [/img/dev-to-devrel-banner.png]
 ---

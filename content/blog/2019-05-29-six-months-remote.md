@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "Experience from Six Months of Remote Work"
 date: 2019-05-29
 description: "Things I've learned from working remote full time for 6 months"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/six-months-remote-banner.png 
 images: [/img/six-months-remote-banner.png]
 ---

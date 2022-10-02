@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "Devops vs SRE"
 date: 2022-08-30
 description: "Should you be doing Devops or SRE? The answer is yes!"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/devops-vs-sre-banner.jpg 
 images: [/img/devops-vs-sre-banner.jpg]
 images:

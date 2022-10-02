@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "Reverse engineering a chrome extension"
 date: 2022-01-19
 description: "Finding hidden APIs for fun and flexibility"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/revue-banner.png 
 images: [/img/revue-banner.png]
 ---

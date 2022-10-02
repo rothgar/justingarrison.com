@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "Lessons learned from 123dev newsletter"
 date: 2021-12-27
 description: "One year of failures and tips for new and existing newsletters"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/123-dev.jpg 
 images: [/img/123-dev.jpg]
 ---

@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "Palm Companion Phone Review"
 date: 2020-01-27
 description: "Palm Companion Review: Mission Accomplished"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/palm-phone.jpg 
 images: [/img/palm-phone.jpg]
 ---

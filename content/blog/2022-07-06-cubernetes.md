@@ -1,9 +1,8 @@
 ---
-author: "Hugo Authors"
+author: "Justin Garrison"
 title: "Cubernetes"
 date: 2022-07-05
 description: "Parts list and process for creating a home lab Kuberenetes cluster"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/cubernetes-banner.jpg 
 images: [/img/cubernetes-banner.jpg]
 ---

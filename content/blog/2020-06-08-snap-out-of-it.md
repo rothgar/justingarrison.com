@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "Snap out of it"
 date: 2020-06-08
 description: "How to uninstall and block snapd on Ubuntu"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/snap-banner.jpg 
 images: [/img/snap-banner.jpg]
 ---

@@ -1,9 +1,8 @@
 ---
-autho: "Justin Garrison"
+author: "Justin Garrison"
 title: "Making 123dev Website"
 date: 2021-06-04
 description: "Problems I figured out when creating 123dev.email"
-tags: ["shortcodes", "privacy"]
 thumbnail: /img/123dev-post-banner.png 
 images: [/img/123dev-post-banner.png]
 ---
