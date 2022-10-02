@@ -1,51 +1,86 @@
-baseurl = "https://justingarrison.com"
-title = "home"
-siteTitle = "Justin Garrison's personal site"
-theme = "hugo-theme-basic"
-languageCode = "en-us"
-image = "/img/og-banner.jpg"
-googleAnalytics = "UA-140948948-1"
-enableEmoji = true
-copyright = "© 2016-2021 Justin Garrison <a href='https://twitter.com/rothgar'>@rothgar</a>."
-description = "Articles and links from Justin"
+baseURL = 'https://justingarrison.com/'
+languageCode = 'en-us'
+title = ' Justin Garrison'
+theme = 'blist'
 
-[taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
 
 [params]
-  titleEmoji = ":metal:"
-  twitter = "rothgar"
-  image = "https://justingarrison.com/img/og-banner.jpg"
-  imageAlt = "Two arcade characters with a shipping container and kubernetes logo"
-  siteTitle = "Justin Garrison's personal site"
-  description = "Articles and links from Justin"
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
 
-[Permalinks]
-  post = "blog/:slug"
+  # Enable search in header
+  enableSearch = true
 
-[[params.menu]]
-  name = "blog"
-  url = "blog/"
+  # Custom copyright - optional
+  copyright = "© 2016-2022 Justin Garrison @rothgar."
+  favicon = "🤘"
 
-[[params.menu]]
-  name = "about"
-  url = "about/"
+  logo = ""
 
-[[params.menu]]
-  name = "newsletter"
-  url = "https://123dev.email"
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-blue-100"
 
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    respectDoNotTrack = true
-    useSessionStorage = true
-  [privacy.twitter]
-    enableDNT = true
-  [privacy.youtube]
-    privacyEnhanced = true
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
 
-[markup.goldmark.renderer]
-unsafe= true
+  # Used to hide the post metadata such as posted date, reading time and word count
+  # Can be used at site level or page level
+  hideMeta = false
+
+  # To hide "Other languages" option if the post is available in multiple languages
+  # Can be used at site level or page level
+  hideOtherLanguages = false
+
+  #intro
+  introTitle =  "Hi, I'm Justin. "
+  introSubtitle =  " I'm a developer who works in the cloud and open source. I've helped create Oscar winning movies, build Disney+, and work at AWS. I'm a Linux and Kubernetes nerd who loves to help people."
+  introPhoto = "/img/profile.png"
+
+[params.homepage.social]
+  # Global params common for both languages
+  title = "Follow me"
+  description = "Here's where I hang out in social media"
+  twitter = "https://twitter.com/rothgar"
+  github = "https://github.com/rothgar"
+  linkedin = "https://www.linkedin.com/in/justingarrison/"
+  tiktok = "https://www.tiktok.com/@justinleegarrison"
+  youtube = "https://youtube.com/justingarrison"
+  reddit = "https://www.reddit.com/user/xrothgarx"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 3
+
+[[menu.main]]
+  name = "Timeline"
+  url = "https://timeline.justingarrison.com"
+  weight = 4
+
+[[menu.main]]
+  name = "Newsletter"
+  url = "https://www.123dev.email/"
+  weight = 5
+
+[build]
+  writeStats = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true

@@ -1,36 +1,29 @@
-+++
-title = "GitHub URL Hacks"
-description = "Handy tricks and shortcuts while using GitHub"
-tags = ["development"]
-categories = ["Development"]
-date = 2021-07-11T00:00:00-07:00
-image = "https://justingarrison.com/img/octocat-banner.jpg"
-+++
-![3d printed GitHub Octocat](../../img/octocat-banner.jpg)
+---
+author: "Justin Garrison"
+title: "GitHub URL Hacks"
+date: 2021-07-11
+description: "Handy tricks and shortcuts while using GitHub"
+thumbnail: /img/octocat-banner.jpg 
+images: [/img/octocat-banner.jpg]
+---
 
-Photo by <a href="https://unsplash.com/@synkevych?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Roman Synkevych</a> on <a href="https://unsplash.com/s/photos/github?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-GitHub's UI has improved a lot over the years but sometimes you just need quick access without clicking.
-Here are a few GitHub URL tips to get you data you want faster.
-One cool thing is all of these tips give raw text output so they work great with `curl` and other CLI tools.
+GitHub’s UI has improved a lot over the years but sometimes you just need quick access without clicking. Here are a few GitHub URL tips to get you data you want faster. One cool thing is all of these tips give raw text output so they work great with `curl` and other CLI tools.
 
 ## Public SSH keys
 
-If you want to get a users public ssh keys you can add `.keys` to the end of their user profile URL.
-Here's mine.
+If you want to get a users public ssh keys you can add `.keys` to the end of their user profile URL. Here’s mine.
 
 https://github.com/rothgar.keys
 
 ## Profile image
 
-If you want to get a user's profile picture you can add `.png` to the end of their user profile URL.
+If you want to get a user’s profile picture you can add `.png` to the end of their user profile URL.
 
 https://github.com/rothgar.png
 
 ## Public GPG keys
 
-If you want to get gpg public keys you can add `.gpg` to the end of their user profile URL.
-I don't actually have any gpg keys so you can see what it looks like if a user doesn't have them with my profile.
+If you want to get gpg public keys you can add `.gpg` to the end of their user profile URL. I don’t actually have any gpg keys so you can see what it looks like if a user doesn’t have them with my profile.
 
 https://github.com/rothgar.gpg
 
@@ -52,21 +45,17 @@ https://github.com/$USER/$REPO/tags.atom
 
 ### User feeds
 
-Public RSS feed will show public user activity.
-Repo stars, releases, etc.
+Public RSS feed will show public user activity. Repo stars, releases, etc.
 
 https://github.com/rothgar.atom
 
-There's also a private user feed which is great if you don't log into GitHub often.
+There’s also a private user feed which is great if you don’t log into GitHub often.
 
-It requires you to click in the UI, but I still find it incredibly useful.
-Log in to your account and on your dashboard scroll all the way to the bottom and click "Subscribe to your news feed".
-This will generate a private token automatically and send you to `https://github.com/$USER.private.atom?token=...`
+It requires you to click in the UI, but I still find it incredibly useful. Log in to your account and on your dashboard scroll all the way to the bottom and click “Subscribe to your news feed”. This will generate a private token automatically and send you to `https://github.com/$USER.private.atom?token=...`
 
-You can plug this directly into an RSS reader and it'll include everything that normally shows up on your private dashboard feed.
-Repos and users you follow, project releases, and more.
+You can plug this directly into an RSS reader and it’ll include everything that normally shows up on your private dashboard feed. Repos and users you follow, project releases, and more.
 
-![picture of subscribe button](../../img/github-private-feed.png)
+![picture of subscribe button](https://d33wubrfki0l68.cloudfront.net/80cacff1e588cd472671763c07ec7c5ea0856e45/cab08/img/github-private-feed.png)
 
 ### Security advisories
 
@@ -96,5 +85,4 @@ https://github.com/rothgar/bashScheduler/compare/main...dev.patch
 
 https://github.com/rothgar/bashScheduler/compare/main...dev.diff
 
-If I missed any cool URL tricks please let me know on [Twitter](https://twitter.com/rothgar).
-You can find a ton of other cool GitHub tricks in this [github-cheat-sheet repo](https://github.com/tiimgreen/github-cheat-sheet).
+If I missed any cool URL tricks please let me know on [Twitter](https://twitter.com/rothgar). You can find a ton of other cool GitHub tricks in this [github-cheat-sheet repo](https://github.com/tiimgreen/github-cheat-sheet).
