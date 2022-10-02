@@ -15,7 +15,6 @@ DefaultContentLanguageInSubdir = true
 
   # Custom copyright - optional
   copyright = "© 2016-2022 Justin Garrison @rothgar."
-  favicon = "🤘"
 
   logo = ""
 
