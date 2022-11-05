@@ -3,6 +3,7 @@ title = "Automated, immutable, and declarative"
 description = "The infrastructure lies we tell ourselves, and why they're useful."
 date = 2022-11-04T01:21:24-07:00
 thumbnail = "/img/automated-immutable-declarative-banner.jpg"
+images = ["/img/automated-immutable-declarative-banner.jpg"]
 draft = false
 +++
 
