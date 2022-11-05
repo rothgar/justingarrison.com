@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /secrets/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.justingarrison.com/sitemap.xml
