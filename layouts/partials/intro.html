@@ -1,7 +1,7 @@
 <section class="{{ .Site.Params.ascentColor | default "bg-pink-50" }} dark:bg-gray-900">
   <div class="container grid items-center max-w-screen-lg gap-4 px-6 py-12 mx-auto md:grid-cols-2 lg:gap-16">
     <div>
-      <h1 class="mb-4 text-4xl font-bold">{{ .Site.Params.introTitle | safeHTML}}</h1>
+      <h1 class="order-first mb-4 text-4xl font-bold">{{ .Site.Params.introTitle | safeHTML}}</h1>
       <p class="pb-6 text-lg font-light">{{ .Site.Params.introSubtitle | safeHTML}}</p>
       <form class="py-6 font-light bg-gray-800 rounded-lg dark:bg-blue-200" name="subscribe" method="POST" data-netlify="true" action="/" required>
         <p>
@@ -15,6 +15,6 @@
           </p>
       </form>
     </div>
-    <img class="rounded-lg shadow-sm" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
+    <img class="order-first rounded-lg shadow-sm md:order-last" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
   </div>
 </section>
