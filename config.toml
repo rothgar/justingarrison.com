@@ -6,6 +6,10 @@ theme = 'blist'
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
 
+[author]
+  name = 'Justin Garrison'
+  email = 'justin@linux.com'
+
 [params]
   # Enable the darkmode toggle in header
   darkModeToggle = true
