@@ -1,0 +1,119 @@
+<header class="container relative flex flex-wrap justify-between gap-4 p-6 mx-auto md:justify-between">
+  <a href="{{ .Site.Home.Permalink }}" class="text-2xl font-extrabold capitalize">
+    {{ if .Site.Params.logo }}
+    <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" class="h-8 max-w-full" />
+    {{ else }}
+    {{ .Site.Title }}
+    {{ end }}
+  </a>
+  <button class="mobile-menu-button md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+  <ul class="absolute left-0 z-10 flex-col items-end hidden w-full gap-4 px-6 pb-6 bg-white mobile-menu md:p-0 top-full md:w-auto md:relative md:flex md:flex-row md:items-center lg:gap-6 dark:bg-gray-800">
+
+    {{ range .Site.Menus.main }}
+    <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+    {{ end }}
+
+    {{ if .Site.IsMultiLingual }}
+    {{ if ge (len .Site.Languages) 3 }}
+    <li class="relative cursor-pointer">
+      <span class="flex items-center gap-2 language-switcher">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="12" r="9" />
+          <line x1="3.6" y1="9" x2="20.4" y2="9" />
+          <line x1="3.6" y1="15" x2="20.4" y2="15" />
+          <path d="M11.5 3a17 17 0 0 0 0 18" />
+          <path d="M12.5 3a17 17 0 0 1 0 18" />
+        </svg>
+        <a>{{ i18n "languageSwitcherLabel" }}</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+          viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" />
+        </svg>
+      </span>
+      <div
+        class="absolute left-0 z-10 flex-col hidden gap-2 mt-2 bg-gray-100 language-dropdown top-full dark:bg-gray-900 dark:text-white">
+        {{ range .Site.Languages }}
+        {{ if not (eq .Lang $.Site.Language.Lang) }}
+        <a class="px-3 py-2 hover:bg-gray-200 dark:hover:bg-gray-700" href="/{{ .Lang }}" lang="{{ .Lang }}">{{ default .Lang .LanguageName }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </li>
+    {{ else }}
+    <li class="flex items-center">
+      {{ range .Site.Languages }}
+      {{ if not (eq .Lang $.Site.Language.Lang) }}
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5"
+        stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <circle cx="12" cy="12" r="9" />
+        <line x1="3.6" y1="9" x2="20.4" y2="9" />
+        <line x1="3.6" y1="15" x2="20.4" y2="15" />
+        <path d="M11.5 3a17 17 0 0 0 0 18" />
+        <path d="M12.5 3a17 17 0 0 1 0 18" />
+      </svg>
+      <a href="/{{ .Lang }}" lang="{{ .Lang }}">{{ default .Lang
+        .LanguageName
+      }}</a>
+      {{ end }}
+      {{ end }}
+    </li>
+    {{ end }}
+    {{ end }}
+    
+    <li class="grid place-items-center">
+      <a href="/index.xml"><span class="inline-block cursor-pointer rss">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 11a9 9 0 0 1 9 9"></path>
+          <path d="M4 4a16 16 0 0 1 16 16"></path>
+          <circle cx="5" cy="19" r="1"></circle>
+        </svg>
+      </span>
+    </a>
+    </li>
+    
+    {{ if .Site.Params.enableSearch }}
+    <li class="grid place-items-center">
+      <span class="inline-block cursor-pointer open-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    {{ end }}
+
+    {{ if .Site.Params.darkModeToggle }}
+    <li class="grid place-items-center">
+      <span class="inline-block cursor-pointer toggle-dark-mode">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="12" r="3" />
+          <line x1="12" y1="5" x2="12" y2="5.01" />
+          <line x1="17" y1="7" x2="17" y2="7.01" />
+          <line x1="19" y1="12" x2="19" y2="12.01" />
+          <line x1="17" y1="17" x2="17" y2="17.01" />
+          <line x1="12" y1="19" x2="12" y2="19.01" />
+          <line x1="7" y1="17" x2="7" y2="17.01" />
+          <line x1="5" y1="12" x2="5" y2="12.01" />
+          <line x1="7" y1="7" x2="7" y2="7.01" />
+        </svg>
+      </span>
+    </li>
+    {{ end }}
+  </ul>
+</header>
