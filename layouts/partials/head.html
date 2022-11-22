@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="icon" href="{{ if (isset .Site.Params "favicon") }}{{ .Site.Params.favicon }}{{ else }}/favicon.ico{{ end }}">
+  <link rel="alternate" type="application/rss+xml" title="Justin's Blog" href="https://justingarrison.com/index.xml">
 
   <title>
     {{ block "title" . }} {{- .Title }} - {{ .Site.Title -}} {{ end }}
