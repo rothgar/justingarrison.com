@@ -1,7 +1,7 @@
-PHONY: serve
+PHONY: serve pub
 
 serve:
 	hugo serve -D -F
 
-public:
-	hugo serve -b https://x.gerbil-dragon.ts.net/blog -F --appendPort=false
+pub:
+	hugo serve -b https://x.gerbil-dragon.ts.net -F --appendPort=false
