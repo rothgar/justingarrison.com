@@ -15,6 +15,8 @@ Platform engineers are imperative allergic.
 All of these idealized extremes are guaranteed to waste your time.
 They are helpful mechanisms to employ as needed, but without understanding their usefulness can be dangerous traps.
 
+<!--more-->
+
 ## Automated
 The benefits of speed, consistency, and a deep understanding of the systems you're automating include having more time to automate more things and a fast track to a sysadmin level 2.
 Automation can be leveraged thousands of times for thousands of hours or maybe only once a year for a few minutes.

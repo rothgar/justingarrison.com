@@ -6,6 +6,10 @@ theme = 'blist'
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
 
+[author]
+  name = 'Justin Garrison'
+  email = 'justin@linux.com'
+
 [params]
   # Enable the darkmode toggle in header
   darkModeToggle = true
@@ -43,7 +47,6 @@ DefaultContentLanguageInSubdir = true
   # Global params common for both languages
   title = "Follow me"
   description = "Here's where I hang out in social media"
-  twitter = "https://twitter.com/rothgar"
   github = "https://github.com/rothgar"
   linkedin = "https://www.linkedin.com/in/justingarrison/"
   tiktok = "https://www.tiktok.com/@justinleegarrison"
