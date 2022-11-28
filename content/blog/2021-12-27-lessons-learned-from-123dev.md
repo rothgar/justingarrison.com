@@ -81,8 +81,6 @@ Most people probably don’t care about those integrations but I was having hard
 
 When I saw that Revue was getting Twitter profile integrations I knew I needed to switch. Twitter was the only place I was promoting the newsletter and having a link to [123dev.email](https://123dev.email/) was not resulting in new subscribers.
 
-{{< tweet user="rothgar" id="1428371221524189186" >}}
-
 I didn’t want to lose my existing issues in Buttondown and Revue doesn’t accept markdown content or import from Buttondown so I meticulously trasferred every issue and scheduled them to publish. Once all the issues were published—Revue only lets you publish one per day—I imported my existing subscribers and switched the website sign-up form.
 
 This triggered spam detection on my account and I was locked out for over a week. I wish I would have picked Revue from the begining. It’s not as automation friendly but gives me a lot of good enough features for the current subscriber size.

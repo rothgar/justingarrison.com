@@ -53,10 +53,6 @@ Here it is next to my Veer. Yes, I still have it.
 
 ![img](/img/palm-and-veer.jpg)
 
-And here it is in my hand.
-
-{{< tweet user="rothgar" id="1215134319578009600" >}}
-
 Something this size has trade-offs. There is only 1 button on the side of the device which does triple duty as power on/off, long press (standard Android long press), double press shortcut can do different things configured in the settings. I configured double press to open the camera because that’s what I’m used to now with the Pixel.
 
 Sometimes only having one button was really annoying because there’s no hardware volume control. There’s a volume slider in the notification shade which works, but it’s a pain to pull the phone out of my pocket, unlock it, drop the shade, and adjust volume when my environment gets louder or quieter.
@@ -64,8 +60,6 @@ Sometimes only having one button was really annoying because there’s no hardwa
 The screen is obviously small and hard to type on with the default Fleksey keyboard. I found swipe with Gboard to work pretty well and I was able to text, tweet, and take notes without too much frustration.
 
 Make sure you adjust the keyboard size in the settings to make it a little bit bigger. Sometimes Gboard refused to get the words I wanted with swiping and I had to tap out a few words. Lots fo mistypong you kust get usde to.
-
-{{< tweet user="rothgar" id="1215326718220652544" >}}
 
 The camera was able to take pictures, but don’t rely on those pictures being good at low light or high quality in the current market. Here are some examples.
 
@@ -88,12 +82,6 @@ I occasionally had other seemingly random hardware problems with bluetooth and W
 My guess is most of these problems are because of optimizations for low power and using a limited band phone on Google Fi. I got used to it, but not something I would want to give to a less technical savvy person.
 
 The best part of the hardware is the reactions people give when they see you using the phone or try to scan a pass with it. On more than one occasion people thought it was a joke and then were amazed at how capable the tiny device is.
-
-
-
-{{< tweet user="rothgar" id="1216942251651125249" >}}
-
-
 
 ## Software
 

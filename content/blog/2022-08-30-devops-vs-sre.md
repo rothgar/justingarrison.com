@@ -23,11 +23,6 @@ For years the devops community fought, and lost, the battle to keep “devops”
 
 Devops requires companies to work inefficiently because you have a lot of role duplication on teams, but you gain in speed and flexibility in team ownership. Devops jobs became new names for sysadmins, Jenkins administers, and occasionally a permanent member of an application team.
 
-
-{{< tweet user="rothgar" id="1561073602832650241" >}}
-
-
-
 Along came SRE—straight out of Google. SRE was easier to adopt for a lot of organizations because the reporting structure and centralization of expertise already existed in most large organizations. It’s harder to restructure an organization to allow self-sustaining, independent teams (i.e. devops) than it is to change the expertise on existing team structures (i.e. SRE).
 
 ### Space notes

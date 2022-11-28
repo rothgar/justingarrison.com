@@ -7,9 +7,7 @@ thumbnail: /img/remotly.jpg
 images: [/img/remotly.jpg]
 ---
 
-I think there’s a rule that any helpful tweet with 10k likes should be a blog post. So here’s mine.
-
-{{< tweet user="rothgar" id="1296911972215058432" >}}
+I think there’s a rule that any helpful tweet with 10k likes should be a blog post.
 
 My past two on-boardings have taught me a lot about what it takes for me to feel comfortable in a new job. I owe these insights to my managers for good and bad experiences that showed me things that mattered to me and things that I thought important that turned out not to be.
 
@@ -127,8 +125,6 @@ Disney Animation had a “work room” which was a secret room where employees w
 
 In the digital world this often takes the form of no-management private chat rooms, out of band group chat (e.g. WhatsApp, sms), or public #YELLING channel. There needs to be space for that and personally I think within the first week is a good time to be invited.
 
-{{< tweet user="rothgar" id="1296935070436007938" >}}
-
 ## Day 5
 
 When you on-board in person it’s easy to socialize and meet people. Remotely you don’t get lunches together. There’s no common coffee room or ping pong tables. You have to be very intentional about building trust between people.
@@ -146,8 +142,6 @@ On-site jobs have benefited from building this trust quickly through colocation,
 On-boarding remote isn’t incredibly different from in person but you have to be more explicit to create time for the new hire to get to know people better and you need to make sure things are written down and searchable for a new employee. I’m sorry but having a bullet point in your 80 page employee manual doesn’t count.
 
 In person on-boarding benefits a lot from asking the same questions multiple times and meeting lots of people quickly through lunches and organic meeting spaces (e.g. coffee, cafe, bathrooms). Focus on making your information easy to search and ways you can help build trust on the team and your new hire should be able to on-board quickly.
-
-{{< tweet user="rothgar" id="1296916038810873856" >}}
 
 I found a lot of great resources in replies to my thread (thank you all). Some things I don’t think would work at companies I’ve worked for but it may be worth reading to get ideas on how you would like to change on-boarding.
 
