@@ -9,7 +9,7 @@ NODE_VERSION = "18.10.0"
 
 [context.branch-deploy]
 publish = "public"
-command = "npm i && hugo -D --gc -b $DEPLOY_URL"
+command = "npm i && hugo -D -F --gc -b $DEPLOY_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.104.2"
