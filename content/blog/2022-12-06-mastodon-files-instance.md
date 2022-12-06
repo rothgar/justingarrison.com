@@ -63,7 +63,7 @@ Now let's explain what they do.
 
 ### User discovery
 When you're using Mastodon you can search for a user on any Mastodon instance with `@user@domain`.
-This is a short hand format which relies on [webfinger](https://webfinger.net/) to translate a user at a domain into a sandard URL.
+This is a short hand format which relies on [webfinger](https://webfinger.net/) to translate a user at a domain into a standard URL.
 
 When you do this search your Mastodon server will query the external server
 
