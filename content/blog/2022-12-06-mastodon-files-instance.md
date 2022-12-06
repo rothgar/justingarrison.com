@@ -1,7 +1,7 @@
 +++
 title = "Mastodon instance with 6 files"
 description = "How to make a single user, publish only, mastodon instance with four json files and two pictures"
-date = 2022-12-06T12:00:00-07:00
+date = 2022-12-06T07:00:00-07:00
 thumbnail = "/img/mastodon-files-banner.png"
 images = ["/img/mastodon-files-banner.png"]
 draft = false
