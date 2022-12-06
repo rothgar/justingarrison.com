@@ -22,12 +22,17 @@ I have a lot of my own concerns about Mastodon that I'll save for a future post.
 
 There are scalability challenges on multiple levels.
 The size of databases and uploads is what most admins are concerned with, but number of active users and scale of a single user (e.g. celebrity, company, government) is what will really take down a social network.
+An instance with 30,000 active users [costs nearly $1900 per month.](https://hub.fosstodon.org/more-upgrades-twitter-storm/)
 
 If Mastodon is going to be adopted by the critical users it needs to grow, instances—many of which are run by volunteers—would be crushed under the operational and financial responsibility.
 Governments and companies aren't going to join shared servers; they're going to run their own instances on the domains they already own.
 The best way to scale and maintain a server is to not run one.
 
 ## Create a server
+
+If you want to watch how I created these files check out the video.
+
+{{< youtube id="pyB7AFsQoJs" title="Create a Mastodon instance in just 2 files" >}}
 
 So let's create a Mastodon instance using JSON files.
 You can see the files on [GitHub.](https://github.com/rothgar/static-mastodon)
