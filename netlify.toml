@@ -16,6 +16,6 @@ HUGO_VERSION = "0.104.2"
 NODE_VERSION = "18.10.0"
 
 [[redirects]]
-from = "/shares"
-to = "/blog"
+from = "/shares/year-of-linux-desktop/"
+to = "/blog/year-of-linux-desktop/"
 
