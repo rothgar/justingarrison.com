@@ -59,11 +59,6 @@ DefaultContentLanguageInSubdir = true
   weight = 2
 
 [[menu.main]]
-  name = "Shares"
-  url = "/shares"
-  weight = 3
-
-[[menu.main]]
   name = "About"
   url = "/about"
   weight = 4
@@ -77,7 +72,7 @@ DefaultContentLanguageInSubdir = true
   writeStats = false
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
 # syntax highlight settings
 [markup]
