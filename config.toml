@@ -59,13 +59,13 @@ DefaultContentLanguageInSubdir = true
   weight = 2
 
 [[menu.main]]
-  name = "About"
-  url = "/about"
+  name = "Shares"
+  url = "/shares"
   weight = 3
 
 [[menu.main]]
-  name = "Timeline"
-  url = "https://timeline.justingarrison.com"
+  name = "About"
+  url = "/about"
   weight = 4
 
 [[menu.main]]
