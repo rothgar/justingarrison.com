@@ -5,6 +5,7 @@ date: 2022-06-01
 description: "What is beyond infrastructure as code?"
 thumbnail: /img/infrastructure-as-software-banner.jpg 
 images: [/img/infrastructure-as-software-banner.jpg]
+pinned: true
 ---
 
 Infrastructure has changed a lot, but the mantra of Infrastructure as Code (IaC) has been the goal for organizations for far too long. The idea that you can create infrastructure with text was a big shift for the industry 10 years ago, but it hasn’t held up to the test of time.

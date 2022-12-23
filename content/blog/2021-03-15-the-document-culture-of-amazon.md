@@ -5,6 +5,7 @@ date: 2021-03-15
 description: "A look at Amazon's culture of writing and reading"
 thumbnail: /img/documents-banner.jpg 
 images: [/img/documents-banner.jpg]
+pinned: true
 ---
 
 In my time at Amazon, I’ve observed the way we use documents is incredibly unique. A lot has been written about the six-pager and PR/FAQ so I’m not going focus on document formats, but I wanted to share how our process benefits from document-based meetings. I also have identified some areas for improvement if you are looking to adopt document-based meetings for your workplace.
