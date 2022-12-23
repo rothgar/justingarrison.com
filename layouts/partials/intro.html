@@ -24,6 +24,7 @@
     const email = urlParams.get('email')
     if ( email === "submit" ) {
       var submitBtn = document.getElementById("formSubmitBtn");
+      document.getElementById("email").readOnly = true;
       submitBtn.innerText = "Thanks!";
       submitBtn.disabled = true;
       submitBtn.classList.remove("dark:hover:bg-blue-500", "hover:bg-blue-500");
