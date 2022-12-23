@@ -72,7 +72,7 @@ DefaultContentLanguageInSubdir = true
   writeStats = false
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
 
 # syntax highlight settings
 [markup]
