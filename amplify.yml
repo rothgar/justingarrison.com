@@ -4,10 +4,10 @@ frontend:
     preBuild:
       commands:
         - curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep "browser_download_url.*hugo_extended.*_Linux-64bit\.tar\.gz" | cut -d ":" -f 2,3 | tr -d '\\"' | wget -qi -
-        - tar -xzf "$(find . -name "*Linux-64bit.tar.gz")"
+        - tar -xzf hugo_extended_*_Linux-64bit.tar.gz
         - chmod +x hugo
         - mv hugo /usr/bin/hugo
-        - rm -rf "$(find . -name '*Linux-64bit.tar.gz')"
+        - rm -rf hugo_extended_*_Linux-64bit.tar.gz
         - hugo version
     build:
       commands:
