@@ -67,20 +67,26 @@ DefaultContentLanguageInSubdir = true
   website = "mastodon"
   url = "https://mastodon.social/@jgarr"
 
-[[menu.main]]
-  name = "Blog"
-  website = "/blog"
-  weight = 2
+[languages]
+  [languages.en]
+    contentDir = "content"
+    weight = 1
+    LanguageName = "English"
 
-[[menu.main]]
-  name = "About"
-  website = "/about"
-  weight = 4
-
-[[menu.main]]
-  name = "Newsletter"
-  website = "https://www.123dev.email/"
-  weight = 5
+  [[languages.en.menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 2
+  
+  [[languages.en.menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 4
+  
+  [[languages.en.menu.main]]
+    name = "Newsletter"
+    url = "https://www.123dev.email/"
+    weight = 5
 
 [build]
   writeStats = false
