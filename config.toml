@@ -1,4 +1,4 @@
-baseURL = 'https://justingarrison.com/'
+basewebsite = 'https://justingarrison.com/'
 languageCode = 'en-us'
 title = ' Justin Garrison'
 theme = 'blist'
@@ -36,7 +36,7 @@ DefaultContentLanguageInSubdir = true
 
   # To hide "Other languages" option if the post is available in multiple languages
   # Can be used at site level or page level
-  hideOtherLanguages = false
+  hideOtherLanguages = true
 
   #intro
   introTitle =  "Hi, I'm Justin. "
@@ -47,25 +47,39 @@ DefaultContentLanguageInSubdir = true
   # Global params common for both languages
   title = "Follow me"
   description = "Here's where I hang out in social media"
-  github = "https://github.com/rothgar"
-  linkedin = "https://www.linkedin.com/in/justingarrison/"
-  tiktok = "https://www.tiktok.com/@justinleegarrison"
-  youtube = "https://youtube.com/justingarrison"
-  reddit = "https://www.reddit.com/user/xrothgarx"
+
+  [[params.homepage.social.icons]]
+  website = "github"
+  url = "https://github.com/rothgar"
+  [[params.homepage.social.icons]]
+  website = "linkedin"
+  url = "https://www.linkedin.com/in/justingarrison/"
+  [[params.homepage.social.icons]]
+  website = "tiktok"
+  url = "https://www.tiktok.com/@justinleegarrison"
+  [[params.homepage.social.icons]]
+  website = "youtube"
+  url = "https://youtube.com/justingarrison"
+  [[params.homepage.social.icons]]
+  website = "reddit"
+  url = "https://www.reddit.com/user/xrothgarx"
+  [[params.homepage.social.icons]]
+  website = "mastodon"
+  url = "https://mastodon.social/@jgarr"
 
 [[menu.main]]
   name = "Blog"
-  url = "/blog"
+  website = "/blog"
   weight = 2
 
 [[menu.main]]
   name = "About"
-  url = "/about"
+  website = "/about"
   weight = 4
 
 [[menu.main]]
   name = "Newsletter"
-  url = "https://www.123dev.email/"
+  website = "https://www.123dev.email/"
   weight = 5
 
 [build]
