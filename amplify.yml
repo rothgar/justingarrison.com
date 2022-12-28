@@ -3,11 +3,11 @@ frontend:
   phases:
     preBuild:
       commands:
-        - curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep "browser_download_url.*hugo_extended.*_Linux-64bit\.tar\.gz" | cut -d ":" -f 2,3 | tr -d '\\"' | wget -qi -
-        - tar -xzf hugo_extended_*_Linux-64bit.tar.gz
-        - chmod +x hugo
+      commands:
+        - wget https://github.com/gohugoio/hugo/releases/download/v${VERSION_HUGO}/hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz
+        - tar --overwrite -xf hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz hugo
         - mv hugo /usr/bin/hugo
-        - rm -rf hugo_extended_*_Linux-64bit.tar.gz
+        - rm -rf hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz
         - hugo version
     build:
       commands:
