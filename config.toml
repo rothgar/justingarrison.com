@@ -77,16 +77,12 @@ DefaultContentLanguageInSubdir = true
     name = "Blog"
     url = "/blog"
     weight = 2
-  
+
   [[languages.en.menu.main]]
     name = "About"
     url = "/about"
     weight = 4
-  
-  [[languages.en.menu.main]]
-    name = "Newsletter"
-    url = "https://www.123dev.email/"
-    weight = 5
+
 
 [build]
   writeStats = false
