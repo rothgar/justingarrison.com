@@ -3,7 +3,7 @@
     <div>
       <h1 class="order-first mb-4 text-4xl font-bold">{{ .Site.Params.introTitle | safeHTML}}</h1>
       <p class="pb-6 text-lg font-light">{{ .Site.Params.introSubtitle | safeHTML}}</p>
-      <!--<form class="py-6 font-light bg-gray-800 rounded-lg dark:bg-blue-200" name="subscribe" method="POST" data-netlify="true" action="/?email=submit" required>
+      <form class="py-6 font-light bg-gray-800 rounded-lg dark:bg-blue-200" name="subscribe" method="POST" action="/subscribe" required>
         <p>
           <div class="flex flex-col items-center space-y-4">
             <label class="text-2xl font-semibold text-white dark:text-blue-900" for="email">Subscribe via email</label>
@@ -13,12 +13,12 @@
           </div>
         </p>
           </p>
-      </form>-->
+      </form>
     </div>
     <img class="order-first rounded-lg shadow-sm md:order-last" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
   </div>
 
-  <!--<script>
+  <script>
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const email = urlParams.get('email')
@@ -31,5 +31,5 @@
       submitBtn.classList.replace("dark:bg-blue-700", "dark:bg-pink-600");
       submitBtn.classList.replace("bg-blue-700", "bg-pink-600");
     }
-  </script>-->
+  </script>
 </section>
