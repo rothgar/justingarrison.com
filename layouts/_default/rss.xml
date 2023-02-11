@@ -32,7 +32,7 @@
     <webfeeds:accentColor>DBEAFE</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     {{- with .OutputFormats.Get "RSS" -}}
-    {{ printf "<atom:link href=%q rel=\"self\" type=%q />%q</link>" .Permalink .MediaType | safeHTML }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}
     {{ range $pages }}
     <item>
