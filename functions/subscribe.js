@@ -4,6 +4,7 @@
 export async function onRequestPost(context) {
     try {
         let email = await context.request.formData();
+        console.log(email);
         await SUBS.put(email, "true");
         let pretty = JSON.stringify([...email], null, 2);
         return new Response(pretty, {
