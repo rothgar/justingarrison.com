@@ -3,7 +3,8 @@
  */
 export async function onRequestPost(context) {
     try {
-        let input = await context.request.formData();
+        let email = await context.request.formData();
+        await SUBS.put(input[0], "true");
         let pretty = JSON.stringify([...input], null, 2);
         return new Response(pretty, {
             headers: {
