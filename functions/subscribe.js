@@ -8,7 +8,7 @@ export async function onRequestPost(context) {
         let pretty = JSON.stringify([...email], null, 2);
         return new Response(pretty, {
             headers: {
-                'Content-Type': 'application/json;charset=utf-8',
+                'Content-Type': 'application/text;charset=utf-8',
             },
         });
     } catch (err) {
