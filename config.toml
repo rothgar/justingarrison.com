@@ -1,4 +1,4 @@
-basewebsite = 'https://justingarrison.com/'
+baseurl = 'https://justingarrison.com/'
 languageCode = 'en-us'
 title = ' Justin Garrison'
 theme = 'blist'
