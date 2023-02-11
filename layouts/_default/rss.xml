@@ -31,9 +31,8 @@
     <webfeeds:icon>{{ $.Site.BaseURL }}img/profile.png</webfeeds:icon>
     <webfeeds:accentColor>DBEAFE</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
-    <webfeeds:analytics id="UA-140948948-1" engine="GoogleAnalytics"/>
     {{- with .OutputFormats.Get "RSS" -}}
-    {{ printf "<link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />%q</link>" .Permalink .MediaType | safeHTML }}
     {{- end -}}
     {{ range $pages }}
     <item>
