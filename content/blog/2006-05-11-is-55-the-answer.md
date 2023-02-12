@@ -5,7 +5,7 @@ description: "Experimenting with fuel efficiency at 55 MPH"
 date: 2006-05-11
 images: [/img/55-banner.jpg]
 thumbnail: /img/55-banner.jpg
-draft: true
+draft: false
 ---
 
 ## What I used:
