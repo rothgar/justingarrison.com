@@ -4,12 +4,12 @@
 export async function onRequestPost(context) {
     try {
         let email = await context.request.formData();
-        console.log(JSON.stringify(email, null, 2));
-        await context.env.SUBS.put(email, "true");
+        await context.env.SUBS.put(email[0][0][1], "true");
         let pretty = JSON.stringify([...email], null, 2);
+        console.log(pretty);
         return new Response(pretty, {
             headers: {
-                'Content-Type': 'application/text;charset=utf-8',
+                'Content-Type': 'application/json;charset=utf-8',
             },
         });
     } catch (err) {
