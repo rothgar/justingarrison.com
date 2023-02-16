@@ -2,7 +2,7 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/hugo:1": {
-    "extended": true
+      "extended": true
     },
     "ghcr.io/eitsupi/devcontainer-features/just:0": {}
   }
