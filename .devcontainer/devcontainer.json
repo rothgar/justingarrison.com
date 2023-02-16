@@ -22,5 +22,5 @@
 	"forwardPorts": [
 		1313
 	],
-  "postCreateCommand": "ln -s /usr/bin/hugo/bin/hugo /usr/bin/hugo"
+  "postCreateCommand": "ln -s /usr/local/hugo/bin/hugo /usr/bin/hugo"
 }
