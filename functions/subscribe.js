@@ -3,7 +3,8 @@
  */
 export async function onRequestPost(context) {
     try {
-        let email = await context.request.formData().entries().split(",")[1];
+        let rawForm = await context.request.formData().entries().split(",");
+        let email = rawForm[1];
         await context.env.SUBS.put(email, "true");
 
         return new Response("Thank you for subscribing " + email, { status: 200 });
