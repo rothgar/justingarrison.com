@@ -22,5 +22,5 @@
 	"forwardPorts": [
 		1313
 	],
-  "postCreateCommand": "ln -s /usr/local/hugo/bin/hugo /usr/bin/hugo"
+  "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
 }
