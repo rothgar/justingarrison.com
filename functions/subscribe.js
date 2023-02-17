@@ -3,7 +3,9 @@
  */
 export async function onRequestPost(context) {
     try {
-        let rawForm = await context.request.formData().entries().split(",");
+        let rawForm = await context.request.formData()
+        let entries = rawForm.entries();
+        let entriesA = entries.split(",");
         let email = rawForm[1];
         await context.env.SUBS.put(email, "true");
 
