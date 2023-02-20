@@ -14,7 +14,9 @@ export async function onRequestPost(context) {
         // emailAddress = body.toString().replace("email,", "")
         // console.log(emailAddress);
 
-        await context.env.SUBS.put(emailAddress, "true");
+        await context.env.SUBS.put(emailAddress, "true", {
+            metadata: { lastUpdate: Date() },
+          );
         return new Response("Thank you for subscribing " + emailAddress, { status: 200 });
     } catch (err) {
         return new Response('Error parsing JSON content', { status: 400 });
