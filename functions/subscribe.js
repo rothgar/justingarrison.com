@@ -4,11 +4,10 @@
 export async function onRequestPost(context) {
     try {
         let email = await context.request.formData();
-        let body = email.entries();
-        console.log(email);
+        let body = Array.from(email.entries());
         console.log(body);
 
-        emailAddress = body.replace("email,", "")
+        emailAddress = body.toString().replace("email,", "")
         console.log(emailAddress);
 
         await context.env.SUBS.put(body, "true");
