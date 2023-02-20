@@ -5,7 +5,7 @@ export async function onRequestPost(context) {
     try {
         let email = await context.request.formData();
 
-        let pretty = JSON.stringify(email, null, 2);
+        let pretty = JSON.stringify(email.entries(), null, 2);
         await context.env.SUBS.put(pretty, "true");
         let body = Array.from(email.entries());
         return new Response("Thank you for subscribing " + body, { status: 200 });
