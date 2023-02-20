@@ -8,11 +8,14 @@ export async function onRequestPost(context) {
         console.log(typeof body);
         let bodyType = typeof (body);
 
+        let bodyArray = body.split(",");
+        let emailAddress = bodyArray[1].replace("]", "");
+
         // emailAddress = body.toString().replace("email,", "")
         // console.log(emailAddress);
 
         await context.env.SUBS.put(body, "true");
-        return new Response("Thank you for subscribing " + body + " type " + bodyType, { status: 200 });
+        return new Response("Thank you for subscribing " + body + " email " + emailAddress, { status: 200 });
     } catch (err) {
         return new Response('Error parsing JSON content', { status: 400 });
     }
