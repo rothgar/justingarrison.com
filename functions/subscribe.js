@@ -4,7 +4,7 @@
 export async function onRequestPost(context) {
     try {
         let email = await context.request.formData();
-        let body = JSON.stringify(Array.from(email.entries())[0]);
+        let body = Array.from(email.entries())[0];
         console.log(typeof body);
         let bodyType = typeof (body);
 
