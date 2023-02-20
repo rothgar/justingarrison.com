@@ -9,7 +9,7 @@ export async function onRequestPost(context) {
         emailAddress = body.replace("email,", "")
 
         await context.env.SUBS.put(body, "true");
-        return new Response("Thank you for subscribing " + body + " or " + "", { status: 200 });
+        return new Response("Thank you for subscribing " + body + " or " + emailAddress, { status: 200 });
     } catch (err) {
         return new Response('Error parsing JSON content', { status: 400 });
     }
