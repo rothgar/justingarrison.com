@@ -85,7 +85,7 @@ DefaultContentLanguageInSubdir = true
 
 
 [build]
-  writeStats = false
+  writeStats = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
