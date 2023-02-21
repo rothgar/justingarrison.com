@@ -3,7 +3,6 @@
  */
 export async function onRequestPost(context) {
     try {
-        console.log('hello');
         let c = JSON.stringify(context);
         console.log(c);
 
