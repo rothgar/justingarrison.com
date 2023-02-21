@@ -16,3 +16,7 @@ post +TITLE:
 # run a server publicly via tailscale
 pub:
 	hugo serve -b https://x.gerbil-dragon.ts.net -F --appendPort=false
+
+# tail preview worker
+tail:
+    wrangler pages deployment --environment preview --project-name justingarrison-com tail

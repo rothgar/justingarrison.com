@@ -16,7 +16,7 @@ export async function onRequestPost(context) {
         await context.env.SUBS.put(emailAddress, "true", {
             metadata: { lastUpdate: Date() },
         });
-        return new Response("Thank you for subscribing " + emailAddress, { status: 200 });
+        return new Response("https://justingarrison.com/?email=submit", { status: 301 });
     } catch (err) {
         return new Response('Error parsing JSON content', { status: 400 });
     }
