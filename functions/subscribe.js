@@ -3,6 +3,10 @@
  */
 export async function onRequestPost(context) {
     try {
+        console.log('hello');
+        let c = JSON.stringify(context);
+        console.log(c);
+
         let emailForm = await context.request.formData();
         // come out as ["email","<email>"]
         let body = JSON.stringify(Array.from(emailForm.entries())[0]);

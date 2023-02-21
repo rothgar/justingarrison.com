@@ -1,6 +1,6 @@
 ---
 author: "Justin Garrison"
-title: "Amazon EC2 naming explained"
+title: "Amazon EC2 names explained"
 date: 2023-02-06
 draft: true
 description: "Decoding EC2 instance type names to understand the which is best for you."
@@ -17,22 +17,25 @@ Here's an infographic to visually describe the parts of an instance name.
 
 A quick disclaimer, I work at Amazon but this is my personal blog reflecting my personal opinion.
 All of the information was gathered from public sources and from my experience.
-I wrote this because I wished I had it as a guide when I was first learning EC2. 
+I wrote this because I wished I had it as a guide when I was first learning EC2.
 
-![infographic of ec2 families, generations, capabilities, and sizes.](/img/ec2-names-full.jpg "Full image [here](/img/ec2-names-full.jpg)")
+![infographic of ec2 families, generations, capabilities, and sizes.](/img/ec2-names-infographic-small.jpg)
+Full image [here](/img/ec2-names-infographic.jpg) PDF [here](/img/ec2-names-infographic.pdf)
 
-So how do you break down an instance with a name like `m6g.16xlarge`.
-From the info above we know `m` is from the general purpose family which has a balance of CPU and memory.
-Specifically it has 4 GiB of memory for every 1 vCPU.
-`6` means it's a 6th generation.
-The `g` capability shows that it has a graviton processor, and `16xlarge` is 16 times bigger than a `m6g.xlarge`.
+So how do you decipher an instance with the name `r7iz.8xlarge`?
+From the info above we know `r` is from the memory family which has more memory per vCPU than general purpose.
+Specifically it has 8 GiB of memory for every 1 vCPU.
+`7` means it's a 7th generation.
+The `iz` capabilities shows that it has a Intel processor running at turbo frequencies, and `8xlarge` is 8 times bigger than a `r7iz.xlarge`.
 
-Many capabilities aren't listed in the name because some families already include capabilities by default.
-The `m` instance all are EBS and network optimized by default which is usually denoted with the `b` and `n` capabilities.
+![](/img/ec2-names-example.jpg)
+
+Many capabilities aren't listed in the name because some families include capabilities by default.
+For example, the `m` family are all EBS and network optimized by default which is usually denoted with the `b` and `n` capabilities.
 Some of the larger `m` instances have have local NVMe storage which add `d` to the name.
 
 These capabilities aren't always obvious so you're going to have to learn about what's available.
-The good thing is you generally don't need to know about _all_ of the instance types.
+The good thing is you don't need to memorize _all_ of the instance types.
 
 Knowing one instance from the four most common families—general purpose (`m`), compute (`c`), memory (`r`), and storage (`d` or `i`)—will get you started with almost any application.
 Here's more info about each of the family groups and types.
@@ -124,7 +127,7 @@ Older generations are eventually retired and replaced.
 
 Instance type generations include improvements in processor generations, memory speed, and network performance.
 Intel based instances usually jump a generation when a new generation of chips are used.
-I personally can never remember what ["lake" generation](https://aws.amazon.com/intel/) is the best with Intel so I use the highest EC2 generation possible.
+I personally can never remember what [lake generation](https://aws.amazon.com/intel/) is the best with Intel so I use the highest EC2 generation possible.
 
 [Graviton](https://aws.amazon.com/ec2/graviton/) also jumps architecture versions with generations.
 ARM based 1st generation types are using Graviton 1, generations 2-6 are using Graviton 2, and generation 7 is using Graviton 3 (or 3E).
@@ -182,7 +185,7 @@ Depending on which workloads are scheduled to which instances will give you a wi
 The first thing you need to do when picking an instance type is understanding your workload's needs.
 You need to find the bottlenecks and limits of your application before you decide on an instance to use.
 
-Benchmarking on your laptop is *not* the right approach.
+Benchmarking on your laptop is _not_ the right approach.
 Unless you`re doing remote development in EC2, your local development environment is likely _very_ different than where the application will run in production.
 
 Running a single [Apache bench](https://httpd.apache.org/docs/2.4/programs/ab.html) or [hey](https://github.com/rakyll/hey) benchmark might get you started, but what you need to have a way to continuously profile your application in production.
@@ -208,7 +211,7 @@ One of my favorite options is the full CSV export which I regularly download to 
 
 ## Conclusion
 
-The most important thing to know when picking the best instance is it depends.
+The most important thing to know when picking the "best" instance is it depends.
 The reason there are so many different instance types is to allow for a variety of applications to run at optimal performance and cost.
 
 If you are running production workloads and want consistent performance the best investment you can make is to continuously profile your application's performance.
