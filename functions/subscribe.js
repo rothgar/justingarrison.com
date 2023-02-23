@@ -13,6 +13,7 @@ export async function onRequestPost(context) {
         let bodyArray = body.split(",");
         let emailAddress = bodyArray[1].replace("]", "").replace(/(^"|"$)/g, '');
 
+        console.log("email: " + emailAddress)
         await context.env.SUBS.put(emailAddress, "true", {
             metadata: { lastUpdate: Date() },
         });
