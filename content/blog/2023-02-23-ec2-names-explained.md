@@ -1,8 +1,8 @@
 ---
 author: "Justin Garrison"
 title: "Amazon EC2 names explained"
-date: 2023-02-06
-draft: true
+date: 2023-02-23
+draft: false
 description: "Decoding EC2 instance type names to understand the which is best for you."
 thumbnail: /img/ec2-names-banner.png 
 images: [/img/ec2-names-banner.png]
