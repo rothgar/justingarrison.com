@@ -30,6 +30,13 @@
   />
   {{ end -}}
 
+  <!-- Canonical URL from https://cloudcannon.com/community/learn/hugo-seo-best-practices/-->
+  {{- if isset .Params "canonical" -}}
+    <link rel="canonical" href="{{ .Params.canonical }}" />
+  {{- else -}}
+    <link rel="canonical" href="{{ .Permalink }}" />
+  {{- end }}
+
   <!-- Katex support -->
   {{ if .Params.math }}
     <link

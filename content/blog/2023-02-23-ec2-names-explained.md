@@ -1,38 +1,51 @@
 ---
 author: "Justin Garrison"
-title: "Amazon EC2 naming explained"
-date: 2023-02-06
-draft: true
+title: "Amazon EC2 names explained"
+date: 2023-02-23
+draft: false
 description: "Decoding EC2 instance type names to understand the which is best for you."
 thumbnail: /img/ec2-names-banner.png 
 images: [/img/ec2-names-banner.png]
 ---
 
-[Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/) has over 100 unique instance types with more than 600 size options.
+[Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/) has over 100 unique instance types with more than 600 size combinations.
 Picking the right instance type can be a difficult task for even the most seasoned engineer.
 Running an application on the largest, fastest instance you can afford does not guarantee the best performance.
 
 If you've ever wanted to understand instance type names or need help picking the right instance for your application you've found the right article.
-Here's an infographic to visually describe the parts of an instance name.
+Here's a moving picture version of this blog post.
+{{< youtube bfjDLbHnhBw >}}
+
+And here's a static picture version of the same information.
 
 A quick disclaimer, I work at Amazon but this is my personal blog reflecting my personal opinion.
 All of the information was gathered from public sources and from my experience.
-I wrote this because I wished I had it as a guide when I was first learning EC2. 
+I wrote this because I wished I had it as a guide when I was first learning EC2.
 
-![infographic of ec2 families, generations, capabilities, and sizes.](/img/ec2-names-full.jpg "Full image [here](/img/ec2-names-full.jpg)")
+![infographic of ec2 families, generations, capabilities, and sizes.](/img/ec2-names-infographic-small.jpg)
+Full image [here](/img/ec2-names-infographic.jpg) PDF [here](/img/ec2-names-infographic.pdf)
 
-So how do you break down an instance with a name like `m6g.16xlarge`.
-From the info above we know `m` is from the general purpose family which has a balance of CPU and memory.
-Specifically it has 4 GiB of memory for every 1 vCPU.
-`6` means it's a 6th generation.
-The `g` capability shows that it has a graviton processor, and `16xlarge` is 16 times bigger than a `m6g.xlarge`.
+Instance names are made up of four sections.
 
-Many capabilities aren't listed in the name because some families already include capabilities by default.
-The `m` instance all are EBS and network optimized by default which is usually denoted with the `b` and `n` capabilities.
-Some of the larger `m` instances have have local NVMe storage which add `d` to the name.
+* Family
+* Generation
+* Capabilities
+* Size
+
+So how do you decipher an instance with the name `r7iz.8xlarge`?
+From the info above we know `r` is from the memory family which has more memory per vCPU than general purpose.
+Specifically it has 8 GiB of memory for every 1 vCPU.
+`7` means it's a 7th generation instancy type.
+The `iz` capabilities has a Intel processor (`i`) running at turbo frequencies (`z`), and `8xlarge` is 8 times bigger than a `r7iz.xlarge`.
+
+![an example instance name r7iz.8xlarge](/img/ec2-names-example.jpg)
+
+Many capabilities aren't listed in the name because some families include capabilities by default.
+For example, the `m` family are all EBS and network optimized by default which is usually denoted with the `b` and `n` capabilities.
+Some of the larger `m` instances have have local NVMe storage which adds `d` to the name.
 
 These capabilities aren't always obvious so you're going to have to learn about what's available.
-The good thing is you generally don't need to know about _all_ of the instance types.
+The good thing is you don't need to memorize _all_ of the instance types.
 
 Knowing one instance from the four most common families—general purpose (`m`), compute (`c`), memory (`r`), and storage (`d` or `i`)—will get you started with almost any application.
 Here's more info about each of the family groups and types.
@@ -42,11 +55,11 @@ Here's more info about each of the family groups and types.
 Instance families come in [six different groups](https://aws.amazon.com/ec2/instance-types/):
 
 * General Purpose
-* Compute Optimized
-* Memory Optimized
-* Accelerated Computing
-* Storage Optimized
-* HPC Optimized
+* Compute
+* Memory
+* Accelerated
+* Storage
+* HPC
 
 Most categories have multiple type options that refine instance features.
 
@@ -124,7 +137,7 @@ Older generations are eventually retired and replaced.
 
 Instance type generations include improvements in processor generations, memory speed, and network performance.
 Intel based instances usually jump a generation when a new generation of chips are used.
-I personally can never remember what ["lake" generation](https://aws.amazon.com/intel/) is the best with Intel so I use the highest EC2 generation possible.
+I personally can never remember what [lake generation](https://aws.amazon.com/intel/) is the best with Intel so I use the highest EC2 generation possible.
 
 [Graviton](https://aws.amazon.com/ec2/graviton/) also jumps architecture versions with generations.
 ARM based 1st generation types are using Graviton 1, generations 2-6 are using Graviton 2, and generation 7 is using Graviton 3 (or 3E).
@@ -169,29 +182,30 @@ The additional capabilities are:
 Instances sizes are almost always twice as big than the previous size.
 A large is twice as big as a medium and an xlarge is twice as big as a large.
 The multiples of xlarge are almost always powers of 2 (2, 4, 8, 16), but there are 10xlarge, 12xlarge, and a few other odd xlarge numbers that exist.
-
 The main thing with sizes is the vCPU and memory count increase linearly so if you know the ratio of a family or one of the sizes you can figure out the larger sizes too.
+
 Network throughput and storage do not increase linearly and those are often harder to figure out.
 Many instances have a size where there is a jump in network performance or storage and everything above that size is consistent.
 
 Size is hardest to figure out with shared resources like a Kubernetes cluster.
 Depending on which workloads are scheduled to which instances will give you a wide variety of performance if you're not careful.
+We recommend specifying the instance type or size your workload needs directly in the manifest with a [nodeSelector](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector) for consistent performance.
 
 # Choosing the best instance
 
 The first thing you need to do when picking an instance type is understanding your workload's needs.
 You need to find the bottlenecks and limits of your application before you decide on an instance to use.
 
-Benchmarking on your laptop is *not* the right approach.
-Unless you`re doing remote development in EC2, your local development environment is likely _very_ different than where the application will run in production.
+Benchmarking on your laptop is _not_ the right approach.
+Unless you`re doing remote development in EC2, your local development environment is _very_ different than where the application will run in production.
 
-Running a single [Apache bench](https://httpd.apache.org/docs/2.4/programs/ab.html) or [hey](https://github.com/rakyll/hey) benchmark might get you started, but what you need to have a way to continuously profile your application in production.
+Running a single [Apache bench](https://httpd.apache.org/docs/2.4/programs/ab.html) or [hey](https://github.com/rakyll/hey) benchmark might get you started, but you need to have a way to continuously profile your application in production.
 Knowing how your application performs with production data, users, and environment is the only way to know for sure.
 Invest time in collecting data from production before optimizing your instances.
 
 Once you know your application's bottlenecks you can identify the correct ratio of performance between CPU, memory, network, and storage.
 Keep in mind that running applications on shared instances—as is common with Kubernetes—your application will perform differently.
-The way [Linux shares a CPU is very different from high level reservations](https://youtu.be/NqtfDy_KAqg) and you should request similarly sized instances.
+The way [Linux shares a CPU is very different from high level reservations](https://youtu.be/NqtfDy_KAqg) and you should request instance types in your workload manifest.
 
 ## EC2 instance selector
 
@@ -208,7 +222,7 @@ One of my favorite options is the full CSV export which I regularly download to 
 
 ## Conclusion
 
-The most important thing to know when picking the best instance is it depends.
+The most important thing to know when picking the "best" instance is it depends.
 The reason there are so many different instance types is to allow for a variety of applications to run at optimal performance and cost.
 
 If you are running production workloads and want consistent performance the best investment you can make is to continuously profile your application's performance.
@@ -223,3 +237,5 @@ Using a [nodeSelector](https://aws.github.io/aws-eks-best-practices/scalability/
 * GiB = gibibyte is measured in powers of 2 while GB is powers of 10. 1 GiB is 2{{< super "30" >}} and 1 GB is 10{{< super "9" >}}
 * IO = Input/output. This is the action of reading and writing to a storage device.
 * vCPU = A virtual processor representing a single processing thread from a physical CPU.
+
+The infographic was created by [Adeeba N. on Upwork](https://www.upwork.com/freelancers/~015e3eecabe09da519).

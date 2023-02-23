@@ -62,7 +62,7 @@
 
     {{ .Content }}
 
-    <!--<form class="py-4 mx-24 font-light bg-gray-800 rounded-lg dark:bg-blue-200" name="subscribe" method="POST" data-netlify="true" action="?email=submit" required>
+    <form class="py-4 mx-24 font-light bg-gray-800 rounded-lg dark:bg-blue-200" name="subscribe" method="POST" action="/subscribe" required>
       <p>
         <div class="flex flex-col items-center space-y-4">
           <label class="text-2xl font-semibold text-white dark:text-blue-900" for="email">Subscribe via email</label>
@@ -87,7 +87,7 @@
         submitBtn.classList.replace("dark:bg-blue-700", "dark:bg-pink-600");
         submitBtn.classList.replace("bg-blue-700", "bg-pink-600");
       }
-    </script>-->
+    </script>
   </article>
   {{- partial "social.html" . -}}
 {{ end }}

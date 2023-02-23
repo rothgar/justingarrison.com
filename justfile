@@ -20,3 +20,7 @@ pub:
 # run a server in a codespace
 cs:
 	/usr/local/hugo/bin/hugo serve -D --appendPort false --baseUrl /
+
+# tail preview worker
+tail:
+    wrangler pages deployment --environment preview --project-name justingarrison-com tail
