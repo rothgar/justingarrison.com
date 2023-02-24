@@ -13,7 +13,7 @@ export async function onRequestPost(context) {
         let bodyArray = body.split(",");
         let emailAddress = bodyArray[1].replace("]", "").replace(/(^"|"$)/g, '');
 
-        console.log(JSON.stringify(context.headers));
+        console.log("referer: " + context.headers.get('Referer'));
 
         console.log("email: " + emailAddress)
         await context.env.SUBS.put(emailAddress, "true", {
