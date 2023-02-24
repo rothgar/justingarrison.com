@@ -12,10 +12,11 @@ export async function onRequestPost(context) {
         let formArray = formData.split(",");
 
         // get email
-        let emailAddress = formArray[1].replace(/("|]|[)/g, '');
+        // remove ", [, ]
+        let emailAddress = formArray[1].replace(/["\[\]]/g, '');
 
         // get referrer
-        let refAddress = formArray[3].replace(/("|]|[)/g, '');
+        let refAddress = formArray[3].replace(/["\[\]]/g, '');
 
         // console.log(refArray);
         console.log("email: " + emailAddress);
@@ -23,7 +24,7 @@ export async function onRequestPost(context) {
         await context.env.SUBS.put(emailAddress, "true", {
             metadata: { lastUpdate: Date() },
         });
-        return new Response.redirect("https://justingarrison.com/?email=submit", 301);
+        return new Response.redirect(refAddress + "?email=submit", 301);
     } catch (err) {
         return new Response('Error parsing JSON content', { status: 400 });
     }
