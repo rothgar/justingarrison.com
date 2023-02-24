@@ -12,14 +12,14 @@ export async function onRequestPost(context) {
 
         let emailArray = emailData.split(",");
         let emailAddress = emailArray[1].replace("]", "").replace(/(^"|"$)/g, '');
-        console.log("after email");
+        // console.log("after email");
 
         // get referrer
         let refData = JSON.stringify(Array.from(emailForm.entries()));
         let refArray = refData.split(",");
-        let refAddress = refArray[1].replace("]", "").replace(/(^"|"$)/g, '');
+        let refAddress = refArray[3].replace("]", "").replace(/(^"|"$)/g, '');
         console.log("after referrer");
-        console.log(refArray);
+        // console.log(refArray);
         console.log("email: " + emailAddress);
         console.log("referrer: " + refAddress);
         await context.env.SUBS.put(emailAddress, "true", {
