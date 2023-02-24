@@ -15,11 +15,11 @@ export async function onRequestPost(context) {
         console.log("after email");
 
         // get referrer
-        let refData = JSON.stringify(Array.from(emailForm.entries()[1]));
+        let refData = JSON.stringify(Array.from(emailForm.entries()));
         let refArray = refData.split(",");
         let refAddress = refArray[1].replace("]", "").replace(/(^"|"$)/g, '');
-        console.log("after referrer")
-
+        console.log("after referrer");
+        console.log(refArray);
         console.log("email: " + emailAddress);
         console.log("referrer: " + refAddress);
         await context.env.SUBS.put(emailAddress, "true", {
