@@ -11,12 +11,9 @@ export async function onRequestPost(context) {
         let formData = JSON.stringify(Array.from(emailForm.entries()));
         let formArray = formData.split(",");
 
-        console.log(formArray);
         // get email
         // remove ", [, ]
-        console.log("1" + formArray[1]);
         let emailAddress = formArray[1].replace(/["\[\]]/g, '');
-        console.log("3" + formArray[3]);
         // get referrer
         let refAddress = formArray[3].replace(/["\[\]]/g, '');
 
