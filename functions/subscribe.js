@@ -12,10 +12,10 @@ export async function onRequestPost(context) {
         let formArray = formData.split(",");
 
         // get email
-        let emailAddress = formArray[1].replace("]", "").replace(/(^"|"$)/g, '');
+        let emailAddress = formArray[1].replace(/("|]|[)/g, '');
 
         // get referrer
-        let refAddress = formArray[3].replace("]", "").replace(/(^"|"$)/g, '');
+        let refAddress = formArray[3].replace(/("|]|[)/g, '');
 
         // console.log(refArray);
         console.log("email: " + emailAddress);
