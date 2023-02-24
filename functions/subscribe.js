@@ -4,7 +4,7 @@
 export async function onRequestPost(context) {
     try {
         let c = JSON.stringify(context);
-        console.log(c);
+        // console.log(c);
 
         let emailForm = await context.request.formData();
         // come out as [["email","<email>"],["referrer","<url>"]]
