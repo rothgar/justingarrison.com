@@ -24,8 +24,8 @@ export async function onRequestPost(context) {
         await context.env.SUBS.put(emailAddress, "true", {
             metadata: { lastUpdate: Date() },
         });
-        return new Response.redirect(refAddress + "?email=submit", 301);
+        return Response.redirect(refAddress + "?email=submit", 301);
     } catch (err) {
-        return new Response('Error parsing JSON content', { status: 400 });
+        return Response('Error parsing JSON content', { status: 400 });
     }
 }
