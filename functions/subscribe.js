@@ -8,17 +8,15 @@ export async function onRequestPost(context) {
 
         let emailForm = await context.request.formData();
         // come out as [["email","<email>"],["referrer","<url>"]]
-        let emailData = JSON.stringify(Array.from(emailForm.entries())[0]);
+        let formData = JSON.stringify(Array.from(emailForm.entries()));
+        let formArray = formData.split(",");
 
-        let emailArray = emailData.split(",");
-        let emailAddress = emailArray[1].replace("]", "").replace(/(^"|"$)/g, '');
-        // console.log("after email");
+        // get email
+        let emailAddress = formArray[1].replace("]", "").replace(/(^"|"$)/g, '');
 
         // get referrer
-        let refData = JSON.stringify(Array.from(emailForm.entries()));
-        let refArray = refData.split(",");
-        let refAddress = refArray[3].replace("]", "").replace(/(^"|"$)/g, '');
-        console.log("after referrer");
+        let refAddress = formArray[3].replace("]", "").replace(/(^"|"$)/g, '');
+
         // console.log(refArray);
         console.log("email: " + emailAddress);
         console.log("referrer: " + refAddress);
