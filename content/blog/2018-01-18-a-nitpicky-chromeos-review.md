@@ -8,15 +8,13 @@ thumbnail: /img/nitpicky-chrome-os-review-1.webp
 draft: false
 ---
 
-# A Nitpicky ChromeOS Review
-
 _TL;DR I'd love if Google made the ChromeOS experience better for professionals but I have little hope they'll figure it out any time soon given the issues I experienced._
 
 I've been using a Pixelbook as my main mobile computer for a little over a month now. I have long wanted to use ChromeOS as my full time OS for a number of years but it always seemed to not be ready. I was finally ready to jump in knowing there would be limitations, but I wasn't prepared for some of the limitations and bugs I found. Here's my experience.
 
 Just a quick note about how I use mobile computing devices. I have always liked small mobile computing devices that are used more as thin clients to a powerful desktop or VM. I have been using computers that way ever since I discovered SSH and RDP. I also had a goal of using ChromeOS without enabling developer mode or installing Linux/Crouton. So far I have managed to get by without developer mode, but I'm not sure how much longer that will last.
 
-# The Good
+## The Good
 
 Let's get this out of the way first. The [Pixelbook hardware](https://store.google.com/us/product/google_pixelbook_specs?hl=en-US) is very premium. The screen has great resolution, the keyboard feels really nice to type on (maybe a little bit too loud), and the trackpad hardware has never let me down. The rubberized palm rests help a lot when using the Pixelbook over an extended period of time.
 
@@ -38,7 +36,7 @@ Standard chrome tabs
 
 Touch friendly tabs
 
-# The Bad
+## The Bad
 
 These are annoyances but not terrible bugs or deal breakers for me using ChromeOS. Some of them may have fixes I'm not aware of; if they have fixes, I could not find them.
 
@@ -72,7 +70,7 @@ Some other random things that have held me up include
 - Copy/paste from terminal only auto-copies text. No ability to use ctrl+shift+c
 - No support for java or flash which limits usability when managing some hardware devices
 
-# The Ugly
+## The Ugly
 
 Here's bugs I found. Some are small and could be fixed, others make me scared to use ChromeOS as my main device.
 
@@ -91,7 +89,7 @@ Here's some random bugs I ran into
 - Every time I update ChromeOS my VPN profiles disappear. Very annoying and even though the profiles don't exist I somehow have a name collision and I have to uninstall/reinstall the VPN app. This is likely a Cisco app bug but it creates a standard ChromeOS VPN profile which I would assume to be supported.
 - I've had multiple times where the laptop resumes from sleep but I can't log in. Not sure why. No error, no info, just denies login until I reboot the system.
 
-# Conclusion
+## Conclusion
 
 All of the problems above are not things I deal with when using a Linux or Mac laptop. While MacOS seems to get worse with each release, Windows and Linux keep getting better. Some of the problems would be resolved with crouton while others would require installing a full version of Linux. I think I could look past these problems if ChromeOS were a new operating system (it was released in 2011) or if there were noticeable benefits such as better battery life.
 
