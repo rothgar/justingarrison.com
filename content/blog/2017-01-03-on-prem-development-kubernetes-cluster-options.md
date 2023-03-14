@@ -36,7 +36,7 @@ Here’s where things get tricky. Hardware requires more commitment because you 
 
 This is an obvious choice. In fact it even had a whole blog series on the [Kubernetes blog](http://blog.kubernetes.io/2015/11/creating-a-Raspberry-Pi-cluster-running-Kubernetes-the-shopping-list-Part-1.html) to explain how to do it.
 
-![https://miro.medium.com/v2/resize:fit:448/1*mWA-JAe-0aoaDOTqjn6UaA.png](https://miro.medium.com/v2/resize:fit:448/1*mWA-JAe-0aoaDOTqjn6UaA.png)
+![](/img/kubernetes-on-premise-1.webp)
 
 It is one of the cheapest clusters you can buy. For a 5 node cluster it will cost you $300-$400. However, if you’ve ever built a Raspberry Pi cluster you’ll quickly notice some limitations.
 
@@ -50,7 +50,7 @@ You can easily search and find dozens of [examples](https://medium.com/google-c
 
 PINE A64+
 
-![https://miro.medium.com/v2/resize:fit:700/1*VuubDsVTtOLYXEBQx08ojQ.jpeg](https://miro.medium.com/v2/resize:fit:700/1*VuubDsVTtOLYXEBQx08ojQ.jpeg)
+![](/img/kubernetes-on-premise-2.webp)
 
 There are [other ARM boards](http://hackerboards.com/ringing-in-2017-with-90-hacker-friendly-single-board-computers/) that are worth looking at but I’m not going to go into them because they all typically have the same limitations as the Pi.
 
@@ -69,13 +69,13 @@ If you have the money here are some great options for you to look at. (click the
 
 [Sub-atomic cluster](http://www.projectatomic.io/blog/2016/06/micro-cluster-part-1/)
 
-![https://miro.medium.com/v2/resize:fit:700/1*8Y-LtwiJkhd1EYb2UE3iMA.jpeg](https://miro.medium.com/v2/resize:fit:700/1*8Y-LtwiJkhd1EYb2UE3iMA.jpeg)
+![](/img/kubernetes-on-premise-3.webp)
 
 - Intel Stick PCs: These come in a lot of different variations but essentially are a small stick powered via USB and with an HDMI port. If you’re lucky some have Ethernet ports which makes clustering them a lot easier.
 
 [https://hackernoon.com/diy-kubernetes-cluster-with-x86-stick-pcs-b0b6b879f8a7#.6eivoptm1](https://hackernoon.com/diy-kubernetes-cluster-with-x86-stick-pcs-b0b6b879f8a7#.6eivoptm1)
 
-![https://miro.medium.com/v2/resize:fit:700/1*HhechQy5aH7ihcw-H2scgQ.jpeg](https://miro.medium.com/v2/resize:fit:700/1*HhechQy5aH7ihcw-H2scgQ.jpeg)
+![](/img/kubernetes-on-premise-4.webp)
 
 - [UP boards](http://up-shop.org/) are another alternative. They are typically a little faster than the Minnowboards and the new UP boards have 8GB RAM options. I couldn’t find an example cluster with UP boards but if you have one please let me know.
 
@@ -101,7 +101,7 @@ One thing to note, just because something is a “desktop” doesn’t mean it h
 
 [DIY nono ITX build](https://www.reddit.com/r/homelab/comments/5j77r1/my_home_development_cluster_build_a_5_node_nano/)
 
-![https://miro.medium.com/v2/resize:fit:600/1*zXQw82xAtWvROk4mRREgiQ.jpeg](https://miro.medium.com/v2/resize:fit:600/1*zXQw82xAtWvROk4mRREgiQ.jpeg)
+![](/img/kubernetes-on-premise-5.webp)
 
 Typically when people look for a desktop cluster they automatically think of the Intel NUC computers (example NUC cluster [here](https://github.com/aledbf/kubernetes-cluster-intel-nuc)). These are great but are going to be one of the more expensive options. I’d suggest you also look at the DIY route. With a little more time investment you can build something more specialized and cheaper.
 
