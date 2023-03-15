@@ -35,6 +35,7 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}
     {{ range $pages }}
+    {{ $banner_image := (printf "<img src='%s%s'/>" $.Site.BaseURL .Params.thumbnail) }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
@@ -42,7 +43,7 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end -}}</description>
-      <content:encoded>{{- with .Params.images }}<img src="{{ index . 0 | absURL }}"/>{{ end -}}{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
+      <content:encoded>{{ (printf "<![CDATA[%s %s]]>" $banner_image .Content) | safeHTML }}</content:encoded>
     </item>
     {{ end }}
   </channel>
