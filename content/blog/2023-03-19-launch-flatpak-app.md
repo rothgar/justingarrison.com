@@ -4,7 +4,7 @@ description: "How to make it easier to launch command line utilities and GUI app
 date: 2023-03-19T21:53:18-07:00
 images: [/img/flatpak-terminal-banner.jpg]
 thumbnail: /img/flatpak-terminal-banner.jpg
-draft: true
+draft: false
 ---
 Flatpak might be a great portable, secure packaging format, but it's not the most user friendly tool.
 There are plenty of downsides to flatpak apps, but it is increasingly the most ubiquitous Linux packaging format.
