@@ -8,8 +8,6 @@ thumbnail: /img/1_-WdCovvH4X90gApczj79mw.jpeg
 draft: false
 ---
 
-![1_-WdCovvH4X90gApczj79mw.jpeg](/img/1_-WdCovvH4X90gApczj79mw.jpeg)
-
 TL;DR — I was using an iPhone 4s for two years, an iPhone 5c for a few months, I really liked how fast and small they both were. I bought a Nexus 5, used it for a couple weeks, but didn’t like the size and poor camera performance. I bought a Motorola Moto X. It’s not as good as an iPhone, but it’s the best Android phone I could find.
 
 First here is just a little bit of background about my phone priorities because my priorities are probably not yours.
