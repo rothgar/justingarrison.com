@@ -1,7 +1,7 @@
 ---
 author: "Justin Garrison"
-title: ""
-description: "Recommended Reading (or listening)"
+title: "Recommended Reading (or listening)"
+description: "At my current job I have the luxury of a typical Southern California commute."
 date: 2015-11-15
 images: [/img/1_AvKho-JuIFVkOmHh57mPVA.jpeg]
 thumbnail: /img/1_AvKho-JuIFVkOmHh57mPVA.jpeg

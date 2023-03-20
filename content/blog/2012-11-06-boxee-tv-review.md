@@ -1,7 +1,7 @@
 ---
 author: "Justin Garrison"
 title: "Boxee TV Review"
-description: ""
+description: "It’s not very often that I am so excited for a product that I go get it on launch day."
 date: 2012-11-06
 images: [/img/1_VT7kcRvyKXohLCkfaIVuGw.jpeg]
 thumbnail: /img/1_VT7kcRvyKXohLCkfaIVuGw.jpeg

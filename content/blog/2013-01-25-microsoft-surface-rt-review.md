@@ -1,7 +1,7 @@
 ---
 author: "Justin Garrison"
 title: "Microsoft Surface RT Review"
-description: ""
+description: "I was going to write a full review of the Surface RT but I just couldn’t bring myself"
 date: 2013-01-25
 images: [/img/0_BP7VGqJTwL6NzSgO.jpg]
 thumbnail: /img/0_BP7VGqJTwL6NzSgO.jpg

@@ -1,7 +1,7 @@
 ---
 author: "Justin Garrison"
 title: "2013 Technology Predictions"
-description: ""
+description: "Yay! Another year and another post for my technology predictions."
 date: 2013-01-01
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png

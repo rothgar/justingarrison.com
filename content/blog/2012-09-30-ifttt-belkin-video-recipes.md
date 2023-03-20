@@ -1,7 +1,7 @@
 ---
 author: "Justin Garrison"
 title: "IFTTT Belkin Video Recipes"
-description: ""
+description: "First step is to tag a picture with #movietime in Instagram. This recipe uploads the picture to Facebook."
 date: 2012-09-30
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png

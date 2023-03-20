@@ -1,7 +1,7 @@
 ---
 author: "Justin Garrison"
 title: "Slim Wallet Comparison"
-description: ""
+description: "As a follow-up to my recent article about the best wallet ever, I was given the opportunity to test some of the slim wallets"
 date: 2013-06-24
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png

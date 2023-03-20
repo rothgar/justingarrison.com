@@ -1,7 +1,7 @@
 ---
 author: "Justin Garrison"
 title: "Azusa Pacific University Counter-Strike Map"
-description: ""
+description: "A while ago a friend of mine set out on a quest to make a 3D map of my work."
 date: 2013-03-04
 images: [/img/1_dn-3NYIkCS-3Xr6ddF1wzQ.png]
 thumbnail: /img/1_dn-3NYIkCS-3Xr6ddF1wzQ.png

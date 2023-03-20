@@ -1,7 +1,7 @@
 ---
 author: "Justin Garrison"
 title: "Why a Rubber Band Is the Best Wallet I’ve Ever Had"
-description: ""
+description: "I have always had a bad relationship with wallets. It was just one more thing I had to carry because there"
 date: 2013-04-08
 images: [/img/1_tur6A3xGnvjdMPOBBU_QAg.jpeg]
 thumbnail: /img/1_tur6A3xGnvjdMPOBBU_QAg.jpeg
