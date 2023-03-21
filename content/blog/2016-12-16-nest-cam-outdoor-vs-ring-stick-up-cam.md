@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "Nest Cam Outdoor vs. Ring Stick Up Cam"
 description: "The outdoor security camera market didn’t exist much before this year"
 date: 2016-12-16
-images: [/img/og-image.png]
-thumbnail: /img/og-image.png
+images: [/img/nest-vs-ring-banner.jpg]
+thumbnail: /img/nest-vs-ring-banner.jpg
 draft: false
 ---
 
