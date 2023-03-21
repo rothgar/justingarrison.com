@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "How to Install Alternate Media Players on Your Apple TV (XBMC, Plex)"
 description: "The Apple TV is one of the best media streamers on the market, but if you don’t buy into Apple’s"
 date: 2012-02-21T08:00:54-05:00
-images: [/img/banner1-1.png]
-thumbnail: /img/banner1-1.png
+images: [/img/apple-tv-xbmc-banner.webp]
+thumbnail: /img/apple-tv-xbmc-banner.webp
 draft: false
 canonical: https://www.howtogeek.com/106109/how-to-install-alternate-media-players-on-your-apple-tv-xbmc-plex/
 ---
