@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "Google OnHub Feature Requests"
 description: "Large scale DDoS are not rare occasions anymore. What we need to help protect the Internet is to make home routers"
 date: 2016-11-07
-images: [/img/og-image.png]
-thumbnail: /img/og-image.png
+images: [/img/onhub-wish-banner.jpg]
+thumbnail: /img/onhub-wish-banner.jpg
 draft: false
 ---
 

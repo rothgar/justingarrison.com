@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "Infrastructure Survey Results"
 description: "I recently ran a survey about infrastructure and applications for some research."
 date: 2017-04-11
-images: [/img/og-image.png]
-thumbnail: /img/og-image.png
+images: [/img/infrastructure-survey-results-10.webp]
+thumbnail: /img/infrastructure-survey-results-10.webp
 draft: false
 ---
 
