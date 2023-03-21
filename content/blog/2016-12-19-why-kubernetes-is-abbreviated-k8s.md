@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "Why Kubernetes is Abbreviated k8s"
 description: "Some times people will join the Kubernetes community and get confused on what the “k8s” is all about."
 date: 2016-12-19
-images: [/img/og-image.png]
-thumbnail: /img/og-image.png
+images: [/img/k8s.gif]
+thumbnail: /img/k8s.gif
 draft: false
 ---
 
