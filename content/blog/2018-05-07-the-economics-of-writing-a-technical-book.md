@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "The Economics of Writing a Technical Book"
 description: "What I learnt as a co-author of the book 'Cloud Native Infrastructure' for O’Reilly Media."
 date: 2018-05-07
-images: [/img/og-image.png]
-thumbnail: /img/og-image.png
+images: [/img/book-economics-banner.jpg]
+thumbnail: /img/book-economics-banner.jpg
 draft: false
 ---
 

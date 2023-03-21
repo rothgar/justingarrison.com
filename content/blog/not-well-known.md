@@ -2,8 +2,8 @@
 title: "Not .well-known"
 description: "The common web directory no one knows about."
 date: 2022-12-22T13:07:38-08:00
-images: 
-thumbnail: 
+images: [/img/og-image.png]
+thumbnail: /img/og-image.png
 draft: true
 ---
 
