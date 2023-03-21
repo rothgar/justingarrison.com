@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "What is Pulp, Candlepin, Foreman, and Katello"
 description: "I have been working with some of the above products at work for the past couple of weeks and I just cam"
 date: 2013-09-20
-images: [/img/og-image.png]
-thumbnail: /img/og-image.png
+images: [/img/foreman-banner.jpg]
+thumbnail: /img/foreman-banner.jpg
 draft: false
 ---
 
