@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "How to Jailbreak Your 2nd Generation Apple TV for Extra Functionality"
 description: "Jailbreaking your iDevices allows for more options when it comes to software and usage. The Apple TV"
 date: 2012-02-20T04:00:24-05:00
-images: [/img/banner.png]
-thumbnail: /img/banner.png
+images: [/img/jailbreak-atv-banner.webp]
+thumbnail: /img/jailbreak-atv-banner.webp
 draft: false
 canonical: https://www.howtogeek.com/106085/how-to-jailbreak-your-2nd-generation-apple-tv/
 ---
