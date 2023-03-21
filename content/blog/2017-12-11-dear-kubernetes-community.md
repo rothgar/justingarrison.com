@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "Dear Kubernetes Community"
 description: "Dear Kubernetes Community, KubeCon and CloudNativeCon were an absolute blast!"
 date: 2018-01-18
-images: [/img/og-image.png]
-thumbnail: /img/og-image.png
+images: [/img/dear-kubernetes-banner.jpg]
+thumbnail: /img/dear-kubernetes-banner.jpg
 draft: false
 ---
 
