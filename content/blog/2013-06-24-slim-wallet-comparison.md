@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "Slim Wallet Comparison"
 description: "As a follow-up to my recent article about the best wallet ever, I was given the opportunity to test some of the slim wallets"
 date: 2013-06-24
-images: [/img/og-image.png]
-thumbnail: /img/og-image.png
+images: [/img/bellroy-wallet-1.jpg]
+thumbnail: /img/bellroy-wallet-1.jpg
 draft: false
 ---
 
@@ -38,11 +38,11 @@ The Ainste Small Evan wallet was one of the classiest looking wallets by itself.
 
 ## Bellroy Card Sleeve
 
-![1_NgHV5PokigYQFkClzQ9ESQ.jpeg](/img/1_NgHV5PokigYQFkClzQ9ESQ.jpeg)
+![bellroy wallet](/img/bellroy-wallet-1.jpg)
 
-![1_05xrU_Pr0DWY2hlzxr5OGQ.jpeg](/img/1_05xrU_Pr0DWY2hlzxr5OGQ.jpeg)
+![bellroy wallet](/img/bellroy-wallet-2.jpg)
 
-![1_kUSxRSt1MR1yeG1gWDdQyQ.jpeg](/img/1_kUSxRSt1MR1yeG1gWDdQyQ.jpeg)
+![bellroy wallet](/img/bellroy-wallet-3.jpg)
 
 Before testing the Bellroy Card Sleeve wallet, I had a few reservations. I usually don’t like sleeve-style wallets because they are too hard to get cards in and out of, and too stiff to hold a lot of cards. The Bellroy has definitely changed my mind about sleeve-style wallets. The leather is really high quality and soft, and the angled slits on either side were perfect. Getting a payment card or ID in and out was super easy because of the angle and they were just deep enough to hold the cards securely. Cash was harder to get in and out of the side and middle pockets, but I found sandwiching the folded bills between other cards did the trick. The pull tab for the center pocket worked better than I expected. It’s amazing that I’ve never seen this on any other wallet before. The leather did stretch after a couple weeks, but the wallet looked great and was very thin. Efficiency of use was much better than I expected because of the side pockets and pull tab.
 
