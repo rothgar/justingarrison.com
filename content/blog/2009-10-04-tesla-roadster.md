@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "Tesla Roadster"
 description: "For my birthday this past weekend I treated myself to something I wouldn’t normally do."
 date: 2009-10-04
-images: [/img/0_l6fBWm3TY3wFbnxY.jpg]
-thumbnail: /img/0_l6fBWm3TY3wFbnxY.jpg
+images: [/img/tesla-roadster-banner.jpg]
+thumbnail: /img/tesla-roadster-banner.jpg
 draft: false
 ---
 
