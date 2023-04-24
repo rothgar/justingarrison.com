@@ -2,8 +2,8 @@
 title: "Mastodon Is Doomed"
 description: "Mastodon's MySpace moment happened before it even got started"
 date: 2023-04-04T22:50:52-07:00
-images: [/img/og-image.png]
-thumbnail: /img/og-image.png
+images: [/img/mastodon-doomed-banner.png]
+thumbnail: /img/mastodon-doomed-banner.png
 draft: true
 ---
 
