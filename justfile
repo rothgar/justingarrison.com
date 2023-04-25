@@ -28,4 +28,4 @@ tail:
 # get subscribers
 subs:
     wrangler kv:key list --namespace-id 21e0fce585e9415b8eda26fa10b76409 \
-        jq -r '.[].name'
+        | jq -r '.[].name'
