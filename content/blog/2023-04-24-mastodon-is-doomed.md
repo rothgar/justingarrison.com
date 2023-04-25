@@ -94,7 +94,7 @@ If you want people to run their own instances it needs to be App Store simple.
 
 Will there be simpler and cheaper options?
 I don't think so.
-Mastodon growth is already starting to plateu.
+Mastodon growth is already starting to plateau.
 All of the 3rd party integrations are happening with ActivityPub, not Mastodon. 
 
 There are lots of companies investing time to integrate with ActivityPub.
