@@ -18,7 +18,7 @@ The fediverse recently crossed [1,000,000,000 posts per month](https://fediverse
 
 But none of that actually matters.
 
-In an ideal fediverse world, people would run personal servers or a community would run a server for members of the community.
+In an ideal fediverse world, people would run personal servers or a community would run a server for members.
 The reality is people don't want to pick their favorite community, running an instance is expensive and complicated, and owning your data isn't a product feature.
 
 All of those "features" come with with a heavy price—responsibility.
@@ -52,7 +52,7 @@ No private keys, no identity, no portability.
 
 Administrators are not paid for their work, and very few instances have plans to continue operating if a single person leaves, runs out of money, or loses interest.
 I can imagine the headline now where someone offers to help run an instance, but in reality they only want access to user DMs and private keys.
-Just like Wordpress from the 2010s, many instances will be abandoned or never upgraded to be taken over by hackers.
+Just like Wordpress from the 2010s, many instances will be abandoned and never upgraded.
 
 Like Wordpress, the best way to use Mastodon is to pay a company to run it for you.
 Mastodon instances will fail to get updated for months at a time until individuals decide it's not worth their time or $10 per month.
@@ -75,7 +75,7 @@ The moderation work will be too much and they'll end up trusting only large, est
 If you've never had the pleasure of running a ruby on rails app with Postgres database I'm sure you'll learn a lot about running apps from 10+ years ago.
 If you don't know what PgBouncer or Sidkiq are in 2023 I wouldn't invest a ton of time in learning them now.
 
-The only way I would suggest running a server is with a serverless option like [Cloudflare Wildebeest](https://github.com/cloudflare/wildebeest).
+The only way I would suggest running an instance is with a managed services option like [Cloudflare Wildebeest](https://github.com/cloudflare/wildebeest).
 It's not without problems (I run an instance), but the MAU cost and ongoing maintenance should be much lower for a multi-user instance.
 
 For me, the final nail in the Mastodon coffin came from a [Decoder podcast interview](https://www.theverge.com/23658648/mastodon-ceo-twitter-interview-elon-musk-twitter) with [Eugen Rochko](https://mastodon.social/@Gargron), the CEO of Mastodon.
@@ -83,7 +83,7 @@ Throughout the interview it's clear that Eugen has no plans for monotization bey
 While I highly respect Eugen's technical abilities and drive and determination to build such an ambitious product on top of ActivityPub, I believe the vision is flawed.
 
 If mastodon is to be the poster child of the fediverse it needs to drastically simplify the requirements to run and maintain an instance.
-There should be a single binary, self-updating, single user instance.
+There should be a single binary, self-updating, single-user instance.
 
 Instead Mastodon is going in the exact opposite direction.
 The Mastodon company has fewer than 10 employees and is moving the largest mastodon instance to Kubernetes.
@@ -97,15 +97,22 @@ I don't think so.
 Mastodon growth is already starting to plateu.
 All of the 3rd party integrations are happening with ActivityPub, not Mastodon. 
 
-The only saving grace might be ActivityPub.
-There are lots of companies investing time to integrate into ActivityPub.
+There are lots of companies investing time to integrate with ActivityPub.
 But almost every integration is a status/blog/picture update mechanism.
 It's a more expensive and questionably better RSS.
 
 Is Tumbler going to save Mastodon? No.
-But their ActivityPub integrations will be consumable at toots.
+But tumbler posts and comments will be consumable at toots.
 
 It has nothing to do with data ownership, identity portability, or federated networks.
 The ideals of Mastodon and the fediverse will be lost once established products use it.
 
 The Mastodon people hoped for is doomed.
+
+---
+
+Mastodon will continue as a niche community and it will have lots of happy users.
+I'm greatful for the admins that have dedicated so much of their time running instances, and thank you to the admins who shared their instance financial information.
+
+If you love Mastodon I'm happy for you.
+The internet needs bold bets and people to invest in them.
