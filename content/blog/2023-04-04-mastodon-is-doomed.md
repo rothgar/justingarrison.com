@@ -1,10 +1,10 @@
 ---
 title: "Mastodon Is Doomed"
 description: "Mastodon won't be the next Twitter, and it's not because of Bluesky. The ideals and execution won't scale."
-date: 2023-04-04T22:50:52-07:00
+date: 2023-04-24T00:00:00
 images: [/img/mastodon-doomed-banner.png]
 thumbnail: /img/mastodon-doomed-banner.png
-draft: true
+draft: false
 ---
 
 Mastodon is free and open source microblogging software that many people believe will be the next Twitter.
