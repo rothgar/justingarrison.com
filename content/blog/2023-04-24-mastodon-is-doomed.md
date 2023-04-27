@@ -10,7 +10,7 @@ draft: false
 Mastodon is free and open source microblogging software that many people believe will be the next Twitter.
 Because it is open source and built on the [ActivityPub protocol](https://activitypub.rocks/) you can run your own instance or join one of the existing servers to find your community.
 The "fediverse" claims to be community owned, decentralized, and ad-free.
-It also lets you "own your own data" in direct oposition to the existing social media platforms.
+It also lets you "own your own data" in direct opposition to the existing social media platforms.
 
 The fediverse recently crossed [1,000,000,000 posts per month](https://fediverse.observer/stats)—more than 75% of which comes from Mastodon.
 
@@ -68,18 +68,18 @@ The financial and trust models of Mastodon just don't add up.
 
 You can, of course, run your own server.
 Just like you can run your own email server.
-And you will be blocked from the broader public discorse just the same.
+And you will be blocked from the broader public discourse just the same.
 There will be no way for large instances to trust and allow every individual instance.
 The moderation work will be too much and they'll end up trusting only large, established instances.
 
 If you've never had the pleasure of running a ruby on rails app with Postgres database I'm sure you'll learn a lot about running apps from 10+ years ago.
-If you don't know what PgBouncer or Sidkiq are in 2023 I wouldn't invest a ton of time in learning them now.
+If you don't know what PgBouncer or Sidekiq are in 2023 I wouldn't invest a ton of time in learning them now.
 
 The only way I would suggest running an instance is with a managed services option like [Cloudflare Wildebeest](https://github.com/cloudflare/wildebeest).
 It's not without problems (I run an instance), but the MAU cost and ongoing maintenance should be much lower for a multi-user instance.
 
 For me, the final nail in the Mastodon coffin came from a [Decoder podcast interview](https://www.theverge.com/23658648/mastodon-ceo-twitter-interview-elon-musk-twitter) with [Eugen Rochko](https://mastodon.social/@Gargron), the CEO of Mastodon.
-Throughout the interview it's clear that Eugen has no plans for monotization beyond donations and running instances for interested users.
+Throughout the interview it's clear that Eugen has no plans for monetization beyond donations and running instances for interested users.
 While I highly respect Eugen's technical abilities and drive and determination to build such an ambitious product on top of ActivityPub, I believe the vision is flawed.
 
 If mastodon is to be the poster child of the fediverse it needs to drastically simplify the requirements to run and maintain an instance.
@@ -101,8 +101,8 @@ There are lots of companies investing time to integrate with ActivityPub.
 But almost every integration is a status/blog/picture update mechanism.
 It's a more expensive and questionably better RSS.
 
-Is Tumbler going to save Mastodon? No.
-But tumbler posts and comments will be consumable at toots.
+Is Tumblr going to save Mastodon? No.
+But Tumblr posts and comments will be consumable at toots.
 
 It has nothing to do with data ownership, identity portability, or federated networks.
 The ideals of Mastodon and the fediverse will be lost once established products use it.
