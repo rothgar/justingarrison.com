@@ -12,7 +12,7 @@ Because it is open source and built on the [ActivityPub protocol](https://activi
 The "fediverse" claims to be community owned, decentralized, and ad-free.
 It also lets you "own your own data" in direct opposition to the existing social media platforms.
 
-The fediverse recently crossed [1,000,000,000 posts per month](https://fediverse.observer/stats)—more than 75% of which comes from Mastodon.
+The fediverse recently crossed [1,000,000,000 posts](https://fediverse.observer/stats)—more than 75% of which comes from Mastodon.
 
 ![graph of toots going up and to the right](/img/mastodon-toot-graph.png)
 
