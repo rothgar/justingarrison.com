@@ -63,9 +63,6 @@ DefaultContentLanguageInSubdir = true
   [[params.homepage.social.icons]]
   website = "reddit"
   url = "https://www.reddit.com/user/xrothgarx"
-  [[params.homepage.social.icons]]
-  website = "mastodon"
-  url = "https://mastodon.social/@jgarr"
 
 [languages]
   [languages.en]
