@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#cfpTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#cfpTable th, #cfpTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#cfpTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#cfpTable tr.header, #cfpTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>CFPs</h2>
+
+<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Filter" title="Filter CFPs">
+
+<table id="cfpTable">
+  <tr class="header">
+    <th style="width:10%;">Year</th>
+    <th style="width:50%;">Title</th>
+    <th style="width:40%;">Conference</th>
+    <th style="width:10%;">Status</th>
+  </tr>
+  {{ range .Pages.ByDate.Reverse }}
+  <tr>
+    <td>{{ .Date.Format "2006-01" }}</td>
+    <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+    <td>{{ .Params.Conference }}</td>
+    <td>{{ .Params.Status | title }}</td>
+    <td style="display:none;">{{ .Params.Abstract }}</td>
+  </tr>
+  {{ end }}
+</table>
+
+<script>
+
+function filterTable(event) {
+    var filter = event.target.value.toUpperCase();
+    var rows = document.querySelector("#cfpTable tbody").rows;
+    
+    // start after the header
+    for (var i = 1; i < rows.length; i++) {
+        var firstCol = rows[i].cells[0].textContent.toUpperCase();
+        var secondCol = rows[i].cells[1].textContent.toUpperCase();
+        var thirdCol = rows[i].cells[2].textContent.toUpperCase();
+        var fourthCol = rows[i].cells[3].textContent.toUpperCase();
+        if (firstCol.indexOf(filter) > -1 
+            || secondCol.indexOf(filter) > -1
+            || thirdCol.indexOf(filter) > -1
+            || fourthCol.indexOf(filter) > -1) {
+            rows[i].style.display = "";
+        } else {
+            rows[i].style.display = "none";
+        }      
+    }
+}
+
+document.querySelector('#myInput').addEventListener('keyup', filterTable, false);
+</script>
+
+</body>
+</html>
