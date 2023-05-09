@@ -53,7 +53,7 @@
     <th style="width:10%;">Status</th>
   </tr>
   {{ range .Pages.ByDate.Reverse }}
-  <tr>
+  <tr {{ if eq .Params.Status "rejected" }}style="background-color: rgb(254 226 226);"{{ end }}>
     <td>{{ .Date.Format "2006-01" }}</td>
     <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
     <td>{{ .Params.Conference }}</td>
