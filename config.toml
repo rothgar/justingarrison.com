@@ -80,6 +80,10 @@ DefaultContentLanguageInSubdir = true
     url = "/about"
     weight = 4
 
+  [[languages.en.menu.main]]
+    name = "CFPs"
+    url = "/cfp"
+    weight = 12
 
 [build]
   writeStats = true

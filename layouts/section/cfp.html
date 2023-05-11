@@ -1,0 +1,68 @@
+{{ define "main" }}
+
+<div class="container mx-auto">
+<h1 class="container px-6 pt-6 mx-auto text-3xl font-bold">Call For Papers (CFPs)</h2>
+
+  <div class="container m-8 text-large">
+    These are my talk submissions to various conferences and meetups.
+    I open sourced them so you can see examples of what CFPs look like and get your own ideas.
+  </p>
+  You can use the filter to find submissions for different conferences, years, or status.
+  Click on any row to see the full submission with abstract. 
+  <p class="text-xlarge font-bold mt-4">My current CFP acceptance rate is 
+  {{ $total_cfps := float (len ( .Pages )) }}
+  {{ $accpeted_cfps := float ( div ( len ( where .Pages ".Params.Status" "==" "accepted" ))) }}
+  {{ math.Round ( mul 100 ( div $accpeted_cfps $total_cfps )) }}%
+  </p>
+  </div>
+
+  <div class="flex">
+<input class="border-4 border-slate-800 p-3 mb-4 mx-auto text-xl font-bold rounded-md w-1/2" type="text" id="myInput" onkeyup="filterTable()" placeholder="Filter CFPs" title="Filter CFPs">
+</div>
+
+<table id="cfpTable" class="m-6 border-collapse border border-slate-400">
+  <tr class="header" class="m-2">
+    <th class="text-2xl" style="width:10%;">Year</th>
+    <th class="text-2xl" style="width:50%;">Title</th>
+    <th class="text-2xl" style="width:40%;">Conference</th>
+    <th class="text-2xl" style="width:10%;">Status</th>
+  </tr>
+  {{ range .Pages.ByDate.Reverse }}
+  <tr class="hover:bg-gray-100 dark:hover:bg-blue-900" style='cursor: pointer; cursor: hand;' onclick="window.location={{ .Permalink }};">
+    <td class="border borer-slate-200 border-collapse p-2">{{ .Date.Format "2006-01" }}</td>
+    <td class="border borer-slate-200 border-collapse p-2">{{ .Title }}</td>
+    <td class="border borer-slate-200 border-collapse p-2">{{ .Params.Conference }}</td>
+    <td class="border borer-slate-200 border-collapse p-2">{{ .Params.Status | title }}</td>
+    <td style="display:none;">{{ .Params.Abstract }}</td>
+  </tr>
+  {{ end }}
+</table>
+</div>
+<script>
+
+function filterTable(event) {
+    var filter = event.target.value.toUpperCase();
+    var rows = document.querySelector("#cfpTable tbody").rows;
+    
+    // start after the header
+    for (var i = 1; i < rows.length; i++) {
+        var firstCol = rows[i].cells[0].textContent.toUpperCase();
+        var secondCol = rows[i].cells[1].textContent.toUpperCase();
+        var thirdCol = rows[i].cells[2].textContent.toUpperCase();
+        var fourthCol = rows[i].cells[3].textContent.toUpperCase();
+        if (firstCol.indexOf(filter) > -1 
+            || secondCol.indexOf(filter) > -1
+            || thirdCol.indexOf(filter) > -1
+            || fourthCol.indexOf(filter) > -1) {
+            rows[i].style.display = "";
+        } else {
+            rows[i].style.display = "none";
+        }      
+    }
+}
+
+document.querySelector('#myInput').addEventListener('keyup', filterTable, false);
+</script>
+
+{{- partial "social.html" . -}}
+{{ end }}
