@@ -1,68 +1,38 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+{{ define "main" }}
 
-#myInput {
-  background-image: url('/css/searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
-}
+<div class="container mx-auto">
+<h1 class="container px-6 pt-6 mx-auto text-3xl font-bold">Call For Papers (CFPs)</h2>
 
-#cfpTable {
-  border-collapse: collapse;
-  width: 100%;
-  border: 1px solid #ddd;
-  font-size: 18px;
-}
+  <div class="container m-8 text-large">
+    These are my talk submissions to various conferences and meetups.
+    I open sourced them so you can see examples of what CFPs look like and get your own ideas.
+  </p>
+  You can use the filter to find submissions for different conferences, years, or status.
+  Click on any row to see the full submission with abstract.
+  </div>
 
-#cfpTable th, #cfpTable td {
-  text-align: left;
-  padding: 12px;
-}
+  <div class="flex">
+<input class="border-4 border-slate-800 p-3 m-4 mx-auto text-xl font-bold rounded-md w-1/2" type="text" id="myInput" onkeyup="filterTable()" placeholder="Filter CFPs" title="Filter CFPs">
+</div>
 
-#cfpTable tr {
-  border-bottom: 1px solid #ddd;
-}
-
-#cfpTable tr.header, #cfpTable tr:hover {
-  background-color: #f1f1f1;
-}
-</style>
-</head>
-<body>
-
-<h2>CFPs</h2>
-
-<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Filter" title="Filter CFPs">
-
-<table id="cfpTable">
-  <tr class="header">
-    <th style="width:10%;">Year</th>
-    <th style="width:50%;">Title</th>
-    <th style="width:40%;">Conference</th>
-    <th style="width:10%;">Status</th>
+<table id="cfpTable" class="m-6 border-collapse border border-slate-400">
+  <tr class="header" class="m-2">
+    <th class="text-2xl" style="width:10%;">Year</th>
+    <th class="text-2xl" style="width:50%;">Title</th>
+    <th class="text-2xl" style="width:40%;">Conference</th>
+    <th class="text-2xl" style="width:10%;">Status</th>
   </tr>
   {{ range .Pages.ByDate.Reverse }}
-  <tr {{ if eq .Params.Status "rejected" }}style="background-color: rgb(254 226 226);"{{ end }}>
-    <td>{{ .Date.Format "2006-01" }}</td>
-    <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-    <td>{{ .Params.Conference }}</td>
-    <td>{{ .Params.Status | title }}</td>
+  <tr class="hover:bg-gray-100 dark:hover:bg-blue-900" style='cursor: pointer; cursor: hand;' onclick="window.location={{ .Permalink }};">
+    <td class="border borer-slate-200 border-collapse p-2">{{ .Date.Format "2006-01" }}</td>
+    <td class="border borer-slate-200 border-collapse p-2">{{ .Title }}</td>
+    <td class="border borer-slate-200 border-collapse p-2">{{ .Params.Conference }}</td>
+    <td class="border borer-slate-200 border-collapse p-2">{{ .Params.Status | title }}</td>
     <td style="display:none;">{{ .Params.Abstract }}</td>
   </tr>
   {{ end }}
 </table>
-
+</div>
 <script>
 
 function filterTable(event) {
@@ -89,5 +59,5 @@ function filterTable(event) {
 document.querySelector('#myInput').addEventListener('keyup', filterTable, false);
 </script>
 
-</body>
-</html>
+{{- partial "social.html" . -}}
+{{ end }}
