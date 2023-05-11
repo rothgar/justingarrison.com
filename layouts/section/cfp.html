@@ -8,11 +8,16 @@
     I open sourced them so you can see examples of what CFPs look like and get your own ideas.
   </p>
   You can use the filter to find submissions for different conferences, years, or status.
-  Click on any row to see the full submission with abstract.
+  Click on any row to see the full submission with abstract. 
+  <p class="text-xlarge font-bold mt-4">My current CFP acceptance rate is 
+  {{ $total_cfps := float (len ( .Pages )) }}
+  {{ $accpeted_cfps := float ( div ( len ( where .Pages ".Params.Status" "==" "accepted" ))) }}
+  {{ math.Round ( mul 100 ( div $accpeted_cfps $total_cfps )) }}%
+  </p>
   </div>
 
   <div class="flex">
-<input class="border-4 border-slate-800 p-3 m-4 mx-auto text-xl font-bold rounded-md w-1/2" type="text" id="myInput" onkeyup="filterTable()" placeholder="Filter CFPs" title="Filter CFPs">
+<input class="border-4 border-slate-800 p-3 mb-4 mx-auto text-xl font-bold rounded-md w-1/2" type="text" id="myInput" onkeyup="filterTable()" placeholder="Filter CFPs" title="Filter CFPs">
 </div>
 
 <table id="cfpTable" class="m-6 border-collapse border border-slate-400">
