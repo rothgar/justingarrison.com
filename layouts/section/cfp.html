@@ -11,7 +11,7 @@
   Click on any row to see the full submission with abstract. 
   <p class="text-xlarge font-bold mt-4">My current CFP acceptance rate is 
   {{ $total_cfps := float (len ( .Pages )) }}
-  {{ $accpeted_cfps := float ( div ( len ( where .Pages ".Params.Status" "==" "accepted" ))) }}
+  {{ $accpeted_cfps := float ( len ( where .Pages ".Params.Status" "==" "accepted" )) }}
   {{ math.Round ( mul 100 ( div $accpeted_cfps $total_cfps )) }}%
   </p>
   </div>
