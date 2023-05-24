@@ -29,7 +29,7 @@
   </tr>
   {{ range .Pages.ByDate.Reverse }}
   <tr class="hover:bg-gray-100 dark:hover:bg-blue-900" style='cursor: pointer; cursor: hand;' onclick="window.location={{ .Permalink }};">
-    <td class="border borer-slate-200 border-collapse p-2">{{ .Date.Format "2006-01" }}</td>
+    <td class="border borer-slate-200 border-collapse p-2">{{ with .Params.confDate }}{{ . | dateFormat "2006-01" }}{{ end }}</td>
     <td class="border borer-slate-200 border-collapse p-2">{{ .Title }}</td>
     <td class="border borer-slate-200 border-collapse p-2">{{ .Params.Conference }}</td>
     <td class="border borer-slate-200 border-collapse p-2">{{ .Params.Status | title }}</td>
