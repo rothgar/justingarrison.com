@@ -34,7 +34,7 @@
     {{- with .OutputFormats.Get "RSS" -}}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}
-    {{ range $pages }}
+    {{ range where $pages "Params.confDate" "=" nil }}
     {{ $banner_image := (printf "<img src='%s%s'/>" $.Site.BaseURL .Params.thumbnail) }}
     <item>
       <title>{{ .Title }}</title>
