@@ -1,4 +1,5 @@
 date := `date +%Y-%m-%d-`
+repo-root := `git rev-parse --show-toplevel`
 
 alias p := post
 alias b := post
@@ -11,7 +12,7 @@ serve:
 
 # create a new post
 post +TITLE:
-	hugo new blog/{{date}}{{TITLE}}.md
+	hugo new {{repo-root}}/content/blog/{{date}}{{TITLE}}.md
 
 # run a server publicly via tailscale
 pub:
