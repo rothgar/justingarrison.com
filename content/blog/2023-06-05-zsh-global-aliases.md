@@ -1,6 +1,6 @@
 ---
 title: "Zsh Global Aliases"
-description: "My favorite ZSH feature no one uses"
+description: "My favorite zsh feature no one uses"
 date: 2023-06-05T22:28:41-07:00
 images: [/img/global-aliases-banner.jpg]
 thumbnail: /img/global-aliases-banner.jpg
