@@ -81,6 +81,11 @@ DefaultContentLanguageInSubdir = true
     weight = 4
 
   [[languages.en.menu.main]]
+    name = "123dev"
+    url = "/123dev"
+    weight = 8
+
+  [[languages.en.menu.main]]
     name = "CFPs"
     url = "/cfp"
     weight = 12
