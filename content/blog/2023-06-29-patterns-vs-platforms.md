@@ -91,7 +91,7 @@ So we try to use the "anything API" for everything.
 
 The building blocks are lighter weight because the patterns already exist.
 
-I can create brad new resources with YAML.
+I can create brand new resources with YAML.
 I can make those resources do things with a reasonably small amount of code (dozens or hundreds of lines).
 I can even make those resources do things to external APIs with open source controllers like [Crossplane](https://www.crossplane.io/).
 
