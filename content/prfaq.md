@@ -37,8 +37,7 @@ Document driven meetings work best when there is consistency for the format and 
 
 5. How does document driven meetings compare with traditional meetings?
 Traditional meetings are haphazard, time boxed events that have no consistent format and inconsistent next steps. 
-It is often not clear what the next steps are and even the agreed opon decisions are open for interpretation amoung attendees.
-
+It is often not clear what the next steps are and even the agreed opon decisions are open for interpretation amoung attendees.  
 Document driven meetings put the document as the source of truth for the discussion, and what was agreed on.
 Document history is tracked as are comments and questions from attendees. 
 These comments allow for asynchronous questions from all attendees, and you can gather input from people that don't usually speak up in traditional meetings. 
@@ -88,7 +87,7 @@ If you adopt document driven meetings your organization should be able to make d
 
 ## List of Appendices
 
-Appendix A: Meetings research
+### Appendix A: Meetings research
 
 Workers spend 2/3 of their time in meetings and desk work https://hbr.org/2020/08/research-knowledge-workers-are-more-productive-from-home
 
@@ -98,7 +97,7 @@ Shopify gets rid of meetings https://www.npr.org/2023/02/15/1156804295/shopify-d
 
 Faster decision making links to greater share of profits https://www.thenewworldreport.com/new-research-uncovers-the-link-between-faster-decision-making-and-a-greater-share-of-profit/
 
-Appendix B: Amazon history and working backwards
+### Appendix B: Amazon history and working backwards
 
 Working Backwards https://www.amazon.com/Working-Backwards-Insights-Stories-Secrets/dp/1250267595
 
