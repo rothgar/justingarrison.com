@@ -88,7 +88,7 @@ If you adopt document driven meetings your organization should be able to make d
 
 ## List of Appendices
 
-Appendix A:
+Appendix A: Meetings research
 
 Workers spend 2/3 of their time in meetings and desk work https://hbr.org/2020/08/research-knowledge-workers-are-more-productive-from-home
 
@@ -98,4 +98,16 @@ Shopify gets rid of meetings https://www.npr.org/2023/02/15/1156804295/shopify-d
 
 Faster decision making links to greater share of profits https://www.thenewworldreport.com/new-research-uncovers-the-link-between-faster-decision-making-and-a-greater-share-of-profit/
 
-Appendix B:
+Appendix B: Amazon history and working backwards
+
+Working Backwards https://www.amazon.com/Working-Backwards-Insights-Stories-Secrets/dp/1250267595
+
+The Amazon Way https://www.amazon.com/Amazon-Way-Amazons-Leadership-Principles/dp/173497916X
+
+PR/FAQ template https://www.linkedin.com/pulse/working-backwards-press-release-template-example-ian-mcallister/
+
+Strategy Tool: Amazon's PR/FAQ https://medium.com/intrico-io/strategy-tool-amazons-pr-faq-72b3e49aa167
+
+Get Started with the Amazon Working Backwards PR/FAQ Framework for Product Innovation https://productstrategy.co/working-backwards-the-amazon-prfaq-for-product-innovation/
+
+How PR/FAQs help launch successful products like AWS, Kindle & Prime Video https://coda.io/@colin-bryar/working-backwards-how-write-an-amazon-pr-faq
