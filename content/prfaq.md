@@ -5,35 +5,62 @@ date: 2023-05-29
 ---
 _Amazon, AWS, Twitch.tv, Whole Foods, Woot, and Audible are among the companies that use document driven meetings to plan new products, features, and processes. This is an example PR/FAQ to help you understand the document format. The format is not as important as the process for how it is used. For an example document driven meeting see this video._
 
-**Los Angeles, CA — (justingarrison.com) — May 29, 2023 —** Justin Inc, announced a brand new meeting format for all of your scheduled meetings. It does not matter if the meetings are in-person or virtual, this process is based on the meeting format pioneered at Amazon Inc. and available to any company.
+**Los Angeles, CA — (justingarrison.com) — May 29, 2023 —** Justin Inc, announces a brand new meeting format for all of your scheduled meetings.
+It does not matter if the meetings are in-person or virtual, this process is based on the meeting format pioneered at Amazon Inc. and available to any company.
 
-_[Problem statement]_ Companies have lots of meetings. They are important to share information, brainstorm new ideas, and make decisions. Many knowledge workers are estimated to be in meetings for more than two-thirds of their working hours, but those employees have little or no tangible output from their meetings and often don't find them useful.
+_[Problem statement]_ Companies have lots of meetings.
+They are important to share information, brainstorm new ideas, and make decisions.
+Many knowledge workers are estimated to be in meetings for more than two-thirds of their working hours, but those employees have little or no tangible output from their meetings and often don't find them useful.
+Too many meetings is often a complaint from employees and can hinder career growth.
 
-Unproductive meetings waste hundreds of millions of dollars for companies and are often unorganized with no preperation or action items. Meeting are structured differently depending on the culture of a company and there is little consistency on format based on who is organizing the meeting. They can be incredibly disruptive for deep work and require synchronous communication with overlapping timezones. Even with questionable value, meetings proliferate on calendars everywhere.
+Unproductive meetings waste hundreds of millions of dollars for companies and are often unorganized with no preperation or action items.
+Meeting are structured differently depending on the culture of a company and there is little consistency on format based on who is organizing the meeting.
+They can be incredibly disruptive for deep work and require synchronous communication with overlapping timezones.
+Even with questionable value, meetings proliferate on calendars everywhere.
 
-_[Solution]_ Meetings are so problematic that some companies have banned them altogether or tried to make employees more aware of the costs involved. Studies have found that meetings are not the problem. Bad meetings are. Recurring meetings that exist because they've always existed, meetings with the same people dominating the conversation, and meetings no one—not even the orginizer—prepared for are all bad meetings. They don't allow efficient sharing of information, new voices to speak their opinions, or help the company make decisions.
+_[Solution]_ Meetings are so problematic that some companies have banned them altogether or tried to make employees more aware of the costs involved.
+Studies have found that meetings are not the problem.
+Bad meetings are.
+Recurring meetings that exist because they've always existed, meetings with the same people dominating the conversation, and meetings no one—not even the orginizer—prepared for are all examples of bad meetings.
+They don't allow efficient sharing of information, new voices to speak their opinions, or help the company make decisions.
 
-Document driven meetings come from Amazon when Jeff Bezos banned PowerPoint from meetings in 2004. This did not eliminate meetings, but it enabled more efficient ways of sharing information, coming up with new product ideas, and making decisions. By focusing on text based information pre-written in a document it removed a presenter's ability to make captivating slide decks and relying on their charisma to tell a story. This not only allows more voices to be heard, it focused the meeting on the information and data rather than the organizer and speaker.
+Document driven meetings come from Amazon when Jeff Bezos banned PowerPoint in meetings in 2004.
+This did not eliminate meetings, but it enabled more efficient ways of sharing information, coming up with new product ideas, and making decisions.
+By focusing on text based information sharing pre-written in a document read at the begining of the scheduled meeting it removed a presenter's ability to make captivating slide decks and relying on their charisma to tell a story.
+This not only allows more voices to be heard, it focused the meeting on the information and data rather than the organizer and speaker.
 
 _[Quote]_ “Many, many years ago, we outlawed PowerPoint presentations at Amazon, and it’s probably the smartest thing we ever did.” - Jeff Bezos
 
-_[Call to action]_ Document driven meetings are free and available to everyone. You do not need permission to start implementing them and should try the format at your company. Please copy this document as a template for PR/FAQ style meetings. There are a variety of other document formats for weekly business reviews, user narratives, and any other document driven meeting in your company.
+_[Call to action]_ Document driven meetings are free and available to everyone.
+You do not need permission to start implementing them and should try the format at your company.
+Please copy this document as a template for PR/FAQ style meetings.
+There are a variety of other document formats for weekly business reviews, user narratives, and any other document driven meeting in your company.
 
 To get started visit: https://justingarrison.com/prfaq
 
 ## External FAQ
 
 1. What are we launching today?
-Today we are launching a new way to run meetings. Meetings are document driven with no preperation required from attendees. All information to participate in the meeting will be included in the document and read by the group at the begining of the meeting. If there is no document to read, there is no meeting to attend.
+Today we are launching a new way to run meetings.
+Meetings are document driven with no preperation required from attendees.
+All information to participate in the meeting will be included in the document and read individually at the begining of the meeting.
+If there is no document to read, there is no meeting to attend.
 
 2. Why should I use Amazon's meeting format?
-Companies with effective meetings are more profitable. Not only does it save money by not wasting employee time, it accelerates innovation by communicating efficiently and having a written record of what products, features, and directions are prioritized. It also removes biases and allows for voices that are less frequently heard to speak up (synchronously or asynchronously in comments).
+Companies with effective meetings are more profitable.
+Not only does it save money by not wasting employee time, it accelerates innovation by communicating efficiently and having a written record of what products, features, and directions are prioritized.
+It can remove biases and allows for voices that are less frequently heard to speak up (synchronously during the meeting or asynchronously in comments).
 
 3. How do I get started with document driven meetings?
-Start by creating a document format for one or more of your recurring meetings. This can be data intensive reviews or product brainstorming sessions in PR/FAQ style documents like you're reading now. Make sure the attendees know that at the begining of the meeting you will all be reading the document together. For a demonstration of how this works see this video: 
+Start by creating a document format for one or more of your recurring meetings.
+This can be data intensive reviews or product brainstorming sessions in PR/FAQ style documents like you're reading now.
+Make sure the attendees know that at the begining of the meeting you will all be reading the document together.
+For a demonstration of how this works see this video: 
 
 4. Do I need to change all my meetings?
-Document driven meetings work best when there is consistency for the format and discussion styles. You don't _have_ to replace all of your meetings within your orginization, but start with recurring meetings that have 3 or more attendees. Informal and 1:1 meetings do not need to follow a document driven approach.
+Document driven meetings work best when there is consistency for the format and discussion styles.
+You don't _have_ to replace all of your meetings within your orginization, but start with recurring meetings that have 3 or more attendees.
+Informal and 1:1 meetings do not need to follow a document driven approach.
 
 5. How does document driven meetings compare with traditional meetings?
 Traditional meetings are haphazard, time boxed events that have no consistent format and inconsistent next steps. 
@@ -42,6 +69,11 @@ Document driven meetings put the document as the source of truth for the discuss
 Document history is tracked as are comments and questions from attendees. 
 These comments allow for asynchronous questions from all attendees, and you can gather input from people that don't usually speak up in traditional meetings. 
 Documents are also useful for reducing biases and prejudices against or for the meeting orginizer or person who wrote the document.
+
+6. Do document driven meetings mean I don't have to attend the meeting?
+No.
+While the core proposition and data is available in the document you will miss out on critical conversation about the data and will not hear competing ideas and contradictory data.
+It may be easier to understand the purpose of the meeting by reading the document, but the document alone is not how decisions are made.
 
 ## Internal FAQ
 
@@ -64,8 +96,8 @@ They create trackable documents that can be referenced over time to drive concen
 There is a clear indicator if the meeting organizer is prepared or not (the document needs to be ready), and if they are not prepared then meetings can be rescheduled saving time for everyone.
 
 5. What will companies be most disappointed with about these meetings?
-They require more preperation for the meeting organizers, and the format may be hard for some people to get used to reading in silence at the begining of the meeting.
-Slow readers and people who need more time to process information may be at a disadvantage in document driven meetings.
+They require more thoughtful preperation for the meeting organizers, and the format may be hard for some people to get used to reading in silence at the begining of the meeting.
+Slow readers and people who need more time to process information may be at a disadvantage in document driven meetings because they cannot formulate questions without more time to think about the document.
 It is not easy to be involved in document driven meetings if you are distracted (e.g. driving) because you will not be able to read the document.
 
 6. Why do we believe these meetings will be successful at other companies?
