@@ -3,7 +3,10 @@ author: Justin Garrison
 title: Document Driven Meetings
 date: 2023-05-29
 ---
-_Amazon, AWS, Twitch.tv, Whole Foods, Woot, and Audible are among the companies that use document driven meetings to plan new products, features, and processes. This is an example PR/FAQ to help you understand the document format. The format is not as important as the process for how it is used. For an example document driven meeting see this video._
+_Amazon, AWS, Twitch.tv, Whole Foods, Woot, and Audible are among the companies that use document driven meetings to plan new products, features, and processes.
+This is an example PR/FAQ to help you understand the document format.
+The format is not as important as the process for how it is used.
+For an example document driven meeting see [this video](https://youtu.be/-_mQBaoN5mQ)._
 
 **Los Angeles, CA — (justingarrison.com) — May 29, 2023 —** Justin Inc, announces a brand new meeting format for all of your scheduled meetings.
 It does not matter if the meetings are in-person or virtual, this process is based on the meeting format pioneered at Amazon Inc. and available to any company.
@@ -55,7 +58,7 @@ It can remove biases and allows for voices that are less frequently heard to spe
 Start by creating a document format for one or more of your recurring meetings.
 This can be data intensive reviews or product brainstorming sessions in PR/FAQ style documents like you're reading now.
 Make sure the attendees know that at the begining of the meeting you will all be reading the document together.
-For a demonstration of how this works see this video: 
+For a demonstration of how this works see this video: https://youtu.be/-_mQBaoN5mQ
 
 4. Do I need to change all my meetings?
 Document driven meetings work best when there is consistency for the format and discussion styles.
