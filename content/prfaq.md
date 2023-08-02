@@ -24,7 +24,7 @@ Even with questionable value, meetings proliferate on calendars everywhere.
 _[Solution]_ Meetings are so problematic that some companies have banned them altogether or tried to make employees more aware of the costs involved.
 Studies have found that meetings are not the problem.
 Bad meetings are.
-Recurring meetings that exist because they've always existed, meetings with the same people dominating the conversation, and meetings no one—not even the orginizer—prepared for are all examples of bad meetings.
+Recurring meetings that exist because they've always existed, meetings with the same people dominating the conversation, and meetings no one—not even the organizer—prepared for are all examples of bad meetings.
 They don't allow efficient sharing of information, new voices to speak their opinions, or help the company make decisions.
 
 Document driven meetings come from Amazon when Jeff Bezos banned PowerPoint in meetings in 2004.
@@ -71,7 +71,7 @@ It is often not clear what the next steps are and even the agreed opon decisions
 Document driven meetings put the document as the source of truth for the discussion, and what was agreed on.
 Document history is tracked as are comments and questions from attendees. 
 These comments allow for asynchronous questions from all attendees, and you can gather input from people that don't usually speak up in traditional meetings. 
-Documents are also useful for reducing biases and prejudices against or for the meeting orginizer or person who wrote the document.
+Documents are also useful for reducing biases and prejudices against or for the meeting organizer or person who wrote the document.
 
 6. Do document driven meetings mean I don't have to attend the meeting?
 No.
