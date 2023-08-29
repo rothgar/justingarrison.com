@@ -16,7 +16,7 @@ They are important to share information, brainstorm new ideas, and make decision
 Many knowledge workers are estimated to be in meetings for more than two-thirds of their working hours, but those employees have little or no tangible output from their meetings and often don't find them useful.
 Too many meetings is often a complaint from employees and can hinder career growth.
 
-Unproductive meetings waste hundreds of millions of dollars for companies and are often unorganized with no preperation or action items.
+Unproductive meetings waste hundreds of millions of dollars for companies and are often unorganized with no preparation or action items.
 Meeting are structured differently depending on the culture of a company and there is little consistency on format based on who is organizing the meeting.
 They can be incredibly disruptive for deep work and require synchronous communication with overlapping timezones.
 Even with questionable value, meetings proliferate on calendars everywhere.
@@ -45,7 +45,7 @@ To get started visit: https://justingarrison.com/prfaq
 
 1. What are we launching today?
 Today we are launching a new way to run meetings.
-Meetings are document driven with no preperation required from attendees.
+Meetings are document driven with no preparation required from attendees.
 All information to participate in the meeting will be included in the document and read individually at the begining of the meeting.
 If there is no document to read, there is no meeting to attend.
 
@@ -99,7 +99,7 @@ They create trackable documents that can be referenced over time to drive concen
 There is a clear indicator if the meeting organizer is prepared or not (the document needs to be ready), and if they are not prepared then meetings can be rescheduled saving time for everyone.
 
 5. What will companies be most disappointed with about these meetings?
-They require more thoughtful preperation for the meeting organizers, and the format may be hard for some people to get used to reading in silence at the begining of the meeting.
+They require more thoughtful preparation for the meeting organizers, and the format may be hard for some people to get used to reading in silence at the begining of the meeting.
 Slow readers and people who need more time to process information may be at a disadvantage in document driven meetings because they cannot formulate questions without more time to think about the document.
 It is not easy to be involved in document driven meetings if you are distracted (e.g. driving) because you will not be able to read the document.
 
@@ -126,7 +126,7 @@ If you adopt document driven meetings your organization should be able to make d
 
 Workers spend 2/3 of their time in meetings and desk work https://hbr.org/2020/08/research-knowledge-workers-are-more-productive-from-home
 
-One-third of meetings are unnessesary https://otter.ai/blog/one-third-of-meetings-are-unnecessary-costing-companies-millions-and-no-one-is-happy-about-it
+One-third of meetings are unnecessary https://otter.ai/blog/one-third-of-meetings-are-unnecessary-costing-companies-millions-and-no-one-is-happy-about-it
 
 Shopify gets rid of meetings https://www.npr.org/2023/02/15/1156804295/shopify-delete-meetings-zoom-virtual-productivity
 
