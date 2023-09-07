@@ -4,7 +4,7 @@ description: "Lies, damned lies, and data driven."
 date: 2023-09-06T21:01:18-07:00
 images: [/img/data-driven-banner.png]
 thumbnail: /img/data-driven-banner.png
-draft: true
+draft: false
 ---
 
 "Show me the data."
