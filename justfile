@@ -8,7 +8,7 @@ alias s := serve
 
 # run local server
 serve:
-	hugo serve -D -F
+	hugo serve -D -F --bind 0.0.0.0
 
 # create a new post
 post +TITLE:
