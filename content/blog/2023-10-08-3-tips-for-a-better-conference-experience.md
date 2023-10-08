@@ -105,6 +105,11 @@ Travel with a friend/coworker you trust.
 Be kind.
 You don't know what other people are going through.
 
+Be respectful.
+Pronounce people's names correctly.
+Use their preferred pronouns.
+Look for banners and bracelets if they don't want to be photographed or approached.
+
 Have fun.
 Take pictures if it helps you remember the people and experiences.
 
