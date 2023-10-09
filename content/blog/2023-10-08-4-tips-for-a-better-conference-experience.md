@@ -5,6 +5,8 @@ date: 2023-10-08T15:07:38-07:00
 images: [/img/conf-tips-banner.png]
 thumbnail: /img/conf-tips-banner.png
 draft: false
+aliases:
+- /blog/2023-10-08-3-tips-for-a-better-conference-experience
 ---
 
 I've been attending technical conferences over 15 years.
