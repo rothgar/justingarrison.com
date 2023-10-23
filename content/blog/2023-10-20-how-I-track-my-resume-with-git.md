@@ -19,7 +19,11 @@ I made a video that walks through a couple different examples that you can check
 
 Here's an example repo that can give you an idea for how to [track your resume in git](<https://github.com/rothgar/track-your-resume-in-git/>).
 This is filled with dummy data and commit dates so you can understand what the repo looks like over time.
+
+The repo history and branching looks a bit complex because this is what it looks like over time.
 This usually isn't important because I'm only ever dealing with HEAD on each branch, but it's cool to look back on all the roles and resumes I've had.
+
+![a view of multiple branches in the repository](/img/git-resume-branches.png)
 
 **Please make sure you create a private repo for your resume if you are going to have personal information like address, phone number, etc.**
 
@@ -43,9 +47,9 @@ I have less than 10 role branches because even new job titles can usually use th
 Each time I apply to a company for a role, I can take the resume from the relevant role branch and copy it to the company branch.
 To see an example please watch the video at the top of this post.
 
-## Keep files consistant
+## Keep files consistent
 
-I keep file names consistant between branches to make it easier to know what I'm looking for.
+I keep file names consistent between branches to make it easier to know what I'm looking for.
 In general I have the following files:
 
 1. Working copy of my resume (`Justin Garrison.md`)
