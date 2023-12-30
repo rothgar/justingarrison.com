@@ -2,13 +2,10 @@
 title: "Amazons Silent Sacking"
 description: "Companies are fighting back for quiet quitting and it's having a big impact."
 date: 2023-12-30T07:29:31Z
-images: [/img/amazons-silent-sacking.jpg]
-thumbnail: /img/amazons-silent-sacking.jpg
+images: [/img/amazons-silent-sacking-banner.jpg]
+thumbnail: /img/amazons-silent-sacking-banner.jpg
 draft: false
 ---
-
-# Amazon’s Silent Sacking
-
 *This is not financial advice and I am not an expert.*
 
 Amazon has a stock problem.
@@ -23,7 +20,7 @@ When layoffs [hit AWS](https://www.businessinsider.com/amazon-layoffs) it was mo
 
 But publicly laying off 27,000 isn’t good for business–at least not immediately.
 
-<picture>
+![A graph of Amazon's stock price](/img/amazon-stock-graph-2023.jpg)
 
 The low stock at the beginning of the year is before the mass layoffs when operating expenses were high.
 Then Andy [announced return to office (RTO) initiatives](https://www.aboutamazon.com/news/company-news/andy-jassy-update-on-amazon-return-to-office), but nothing changed.
