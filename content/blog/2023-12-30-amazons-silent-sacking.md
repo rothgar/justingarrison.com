@@ -31,41 +31,41 @@ Then in the summer that changed.
 The negative press associated with layoffs wasn’t good.
 But the most effective way to reduce operational expenses was to get rid of all the expensive people.
 How could they force people to leave without severance packages or en masse?
-Making them miserable and silently sacking them had potential.
+Making them miserable and silently sacking them.
 
 So RTO was enforced.
 And people started leaving in droves.
+If they weren’t leaving they were looking, or at minimum waiting for their next RSU payout.
 
-If they weren’t leaving they were looking.
-
-In my small sphere of people I talked to there wasn’t a single person under an L7 that didn’t want out.
+In my small sphere of people there wasn’t a single person under an L7 that didn’t want out.
 From what I could gather this mostly came down to compensation.
 
-Independent contributors (IC) and managers that are L7 or above generally make $400k-$800k and for that much money they’re willing to put up with more inconveniences.
-But since Amazon’s pay is roughly 40% stock, they only make that much money so long as the stock stays up.
+Independent contributors (IC) and managers that are L7 or above generally make $400k-$800k and for that much money they’re willing to put up with some inconveniences.
+Since Amazon’s pay is roughly 40% stock, they only make that much money so long as the stock stays up.
 
 If Amazon keeps lowering their operating costs their earnings go up and stock rises.
 At the cost of burning out everyone doing the work.
 
-## Welcome to day 2
+## Welcome to Day 2
 
 As customers are cutting their own costs, $1 spent on AWS is worth less than it was last year.
-Every trend line still goes up and to the right, but growth is still slowing.
+Every trend line still goes up and to the right, but growth is slowing.
 
 Customers aren’t coming to the cloud for VMs and ludicrously expensive network anymore.
-They want higher levels of abstraction which AWS has historically been terrible at delivering.
+They want higher levels of abstraction that AWS has historically been terrible at delivering.
 
-Couple that with [Amazon trailing the AI wave](https://www.lastweekinaws.com/blog/aws-degenerative-ai-blunder/) and the most effective way Amazon can grow is by reducing costs.
+Couple that with [Amazon trailing in AI](https://www.lastweekinaws.com/blog/aws-degenerative-ai-blunder/) and the most effective way Amazon can grow is by reducing costs.
 The biggest cost is people.
 
-Many teams have been in a hiring freeze for over a year.
-And now they’ve been chasing away the people they do have.
+Many teams at Amazon have been in a hiring freeze for over a year.
+And now they’re chasing away the people they do have.
 
-Amazon is quickly shifting from a leader to a follower.
-And from my perspective it’s not going well.
+Amazon has shifted from a leader to a follower.
+From my perspective it’s not going well.
 
-Amazon hasn’t put in the decade of research Google has.
+Amazon hasn’t put in the decade of AI research Google has.
 It doesn’t partner with external companies as good as Microsoft.
+The high margin services AWS was built on (e.g. network egress) is being [given away for free](https://www.cloudflare.com/developer-platform/r2/) by compeditors.
 
 Amazon is good at identifying real world problems they’ve faced from running an extremely large online store and logistics.
 Generative AI hasn’t been a problem Amazon has identified needed to be fixed (or even deeply worked on) until it was costing them business deals.
