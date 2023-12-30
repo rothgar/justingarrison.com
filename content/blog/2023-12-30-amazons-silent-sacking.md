@@ -65,7 +65,7 @@ From my perspective it’s not going well.
 
 Amazon hasn’t put in the decade of AI research Google has.
 It doesn’t partner with external companies as good as Microsoft.
-The high margin services AWS was built on (e.g. network egress) is being [given away for free](https://www.cloudflare.com/developer-platform/r2/) by compeditors.
+The high margin services AWS was built on (e.g. network egress) is being [given away for free](https://www.cloudflare.com/developer-platform/r2/) by competitors.
 
 Amazon is good at identifying real world problems they’ve faced from running an extremely large online store and logistics.
 Generative AI hasn’t been a problem Amazon has identified needed to be fixed (or even deeply worked on) until it was costing them business deals.
