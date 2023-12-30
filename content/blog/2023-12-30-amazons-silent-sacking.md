@@ -76,7 +76,7 @@ When I started at Amazon I was impressed that service teams were independent.
 It was the [purest implementation of devops](https://martinfowler.com/bliki/TwoPizzaTeam.html) I had never seen before.
 Especially at Amazon’s scale.
 
-Then I began to realize how expensive that is.
+Then I realized how expensive it is.
 There are only a handful of centralized teams at Amazon.
 Those are almost all tools and compliance teams.
 
@@ -88,11 +88,12 @@ Many of the service teams have lost a lot of institutional knowledge as part of 
 Teams were lean before 2023, now they’re emaciated.
 
 Teams can’t keep innovating when they’re just trying to keep the lights on.
-They can’t maintain on-call schedules without the ability to take a vacation or sick day.
+They can’t maintain on-call schedules without the ability to take vacation or sick days.
 
-The next logical step is to centralize.
+The next logical step to reduce costs is to centralize expertise.
+It's the reason many large companies have database administration, network engineering, or platform teams.
 
-They’ll have to give up on autonomy by reducing duplication.
+They’ll have to give up on autonomy to reduce duplication.
 Amazon has never had a platform engineering team or site reliability engineers (SRE).
 I suspect in 2024 they’ll start to reorg into a more centralized friendly org chart.
 
@@ -101,7 +102,7 @@ They’ll centralize to create “better collaboration” but in reality it’ll
 
 ## Outages ahead
 
-I suspect there’ll be a major AWS outage in the next 18 months.
+I suspect there’ll be a major AWS outage in 2024.
 No amount of multi-region redundancy will protect you.
 
 There has already been [an increase in large scale events (LSE) throughout Amazon](https://www.linkedin.com/posts/brucebawest_the-new-frequency-of-large-scale-events-at-activity-7109656617100484608-uGmJ), but AWS is so big most customers don’t notice.
@@ -113,12 +114,12 @@ Only outages customers notice are worthy of a dashboard update, but even those a
 Amazon is an operationally strong company.
 Much stronger than any company I’ve worked for before.
 
-But those operations all depend on people.
+But those operational practices depend on people.
 When people are eliminated to raise the stock price bar, operational practices suffer.
 
 ## Amazon won’t fire me
 
-On September 1st, 2023 I was told by my skip level manager and VP that my team and an adjacent team was being eliminated.
+On September 1st, 2023 I was told by my skip level manager and VP that my team and an adjacent team were being eliminated.
 They claimed we all did such good work that they wanted us to remain at Amazon.
 "We still have a job, just not a role."
 
