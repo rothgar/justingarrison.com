@@ -1,5 +1,5 @@
 ---
-title: "Amazons Silent Sacking"
+title: "Amazon's Silent Sacking"
 description: "Companies are fighting back for quiet quitting and it's having a big impact."
 date: 2023-12-30T07:29:31Z
 images: [/img/amazons-silent-sacking-banner.jpg]
