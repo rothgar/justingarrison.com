@@ -1,11 +1,14 @@
 ---
-title: "Amazon's Silent Sacking"
+title: "Amazons Silent Sacking"
 description: "Companies are fighting back for quiet quitting and it's having a big impact."
 date: 2023-12-30T07:29:31Z
-images: [/img/amazons-silent-sacking-banner.jpg]
-thumbnail: /img/amazons-silent-sacking-banner.jpg
+images: [/img/amazons-silent-sacking.jpg]
+thumbnail: /img/amazons-silent-sacking.jpg
 draft: false
 ---
+
+# Amazon’s Silent Sacking
+
 *This is not financial advice and I am not an expert.*
 
 Amazon has a stock problem.
@@ -20,7 +23,7 @@ When layoffs [hit AWS](https://www.businessinsider.com/amazon-layoffs) it was mo
 
 But publicly laying off 27,000 isn’t good for business–at least not immediately.
 
-![A graph of Amazon's stock price](/img/amazon-stock-graph-2023.jpg)
+<picture>
 
 The low stock at the beginning of the year is before the mass layoffs when operating expenses were high.
 Then Andy [announced return to office (RTO) initiatives](https://www.aboutamazon.com/news/company-news/andy-jassy-update-on-amazon-return-to-office), but nothing changed.
@@ -31,41 +34,41 @@ Then in the summer that changed.
 The negative press associated with layoffs wasn’t good.
 But the most effective way to reduce operational expenses was to get rid of all the expensive people.
 How could they force people to leave without severance packages or en masse?
-Making them miserable and silently sacking them.
+Making them miserable and silently sacking them had potential.
 
 So RTO was enforced.
 And people started leaving in droves.
-If they weren’t leaving they were looking, or at minimum waiting for their next RSU payout.
 
-In my small sphere of people there wasn’t a single person under an L7 that didn’t want out.
+If they weren’t leaving they were looking.
+
+In my small sphere of people I talked to there wasn’t a single person under an L7 that didn’t want out.
 From what I could gather this mostly came down to compensation.
 
-Independent contributors (IC) and managers that are L7 or above generally make $400k-$800k and for that much money they’re willing to put up with some inconveniences.
-Since Amazon’s pay is roughly 40% stock, they only make that much money so long as the stock stays up.
+Independent contributors (IC) and managers that are L7 or above generally make $400k-$800k and for that much money they’re willing to put up with more inconveniences.
+But since Amazon’s pay is roughly 40% stock, they only make that much money so long as the stock stays up.
 
 If Amazon keeps lowering their operating costs their earnings go up and stock rises.
 At the cost of burning out everyone doing the work.
 
-## Welcome to Day 2
+## Welcome to day 2
 
 As customers are cutting their own costs, $1 spent on AWS is worth less than it was last year.
-Every trend line still goes up and to the right, but growth is slowing.
+Every trend line still goes up and to the right, but growth is still slowing.
 
 Customers aren’t coming to the cloud for VMs and ludicrously expensive network anymore.
-They want higher levels of abstraction that AWS has historically been terrible at delivering.
+They want higher levels of abstraction which AWS has historically been terrible at delivering.
 
-Couple that with [Amazon trailing in AI](https://www.lastweekinaws.com/blog/aws-degenerative-ai-blunder/) and the most effective way Amazon can grow is by reducing costs.
+Couple that with [Amazon trailing the AI wave](https://www.lastweekinaws.com/blog/aws-degenerative-ai-blunder/) and the most effective way Amazon can grow is by reducing costs.
 The biggest cost is people.
 
-Many teams at Amazon have been in a hiring freeze for over a year.
-And now they’re chasing away the people they do have.
+Many teams have been in a hiring freeze for over a year.
+And now they’ve been chasing away the people they do have.
 
-Amazon has shifted from a leader to a follower.
-From my perspective it’s not going well.
+Amazon is quickly shifting from a leader to a follower.
+And from my perspective it’s not going well.
 
-Amazon hasn’t put in the decade of AI research Google has.
+Amazon hasn’t put in the decade of research Google has.
 It doesn’t partner with external companies as good as Microsoft.
-The high margin services AWS was built on (e.g. network egress) is being [given away for free](https://www.cloudflare.com/developer-platform/r2/) by competitors.
 
 Amazon is good at identifying real world problems they’ve faced from running an extremely large online store and logistics.
 Generative AI hasn’t been a problem Amazon has identified needed to be fixed (or even deeply worked on) until it was costing them business deals.
@@ -76,7 +79,7 @@ When I started at Amazon I was impressed that service teams were independent.
 It was the [purest implementation of devops](https://martinfowler.com/bliki/TwoPizzaTeam.html) I had never seen before.
 Especially at Amazon’s scale.
 
-Then I realized how expensive it is.
+Then I began to realize how expensive that is.
 There are only a handful of centralized teams at Amazon.
 Those are almost all tools and compliance teams.
 
@@ -88,12 +91,11 @@ Many of the service teams have lost a lot of institutional knowledge as part of 
 Teams were lean before 2023, now they’re emaciated.
 
 Teams can’t keep innovating when they’re just trying to keep the lights on.
-They can’t maintain on-call schedules without the ability to take vacation or sick days.
+They can’t maintain on-call schedules without the ability to take a vacation or sick day.
 
-The next logical step to reduce costs is to centralize expertise.
-It's the reason many large companies have database administration, network engineering, or platform teams.
+The next logical step is to centralize.
 
-They’ll have to give up on autonomy to reduce duplication.
+They’ll have to give up on autonomy by reducing duplication.
 Amazon has never had a platform engineering team or site reliability engineers (SRE).
 I suspect in 2024 they’ll start to reorg into a more centralized friendly org chart.
 
@@ -102,7 +104,7 @@ They’ll centralize to create “better collaboration” but in reality it’ll
 
 ## Outages ahead
 
-I suspect there’ll be a major AWS outage in 2024.
+I suspect there’ll be a major AWS outage in the next 18 months.
 No amount of multi-region redundancy will protect you.
 
 There has already been [an increase in large scale events (LSE) throughout Amazon](https://www.linkedin.com/posts/brucebawest_the-new-frequency-of-large-scale-events-at-activity-7109656617100484608-uGmJ), but AWS is so big most customers don’t notice.
@@ -114,12 +116,12 @@ Only outages customers notice are worthy of a dashboard update, but even those a
 Amazon is an operationally strong company.
 Much stronger than any company I’ve worked for before.
 
-But those operational practices depend on people.
+But those operations all depend on people.
 When people are eliminated to raise the stock price bar, operational practices suffer.
 
 ## Amazon won’t fire me
 
-On September 1st, 2023 I was told by my skip level manager and VP that my team and an adjacent team were being eliminated.
+On September 1st, 2023 I was told by my skip level manager and VP that my team and an adjacent team was being eliminated.
 They claimed we all did such good work that they wanted us to remain at Amazon.
 "We still have a job, just not a role."
 
