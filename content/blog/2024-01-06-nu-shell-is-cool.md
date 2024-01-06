@@ -3,7 +3,7 @@ title: "Nu Shell Is Cool"
 description: "Converting a file is a common task and nu shell was the most intuitive way to do it."
 date: 2024-01-06T10:49:06-08:00
 images: [/img/nu-way-banner.png]
-thumbnail: /img/u-way-banner.png
+thumbnail: /img/nu-way-banner.png
 draft: false
 ---
 
