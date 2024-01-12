@@ -6,7 +6,11 @@ images: [/img/amazons-silent-sacking-banner.jpg]
 thumbnail: /img/amazons-silent-sacking-banner.jpg
 draft: false
 ---
-*This is not financial advice and I am not an expert.*
+
+_This is not financial advice and I am not an expert._
+
+If you would like to listen to what happened in a podcast I did an interview for [The Changelog](https://changelog.com) podcast.
+<audio data-theme="night" data-src="https://changelog.com/podcast/573/embed" src="https://op3.dev/e/https://cdn.changelog.com/uploads/podcast/573/the-changelog-573.mp3" preload="none" class="changelog-episode" controls></audio><p><a href="https://changelog.com/podcast/573">Changelog Interviews 573: Amazon's silent sacking</a> – Listen on <a href="https://changelog.com/">Changelog.com</a></p><script async src="//cdn.changelog.com/embed.js"></script>
 
 Amazon has a stock problem.
 It’s not only Amazon, but they have more to lose.
@@ -144,3 +148,17 @@ It's now December 30th and I'm currently still employed by Amazon.
 It hasn't only been happening to my team.
 This has been happening in multiple areas as Amazon silently sacks people without being required to give them severance or announce layoffs.
 I've heard similar tactics being used at other companies–mostly large companies–and it'll only continue in 2024 as they make decisions that drive short term profits over all else.
+
+_Update: On Jan 10th I officially quit Amazon.
+My manager called me asking about what work I would be doing like none of this ever happened.
+I knew he would tried to put me on a PIP and I wasn't going to stick around for that._
+
+If you'd like to read more coverage about this please see the following articles:
+
+- https://www.businessinsider.com/senior-amazon-employee-aws-quiet-firing-remote-work-severance-package-2023-12
+- https://www.itpro.com/business/senior-aws-dev-claims-amazon-is-quietly-trying-to-encourage-employees-to-quit-in-a-push-to-covertly-cut-numbers
+- https://techstory.in/amazon-web-services-under-scrutiny-for-alleged-silent-sacking-amidst-layoffs-and-remote-work-policy-changes/
+- https://www.gwinnettdailypost.com/arena/thestreet/amazon-has-allegedly-found-a-controversial-way-to-cut-its-workforce-in-silent/article_af03eea7-bf8a-5ea6-872f-129c088c296b.html
+- https://workplaceinsight.net/amazon-employee-claims-he-was-told-youve-still-got-a-job-but-not-a-role/
+
+Comments on Hacker News https://news.ycombinator.com/item?id=38818319
