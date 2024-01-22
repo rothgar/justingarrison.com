@@ -19,7 +19,7 @@ My last year at AWS I spent a lot of time helping customers cost optimize their 
 Over and over again I kept realizing how much **more** work it takes to run infrastructure in a cloud environment.
 
 On-prem we didn't have cost optimization, we had a budget.
-On-prem we didn't have service quota limits, we had--much higher--performance boundaries.
+On-prem we didn't have service quota limits, we had—much higher—performance boundaries.
 On-prem we didn't have forced upgrades or confusing, competing services that did roughly the same thing.
 
 We were able to focus on company goals.
@@ -27,14 +27,14 @@ We were more intentional about the projects we funded and the infrastructure we 
 
 All of the "undifferentiated heavy lifting" became "undifferentiated heavy clouding" and companies lost sight of what was important.
 
-I found Talos 5 years ago--when I still worked at Disney--when [Andrew posted it on Reddit](https://www.reddit.com/r/kubernetes/comments/aqt0u9/talos_a_modern_linux_distribution_for_kubernetes/).
+I found Talos 5 years ago—when I still worked at Disney—when [Andrew posted it on Reddit](https://www.reddit.com/r/kubernetes/comments/aqt0u9/talos_a_modern_linux_distribution_for_kubernetes/).
 I immediately emailed him because I loved the idea.
 
 I had been using Core OS and was a firm believer that minimizing the Linux surface area was a key component to build more reliable, secure, systems with less maintenance.
 Talos was just what I was looking for.
 
 Over the years I've followed Talos and Omni, but since I was at AWS I was on the competing side.
-I helped educate customers about Bottlerocket--Amazon's answer to Talos--and worked on EKS Anywhere--Amazon's attempt to capture on-prem market share.
+I helped educate customers about Bottlerocket—Amazon's answer to Talos—and worked on EKS Anywhere—Amazon's attempt to capture on-prem market share.
 But they all fell short of what Sidero was doing.
 
 The user experience and thoughtfulness of an OS that integrates deeply with Kubernetes and hardware was appealing to me.
