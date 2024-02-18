@@ -3,8 +3,9 @@
   <div class="container grid items-center max-w-screen-lg gap-4 px-6 py-12 mx-auto md:grid-cols-2 lg:gap-16">
     <div>
       <h1 class="order-first mb-4 text-4xl font-bold">{{ .Site.Params.introTitle | safeHTML}}</h1>
-      <p class="pb-6 text-lg font-light">{{ .Site.Params.introSubtitle | safeHTML}}</p>
+      <p class="text-lg font-light">{{ .Site.Params.introSubtitle | markdownify | safeHTML}}</p>
 
+      {{- partial "social-icons.html" . -}}
       <form class="py-6 font-light bg-gray-800 rounded-lg dark:bg-blue-200" name="subscribe" method="POST" action="https://justingarrison.recur.email/subscribe" required>
         <p>
           <div class="flex flex-col items-center space-y-4">

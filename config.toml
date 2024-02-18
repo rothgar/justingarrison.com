@@ -40,7 +40,7 @@ DefaultContentLanguageInSubdir = true
 
   #intro
   introTitle =  "Hi, I'm Justin. "
-  introSubtitle =  "I'm a developer who's helped create Oscar winning movies at Disney Animation, built infrastructure for Disney+, and worked on EKS at AWS. I'm now the Director of Developer Relations at [Sidero Labs](https://siderolabs.com) and host of the Ship it! podcast."
+  introSubtitle =  "I'm a developer who's helped create Oscar winning movies at Disney Animation, built infrastructure for Disney+, and worked on EKS at AWS. I'm now the Director of Developer Relations at **[Sidero Labs](https://siderolabs.com)** and host of the **[Ship it! podcast](https://shipit.show)**"
   introPhoto = "/img/profile.png"
 
 [params.homepage.social]
@@ -48,6 +48,9 @@ DefaultContentLanguageInSubdir = true
   title = "Follow me"
   description = "Here's where I hang out in social media"
 
+  [[params.homepage.social.icons]]
+  website = "bluesky"
+  url = "https://bsky.app/profile/justingarrison.com"
   [[params.homepage.social.icons]]
   website = "github"
   url = "https://github.com/rothgar"
