@@ -40,7 +40,7 @@ DefaultContentLanguageInSubdir = true
 
   #intro
   introTitle =  "Hi, I'm Justin. "
-  introSubtitle =  " I'm a developer who works in the cloud and open source. I've helped create Oscar winning movies, build Disney+, and work at AWS. I'm a Linux and Kubernetes nerd who loves to help people."
+  introSubtitle =  "I'm a developer who's helped create Oscar winning movies at Disney Animation, built infrastructure for Disney+, and worked on EKS at AWS. I'm now the Director of Developer Relations at [Sidero Labs](https://siderolabs.com) and host of the Ship it! podcast."
   introPhoto = "/img/profile.png"
 
 [params.homepage.social]
