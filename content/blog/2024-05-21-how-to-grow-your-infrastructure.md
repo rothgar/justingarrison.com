@@ -7,11 +7,11 @@ thumbnail: /img/og-image.png
 draft: true
 ---
 
-This topic has come up more often over the years than I can remember so I'm writing it down to express my current opinion of how your application and infrastructure should grow over time.
+This topic has come up often over the years so I'm writing it down to express my current opinion of how your application and infrastructure should grow over time.
 I've roughly had the same opinion since working at Disney+ and moving to AWS and watching applications and infrastructure scale.
 
 Every application and environment is unique so no one will be able to follow this progression exactly.
-But generally this is how I start anything I build, and how I recommend allow their applications to grow with need.
+But generally this is how I start anything I build, and how I recommend applications to grow.
 
 ### Start with serverless
 
@@ -33,7 +33,7 @@ They meet the criteria of getting out of the way and helping you focus on figuri
 
 The infrastructure is going to be part of your application in a very critical way in this early stage.
 Embrace it.
-Use the k/v store even if you don't think it's going to scale.
+Use the k/v store even if you don't think it's going to scale long term.
 
 ### Servers/containers
 
@@ -45,7 +45,7 @@ I know those things can work to a degree, but I've never seen them work long ter
 At some point you need to build a monolith.
 
 That's where containers and servers are great!
-You may still be building a microservice, but it's going to be bigger and simpler than the 10 functions, 3 queues, and database were before.
+You may still be building a microservice, but it's going to be bigger and architecturally simpler than the 10 functions, 3 queues, and a database were before.
 
 This is the point where you decide which components should be part of the infrastructure and which should be part of your application.
 A message queue is great, but if one function can fork a thread instead of going over the network it's going to be easier to run locally, easier to reason about failures, easier to stablize for the second evolution of your app.
@@ -57,7 +57,7 @@ Be careful not to over complicate this step.
 It's easy to think container == Kubernetes, and that's not at all what I'm saying.
 Keep the infrastructure as simple as you can because you need to figure out what the application needs.
 
-You're going to be writing more code in this phase because you shouldn't be relying on the infrastructure to be as core of a component of your application.
+You're going to be writing more code in this phase because you shouldn't be relying on the infrastructure to be a core of a component of your application.
 Put your application in a container and run it in one of many container services, or stick it on a VM in an auto scaling group and don't think about it until the next phase.
 
 ## Multiple containers
@@ -65,7 +65,7 @@ Put your application in a container and run it in one of many container services
 This is the 3rd phase of your application's evolution.
 This is the first time you should even think about owning any part of the orchestration.
 Everything before this should be as serverless or off-the-shelf as possible.
-Many applications don't even need to make it to this point.
+Many applications don't even make it to this point.
 
 Now is the first time you probably need to make some hard scaling challenges.
 Your application is probably split into a few different containers, a database, and at least 2 supporting infrastructure components (e.g. cache).
@@ -78,8 +78,8 @@ That is probably going to come through some form of orchestration.
 Lots of enterprises start at this level.
 Either because they don't have offerings for 1-2 or they have so many applications they have to build a platform team and try to build 1-2 themselves.
 
-The problem usually comes from trying to simplify something complex instead of complexifying something simple.
-It is a lot harder to hide something like Kubernetes than it is to build cloud native cgi-bin on top of simpler primitives.
+The problem for most platform teams is it's harder to simplify something complex than complexifying something simple.
+It is a lot harder to hide something like Kubernetes than it is to build cloud native cgi-bin on top of a pool of VMs.
 
 ## BYO Cloud
 
@@ -97,7 +97,7 @@ This is big enterprise problems and now you have multiple platform teams, a clou
 Your company is multi-cloud and there's a cloud team building an "abstraction" (a.k.a. terraform template) in the stratosphere.
 It's called "ozone" because they think they're clever.
 
-They need to control every aspect of your self-service experience that all the benefits of the cloud have been whittled away in appsec and SRE scoping.
+They need to control every aspect of your self-service experience and all the benefits of the cloud have been whittled away in appsec and SRE scoping.
 At this point the application makes money.
 Not a little bit of "that's cool" money, like a lot of money.
 Enough money to fund the next 3 quarters of AI tomfoolery without affecting your bottom line.
@@ -108,7 +108,7 @@ If you've made it this far your application is officially Legacy with a capital 
 Not legacy because you don't want to write apps in Ruby any more, but Legacy because the documentation and decisions you made will long out live the team who built it.
 
 The next, and final, cycle of application evolution is to make it run bug complete with as minimal changes required and as minimal spend as possible.
-This is where most companies will buy some 3 years of reserved instances and say that's the cheapest they can make it.
+This is where most companies will buy 3 years of reserved instances and say that's the cheapest they can make it.
 
 Maybe they'll put it in its own Kubernetes cluster just so it doesn't interfere with the other workloads and quarterly Kubernetes upgrades can be handled separately.
 It will likely never have another major refactor, and anyone who's onboarding to the stack at this point will be the caregiver, not the doctor.
