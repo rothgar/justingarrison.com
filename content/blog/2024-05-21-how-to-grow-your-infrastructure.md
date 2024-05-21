@@ -2,8 +2,8 @@
 title: "How to Grow Your Infrastructure"
 description: The progression of how applications and infrastructure change from 0 to millions of users.
 date: 2024-05-20T20:59:09-07:00
-images: [/img/og-image.png]
-thumbnail: /img/og-image.png
+images: [/img/app-evolution-banner.png]
+thumbnail: /img/app-evolution-banner.png
 draft: true
 ---
 
