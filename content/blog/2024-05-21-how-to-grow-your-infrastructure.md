@@ -4,7 +4,7 @@ description: It's harder to simplify something complex than complexify something
 date: 2024-05-21T00:59:09-07:00
 images: [/img/app-evolution-banner.png]
 thumbnail: /img/app-evolution-banner.png
-draft: true
+draft: false
 ---
 
 This topic has come up often over the years so I'm writing it down to express my current opinion of how your application and infrastructure should grow over time.
