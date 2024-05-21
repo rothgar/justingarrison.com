@@ -1,7 +1,7 @@
 ---
 title: "How to Grow Your Infrastructure"
 description: It's harder to simplify something complex than complexify something simple.
-date: 2024-05-20T20:59:09-07:00
+date: 2024-05-21T00:59:09-07:00
 images: [/img/app-evolution-banner.png]
 thumbnail: /img/app-evolution-banner.png
 draft: true
