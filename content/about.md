@@ -9,9 +9,9 @@ type: about
 
 ![](/img/profile-surprised-round.png)
 
-I'm Justin.
+Hi, I'm Justin.
 
-- I work at [Amazon Web Services](http://aws.amazon.com/) on the Kubernetes team.
+- I work at [Sidero Labs](http://siderolabs.com/) as the Director of Devrel.
 - I wrote a book with [Kris Nóva](https://nivenly.com/) called [Cloud Native Infrastructure](https://cnibook.info/).
 - I helped make some [movies](https://www.imdb.com/name/nm7463292) at Disney.
 - Here's my [resume](https://justingarrison.com/resume.html)
