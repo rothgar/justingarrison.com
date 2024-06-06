@@ -142,7 +142,7 @@ I deployed Kubernetes 1.2-1.5 at Disney and have watched the community and proje
 
 **Congratulations Kubernetes for making it to 10 years!**
 
-I attribute the longevity to the early community leaders like Sarah Novotny, Joe Beda, and Tim Hockin.
+I attribute the longevity to the early community leaders like Sarah Novotny, Jaice DuMars, Joe Beda, and Tim Hockin.
 People who I didn't know and didn't know me, but they still would help me figure out the project, community, and my personal career.
 
 People like them are the reason I'm still involved with Kubernetes and their examples are reasons I try to give back my own time for people joining the community or tech in general.
