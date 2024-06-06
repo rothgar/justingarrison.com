@@ -1,7 +1,7 @@
 ---
 title: "Ten Years of Kubernetes"
 description: "How I got started with Kubernetes and where it has taken me."
-date: 2024-06-06T23:41:49-07:00
+date: 2024-06-06
 images: [/img/kubertenes-banner.png]
 thumbnail: /img/kubertenes-banner.png
 draft: false
