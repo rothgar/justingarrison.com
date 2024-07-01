@@ -3,11 +3,11 @@ title: The World Is Eating Software
 description: >-
   The software industry is at the top of valuation but the tail is wagging the
   dog.
-date: 2024-07-01T00:00:00.000Z
+date: 2024-06-30T00:00:00.000Z
 images:
   - /img/world-eating-software-banner.png
 thumbnail: /img/world-eating-software-banner.png
-draft: true
+draft: false
 ---
 In 2011, Marc Andreessen famously said that "[Software is eating the world](https://a16z.com/why-software-is-eating-the-world/)."
 The article has been interpreted many different ways over the past 13 years, but the fundamental claim is that there is so much software running so many different industries that the "software companies" should be valued higher than they are.
