@@ -3,7 +3,7 @@ title: The World Is Eating Software
 description: >-
   The software industry is at the top of valuation, but the tail is wagging the
   dog.
-date: 2024-06-30T00:00:00.000Z
+date: 2024-07-01T00:00:00.000Z
 images:
   - /img/world-eating-software-banner.png
 thumbnail: /img/world-eating-software-banner.png
