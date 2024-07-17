@@ -7,6 +7,8 @@ thumbnail: /img/cubernetes-banner.jpg
 images: [/img/cubernetes-banner.jpg]
 pinned: true
 url: /cubernetes
+aliases:
+  - /blog/2022-07-06-cubernetes
 ---
 
 It took a few months to plan and about three weeks to build my latest Kubernetes hardware lab. I tested with the new [EKS Anywhere bare metal provisioner](https://aws.amazon.com/blogs/containers/getting-started-with-eks-anywhere-on-bare-metal/) to install the OS and manage Kubernetes. The cluster is going to be used for training and video content for the [Containers from the Couch](https://cftc.info/) channel and various in person conferences. Let me know if you have a meetup/conference you would like me to come to via [email](mailto:justin@linux.com).
