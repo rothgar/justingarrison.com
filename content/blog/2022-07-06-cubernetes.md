@@ -15,6 +15,8 @@ It took a few months to plan and about three weeks to build my latest Kubernetes
 
 This blog post will include a parts list and process for anyone who wants to do something similar. I work at Amazon and this was a work project. If you have a cool Kubernetes cluster I’d love to see it.
 
+{{< youtube IoUCFNQDkNA >}}
+
 <!--more-->
 
 ## Parts and tools
