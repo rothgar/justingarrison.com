@@ -2,6 +2,8 @@
   {{ $lastmodstr := (partial "date.html" (dict "date" .Lastmod "language" $.Page.Language "format" "long")) }}
   {{ $datestr := (partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "long")) }}
 
+  {{ with .Params.hideThumbnail }}
+  {{ else }}
   {{ if .Params.thumbnail }}
   <div class="relative max-w-5xl px-4 mx-auto">
     <img src="{{ .Params.thumbnail }}" class="object-contain w-full rounded-lg shadow-sm" />
@@ -11,6 +13,7 @@
     </div>
     {{ end }}
   </div>
+  {{ end }}
   {{ end }}
 
   <article class="px-4 mx-auto my-8 prose lg:prose-lg dark:prose-dark">
