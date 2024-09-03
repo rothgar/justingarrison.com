@@ -4,7 +4,7 @@ title = ' Justin Garrison'
 theme = 'blist'
 
 DefaultContentLanguage = "en"
-DefaultContentLanguageInSubdir = true
+DefaultContentLanguageInSubdir = false
 
 [author]
   name = 'Justin Garrison'
