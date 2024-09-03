@@ -18,7 +18,7 @@ DefaultContentLanguageInSubdir = true
   enableSearch = true
 
   # Custom copyright - optional
-  copyright = "© 2016-2022 Justin Garrison @rothgar."
+  copyright = "© 2016-2024 Justin Garrison @rothgar."
 
   logo = ""
 
