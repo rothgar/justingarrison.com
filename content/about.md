@@ -7,13 +7,13 @@ keywords: ["about-us", "about-hugo", "contact"]
 type: about
 ---
 
-![](/img/profile-surprised-round.png)
+![A picture of Justin making a surprised face](/img/profile-surprised-round.png)
 
 Hi, I'm Justin.
 
-- I work at [Sidero Labs](http://siderolabs.com/) as the Director of Devrel.
-- I wrote a book with [Kris Nóva](https://nivenly.com/) called [Cloud Native Infrastructure](https://cnibook.info/).
-- I helped make some [movies](https://www.imdb.com/name/nm7463292) at Disney.
+- I work at [Sidero Labs](http://siderolabs.com/) as the Head of Product.
+- I wrote a book with [Kris Nóva](https://nivenly.org/memorials/krisnova/) called [Cloud Native Infrastructure](https://cnibook.info/).
+- I helped make some [movies](https://www.imdb.com/name/nm7463292) at Disney Animation.
 - Here's my [resume](https://justingarrison.com/resume.html)
 - If you need a profile picture you can use one available on [GitHub here](https://github.com/rothgar/rothgar/tree/master/img).
 - You can find my other places online in the social links below.
