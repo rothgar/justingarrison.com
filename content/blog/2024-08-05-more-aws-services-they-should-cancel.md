@@ -21,22 +21,23 @@ Be prepared for how you'll migrate.
 
 What would you kill?
 Let me know [on bluesky](https://bsky.app/profile/justingarrison.com).
+Services crossed out on this list were announced deprecated after writing this post.
 
 1. [Amazon Managed Blockchain](#blockchain)
 1. [Amazon Workmail](#workmail)
-1. [AWS App Mesh](#appmesh)
+1. ~[AWS App Mesh](#appmesh)~
 1. [AWS Proton](#proton)
 1. [AWS Elastic Beanstalk](#beanstalk)
 1. [Amazon Lightsail](#lightsail)
 1. [Amazon GameLift](#gamelift)
 1. [Amazon Bracket](#bracket)
 1. [Amazon CodeGuru](#codeguru)
-1. [AWS Deep Racer](#deepracer)
+1. ~[AWS Deep Racer](#deepracer)~
 1. [Amazon Personalize](#personalize)
 1. [Amazon Kendra](#kendra)
 1. [AWS App2Container](#app2container)
 1. [Amazon TimeStream](#timestream)
-1. [Amazon RDS on VMware](#rds-on-vmware)
+1. ~[Amazon RDS on VMware](#rds-on-vmware)~
 1. [Bottlerocket](#bottlerocket)
 1. [AWS Cloud Control API](#cloud-control-api)
 1. [NAT Gateway](#nat-gateway)
