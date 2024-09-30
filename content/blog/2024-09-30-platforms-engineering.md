@@ -1,7 +1,7 @@
 ---
 title: "Platforms Engineering"
 description: "The idea that you can build a single platform is making it worse"
-date: 2024-09-29
+date: 2024-09-30
 images: [/img/platforms-engineering-banner.png]
 thumbnail: /img/platforms-engineering-banner.png
 draft: false
