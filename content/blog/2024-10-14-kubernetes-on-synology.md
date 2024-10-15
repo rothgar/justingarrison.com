@@ -88,13 +88,13 @@ One thing I love about this approach is of course I can manage the node with `ku
 
 Here are some things I'd love to see in k2d to make it even better.
 
-- Support for `-o wide` output for resources.
-- Support for CERT aliases so I can use hostname or IP address.
-- Support for resources aliases (e.g. `k get po`) which currently is haphazardly supported.
+- Support for `-o wide` [output for resources](https://github.com/portainer/k2d/issues/86).
+- Support for [CERT aliases](https://github.com/portainer/k2d/issues/87) so I can use hostname or IP address.
+- Support for [resources aliases](https://github.com/portainer/k2d/issues/88) (e.g. `k get po`) which currently is haphazardly supported.
 - Support for CronJobs. Jobs has a [long-standing, unmerged PR](https://github.com/portainer/k2d/pull/46).
 - [Ingress support](https://github.com/portainer/k2d/issues/16).
-- Metrics support so things like `k top pod` work.
-- Selective CRD support for things like [cert manager](https://cert-manager.io) and [external DNS](https://github.com/kubernetes-sigs/external-dns).
+- [Metrics support](https://github.com/portainer/k2d/issues/89) so things like `k top pod` work.
+- [Selective CRD support](https://github.com/portainer/k2d/issues/90) for things like [cert manager](https://cert-manager.io) and [external DNS](https://github.com/kubernetes-sigs/external-dns).
 
 I still need to test if LoadBalancer services work with something like MetalLB in ARP mode.
 It hasn't been a blocker yet, but could replace the need for
