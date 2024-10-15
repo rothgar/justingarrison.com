@@ -2,8 +2,8 @@
 title: "Kubernetes on Synology NAS"
 description: Running a Kubernetes API on a Synology is harder and easier than it sounds
 date: 2024-10-14T20:53:31-07:00
-images: [/img/og-image.png]
-thumbnail: /img/og-image.png
+images: [/img/k2d-synology-banner.png]
+thumbnail: /img/k2d-synology-banner.png
 draft: true
 ---
 
@@ -86,7 +86,7 @@ One thing I love about this approach is of course I can manage the node with `ku
 
 ## Improvements
 
-There are a few things I'd love to see in k2d to make it even better.
+Here are some things I'd love to see in k2d to make it even better.
 
 - Support for `-o wide` output for resources.
 - Support for CERT aliases so I can use hostname or IP address.
@@ -94,3 +94,9 @@ There are a few things I'd love to see in k2d to make it even better.
 - Support for CronJobs. Jobs has a [long-standing, unmerged PR](https://github.com/portainer/k2d/pull/46).
 - [Ingress support](https://github.com/portainer/k2d/issues/16).
 - Metrics support so things like `k top pod` work.
+- Selective CRD support for things like [cert manager](https://cert-manager.io) and [external DNS](https://github.com/kubernetes-sigs/external-dns).
+
+I still need to test if LoadBalancer services work with something like MetalLB in ARP mode.
+It hasn't been a blocker yet, but could replace the need for
+
+k2d isn't an [open source license](https://github.com/portainer/k2d/blob/develop/LICENSE), but that doesn't bother me for my use case.
