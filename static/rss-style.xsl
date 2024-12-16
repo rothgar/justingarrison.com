@@ -171,7 +171,7 @@ This file is in BETA. Please test and contribute to the discussion:
 							<xsl:attribute name="href">
 								<xsl:value-of select="/rss/channel/link"/>
 							</xsl:attribute>
-							&#x2190; Go back to cassidoo.co
+							&#x2190; Go back to justingarrison.com
 						</a>
 					</header>
 
