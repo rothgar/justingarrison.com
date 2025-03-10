@@ -6,26 +6,37 @@
       <p class="text-lg font-light">{{ .Site.Params.introSubtitle | markdownify | safeHTML}}</p>
 
       {{- partial "social-icons.html" . -}}
-      <form class="py-6 font-light bg-gray-800 rounded-lg dark:bg-blue-200" name="subscribe" method="POST" action="https://justingarrison-com.recuremail.com/subscribe" required>
+
+      <form class="py-6 font-light bg-gray-800 rounded-lg dark:bg-blue-200" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl" name="subscribe" method="POST" required>
         <p>
-          <div class="flex flex-col items-center space-y-4">
-            <label class="text-2xl font-semibold text-white dark:text-blue-900" for="email">Subscribe via email</label>
-            <input class="px-8 py-2 mt-1 text-center text-blue-900 border rounded-md shadow-sm bg-lg input border-slate-300 placeholder-slate-600 focus:outline-none focus:border-sky-500 focus:ring-sky-600 sm:text-sm focus:ring-2"
-              id=email type="email" name="email" placeholder="subscribe@me.please" required />
-            <input type="hidden" id="referrer" name="referrer" value="{{ .Permalink }}">
-            <div class="cf-turnstile" data-sitekey="0x4AAAAAAAL17EV6_AEfXA3k"></div>
-            <button class="px-4 py-2 mt-2 text-white bg-blue-700 rounded-md dark:bg-blue-700 dark:hover:bg-blue-500 hover:bg-blue-500 dark:text-white" id="formSubmitBtn" type="submit">Subscribe</button>
-          </div>
+        <div class="flex flex-col items-center space-y-4">
+          <label class="text-2xl font-semibold text-white dark:text-blue-900" for="email">Subscribe via email</label>
+<input type="hidden" name="meta_web_form_id" value="808668147" />
+<input type="hidden" name="meta_split_id" value="" />
+<input type="hidden" name="listname" value="awlist6844025" />
+<input type="hidden" name="redirect" value="https://www.aweber.com/thankyou-coi.htm?m=text" id="redirect_aad0e6b8123d4398f0e887e7c0aa76cc" />
+
+<input type="hidden" name="meta_adtracking" value="Home_page_sign_up" />
+<input type="hidden" name="meta_message" value="1" />
+<input type="hidden" name="meta_required" value="email" />
+
+<input type="hidden" name="meta_tooltip" value="" />
+          <input class="px-8 py-2 mt-1 text-center text-blue-900 border rounded-md shadow-sm bg-lg input border-slate-300 placeholder-slate-600 focus:outline-none focus:border-sky-500 focus:ring-sky-600 sm:text-sm focus:ring-2"
+            id="awf_field-117962878" type="email" name="email" placeholder="subscribe@me.please" required />
+          <input type="hidden" id="referrer" name="referrer" value="{{ .Permalink }}">
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAAL17EV6_AEfXA3k"></div>
+          <button class="px-4 py-2 mt-2 text-white bg-blue-700 rounded-md dark:bg-blue-700 dark:hover:bg-blue-500 hover:bg-blue-500 dark:text-white" id="formSubmitBtn" type="submit">Subscribe</button>
+        </div>
         </p>
-          </p>
+        </p>
       </form>
     </div>
     <img class="order-first rounded-lg shadow-sm md:order-last" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
   </div>
 
   <script>
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
     const email = urlParams.get('email')
     if ( email === "submit" ) {
       var submitBtn = document.getElementById("formSubmitBtn");
