@@ -1,5 +1,5 @@
 ---
-title: "Getting Started With Self-Hosting"
+title: "Get Started With Self-Hosting"
 description: "Taking ownership of your data and services"
 date: 2025-03-09T21:00:17-07:00
 images: [/img/start-self-hosting-banner.png]
