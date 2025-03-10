@@ -12,8 +12,7 @@ serve:
 
 # create a new post
 post +TITLE:
-	cd {{repo-root}}
-	hugo new content/blog/{{date}}`echo "{{TITLE}}" | sed 's, ,-,g'`.md
+	hugo new ./content/blog/{{date}}`echo "{{TITLE}}" | sed 's, ,-,g'`.md
 
 # run a server publicly via tailscale
 pub:
