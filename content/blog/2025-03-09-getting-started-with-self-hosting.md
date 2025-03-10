@@ -8,20 +8,19 @@ draft: true
 ---
 
 I've been running a home lab in various states for over 20 years.
-I'm not trying to be self-reliant and I don't think that SaaS software is bad--although increasingly this is the case.
+I'm not trying to be completely self-reliant and I don't think that SaaS software is bad--although increasingly this is the case.
 I just wanted to have some ownership over my data and I didn't have a lot of money to pay for cloud storage or services, but I did have cheap computers and free time.
 
 Twenty years later I have more money than time but I still run a decent amount of hardware for my home lab.
-Someone asked me how they should get started with self-hosting so I'm writing it down to share what I've learned after years of changing requirements and multiple iterations.
+Someone asked me how they should get started with self-hosting so I'm writing it down to share what I've learned after years of changing requirements and multiple hardware iterations.
 
-Roughly my advice is to build out your home lab in this order:
+My advice is to build your home lab in this order:
 
 1. Storage
 2. Network
 3. Applications
 
-Of course if you have a specific need you should always start there first.
-But if you're not sure and you want to learn some new things and take some ownership of your software this is a good road map.
+If you have a specific need you should always start there first, but if you're not sure and you want to learn some new things, this is a general road map.
 
 ## Storage
 
@@ -31,6 +30,12 @@ If you lose your storage you're having a bad month--or more if you don't have ba
 
 The reason I say to start with storage is it's critical for applications later and it's the easiest to calculate money saved over time.
 It also comes in really handy to increase your speed to data and access to data during network outages.
+
+But it's usually not the _only_ storage you need.
+I have a lot of local storage but I still end up paying for multiple cloud storage services.
+But that's not because I don't have enough storage locally, but rather those services require I use their storage (e.g. gmail).
+
+Over time I plan to replace some of those services that have more flexible storage options, but I don't suspect I'll every be completely free from some amount of cloud storage.
 
 ### Appliance
 
