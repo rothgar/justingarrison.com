@@ -17,7 +17,7 @@ If you open the Signal app settings you'll see this QR code next to your name.
 
 Tap it and it'll open the full QR code, but it also has options at the bottom to share a link.
 
-![Signal QR code with option on the bottom](/img/si—gnal-settings-qr-2.jpg)
+![Signal QR code with option on the bottom](/img/signal-settings-qr-2.jpg)
 
 If you copy the link then we can make this easier with a 301 redirect.
 
