@@ -52,17 +52,14 @@ DefaultContentLanguageInSubdir = false
   website = "bluesky"
   url = "https://bsky.app/profile/justingarrison.com"
   [[params.homepage.social.icons]]
+  website = "youtube"
+  url = "https://youtube.com/justingarrison"
+  [[params.homepage.social.icons]]
   website = "github"
   url = "https://github.com/rothgar"
   [[params.homepage.social.icons]]
   website = "linkedin"
   url = "https://www.linkedin.com/in/justingarrison/"
-  [[params.homepage.social.icons]]
-  website = "tiktok"
-  url = "https://www.tiktok.com/@justinleegarrison"
-  [[params.homepage.social.icons]]
-  website = "youtube"
-  url = "https://youtube.com/justingarrison"
   [[params.homepage.social.icons]]
   website = "reddit"
   url = "https://www.reddit.com/user/xrothgarx"
