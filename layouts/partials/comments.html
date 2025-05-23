@@ -27,7 +27,11 @@
     async>
   </script>
   {{ else if eq .Site.Params.comments.system "bluesky" }}
-  Bluesky comments here
+    {{ if .Params.bsky }}
+      <div id="comments-section" data-bsky-uri="{{ .Params.bsky }}"></div>
+      {{ $comments := resources.Get "js/comments.js" }}
+      <script src="{{ $comments.RelPermalink }}"></script>
+    {{ end }}
   {{ end }}
 </div>
 {{ end }}
