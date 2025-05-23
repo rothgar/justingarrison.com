@@ -96,6 +96,9 @@ DefaultContentLanguageInSubdir = false
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[params.comments]
+  system = "bluesky"
+
 # syntax highlight settings
 [markup]
   [markup.highlight]
