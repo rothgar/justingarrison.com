@@ -5,7 +5,7 @@ date: 2025-03-31T00:05:05-07:00
 images: [/img/signal-domain-redirect-banner.png]
 thumbnail: /img/signal-domain-redirect-banner.png
 draft: false
-bsky:https://bsky.app/profile/justingarrison.com/post/3l72qdqwnwx23
+bsky: https://bsky.app/profile/justingarrison.com/post/3lprhhpt5sc2s
 ---
 
 In an effort to keep using my domain for my identity online I wanted a way for people to start a Signal chat with me without needing to publish my phone number. [Signal usernames](https://signal.org/blog/phone-number-privacy-usernames/) are an answer for this, but there's still friction between telling someone my username and them sending me a message.
