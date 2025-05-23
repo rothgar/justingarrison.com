@@ -65,9 +65,7 @@
 
     {{ .Content }}
 
-    <div id="comments-section" data-bsky-uri="{{ .Params.bsky }}"></div>
-    {{ $comments := resources.Get "js/comments.js" }}
-    <script src="{{ $comments.RelPermalink }}"></script>
+    {{- partial "comments.html" . -}}
 
     <form class="py-4 mx-auto md:mx-24 font-light bg-gray-800 rounded-lg dark:bg-blue-200" name="subscribe" method="POST" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl" required>
       <p>
