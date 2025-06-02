@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "The Document Culture of Amazon"
 date: 2021-03-15
 description: "A look at Amazon's culture of writing and reading"
-thumbnail: /img/documents-banner.jpg 
-images: [/img/documents-banner.jpg]
+thumbnail: /img/document-culture-banner.jpg 
+images: [/img/document-culture-banner.jpg]
 pinned: true
 ---
 
