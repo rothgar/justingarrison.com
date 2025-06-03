@@ -3,8 +3,8 @@ author: "Justin Garrison"
 title: "How-to Debug a Running Docker Container from a Separate Container"
 description: "Debugging a stripped down Docker container from a separate container"
 date: 2017-02-13
-images: [/img/og-image.png]
-thumbnail: /img/og-image.png
+images: [/img/debug-docker-banner.png]
+thumbnail: /img/debug-docker-banner.png
 draft: false
 ---
 
