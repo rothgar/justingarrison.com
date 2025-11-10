@@ -62,6 +62,8 @@ I got comfortable enough to understand what I needed and then used Claude to hel
 I built the backpack so I could use it at Kubecon in Atlanta.
 The idea was to just wear it all week and use it to start conversations.
 
+![a screenshot of a webpage with a webcam with me with my thumb up](/img/petaflop-app.png)
+
 I would recharge it at the Sidero booth when the battery died and wear it when it had power.
 The Spark draws about 50w at idle so I estimated I would get about 3 hours of battery life.
 In reality, I got more than 3 hours of usage and recharging from 30% took almost 2 hours.
