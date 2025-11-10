@@ -1,5 +1,6 @@
 ---
 title: "PETaflop carrier"
+description: "AI can cause back pain."
 date: 2025-11-10
 images: [/img/petaflop-banner.jpg]
 thumbnail: /img/petaflop-banner.jpg
