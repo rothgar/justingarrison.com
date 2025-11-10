@@ -9,7 +9,7 @@ draft: false
 
 Instead of going to therapy I built another Kubernetes cluster.
 
-I got an NVIDIA DGX Spark and wanted to see what it's capable of.
+I got a NVIDIA DGX Spark and wanted to see what it's capable of.
 Lots of people have done benchmarks and comparisons, but I needed to see what it practically felt like to build something.
 
 Because it's a local, powerful AI computer I had to think of something AI related, and I wanted some way to show it's local.
@@ -20,7 +20,7 @@ Of course this could all be faked, but it's a lot more fun to work with constrai
 ## Hardware list
 
 * [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
-* [LattePanda IOTA (8GB)](https://www.dfrobot.com/product-2989.html) with [m.2 expansion](https://www.dfrobot.com/product-2985.html) and [UPS](https://www.dfrobot.com/product-2983.html
+* [LattePanda IOTA (8GB)](https://www.dfrobot.com/product-2989.html) with [m.2 expansion](https://www.dfrobot.com/product-2985.html) and [UPS](https://www.dfrobot.com/product-2983.html)
 * [GL.iNet GL-A1300 travel router](https://www.amazon.com/dp/B0B4ZSR2PX)
 * [Takki 250W Portable Power Station](https://www.amazon.com/dp/B0DP9GPWZJ)
 * [GOTUS LED Sign](https://www.amazon.com/dp/B0FLPWZKVQ)
