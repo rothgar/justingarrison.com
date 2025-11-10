@@ -1,5 +1,5 @@
 ---
-title: "PETaflop carrier"
+title: "PETaflop cluster"
 description: "AI can cause back pain."
 date: 2025-11-10
 images: [/img/petaflop-banner.jpg]
