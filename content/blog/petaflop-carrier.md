@@ -1,5 +1,6 @@
 ---
 title: "PETaflop carrier"
+date: 2025-11-10
 images: [/img/petaflop-banner.png]
 thumbnail: /img/petaflop-banner.png
 draft: false
