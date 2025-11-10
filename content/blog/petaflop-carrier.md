@@ -1,8 +1,8 @@
 ---
 title: "PETaflop carrier"
 date: 2025-11-10
-images: [/img/petaflop-banner.png]
-thumbnail: /img/petaflop-banner.png
+images: [/img/petaflop-banner.jpg]
+thumbnail: /img/petaflop-banner.jpg
 draft: false
 ---
 
@@ -14,7 +14,7 @@ Lots of people have done benchmarks and comparisons, but I needed to see what it
 Because it's a local, powerful AI computer I had to think of something AI related, and I wanted some way to show it's local.
 Of course this could all be faked, but it's a lot more fun to work with constraints.
 
-![A small stack of computers next to a backpack with a clear front](img/petaflop-assembled.png)
+![A small stack of computers next to a backpack with a clear front](/img/petaflop-assembled.jpg)
 
 ## Hardware list
 
@@ -38,7 +38,7 @@ Of course this could all be faked, but it's a lot more fun to work with constrai
 
 The software stack can be viewed in this diagram.
 
-![A diagram with block components described in the below paragraph](img/petaflop-software-diagram.png)
+![A diagram with block components described in the below paragraph](/img/petaflop-software-diagram.png)
 
 It's a pretty basic software stack.
 The ngrok Kubernetes operator runs inside the cluster and provides an ingress to the workload.
