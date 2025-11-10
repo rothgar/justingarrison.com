@@ -1,9 +1,5 @@
 ---
 title: "PETaflop carrier"
-build:
-  render: always
-  list: always
-  publishResources: true
 images: [/img/petaflop-banner.png]
 thumbnail: /img/petaflop-banner.png
 draft: false
