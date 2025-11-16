@@ -1,6 +1,6 @@
 ---
 title: "PETaflop cluster"
-description: "AI can cause back pain."
+description: "AI is a pain in the back."
 date: 2025-11-10
 images: [/img/petaflop-banner.jpg]
 thumbnail: /img/petaflop-banner.jpg
@@ -15,7 +15,7 @@ Lots of people have done benchmarks and comparisons, but I needed to see what it
 Because it's a local, powerful AI computer I had to think of something AI related, and I wanted some way to show it's local.
 Of course this could all be faked, but it's a lot more fun to work with constraints.
 
-![A small stack of computers next to a backpack with a clear front](/img/petaflop-assembled.jpg)
+{{< youtube XudewmfourQ >}}
 
 ## Hardware list
 
