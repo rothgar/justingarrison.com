@@ -2,7 +2,7 @@
 author: "Justin Garrison"
 title: "Cubernetes"
 date: 2022-07-05
-description: "Parts list and process for creating a home lab Kuberenetes cluster"
+description: "Parts list and process for creating a retro Kuberenetes cluster"
 thumbnail: /img/cubernetes-banner.jpg
 images: [/img/cubernetes-banner.jpg]
 pinned: true
@@ -11,13 +11,13 @@ aliases:
   - /blog/2022-07-06-cubernetes
 ---
 
-It took a few months to plan and about three weeks to build my latest Kubernetes hardware lab. I tested with the new [EKS Anywhere bare metal provisioner](https://aws.amazon.com/blogs/containers/getting-started-with-eks-anywhere-on-bare-metal/) to install the OS and manage Kubernetes. The cluster is going to be used for training and video content for the [Containers from the Couch](https://cftc.info/) channel and various in person conferences. Let me know if you have a meetup/conference you would like me to come to via [email](mailto:justin@linux.com).
-
-This blog post will include a parts list and process for anyone who wants to do something similar. I work at Amazon and this was a work project. If you have a cool Kubernetes cluster I’d love to see it.
+It took a few months to plan and about three weeks to build my latest Kubernetes hardware lab.
+I originally built it for my test lab while building EKS Anywhere, but now I use it for demoing [Talos Linux](https://talos.dev).
+This blog post includes a parts list and process for anyone who wants to do something similar.
 
 {{< youtube IoUCFNQDkNA >}}
 
-<!--more-->
+If you like this cluster you may also like my [PETaflop cluster](./petaflop-cluster).
 
 ## Parts and tools
 

@@ -17,6 +17,8 @@ Of course this could all be faked, but it's a lot more fun to work with constrai
 
 {{< youtube XudewmfourQ >}}
 
+If you like this cluster you may also like my [Cubernetes cluster](./2022-07-06-cubernetes) built in an Apple G4 Cube.
+
 ## Hardware list
 
 * [NVIDIA DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
