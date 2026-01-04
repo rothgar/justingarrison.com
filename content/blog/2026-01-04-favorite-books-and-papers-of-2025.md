@@ -1,7 +1,7 @@
 ---
 title: "Favorite Books and Papers of 2025"
 description: "My most memorable and recommended reads."
-date: 2026-01-04T
+date: 2026-01-04
 images: [/img/2025-best-books-banner.png]
 thumbnail: /img/2025-best-books-banner.png
 draft: false
