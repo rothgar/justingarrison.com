@@ -102,7 +102,7 @@ Each full book sponsorship for one month nets me $3,705 and partial sponsorships
 
 There are also some other sponsorships that I think count as ebook sales but I never got a clear answer how royalties work for those. Book licensing incurs a small payment but I’m unclear how that is used. From my statements, three people have licensed the book or excerpts from it which has netted me $2.37.
 
-{{< tweet user="thecloudcastnet" id="931584990718189568" >}}
+{{< x user="thecloudcastnet" id="931584990718189568" >}}
 
 My April 2018 statement (sales from December — March) says I’ve made $11,554.15 which roughly breaks down to $23 per hour for the estimated 500 hours of work. Without the three sponsorships that would have been $5.29 per hour. Luckily that number only gets better with time. I’ve heard 2nd editions are a better rate per hour because they have less time investment with similar sales as the original, but I don’t have any experience.
 

@@ -85,7 +85,7 @@ The DIY route for x86 boards is only getting better. Here’s a great example of
 
 ## Desktop Class Hardware
 
-{{< tweet user="v1k0d3n" id="733043358663348225" >}}
+{{< x user="v1k0d3n" id="733043358663348225" >}}
 
 This last category is going to give you lots of options. You’ll have a relatively powerful cluster (possibly more powerful than many cloud instances) but will cost you. Most of these options will cost you $1500-$2500 for a five node cluster but have a few benefits the others don’t.
 
