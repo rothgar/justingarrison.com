@@ -5,6 +5,7 @@ date: 2023-06-29T21:17:25-07:00
 images: [/img/platform-banner.png]
 thumbnail: /img/platform-banner.png
 draft: false
+pinned: true
 ---
 
 The platform engineering hype wave is almost over—thank you AI, but too many companies are still full steam ahead building one.

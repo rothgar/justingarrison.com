@@ -6,6 +6,7 @@ draft: false
 description: "Decoding EC2 instance type names to understand which is best for you. With free infographic."
 thumbnail: /img/ec2-names-banner.png 
 images: [/img/ec2-names-banner.png]
+pinned: true
 ---
 
 [Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/) has over 100 unique instance types with more than 600 size combinations.

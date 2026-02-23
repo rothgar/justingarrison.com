@@ -1,16 +1,236 @@
 {{ define "main" }}
   {{- partial "intro.html" . -}}
 
-  {{ $pinnedBundle := .Site.Params.pinnedBundle | default "blog" }}
-  <div class="container grid grid-cols-1 gap-4 p-6 mx-auto md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-    {{ range first 3 (where .Site.RegularPages ".Params.pinned" true)  }}
-      {{- partial "blog-card.html" . -}}
-    {{ end }}
-  </div>
-
   {{ $frontBundle := .Site.Params.frontBundle | default "blog" }}
+  {{/* Get the recent posts that will be displayed */}}
+  {{ $recentPosts := first 6 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle) }}
+
+  {{/* Get all pinned posts and exclude those already in recent posts */}}
+  {{ $allPinned := where .Site.RegularPages ".Params.pinned" true }}
+  {{ $filteredPinned := slice }}
+  {{ range $allPinned }}
+    {{ $currentPage := . }}
+    {{ $isInRecent := false }}
+    {{ range $recentPosts }}
+      {{ if eq .Permalink $currentPage.Permalink }}
+        {{ $isInRecent = true }}
+      {{ end }}
+    {{ end }}
+    {{ if not $isInRecent }}
+      {{ $filteredPinned = $filteredPinned | append $currentPage }}
+    {{ end }}
+  {{ end }}
+  {{/* Shuffle and pick up to 12 random pinned posts */}}
+  {{ $pinnedPosts := first 12 (shuffle $filteredPinned) }}
+
+  {{/* Show pinned section only if there are pinned posts not in recent */}}
+  {{ if gt (len $pinnedPosts) 0 }}
+    {{ if gt (len $pinnedPosts) 3 }}
+    {{/* Carousel for more than 3 pinned posts */}}
+    <div class="container mx-auto p-6">
+      <div class="pinned-carousel relative" data-slide-count="{{ len $pinnedPosts }}">
+        <button class="carousel-prev" aria-label="Previous">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <div class="carousel-container">
+          <div class="carousel-track">
+            {{ range $pinnedPosts }}
+            <div class="carousel-slide">
+              {{- partial "blog-card.html" . -}}
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <button class="carousel-next" aria-label="Next">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+        <div class="carousel-dots"></div>
+      </div>
+    </div>
+    <script>
+    (function() {
+      const carousel = document.querySelector('.pinned-carousel');
+      if (!carousel) return;
+
+      const track = carousel.querySelector('.carousel-track');
+      const originalSlides = Array.from(carousel.querySelectorAll('.carousel-slide'));
+      const prevBtn = carousel.querySelector('.carousel-prev');
+      const nextBtn = carousel.querySelector('.carousel-next');
+      const dotsContainer = carousel.querySelector('.carousel-dots');
+
+      let currentIndex = 0;
+      let slidesPerView = 3;
+      let autoRotateInterval = null;
+      let isTransitioning = false;
+      const originalCount = originalSlides.length;
+
+      // Clone slides for infinite loop
+      function setupInfiniteLoop() {
+        // Clone first slidesPerView slides and append to end
+        for (var i = 0; i < slidesPerView; i++) {
+          var clone = originalSlides[i % originalCount].cloneNode(true);
+          clone.classList.add('carousel-clone');
+          track.appendChild(clone);
+        }
+      }
+
+      function updateSlidesPerView() {
+        var oldSlidesPerView = slidesPerView;
+        if (window.innerWidth < 768) {
+          slidesPerView = 1;
+        } else if (window.innerWidth < 1024) {
+          slidesPerView = 2;
+        } else {
+          slidesPerView = 3;
+        }
+        return oldSlidesPerView !== slidesPerView;
+      }
+
+      function rebuildClones() {
+        // Remove existing clones
+        var clones = track.querySelectorAll('.carousel-clone');
+        clones.forEach(function(clone) { clone.remove(); });
+        // Add new clones
+        for (var i = 0; i < slidesPerView; i++) {
+          var clone = originalSlides[i % originalCount].cloneNode(true);
+          clone.classList.add('carousel-clone');
+          track.appendChild(clone);
+        }
+      }
+
+      function updateCarousel(animate) {
+        if (animate === false) {
+          track.style.transition = 'none';
+        } else {
+          track.style.transition = 'transform 0.3s ease-in-out';
+        }
+        var slideWidth = 100 / slidesPerView;
+        track.style.transform = 'translateX(-' + (currentIndex * slideWidth) + '%)';
+
+        // Update dots
+        var currentPage = getCurrentPage();
+        var dots = dotsContainer.querySelectorAll('.carousel-dot');
+        dots.forEach(function(dot, i) {
+          if (i === currentPage) {
+            dot.classList.add('active');
+          } else {
+            dot.classList.remove('active');
+          }
+        });
+      }
+
+      function getPageCount() {
+        return Math.ceil(originalCount / slidesPerView);
+      }
+
+      function getCurrentPage() {
+        return Math.floor(currentIndex / slidesPerView);
+      }
+
+      function createDots() {
+        dotsContainer.innerHTML = '';
+        var pageCount = getPageCount();
+        for (var i = 0; i < pageCount; i++) {
+          var dot = document.createElement('button');
+          dot.className = 'carousel-dot';
+          dot.setAttribute('aria-label', 'Go to page ' + (i + 1));
+          dot.setAttribute('data-page', i);
+          dotsContainer.appendChild(dot);
+        }
+        dotsContainer.addEventListener('click', function(e) {
+          if (e.target.classList.contains('carousel-dot') && !isTransitioning) {
+            var page = parseInt(e.target.getAttribute('data-page'), 10);
+            currentIndex = page * slidesPerView;
+            updateCarousel(true);
+            resetAutoRotate();
+          }
+        });
+      }
+
+      function goNext() {
+        if (isTransitioning) return;
+        isTransitioning = true;
+        currentIndex++;
+        updateCarousel(true);
+      }
+
+      // Handle seamless loop reset
+      track.addEventListener('transitionend', function() {
+        isTransitioning = false;
+        if (currentIndex >= originalCount) {
+          currentIndex = 0;
+          updateCarousel(false);
+        }
+      });
+
+      function startAutoRotate() {
+        autoRotateInterval = setInterval(goNext, 3000);
+      }
+
+      function stopAutoRotate() {
+        if (autoRotateInterval) {
+          clearInterval(autoRotateInterval);
+          autoRotateInterval = null;
+        }
+      }
+
+      function resetAutoRotate() {
+        stopAutoRotate();
+        startAutoRotate();
+      }
+
+      prevBtn.addEventListener('click', function() {
+        if (isTransitioning) return;
+        if (currentIndex > 0) {
+          currentIndex--;
+          updateCarousel(true);
+        }
+        resetAutoRotate();
+      });
+
+      nextBtn.addEventListener('click', function() {
+        goNext();
+        resetAutoRotate();
+      });
+
+      // Pause on hover
+      carousel.addEventListener('mouseenter', stopAutoRotate);
+      carousel.addEventListener('mouseleave', startAutoRotate);
+
+      window.addEventListener('resize', function() {
+        var changed = updateSlidesPerView();
+        if (changed) {
+          rebuildClones();
+        }
+        if (currentIndex >= originalCount) {
+          currentIndex = 0;
+        }
+        updateCarousel(false);
+      });
+
+      updateSlidesPerView();
+      setupInfiniteLoop();
+      createDots();
+      updateCarousel(false);
+      startAutoRotate();
+    })();
+    </script>
+    {{ else }}
+    {{/* Grid for 3 or fewer pinned posts */}}
+    <div class="container grid grid-cols-1 gap-4 p-6 mx-auto md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+      {{ range $pinnedPosts }}
+        {{- partial "blog-card.html" . -}}
+      {{ end }}
+    </div>
+    {{ end }}
+  {{ end }}
+
   <div class="container grid grid-cols-1 gap-4 p-6 mx-auto md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-    {{ range first 6 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)  }}
+    {{ range $recentPosts }}
       {{- partial "blog-card.html" . -}}
     {{ end }}
   </div>

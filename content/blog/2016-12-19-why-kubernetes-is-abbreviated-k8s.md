@@ -6,6 +6,7 @@ date: 2016-12-19
 images: [/img/k8s.gif]
 thumbnail: /img/k8s.gif
 draft: false
+pinned: true
 ---
 
 Some times people will join the Kubernetes community and get confused on what the “k8s” is all about. So I just wanted to share a [little bit of history](http://www.i18nguy.com/origini18n.html) around [numeronyms](https://en.wikipedia.org/wiki/Numeronym).

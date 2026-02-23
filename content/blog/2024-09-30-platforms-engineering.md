@@ -5,6 +5,7 @@ date: 2024-09-30
 images: [/img/platforms-engineering-banner.png]
 thumbnail: /img/platforms-engineering-banner.png
 draft: false
+pinned: true
 ---
 
 Platform engineering teams are fooling themselves if they think they can build a single platform that will fit everyone's needs.

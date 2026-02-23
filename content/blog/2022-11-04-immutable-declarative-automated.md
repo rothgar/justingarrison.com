@@ -5,6 +5,7 @@ date = 2022-11-04T01:21:24-07:00
 thumbnail = "/img/automated-immutable-declarative-banner.jpg"
 images = ["/img/automated-immutable-declarative-banner.jpg"]
 draft = false
+pinned = true
 +++
 
 The goals of infrastructure since I started managing it has been to automate it, make it immutable, and make it declarative.

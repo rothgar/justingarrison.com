@@ -5,6 +5,7 @@ date: 2023-12-30T07:29:31Z
 images: [/img/amazons-silent-sacking-banner.jpg]
 thumbnail: /img/amazons-silent-sacking-banner.jpg
 draft: false
+pinned: true
 ---
 
 _This is not financial advice and I am not an expert._

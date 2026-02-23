@@ -22,3 +22,148 @@
 .nested-replies .comment {
   margin-bottom: 0;
 }
+
+/* Pinned posts carousel */
+.pinned-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.carousel-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-slide {
+  flex-shrink: 0;
+  width: 33.333%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.carousel-prev,
+.carousel-next {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: background-color 0.2s, opacity 0.2s;
+  z-index: 10;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  background: #f3f4f6;
+}
+
+.carousel-prev:disabled,
+.carousel-next:disabled {
+  cursor: not-allowed;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .carousel-prev,
+  .carousel-next {
+    background: #374151;
+    color: #fff;
+  }
+
+  .carousel-prev:hover,
+  .carousel-next:hover {
+    background: #4b5563;
+  }
+}
+
+.dark .carousel-prev,
+.dark .carousel-next {
+  background: #374151;
+  color: #fff;
+}
+
+.dark .carousel-prev:hover,
+.dark .carousel-next:hover {
+  background: #4b5563;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  width: 100%;
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: #d1d5db;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  padding: 0;
+}
+
+.carousel-dot:hover {
+  background: #9ca3af;
+}
+
+.carousel-dot.active {
+  background: #374151;
+}
+
+.dark .carousel-dot {
+  background: #4b5563;
+}
+
+.dark .carousel-dot:hover {
+  background: #6b7280;
+}
+
+.dark .carousel-dot.active {
+  background: #e5e7eb;
+}
+
+/* Responsive */
+@media (max-width: 1023px) {
+  .carousel-slide {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-slide {
+    width: 100%;
+  }
+
+  .carousel-prev,
+  .carousel-next {
+    width: 32px;
+    height: 32px;
+  }
+
+  .carousel-prev svg,
+  .carousel-next svg {
+    width: 18px;
+    height: 18px;
+  }
+}

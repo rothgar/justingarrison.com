@@ -5,6 +5,7 @@ date: 2023-07-31T13:06:38-07:00
 images: [/img/document-driven-meetings-banner.png]
 thumbnail: /img/document-driven-meetings-banner.png
 draft: false
+pinned: true
 ---
 
 This article is best to experience before reading the details.

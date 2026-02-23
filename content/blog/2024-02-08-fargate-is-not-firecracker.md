@@ -5,6 +5,7 @@ date: 2024-02-08T22:17:30-08:00
 images: [/img/fargate-not-firecracker-banner.png]
 thumbnail: /img/fargate-not-firecracker-banner.png
 draft: false
+pinned: true
 ---
 
 This was the biggest un-truth that I saw while working at AWS on the EKS team.

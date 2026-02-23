@@ -5,6 +5,7 @@ date: 2024-12-02
 images: [/img/pds-self-hosted-banner.png]
 thumbnail: /img/pds-self-hosted-banner.png
 draft: false
+pinned: true
 ---
 Mastodon is a social media monolith, but Bluesky's architecture is microservices in the ways I like.
 While it's true components of Mastodon are separate, the instance is inseperable from user data.

@@ -5,6 +5,7 @@ date: 2025-11-10
 images: [/img/petaflop-banner.jpg]
 thumbnail: /img/petaflop-banner.jpg
 draft: false
+pinned: true
 ---
 
 Instead of going to therapy I built another Kubernetes cluster.

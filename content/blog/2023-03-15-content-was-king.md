@@ -6,6 +6,7 @@ draft: false
 description: "Judging a book by its cover is a great idea. Until content makes a comeback."
 thumbnail: /img/content-was-king-banner.jpg
 images: [/img/content-was-king-banner.jpg]
+pinned: true
 ---
 
 The age of content being king is long behind us.
