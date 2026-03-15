@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS Digital Safety Guide Flyer - 2 Up</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons for visuals -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @media print {
+            @page {
+                size: landscape;
+                margin: 0.3in;
+            }
+            .print\:hidden { display: none !important; }
+            .break-inside-avoid { break-inside: avoid; }
+            body { 
+                padding: 0 !important;
+                background: white !important;
+            }
+            #flyer-wrapper {
+                flex-direction: row !important;
+                gap: 1rem !important;
+                justify-content: space-between !important;
+            }
+            .flyer-instance {
+                width: 48% !important;
+                box-shadow: none !important;
+                border: none !important;
+            }
+        }
+        
+        .generated-image {
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .ios-toggle {
+            width: 32px;
+            height: 18px;
+            border-radius: 20px;
+            position: relative;
+            flex-shrink: 0;
+        }
+        .ios-toggle.on {
+            background-color: #34C759;
+        }
+        .ios-toggle.off {
+            background-color: #E9E9EA;
+        }
+        .ios-toggle::after {
+            content: '';
+            position: absolute;
+            top: 2px;
+            width: 14px;
+            height: 14px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+        .ios-toggle.on::after {
+            transform: translateX(16px);
+        }
+        .ios-toggle.off::after {
+            transform: translateX(2px);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 font-sans text-slate-900 min-h-screen p-4">
+
+    <!-- Print Button for User Convenience -->
+    <div class="max-w-[2400px] mx-auto mb-6 flex justify-center print:hidden">
+        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg flex items-center gap-2 transition-all active:scale-95">
+            <i data-lucide="printer" class="w-5 h-5"></i>
+            Print / Save as PDF
+        </button>
+    </div>
+
+    <!-- Wrapper for 2-up Layout -->
+    <div id="flyer-wrapper" class="flex flex-col lg:flex-row justify-center gap-4 max-w-[2400px] mx-auto">
+        
+        <!-- Flyer Copy 1 -->
+        <div class="flyer-instance w-full lg:w-1/2 bg-white overflow-hidden">
+            <div class="header-section relative h-32 w-full bg-slate-300 overflow-hidden border-b border-slate-400">
+                <div class="loading-overlay absolute inset-0 flex flex-col items-center justify-center text-slate-600 bg-slate-200 z-10">
+                    <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-slate-500"></div>
+                </div>
+                <img src="" alt="Header" class="generated-image w-full h-full object-cover opacity-20 hidden" />
+                <div class="fallback-bg absolute inset-0 bg-gradient-to-br from-gray-300 to-gray-100"></div>
+                <div class="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-gray-100 via-transparent to-transparent z-20">
+                    <h1 class="text-2xl font-black text-slate-900 leading-tight tracking-tight uppercase">iOS Digital <span class="text-blue-600">Safety</span> Guide</h1>
+                    <p class="text-slate-600 font-bold text-[10px] uppercase tracking-wider">Device security for high-risk events and travel</p>
+                </div>
+            </div>
+            <div class="p-4 space-y-4">
+                <div>
+                    <div class="flex items-center gap-2 mb-2 pb-1 border-b-2 border-blue-500 text-blue-700">
+                        <i data-lucide="shield-check" class="w-4 h-4"></i>
+                        <h2 class="text-xs font-black uppercase tracking-widest">Preparation</h2>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 phase-1-items"></div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-2 mb-2 pb-1 border-b-2 border-purple-500 text-purple-700">
+                        <i data-lucide="clock" class="w-4 h-4"></i>
+                        <h2 class="text-xs font-black uppercase tracking-widest">Day Before</h2>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 phase-2-items"></div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-2 mb-2 pb-1 border-b-2 border-orange-500 text-orange-700">
+                        <i data-lucide="alert-triangle" class="w-4 h-4"></i>
+                        <h2 class="text-xs font-black uppercase tracking-widest">During Event</h2>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 phase-3-items"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Flyer Copy 2 -->
+        <div class="flyer-instance w-full lg:w-1/2 bg-white overflow-hidden">
+            <div class="header-section relative h-32 w-full bg-slate-300 overflow-hidden border-b border-slate-400">
+                <div class="loading-overlay absolute inset-0 flex flex-col items-center justify-center text-slate-600 bg-slate-200 z-10">
+                    <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-slate-500"></div>
+                </div>
+                <img src="" alt="Header" class="generated-image w-full h-full object-cover opacity-20 hidden" />
+                <div class="fallback-bg absolute inset-0 bg-gradient-to-br from-gray-300 to-gray-100"></div>
+                <div class="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-gray-100 via-transparent to-transparent z-20">
+                    <h1 class="text-2xl font-black text-slate-900 leading-tight tracking-tight uppercase">iOS Digital <span class="text-blue-600">Safety</span> Guide</h1>
+                    <p class="text-slate-600 font-bold text-[10px] uppercase tracking-wider">Device security for high-risk events</p>
+                </div>
+            </div>
+            <div class="p-4 space-y-4">
+                <div>
+                    <div class="flex items-center gap-2 mb-2 pb-1 border-b-2 border-blue-500 text-blue-700">
+                        <i data-lucide="shield-check" class="w-4 h-4"></i>
+                        <h2 class="text-xs font-black uppercase tracking-widest">Preparation</h2>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 phase-1-items"></div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-2 mb-2 pb-1 border-b-2 border-purple-500 text-purple-700">
+                        <i data-lucide="clock" class="w-4 h-4"></i>
+                        <h2 class="text-xs font-black uppercase tracking-widest">Day Before</h2>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 phase-2-items"></div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-2 mb-2 pb-1 border-b-2 border-orange-500 text-orange-700">
+                        <i data-lucide="alert-triangle" class="w-4 h-4"></i>
+                        <h2 class="text-xs font-black uppercase tracking-widest">During Event</h2>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 phase-3-items"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Flyer Content Data
+        const phase1Data = [
+            { 
+                title: "Medical ID Setup", 
+                desc: "Visible without unlocking phone.", 
+                subItems: [
+                  "Health > Profile > Medical ID",
+                  "View from lock screen: Swipe up > Emergency > Medical ID"
+                  ],
+                toggle: "on"
+            },
+            { 
+                title: "Information backup", 
+                desc: "Save IMEI & enable Find My.", 
+                subItems: [
+                    "Settings > General > About > IMEI",
+                    "Settings > [Profile]> Find My"
+                ],
+                toggle: "on"
+            },
+            { 
+                title: "Wired Accessories", 
+                desc: "Settings > Privacy & Security > Wired Accessories > Ask for New Accessories", 
+                subItems: ["Prevents juice jacking and data copying."],
+                toggle: "off"
+            },
+            { 
+                title: "Advanced Data Protection", 
+                desc: "Encrypt backups.", 
+                subItems: ["Settings > iCloud > Advanced Data Protection"],
+                toggle: "on"
+            },
+            { 
+                title: "Secure Messaging", 
+                desc: "Install Signal Messenger.", 
+                subItems: ["Note to Self: Save photo without metadata and blur faces."],
+                statusIcon: "install"
+            },
+            { 
+                title: "Password Manager", 
+                desc: "1Password or iCloud Keychain", 
+                subItems: ["Settings > App > Default Apps > Passwords & Codes"],
+                statusIcon: "install"
+            },
+            { 
+                title: "Change default lock screen access",
+                desc: "",
+                subItems: [
+                  "Settings > Face ID & Passcode >",
+                  "<span class='ml-3'>Require Attention for Face ID</span>",
+                  "<span class='ml-3'>Stolen Device Protection: ON</span>",
+                  "<span class='ml-3'>Require Passcode: Immediately</span>",
+                  "<span class='ml-3'>Disable Control Center and Siri when locked</span>"
+                  ],
+                toggle: "on"
+            },
+            { 
+                title: "Privacy Controls", 
+                desc: "Disable App tracking.", 
+                subItems: [
+                    "Settings > Privacy & Security >",
+                    "<span class='ml-3'>Tracking > Allow Apps to Request to Track</span>",
+                    "<span class='ml-3'>Analytics & Improvements > Disable all</span>",
+                    "<span class='ml-3'>Apple Advertising > Personalized Ads</span>"
+                ],
+                toggle: "off"
+            }
+        ];
+
+        const phase2Data = [
+            { 
+                title: "Full Backup", 
+                desc: "Backup photos",
+                subItems: [
+                  "Settings > iCloud > Backup Up Now",
+                  "Backup to Mac if not enough cloud storage."
+                ],
+                toggle: "on"
+            },
+            { 
+                title: "App Hygiene", 
+                desc: "Delete unused & update all.", 
+                subItems: ["App Store > [Profile] > Pull to refresh"],
+                statusIcon: "uninstall"
+            }
+        ];
+
+        const phase3Data = [
+            { 
+                title: "Temporarily Disable Biometrics", 
+                desc: "Hold Power + Vol Up (2s).", 
+                subItems: [
+                  "Only Passcode can unlock phone.",
+                  "Never give unlocked phone to a stranger or police.",
+                  ],
+                iconOverride: "lock"
+            },
+            { 
+                title: "Connectivity", 
+                desc: "Turn WiFi/BT OFF in Settings. Control center doesn't disable tracking.", 
+                subItems: [],
+                connectivityIcons: true
+            },
+            { 
+                title: "Use Camera without Unlock", 
+                desc: "Swipe left from lock screen, or use camera button.", 
+                subItems: [] 
+            },
+            { 
+                title: "No QR Codes", 
+                desc: "Can be spoofed to steal data.", 
+                subItems: [] 
+            }
+        ];
+
+        function createItem(item) {
+            const subItemsHtml = item.subItems.length > 0 
+                ? `<ul class="text-[9px] text-slate-500 space-y-0.5 mt-auto">
+                    ${item.subItems.map(sub => {
+                        const hasIndent = sub.includes('ml-3');
+                        const bullet = hasIndent ? '' : '<span class="text-blue-400">•</span>';
+                        return `<li class="flex gap-1">${bullet}${sub}</li>`;
+                    }).join('')}
+                   </ul>`
+                : '';
+
+            // Handle the top-right indicator logic
+            let topRightHtml = '';
+            if (item.toggle) {
+                topRightHtml = `<div class="ios-toggle ${item.toggle} scale-[0.6] origin-right"></div>`;
+            } else if (item.statusIcon === 'install') {
+                topRightHtml = `<div class="text-blue-500 scale-[0.6] origin-right flex items-center gap-1 opacity-70"><i data-lucide="download"></i><span class="text-[10px] font-bold">INSTALL</span></div>`;
+            } else if (item.statusIcon === 'uninstall') {
+                topRightHtml = `<div class="text-red-500 scale-[0.6] origin-right flex items-center gap-1 opacity-70"><i data-lucide="trash-2"></i><span class="text-[10px] font-bold">UNINSTALL</span></div>`;
+            } else if (item.connectivityIcons) {
+                topRightHtml = `
+                    <div class="flex gap-1 items-center scale-[0.6] origin-right">
+                        <div class="flex items-center gap-0.5 text-red-600 font-bold">
+                            <i data-lucide="wifi-off" class="w-4 h-4"></i>
+                        </div>
+                        <div class="flex items-center gap-0.5 text-red-600 font-bold">
+                            <i data-lucide="bluetooth-off" class="w-4 h-4"></i>
+                        </div>
+                    </div>
+                `;
+            }
+
+            const mainIcon = item.iconOverride || "check-circle-2";
+
+            return `
+                <div class="bg-white p-2 rounded-lg border border-slate-300 flex flex-col min-h-[64px] relative overflow-hidden">
+                    <div class="flex justify-between items-start gap-1 mb-0.5">
+                        <h3 class="font-bold text-slate-800 text-[10px] flex items-center gap-1 leading-tight">
+                            <i data-lucide="${mainIcon}" class="w-2.5 h-2.5 text-blue-500 flex-shrink-0"></i>
+                            ${item.title}
+                        </h3>
+                        ${topRightHtml}
+                    </div>
+                    ${item.desc ? `<p class="text-[9px] leading-tight text-slate-500 mb-1">${item.desc}</p>` : ''}
+                    ${subItemsHtml}
+                </div>
+            `;
+        }
+
+        function renderItems() {
+            const renderToSelectors = (data, selector) => {
+                const elements = document.querySelectorAll(selector);
+                elements.forEach(el => el.innerHTML = data.map(createItem).join(''));
+            };
+
+            renderToSelectors(phase1Data, '.phase-1-items');
+            renderToSelectors(phase2Data, '.phase-2-items');
+            renderToSelectors(phase3Data, '.phase-3-items');
+            
+            lucide.createIcons();
+        }
+
+        async function generateHeader() {
+            const apiKey = ""; 
+            const prompt = "Minimalist tech pattern background, gray tones, abstract digital shapes, security concept, 16:9.";
+            
+            try {
+                const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${apiKey}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        instances: { prompt },
+                        parameters: { sampleCount: 1 }
+                    })
+                });
+                const result = await response.json();
+                if (result.predictions && result.predictions[0]) {
+                    const base64 = `data:image/png;base64,${result.predictions[0].bytesBase64Encoded}`;
+                    document.querySelectorAll('.generated-image').forEach(img => {
+                        img.src = base64;
+                        img.classList.remove('hidden');
+                    });
+                }
+            } catch (error) {
+                console.warn("Header generation failed.");
+            } finally {
+                document.querySelectorAll('.loading-overlay').forEach(overlay => overlay.classList.add('hidden'));
+            }
+        }
+
+        window.onload = () => {
+            renderItems();
+            generateHeader();
+        };
+    </script>
+</body>
+</html>
