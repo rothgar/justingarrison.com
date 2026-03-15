@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iOS Digital Safety Guide Flyer - Portrait</title>
+    <title>iOS Digital Safety Guide</title>
+    <!-- Shield Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
     <!-- Tailwind CSS for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Lucide Icons for visuals -->
@@ -64,14 +66,6 @@
     </style>
 </head>
 <body class="bg-slate-50 font-sans text-slate-900 min-h-screen p-4 md:p-8">
-
-    <!-- Print Button for User Convenience -->
-    <div class="max-w-3xl mx-auto mb-8 flex justify-center print:hidden">
-        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full shadow-lg flex items-center gap-2 transition-all active:scale-95">
-            <i data-lucide="printer" class="w-6 h-6"></i>
-            Print / Save as PDF
-        </button>
-    </div>
 
     <!-- Wrapper for 1-up Layout -->
     <div id="flyer-wrapper" class="max-w-3xl mx-auto">
@@ -167,14 +161,14 @@
                 statusIcon: "install"
             },
             { 
-                title: "Change default lock screen access",
+                title: "Change lock screen access",
                 desc: "",
                 subItems: [
                   "Settings > Face ID & Passcode >",
-                  "<span class='ml-4'>Require Attention for Face ID</span>",
-                  "<span class='ml-4'>Stolen Device Protection: ON</span>",
-                  "<span class='ml-4'>Require Passcode: Immediately</span>",
-                  "<span class='ml-4'>Disable Control Center and Siri when locked</span>"
+                  "<span class='ml-8'>Require Attention for Face ID</span>",
+                  "<span class='ml-8'>Stolen Device Protection: ON</span>",
+                  "<span class='ml-8'>Require Passcode: Immediately</span>",
+                  "<span class='ml-8'>Disable Control Center and Siri when locked</span>"
                   ],
                 toggle: "on"
             },
@@ -183,9 +177,9 @@
                 desc: "Disable App tracking.", 
                 subItems: [
                     "Settings > Privacy & Security >",
-                    "<span class='ml-4'>Tracking > Allow Apps to Request to Track</span>",
-                    "<span class='ml-4'>Analytics & Improvements > Disable all</span>",
-                    "<span class='ml-4'>Apple Advertising > Personalized Ads</span>"
+                    "<span class='ml-8'>Tracking > Allow Apps to Request to Track</span>",
+                    "<span class='ml-8'>Analytics & Improvements > Disable all</span>",
+                    "<span class='ml-8'>Apple Advertising > Personalized Ads</span>"
                 ],
                 toggle: "off"
             }
@@ -241,7 +235,7 @@
             const subItemsHtml = item.subItems.length > 0 
                 ? `<ul class="text-xs text-slate-500 space-y-1 mt-auto">
                     ${item.subItems.map(sub => {
-                        const hasIndent = sub.includes('ml-4');
+                        const hasIndent = sub.includes('ml-8');
                         const bullet = hasIndent ? '' : '<span class="text-blue-400 font-bold">•</span>';
                         return `<li class="flex gap-2">${bullet}${sub}</li>`;
                     }).join('')}
