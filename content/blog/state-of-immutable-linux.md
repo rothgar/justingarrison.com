@@ -177,7 +177,7 @@ System extensions are overlayed on the root filesystem to bring additional packa
 
 There are mutable files on disk such as container images and a state partition, but the actual OS is running immutability in memory.
 Changes are not persisted across reboots, similar to Kairos.
-At boot Talos reads the declarative state from the and makes changes.
+At boot Talos reads the declarative state from the stored STATE partition or cloud-init and makes changes.
 This is similar and different from cloud-init which is sometimes declarative and sometimes an imparitive bash script.
 
 Customizations to the base system are done via "[packages](https://github.com/siderolabs/pkgs)" which are combined into a containerized "installer" image.
