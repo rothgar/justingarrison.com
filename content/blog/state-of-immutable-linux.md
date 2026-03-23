@@ -8,6 +8,7 @@ draft: false
 ---
 
 I gave a talk at [SoCal Linux Expo](https://socallinuxexpo.org) explaining what an "immutable" OS means and how some of the popular distributions implement immutability.
+The talk is a lot more fun than this blog post and has props to visualize what's happening.
 
 {{< youtube jvdPuTcdGXs >}}
 
@@ -21,6 +22,8 @@ These are all things traditional, mutable, distros struggled with and were often
 Here's a summary from my talk about how each distribution implements immutability.
 
 ## Flatcar Linux
+
+![](/img/flatcar.jpg)
 
 CoreOS, later named Container Linux, was the first distro I was aware of in this space.
 Chromebooks originally implemented this update mechanism, called [Omaha](https://github.com/flatcar/nebraska) and later Android adopted it too.
@@ -47,10 +50,12 @@ Flatcar isn't immutable.
 The "immutable" root is the lower directory and you make change in the running system in an upper directory that persists across reboots.
 Some of the files can't be changed, but it's more like a Linux distro without a traditional package manager.
 
-Customizations happen via ignition, cloud-init, systemed system extensions, and ssh.
+Customizations happen via ignition, cloud-init, systemed system extensions (distributed as raw disk images), and ssh.
 A common pattern for most of these distributions that allow certain changes at different layers of the management cycle.
 
 ## Fedora CoreOS
+
+![](/img/fcos.jpg)
 
 FCOS is the server and Silverblue is the desktop implementation of ostree.
 Distros like Bazzite and Bluefin are opinionated builds of Silverblue.
@@ -84,28 +89,32 @@ So now I can download container layer diffs, but those are much larger and opaqu
 The system is customized via ~ignition~ butane and cloud-init, but with bootc you also have to customize the base OS via a Containerfile similar to Kairos below.
 You also use cloud-init, ssh, and sysext depending on what you're trying to customize.
 
-At this point, bootc based distributions are the most complicated to manage if you want to customize the distro and dispite personally using them for years, I don't like where it's going.
+At this point, bootc based distributions are the most complicated to manage if you want to customize the distro and dispite personally using them for years, I don't like where they're going.
 
 ## Kairos
 
+![](/img/kairos.jpg)
+
 Kairos is a "meta" distro.
-It takes an existing Linux distro and wrap it in immutability.
-Kairos lets you keep the distro familiarity while adding ✨immutability✨.
+Kairos takes an existing distro while adding ✨immutability✨.
 Kairos packages the file system as a .img file and distributes it as a container.
 
-This means you build the distro in a Dockerfile, but on disk it's a similar overlay mounts that Flatcar does.
+This means you build the distro in a Dockerfile, but on disk it has overlay mounts like Flatcar does.
 Instead of two full partitions, Kairos boots from one loopback-mounted image at a time.
-Updates overwrite the .img and reboots using it.
+Updates overwrite the .img and updates grub.
 
 Kairos doesn't support ignition for early (pre-systemd) configuration.
-Instead, you're expected to rebuild the base container image for base configuration and all customization happens via cloud-init and ssh.
-Because you're using tradatition Linux distributions, you still have all the bloat of `apt` and `dnf`, but they don't work because of the read-only folder mounting.
+Instead, you're expected to rebuild the base container image for base configuration (like bootc) and all customization happens via cloud-init and ssh.
+Because you're repackaging tradatitional Linux distributions, you still have all the bloat of `apt` and `dnf`, but they don't work because of the read-only folder mounting.
+This is probably why they're building Hadron to have some more control over the base distro.
 
 Kairos uses the fact that cloud-init runs at each system boot in its favor.
 Some files and folders can be changed in the live system, but they don't persist after reboot.
 This forces you to make all changes via cloud-init and re-configure the system each time.
 
 ## MicroOS
+
+![](/img/microos.jpg)
 
 MicroOS is from openSUSE and it's the most traditional Linux distro on this list.
 It still runs and acts like SUSE, but it uses btrfs snapshots to solve the update rollback problem.
@@ -116,7 +125,23 @@ You still end up with an active and a pending state, but the mechanism is more f
 The mutability story is similar to the others—there are overlays, and parts of the filesystem you can change without rebooting.
 But it's not a fundamentally locked-down system, it's a system with structured, rollback-safe update mechanisms.
 
+## Bottlerocket
+
+![](/img/bottlerocket.jpg)
+
+Bottlerocket is an AWS Linux distribution for running containers.
+It has an "API" and dosent' have SSH.
+
+On paper it sounds a lot like Talos.
+In practice it's nothing like it.
+I wrote a [blog post about this](https://www.siderolabs.com/blog/bottlerocket-vs-talos/) so you should read that if you're interested.
+
+Bottlerocket will become the default container OS in AWS just like [Container-optimized OS](https://docs.cloud.google.com/container-optimized-os/docs) is the default for GCP.
+Don't bother looking at it if you're not in AWS.
+
 ## NixOS
+
+![](/img/nixos.jpg)
 
 Nix is not immutable, it's reproducable.
 
@@ -135,99 +160,42 @@ Everything else can be changed live on the system without rebooting.
 
 ## Talos Linux
 
+![](/img/talos.jpg)
+
 **Disclaimer, I work at Sidero Labs**
 
-Talos is the most important thing to understand about this space, and immutability is not the point.
-Immutability is an artifact of how Talos achieves its actual goal: **fully API-driven cluster management**.
+For Talos, immutability is not the point.
+Immutability is an artifact of how Talos achieves its actual goal of API-driven management.
 
-Every other distro I've covered manages the system through SSH.
-You SSH in, run a command, something happens on the filesystem.
-SSH brings a lot of baggage: user accounts, sudoers files, SSH keys, key rotation, audit logs of who ran what.
-Talos eliminates all of it.
-There's no shell.
-No user accounts.
-No SSH keys.
-No sudoers file.
+Talos never finishes the normal Linux boot sequence.
+The normal sequence for Linux is: UEFI → bootloader → kernel + initramfs → pivot to the "real" filesystem → PID 1.
+Talos runs entire OS inside initramfs via a [Unified Kernel Image (UKI)](https://uapi-group.org/specifications/specs/unified_kernel_image/).
+There's no root filesystem on disk to pivot to.
 
-I made an SSH system extension for Talos to demo what the filesystem actually looks like from inside.
-Do not do this in production.
-But with it running, I could get a shell on the node and run `touch /host/hello`.
-The response: `read only file system`.
-For real, not via an overlay trick.
+Talos is packaged and distributed as a container image and also has a concept of system extensions (also packaged as containers).
+System extensions are overlayed on the root filesystem to bring additional packages, drivers, and services.
 
-The technical reason is that Talos never finishes the normal Linux boot sequence.
-The normal sequence goes: UEFI → bootloader → kernel + initramfs → pivot to real filesystem → PID 1 (systemd).
-Talos stops before the pivot.
-The entire OS runs inside initramfs, in memory.
-There's no writable root filesystem to pivot to.
-The init system is about 100 lines of Go.
-systemd is roughly 10,000 lines of C.
-All system state changes go through a gRPC API.
+There are mutable files on disk such as container images and a state partition, but the actual OS is running immutability in memory.
+Changes are not persisted across reboots, similar to Kairos.
+At boot Talos reads the declarative state from the and makes changes.
+This is similar and different from cloud-init which is sometimes declarative and sometimes an imparitive bash script.
 
-This was originally built around an idea of running kubelet as PID 1 directly—it didn't work because kubelet isn't designed for that—but the API management shim that emerged from that attempt became the core of what Talos is.
-The founder wanted to run the kernel and the kubelet and nothing else.
-That's basically what Talos is.
+Customizations to the base system are done via "[packages](https://github.com/siderolabs/pkgs)" which are combined into a containerized "installer" image.
+The installer image is what writes the UKI bundle to disk and also formats a disk during installation.
 
-When I first compiled Talos and listed what was in `/usr/bin`, there were 11 unique binaries on the entire system.
-A standard Ubuntu or Red Hat install has thousands of executables scattered across the filesystem.
-That's part of why traditional distros are hard to upgrade and audit—you don't know what all that stuff does, you don't know where the CVEs live in it, and it takes longer to download and update.
-Talos would fit on a mini CD.
-Remember the 3.5-inch business card CDs?
-100 megabytes.
-That's Talos, with room to spare.
+In practice Talos has A/B booting, reads from a desired state configuration, and applies cloud-init-like configuration to the system.
+It seems very similar to other distros.
+There is no butane/ignition stage because they're not needed.
+Customizations of the base OS require custom builds.
 
-Talos is Kubernetes-only.
-Every other distro in this list can run containers without Kubernetes, or serve as a general-purpose Linux system.
-Talos gives you an etcd endpoint and the Kubernetes API.
-Everything else lives in your containers.
-As a result, you get rid of the double-accounting problem: OS-level users and SSH keys plus Kubernetes RBAC users and certificates.
-On Talos there's no etcd password file, no OS users, nothing to manage at the OS layer.
-It disappears.
+The real difference is the long term maintenance of using an API instead of SSH for upgrades and management.
+All of the other systems rely on systemd for services which force certain behaviors for how and when services get run.
+Talos runs everything as containers, even system services, so things like etcd and the kubelet can be switched on-the-fly.
 
-For debugging, the API does what SSH used to do.
-Think about what you're actually doing when you SSH into a machine: you're getting data.
-Log files, network state, process lists.
-Talos has API endpoints for that.
-There's a TCP dump endpoint that streams packet captures back to you—it runs `tcpdump` implemented in Go and streams the data over the API.
-Same data, different transport.
-In the next version there's also a debug command that downloads an OCI container and drops you into a shell, still over the API, not SSH.
+## Conclusion
 
-I want more systems to work this way.
-The immutability is fine.
-The read-only filesystem is fine.
-But the API-first management model is the thing I actually care about.
-LLMs are terrible at shells but great at APIs.
-If you want to automate infrastructure management, having an API spec to hand to an LLM is dramatically better than telling it to SSH somewhere and poke around.
+None of these distributinos are immutable.
+They all have different implementations of similar ideas.
+Most of them require reboots for applying changes, and all of them have some form of run-time customization option.
 
-## What's actually different between them
-
-Every one of these distros uses some combination of:
-- A/B partitions or images (Flatcar, Kairos)
-- Filesystem snapshots (MicroOS via Btrfs)
-- Content-addressed packages (NixOS via the Nix store)
-- Running entirely in initramfs (Talos)
-
-The overlays are how most of them let you have mutable state at all.
-Flatcar and Kairos have an upper directory that persists.
-MicroOS has snapshots.
-Nix has generations.
-Talos has a small set of deliberate mutable areas for data that needs to survive reboots, but the OS itself is entirely in memory.
-
-The real question when picking one is: how much of the system do you want to control, and through what interface?
-
-If you want SSH and a familiar Linux environment without a package manager: **Flatcar** or **Fedora CoreOS**.
-
-If your team knows an existing distro and you want to add immutability without retraining anyone: **Kairos**.
-
-If you want rollback-safe transactional updates with a full-featured Linux system: **MicroOS**.
-
-If you want every system state to be reproducible from a config file and you're willing to learn a new way of thinking about packages: **NixOS**.
-
-If you're running Kubernetes and want the OS to disappear entirely, managed through an API with no SSH, no users, and no filesystem access: **Talos**.
-
-The goal isn't immutability for its own sake.
-It's making the OS boring—something you build, deploy, and trust rather than something you administer.
-These distros are all moving in that direction at different speeds, with different tradeoffs.
-
-None of them are truly immutable.
-All of them are better than what most people were doing before.
+It's 2026, if you're not using something immutable (or at least reproducable) you're doing more maintenance work than you should.
