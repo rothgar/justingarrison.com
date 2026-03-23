@@ -2,6 +2,9 @@
 title: "The State of Immutable Linux"
 date: 2026-03-20
 description: "Lies, damn lies, and read only filesystems"
+images: [/img/immutable-linux-banner.jpg]
+thumbnail: /img/immutable-linux-banner.jpg
+draft: false
 ---
 
 I gave a talk at [SoCal Linux Expo](https://socallinuxexpo.org) explaining what an "immutable" OS means and how some of the popular distributions implement immutability.
@@ -68,7 +71,8 @@ This defeats the whole purpose of immutability because `rpm-ostree install -A $P
 
 But package overlays sometimes break the system.
 This is why ~Red Hat~ IBM is trying to encourage people move away from rpm-ostree with bootc, which doesn't support RPM overlays.
-`bootc` is still ostree under the hood but it's distributed as a ✨container✨ image instead of a tar file (they're the same thing).
+A downside of ostree is it has a bespoke toolchain to build and distribute updates.
+`bootc` is still ostree under the hood, but it's distributed as a ✨container✨ image instead of files.
 
 Ostree updates in the past were files based.
 You only had to download the files you needed to perform the update.
@@ -77,8 +81,10 @@ This is simaly to Flatcar's block level updates, but could be more efficient bec
 Moving to containers loses this benefit because now all files are obscured into layers and layers are based on build steps, not contents.
 So now I can download container layer diffs, but those are much larger and opaque to what I actually need.
 
-The system is customized via ~~ignition~~ butane and cloud-init, but with bootc you also have to customize the base OS via a Containerfile similar to Kairos below.
-You also still use cloud-init, ssh, and sysext.
+The system is customized via ~ignition~ butane and cloud-init, but with bootc you also have to customize the base OS via a Containerfile similar to Kairos below.
+You also use cloud-init, ssh, and sysext depending on what you're trying to customize.
+
+At this point, bootc based distributions are the most complicated to manage if you want to customize the distro and dispite personally using them for years, I don't like where it's going.
 
 ## Kairos
 
