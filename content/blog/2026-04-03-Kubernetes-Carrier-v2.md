@@ -76,7 +76,7 @@ The full backpack runs off the laptop battery which includes the mobile router, 
 ## Packing
 
 Switching to a laptop removed a lot of extra exquipment I needed for the old cluster.
-The only version had a 3D printed cage, extra computer for control plane, 7" monitor, keyboard, power supplies, and tools to assemble everything at my destination.
+The old version had a 3D printed cage, extra computer for control plane, 7" monitor, keyboard, power supplies, and tools to assemble everything at my destination.
 I also needed to bring extra bubble wrap to protect the computers and monitor from getting damaged in my suitcase.
 
 The new version just needed the backpack, laptop, and battery.
