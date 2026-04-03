@@ -4,7 +4,7 @@ description: "New and improved mobile Kubernetes cluster"
 date: 2026-04-03T08:08:13-07:00
 images: [/img/k8s-carrier-v2.png]
 thumbnail: /img/k8s-carrier-v2.png
-draft: true
+draft: false
 ---
 
 In preperation for conferences this year I wanted to update my [PETaflop cluster](./petaflop-cluster) to something that was easier to travel with.
@@ -40,7 +40,7 @@ Disclaimer: I work at Sidero Labs.
 
 I found the perfect laptop.
 
-<video loop src=/video/framework12.mp4></video>
+<video lazy="true" loop="true" autoplay preload="auto" src=/video/framework12.mp4></video>
 
 The Framework 12 met all my criteria and they even offered it in bright, fun colors which was an added bonus.
 The plastic and slightly rugged case made it perfect for travel so now I just needed to buy one.
