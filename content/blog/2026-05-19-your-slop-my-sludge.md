@@ -22,8 +22,9 @@ There used to be a cultural standard: if I created crap, my work was crap.
 This was _eventually_ enforced by leadership through employee reviews and project assignments.
 
 Now the culture has shifted to only reward output velocity and the experts are demoted to expertise spell checkers.
-The value I'm allowed to bring is a red squiggly line.
+The value I'm allowed to bring is friction to the slop factory.
 This is primarily driven by leadership who are the most prolific slingers of slop.
+It's no wonder they want to fire so many people.
 
 Your experts are drowning.
 They can't do the quality work you hired them to do because all the slop flows towards the well of knowledge.
