@@ -8,6 +8,7 @@ images:
 - /img/devops-vs-sre-banner.jpg
 aliases:
 - "/blog/2202-08-30-devops-vs-sre"
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb6i7ce2d"
 ---
 
 I hosted a Twitter space to discuss the differences between devops and Site Reliability Engineering (SRE). It was very insightful and I was lucky to have amazing guests [Liz Fong-Jones](https://twitter.com/lizthegrey) and [Emily Freeman](https://twitter.com/lizthegrey) who I learned a lot from.

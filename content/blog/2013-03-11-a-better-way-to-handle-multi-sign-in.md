@@ -6,6 +6,7 @@ date: 2013-03-11
 images: [/img/1_zt4hEMj0JACA2csmd6MJlA.png]
 thumbnail: /img/1_zt4hEMj0JACA2csmd6MJlA.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbepvwe2d"
 ---
 
 Google has a cool feature to let you sign into [multiple accounts at once](http://support.google.com/accounts/bin/answer.py?hl=en&answer=1721977), but in practice it really sucks. Here’s why, and also a better way to manage multiple Google accounts.

@@ -6,6 +6,7 @@ date: 2014-01-01
 images: [/img/1_vuLz9Ck1qYKQyIXaOuzf2w.jpeg]
 thumbnail: /img/1_vuLz9Ck1qYKQyIXaOuzf2w.jpeg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbe2ehu2d"
 ---
 
 A new year is here so I’ll take another swing at how technology will change in the year 2014. This will be my sixth year doing a predictions post. If you haven’t read them before you should check out my [2013 post](http://1n73r.net/2013/01/01/2013-technology-predictions/) and then take a look at some of the [older predictions I’ve made](http://1n73r.net/?s=predictions). I especially like my prediction from 2009 that Google would make a social network and twitter would be the next big social network. Anyway, here are some crazy, and not so crazy, predictions for 2014.

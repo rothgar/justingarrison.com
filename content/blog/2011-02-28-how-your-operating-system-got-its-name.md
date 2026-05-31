@@ -7,6 +7,7 @@ images: [/img/banner6.png]
 thumbnail: /img/banner6.png
 draft: false
 canonical: https://www.howtogeek.com/44036/how-your-operating-system-got-its-name/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbidvtm2d"
 ---
 
 ![](/img/banner6.png?width=1198&trim=1,1&bg-color=000&pad=1,1)

@@ -5,6 +5,7 @@ date: 2026-05-19
 images: [/img/slop-sludge-banner.png]
 thumbnail: /img/slop-sludge-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb264e42d"
 ---
 You're not outsourcing work to AI.
 You're creating organizational sludge slowing down your experts.

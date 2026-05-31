@@ -7,6 +7,7 @@ images: [/img/raidarray1.jpg]
 thumbnail: /img/raidarray1.jpg
 draft: false
 canonical: https://www.howtogeek.com/36504/how-to-create-a-software-raid-array-in-windows-7/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbjhhju2d"
 ---
 
 ![](https://www.howtogeek.com/wp-content/uploads/2010/11/raidarray1.jpg)

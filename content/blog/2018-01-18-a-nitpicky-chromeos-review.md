@@ -6,6 +6,7 @@ date: 2018-01-18
 images: [/img/nitpicky-chrome-os-review-1.webp]
 thumbnail: /img/nitpicky-chrome-os-review-1.webp
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbb4qeu2d"
 ---
 
 _TL;DR I'd love if Google made the ChromeOS experience better for professionals but I have little hope they'll figure it out any time soon given the issues I experienced._

@@ -6,6 +6,7 @@ date: 2013-07-10
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbehife2d"
 ---
 
 I came across this and thought it may be helpful for someone.

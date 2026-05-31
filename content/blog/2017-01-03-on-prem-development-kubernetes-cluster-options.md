@@ -6,6 +6,7 @@ date: 2017-01-03
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbbjjkm2d"
 ---
 
 Kubernetes has a lot of options for running in cloud environments. If you’ve never experienced the simplicity of starting a cluster in GKE I highly recommend it. But how can you test cluster setups in an on premises environment?

@@ -6,6 +6,7 @@ date: 2012-12-11
 images: [/img/1_zSsRXBZVQMoSS4DHmUO66Q.jpeg]
 thumbnail: /img/1_zSsRXBZVQMoSS4DHmUO66Q.jpeg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbf7a5u2d"
 ---
 
 Google has search appliances available for enterprise customers to house in their data centers to take advantage of Google’s searching and indexing abilities for web services and intranet resources. One such device is called the [Google Mini](http://mini.google.com/). Unfortunately, the Google Mini was also [end of life’d as of July 2012](http://googleblog.blogspot.de/2012/07/spring-cleaning-in-summer.html). No big deal, it was replaced by better and faster appliances. Besides, the Google Mini is now 7 yeas old so it was about time.I happen to come across a Google Mini that was being retired so I took it upon myself to investigate what was inside. I also thought it might be fun to repurpose for a project or two.So let’s take it apart and see what’s inside. So far as I could tell the [EULA didn’t completely forbid this](http://1n73r.net/wp-content/uploads/2012/12/google-mini-eula.pdf) so long as the drive was wiped.

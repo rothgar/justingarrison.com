@@ -7,6 +7,7 @@ description: "Decoding EC2 instance type names to understand which is best for y
 thumbnail: /img/ec2-names-banner.png 
 images: [/img/ec2-names-banner.png]
 pinned: true
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb5v5we2d"
 ---
 
 [Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/) has over 100 unique instance types with more than 600 size combinations.

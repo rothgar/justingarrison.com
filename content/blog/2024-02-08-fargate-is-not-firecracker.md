@@ -6,6 +6,7 @@ images: [/img/fargate-not-firecracker-banner.png]
 thumbnail: /img/fargate-not-firecracker-banner.png
 draft: false
 pinned: true
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb443qu2d"
 ---
 
 This was the biggest un-truth that I saw while working at AWS on the EKS team.

@@ -5,6 +5,7 @@ date: 2023-04-24T00:00:00
 images: [/img/mastodon-doomed-banner.png]
 thumbnail: /img/mastodon-doomed-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb5n53m2d"
 ---
 
 Mastodon is free and open source microblogging software that many people believe will be the next Twitter.

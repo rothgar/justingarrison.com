@@ -7,6 +7,7 @@ images: [/img/banner1-4.png]
 thumbnail: /img/banner1-4.png
 draft: false
 canonical: https://www.howtogeek.com/76113/how-to-use-facebook-twitter-google-and-foursquare-via-sms/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbghuwu2d"
 ---
 
 Staying social while your mobile doesn’t mean you have to pay for a data plan. Using SMS, you can update and receive status messages from your favorite social networks using the messaging plan you probably already have.

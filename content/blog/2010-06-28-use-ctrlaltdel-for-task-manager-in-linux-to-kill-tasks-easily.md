@@ -7,6 +7,7 @@ images: [/img/000_log-out.png]
 thumbnail: /img/000_log-out.png
 draft: false
 canonical: https://www.howtogeek.com/20355/use-ctrlaltdel-for-task-manager-in-linux-to-kill-tasks-easily/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbljuju2d"
 ---
 
 In Windows you can easily kill any task by pressing Ctrl+Alt+Del and bringing up the task manager. Linux running the GNOME desktop environment (i.e. Debian, Ubuntu, Linux Mint, etc.) has a similar tool that can be enabled to run exactly the same way.

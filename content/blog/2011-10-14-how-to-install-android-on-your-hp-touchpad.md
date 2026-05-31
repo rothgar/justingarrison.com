@@ -7,6 +7,7 @@ images: [/img/banner3-1.png]
 thumbnail: /img/banner3-1.png
 draft: false
 canonical: https://www.howtogeek.com/76960/how-to-install-android-on-your-hp-touchpad/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbgescm2d"
 ---
 
 What’s better than a $100 tablet? A $100 tablet that can run two operating systems! The TouchPad was a great bargain and now that you’ve figured out webOS, try Android. Here’s how to install it in 3 easy steps.

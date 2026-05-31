@@ -6,6 +6,7 @@ images: [/img/petaflop-banner.jpg]
 thumbnail: /img/petaflop-banner.jpg
 draft: false
 pinned: true
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb2phze2d"
 ---
 
 Instead of going to therapy I built another Kubernetes cluster.

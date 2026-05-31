@@ -7,6 +7,7 @@ images: [/img/sif_top.png]
 thumbnail: /img/sif_top.png
 draft: false
 canonical: https://www.howtogeek.com/99406/how-to-search-for-text-inside-of-any-file-using-windows-search/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbg3w4u2d"
 ---
 
 Many of us rely on Windows Search to find files and launch programs, but searching for text within files is limited to specific file types by default. Here’s how you can expand your search to include other text-based files.

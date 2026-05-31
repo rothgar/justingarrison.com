@@ -5,6 +5,7 @@ date: 2021-01-11
 description: "How to take advantage of Signal for secure messages and calls"
 thumbnail: /img/signal-og-banner.png 
 images: [/img/signal-og-banner.png]
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb7wfsu2d"
 ---
 
 You’ve discovered that [Signal](https://signal.org/) can provide you with secure communication from your phone that is cross platform and free!

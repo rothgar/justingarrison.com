@@ -6,6 +6,7 @@ images: [/img/cloud-customer-patterns-banner.png]
 thumbnail: /img/cloud-customer-patterns-banner.png
 draft: false
 hideThumbnail: true
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb3fzp42d"
 ---
 
 ![The fear is real.](/img/cloud-customer-patterns.png)

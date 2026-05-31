@@ -7,6 +7,7 @@ images: [/img/sshot4cf30d79118aa.jpg]
 thumbnail: /img/sshot4cf30d79118aa.jpg
 draft: false
 canonical: https://www.howtogeek.com/36458/9-alternatives-for-windows-home-servers-drive-extender/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbjjtpe2d"
 ---
 
 Now that Microsoft has officially killed off the best part about Windows Home Server what can you do? Here are some alternatives for drive extender that you can use if you want to build a WHS of your own.

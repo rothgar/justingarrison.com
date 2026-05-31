@@ -5,6 +5,7 @@ date: 2024-06-06
 images: [/img/kubertenes-banner.png]
 thumbnail: /img/kubertenes-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb3s2hm2d"
 ---
 
 ## My background

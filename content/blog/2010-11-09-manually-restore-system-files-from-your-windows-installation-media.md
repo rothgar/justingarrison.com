@@ -7,6 +7,7 @@ images: [/img/og-image.png]
 thumbnail: /img/dll-error.png
 draft: false
 canonical: https://www.howtogeek.com/34654/manually-restore-system-files-from-your-windows-installation-media/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbjtkau2d"
 ---
 
 If you’ve ever had a missing or corrupt system file in Windows you sometimes end up in shady parts of the internet downloading files from who knows where. Why not restore the files directly from your installation disks?

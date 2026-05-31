@@ -7,6 +7,7 @@ images: [/img/og-image.png]
 thumbnail: /img/2img.png
 draft: false
 canonical: https://www.howtogeek.com/34630/how-to-recover-specific-files-from-a-windows-system-image/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbjw77m2d"
 ---
 
 Windows provides a fail safe way of recovering your entire hard drive with system images, but what if you only need to recover certain files from the image instead of restoring your entire hard drive?

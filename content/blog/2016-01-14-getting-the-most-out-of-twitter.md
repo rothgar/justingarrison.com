@@ -6,6 +6,7 @@ date: 2016-01-14
 images: [/img/1_2UCKr0MAPlc-Z0ze8_g0sg.png]
 thumbnail: /img/1_2UCKr0MAPlc-Z0ze8_g0sg.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbcusd42d"
 ---
 
 I’ve been using Twitter for a long time now. I’ve gone through many 3rd party apps, used it over SMS, and have tried various things. After many attempts to get the most out of the service, here is how I’ve been using Twitter for almost a year to great success.

@@ -7,6 +7,7 @@ images: [/img/vm-usb-na.png]
 thumbnail: /img/vm-usb-na.png
 draft: false
 canonical: https://www.howtogeek.com/31726/mount-usb-devices-in-virtualbox-with-ubuntu/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbkadgm2d"
 ---
 
 Mounting a USB device inside a virtual machine is often a tool that you cannot go without. If you are using Virtualbox in Ubuntu however, you need to take a few extra steps to make it work.

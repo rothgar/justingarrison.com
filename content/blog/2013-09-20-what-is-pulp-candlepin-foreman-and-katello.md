@@ -6,6 +6,7 @@ date: 2013-09-20
 images: [/img/foreman-banner.jpg]
 thumbnail: /img/foreman-banner.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbebvom2d"
 ---
 
 I have been working with some of the above products at work for the past couple of weeks and I just came across the most succinct and straightforward answer to what each product is and what it is used for so I wanted to share.

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://tangled.org/stevedylan.dev/sequoia/raw/main/sequoia.schema.json",
+  "siteUrl": "https://justingarrison.com",
+  "contentDir": "./content/blog",
+  "imagesDir": "./static/img",
+  "outputDir": "./dist",
+  "pathPrefix": "/blog",
+  "publicationUri": "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.publication/3mmdn7mg2qm2d",
+  "pdsUrl": "https://pds.justingarrison.com",
+  "frontmatter": {
+    "publishDate": "date",
+    "coverImage": "thumbnail"
+  },
+  "publishContent": true
+}

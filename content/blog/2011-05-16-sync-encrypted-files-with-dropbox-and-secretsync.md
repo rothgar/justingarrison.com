@@ -7,6 +7,7 @@ images: [/img/banner1.png]
 thumbnail: /img/banner1.png
 draft: false
 canonical: https://www.howtogeek.com/63262/sync-encrypted-files-with-dropbox-and-secretsync/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbhmsle2d"
 ---
 
 Cloud storage is a must have for any geek, and Dropbox is leading the way with its simplicity and affordable prices. With SecretSync you can take full advantage of Dropbox without giving up your privacy by encrypting sensitive documents easily.

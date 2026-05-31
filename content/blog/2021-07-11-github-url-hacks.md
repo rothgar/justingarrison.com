@@ -5,6 +5,7 @@ date: 2021-07-11
 description: "Handy tricks and shortcuts while using GitHub"
 thumbnail: /img/octocat-banner.jpg 
 images: [/img/octocat-banner.jpg]
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb74qjm2d"
 ---
 
 GitHub’s UI has improved a lot over the years but sometimes you just need quick access without clicking. Here are a few GitHub URL tips to get you data you want faster. One cool thing is all of these tips give raw text output so they work great with `curl` and other CLI tools.

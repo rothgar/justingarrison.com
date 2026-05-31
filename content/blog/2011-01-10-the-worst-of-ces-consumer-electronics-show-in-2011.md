@@ -7,6 +7,7 @@ images: [/img/image24.png]
 thumbnail: /img/image24.png
 draft: false
 canonical: https://www.howtogeek.com/40110/the-worst-of-ces-consumer-electronics-show-in-2011/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbixtju2d"
 ---
 
 This year, How-To Geek’s own Justin was on-site at the Consumer Electronics Show in Las Vegas, where every gadget manufacturer shows off their latest creations, and he was able to sit down and get hands-on with most of them. Here’s the ones that just didn’t make the cut.

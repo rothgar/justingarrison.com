@@ -7,6 +7,7 @@ images: [/img/banner9.jpg]
 thumbnail: /img/banner9.jpg
 draft: false
 canonical: https://www.howtogeek.com/70494/what-kind-of-ethernet-cat-5e6a-cable-should-i-use/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbbwcqe2d"
 ---
 
 Not all Ethernet cable is created equally. What’s the difference, and how do you know which you should use? Let’s look at the technical and physical differences in Ethernet cable categories to help us decide.

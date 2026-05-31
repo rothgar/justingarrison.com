@@ -6,6 +6,7 @@ date: 2016-06-01
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbcj3d42d"
 ---
 
 NOTE: This article has not been updated for Kubernetes clusters that use RBAC for API authentication (versions 1.6+). I am leaving this article here for reference but you should be aware of the limitations of this guide.

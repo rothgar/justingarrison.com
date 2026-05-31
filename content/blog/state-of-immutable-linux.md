@@ -5,6 +5,7 @@ description: "Lies, damn lies, and read only filesystems"
 images: [/img/immutable-linux-banner.jpg]
 thumbnail: /img/immutable-linux-banner.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb2g47m2d"
 ---
 
 I gave a talk at [SoCal Linux Expo](https://socallinuxexpo.org) explaining what an "immutable" OS means and how some of the popular distributions implement immutability.

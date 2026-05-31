@@ -7,6 +7,7 @@ images: [/img/image95.png]
 thumbnail: /img/image95.png
 draft: false
 canonical: https://www.howtogeek.com/35604/how-to-cross-reference-actorsmovies-or-cheat-at-the-kevin-bacon-game/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbjqrf42d"
 ---
 
 ![](https://www.howtogeek.com/wp-content/uploads/2010/11/image95.png)

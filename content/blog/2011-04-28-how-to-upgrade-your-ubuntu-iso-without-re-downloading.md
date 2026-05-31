@@ -7,6 +7,7 @@ images: [/img/banner10.png]
 thumbnail: /img/banner10.png
 draft: false
 canonical: https://www.howtogeek.com/60406/how-to-upgrade-your-ubuntu-iso-without-re-downloading/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbhrlvm2d"
 ---
 
 Ubuntu 11.04 is finally here and you can’t wait to download it, but as is typical on any Ubuntu release day, the mirrors are crawling. Luckily if you have an old Ubuntu .iso you can update it easily with zsync.

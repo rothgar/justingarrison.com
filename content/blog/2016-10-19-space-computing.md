@@ -6,6 +6,7 @@ date: 2016-10-19
 images: [/img/space-computing-1.webp]
 thumbnail: /img/space-computing-1.webp
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbc5hau2d"
 ---
 
 Forgive the analogies, I read [Breaking the Chains of Gravity: The Story of Spaceflight before NASA](https://www.amazon.com/Breaking-Chains-Gravity-Spaceflight-before/dp/1472911172) and despite a few slow parts, it was a really enlightening read. I couldn’t help but see some similarities with early spaceflight and computing.

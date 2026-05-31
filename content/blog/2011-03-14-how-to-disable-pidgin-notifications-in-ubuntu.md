@@ -7,6 +7,7 @@ images: [/img/banner5.png]
 thumbnail: /img/banner5.png
 draft: false
 canonical: https://www.howtogeek.com/45932/how-to-disable-pidgin-notifications-in-ubuntu/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbi3m7m2d"
 ---
 
 Ubuntu notifications are great, but some applications can get annoying by popping up things you don’t care about. Here is how you can disable, or enable, specific notifications for Pidgin.

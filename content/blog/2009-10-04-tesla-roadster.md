@@ -6,6 +6,7 @@ date: 2009-10-04
 images: [/img/tesla-roadster-banner.jpg]
 thumbnail: /img/tesla-roadster-banner.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnblwtl42d"
 ---
 
 ![Tesla Roadster](/img/0_SlS0PNK4SVKvOuu3.jpg)

@@ -7,6 +7,7 @@ images: [/img/banner18.png]
 thumbnail: /img/banner18.png
 draft: false
 canonical: https://www.howtogeek.com/44392/how-to-transfer-all-your-information-to-a-new-ps3/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbibauu2d"
 ---
 
 The PlayStation 3 now costs half the price, has double the storage, and uses half the power. If you need another reason to upgrade, Sony also makes it easy to transfer all of your information to a new console.

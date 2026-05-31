@@ -5,6 +5,7 @@ date: 2024-08-05
 images: [/img/aws-cancel-services-banner.png]
 thumbnail: /img/aws-cancel-services-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb3btvu2d"
 ---
 
 AWS has recently been silently removing services for new users.

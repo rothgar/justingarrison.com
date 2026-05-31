@@ -7,6 +7,7 @@ images: [/img/banner3.png]
 thumbnail: /img/banner3.png
 draft: false
 canonical: https://www.howtogeek.com/43752/how-to-install-a-wireless-card-in-linux-using-windows-drivers/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbigbz42d"
 ---
 
 Linux has come a long way with hardware support, but if you have a wireless card that still does not have native Linux drivers you might be able to get the card working with a Windows driver and ndiswrapper.

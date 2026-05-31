@@ -6,6 +6,7 @@ date: 2010-01-01
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnblrkmu2d"
 ---
 
 It was fun doing this last year. So I thought I would have another go at it and see what I come up with.

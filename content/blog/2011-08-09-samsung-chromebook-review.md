@@ -6,6 +6,7 @@ date: 2011-08-09
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbgyuv42d"
 ---
 
 I spent a weekend with the latest Google Chromebook and wanted to update real quick with my impressions. I tried to do as much as possible from the machine so I could really get a feel for what it would be like if it were my only computer. I like some of Chrome OSs ideals, but have never spent “hard time” with one of the Chromebooks to be able to see how it would work for me. I also really wanted to figure out if it would be something I could recommend to my family and friends looking for a cheap notebook.

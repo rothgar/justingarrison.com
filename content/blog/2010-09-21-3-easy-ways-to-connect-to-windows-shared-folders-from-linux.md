@@ -7,6 +7,7 @@ images: [/img/run-application-2.png]
 thumbnail: /img/run-application-2.png
 draft: false
 canonical: https://www.howtogeek.com/29167/3-easy-ways-to-connect-to-windows-shared-folders-from-linux/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbkjv3u2d"
 ---
 
 Connecting to file servers is something most people do on a daily basis even without thinking about it. In Linux, it may not be intuitive how to quickly connect to a samba or ftp server without a separate program. Here are a few different ways to connect to a remote file server without needing to touch a terminal.

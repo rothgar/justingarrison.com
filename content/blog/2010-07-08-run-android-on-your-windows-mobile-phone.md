@@ -7,6 +7,7 @@ images: [/img/sshot20100707220907.jpg]
 thumbnail: /img/sshot20100707220907.jpg
 draft: false
 canonical: https://www.howtogeek.com/20703/run-android-on-your-windows-mobile-phone/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnblfb342d"
 ---
 
 Interested in Android but think you need to buy a new phone to try it out? Actually, your Windows Mobile phone may already have the capability of running Android. Today we show you how and the type of phone you’ll need.

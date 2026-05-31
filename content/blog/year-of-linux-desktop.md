@@ -5,6 +5,7 @@ title = '2022 was the year of Linux on the Desktop'
 thumbnail = '/img/dev-survey-2022-banner.png'
 images = ['/img/dev-survey-2022-banner.png']
 aliases = ['shares/year-of-linux-desktop/']
+atUri = "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb5ycj42d"
 +++
 
 Thanks to the [2022 StackOverflow developer survey](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-operating-system) we can finally say 2022 was the year of Linux on the Desktop!

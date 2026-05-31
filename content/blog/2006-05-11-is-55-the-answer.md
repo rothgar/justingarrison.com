@@ -6,6 +6,7 @@ date: 2006-05-11
 images: [/img/55-banner.jpg]
 thumbnail: /img/55-banner.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbmdzh42d"
 ---
 
 ## What I used:

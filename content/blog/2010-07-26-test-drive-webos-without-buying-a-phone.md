@@ -7,6 +7,7 @@ images: [/img/java-check.png]
 thumbnail: /img/java-check.png
 draft: false
 canonical: https://www.howtogeek.com/22681/test-drive-webos-without-buying-a-phone/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbl6m6m2d"
 ---
 
 With all the new mobile operating systems how do you to know which one to pick? Like Android, Palm has a webOS emulator to allow developers to test applications without physical hardware. Here is how you can test drive webOS on your computer for free.

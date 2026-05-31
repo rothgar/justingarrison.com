@@ -7,6 +7,7 @@ description: "Judging a book by its cover is a great idea. Until content makes a
 thumbnail: /img/content-was-king-banner.jpg
 images: [/img/content-was-king-banner.jpg]
 pinned: true
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb5sfzu2d"
 ---
 
 The age of content being king is long behind us.

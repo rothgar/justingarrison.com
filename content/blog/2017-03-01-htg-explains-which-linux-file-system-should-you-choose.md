@@ -7,6 +7,7 @@ images: [/img//linux-file-system-6.png]
 thumbnail: /img//linux-file-system-6.png
 draft: false
 canonical: https://www.howtogeek.com/33552/htg-explains-which-linux-file-system-should-you-choose/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbbeeje2d"
 ---
 
 When formatting partitions on a Linux PC, you'll see a wide variety of file system options. These options don't need to be overwhelming. If you're not sure which Linux file system to use, there's a simple answer.

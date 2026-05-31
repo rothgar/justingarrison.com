@@ -7,6 +7,7 @@ images: [/img/01_keyboard-shortcuts-1.png]
 thumbnail: /img/01_keyboard-shortcuts-1.png
 draft: false
 canonical: https://www.howtogeek.com/22283/four-ways-to-get-instant-access-to-a-terminal-in-linux/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnblarje2d"
 ---
 
 If you have ever found yourself in need of a terminal available at all times in Linux, here are four different ways you can bring up a terminal with a maximum of three buttons.

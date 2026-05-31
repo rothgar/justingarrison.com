@@ -5,6 +5,7 @@ date: 2023-03-19T21:53:18-07:00
 images: [/img/flatpak-terminal-banner.jpg]
 thumbnail: /img/flatpak-terminal-banner.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb5pp4m2d"
 ---
 Flatpak might be a great portable, secure packaging format, but it's not the most user friendly tool.
 There are plenty of downsides to flatpak apps, but it is increasingly the most ubiquitous Linux packaging format.

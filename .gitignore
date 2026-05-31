@@ -27,3 +27,5 @@ amplifytools.xcconfig
 #amplify-do-not-edit-end
 hugo_stats.json
 hugo_stats.json
+
+.sequoia-state.json

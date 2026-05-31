@@ -5,6 +5,7 @@ date: 2024-06-06T12:00:00Z
 images: [/img/k8s-2.0-banner.png]
 thumbnail: /img/k8s-2.0-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb3pigm2d"
 ---
 
 I just wrote about [my path with Kubernetes]({{< relref "2024-06-06-ten-years-of-kubernetes" >}}) and how I've seen the project grow.

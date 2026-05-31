@@ -6,5 +6,6 @@ images: [/img/software-developer-life-cycle.png]
 thumbnail: /img/software-developer-life-cycle.png
 draft: false
 hideMeta: true
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb4rn7e2d"
 ---
 Every developer I know is in one of the following stages.

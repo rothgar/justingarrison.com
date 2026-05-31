@@ -7,6 +7,7 @@ images: [/img/banner2-1.png]
 thumbnail: /img/banner2-1.png
 draft: false
 canonical: https://www.howtogeek.com/63253/upgrade-your-windows-home-server-with-amahi/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbh6fne2d"
 ---
 
 Windows Home Server (WHS) is one of the most reliable and feature rich network attached storage devices on the market. However, WHS 2011 removed some key features. If you’re looking for an upgrade without losing features, look no further than Amahi.

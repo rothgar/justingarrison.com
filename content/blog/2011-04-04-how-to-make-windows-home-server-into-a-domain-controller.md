@@ -7,6 +7,7 @@ images: [/img/banner17.jpg]
 thumbnail: /img/banner17.jpg
 draft: false
 canonical: https://www.howtogeek.com/57729/how-to-make-windows-home-server-into-a-domain-controller/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbhwk442d"
 ---
 
 Active Directory lets companies manage users, computers, printers, and more from a centralized location. Have you wanted this functionality at home but don’t have money for Windows Server? Here’s how you can promote Windows Home Server to a domain controller.

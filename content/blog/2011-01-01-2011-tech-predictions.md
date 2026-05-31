@@ -6,6 +6,7 @@ date: 2011-01-01
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbj5af42d"
 ---
 
 After doing this two years I figured I needed to continue my tradition. If you want to see how right or wrong I was in previous years check out my [2009 predictions](http://1n73r.net/2009/01/01/my-2009-predictions) and [2010 predictions](http://1n73r.net/2010/01/01/2010-tech-predictions).

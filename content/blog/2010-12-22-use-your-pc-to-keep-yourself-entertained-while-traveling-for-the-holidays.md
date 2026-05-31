@@ -7,6 +7,7 @@ images: [/img//banner2-5.png]
 thumbnail: /img//banner2-5.png
 draft: false
 canonical: https://www.howtogeek.com/39126/use-your-pc-to-keep-yourself-entertained-while-traveling-for-the-holidays/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbja6542d"
 ---
 
 Staying connected may be hard no matter what network you are on, and in flight Wi-Fi isn’t pervasive enough to count on. Here are tips and tricks to keep yourself entertained when unplugged and traveling.

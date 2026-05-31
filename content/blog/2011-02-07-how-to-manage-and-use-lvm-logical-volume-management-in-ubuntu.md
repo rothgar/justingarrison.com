@@ -7,6 +7,7 @@ images: [/img/banner-1.png]
 thumbnail: /img/banner-1.png
 draft: false
 canonical: https://www.howtogeek.com/40702/how-to-manage-and-use-lvm-logical-volume-management-in-ubuntu/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbiloue2d"
 ---
 
 In our [previous article we told you what LVM is and what you may want to use it for](https://www.howtogeek.com/36568/what-is-logical-volume-management-and-how-do-you-enable-it-in-ubuntu/), and today we are going to walk you through some of the key management tools of LVM so you will be confident when setting up or expanding your installation.

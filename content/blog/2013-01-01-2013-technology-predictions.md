@@ -6,6 +6,7 @@ date: 2013-01-01
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbf4xve2d"
 ---
 
 Yay! Another year and another post for my technology predictions. [Last years predictions went about 50/50](http://1n73r.net/2012/01/01/2012-technology-predicitons/) with what I got right but I also was a bit aggressive with what I thought hoped would happen. Check out my predictions for what will happen in 2013.

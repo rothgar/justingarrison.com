@@ -6,6 +6,7 @@ date: 2008-05-20
 images: [/img/1_ayBtqFo3GKVkwcTOcN-Rjw.jpeg]
 thumbnail: /img/1_ayBtqFo3GKVkwcTOcN-Rjw.jpeg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbm7b442d"
 ---
 
 Recently [hack a day](http://www.hackaday.com/2007/05/06/powershot-firmware-hacking/) had a article about enhancing your Canon to have more functionality than a standard point and shoot camera. The firmware loads on your memory card and it allows you to do things like shoot in RAW picture format, change your ISO speed, even allow a calendar and games on the camera. One of the best features of the firmware looks like it is completely reversable. All you do is load the files on a memory card and it works (as far as I have read at least). Once you no longer want the extra features you can just delete the files from the memory card.

@@ -5,6 +5,7 @@ date: 2024-01-22T00:00:00-08:00
 images: [/img/hello-sidero-banner.png]
 thumbnail: /img/hello-sidero-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb46rou2d"
 ---
 
 Today is my first day at [Sidero](https://sidero.dev/)!

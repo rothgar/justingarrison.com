@@ -5,6 +5,7 @@ date: 2020-03-06
 description: "What you need to survive, be productive, and collaborate remotely"
 thumbnail: /img/wfh-kit-banner.jpg 
 images: [/img/wfh-kit-banner.jpg]
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbajl3u2d"
 ---
 
 Working from home can be a great opportunity to focus, get a better work life balance, and not get sick. It may be a benefit of your position, or mandated by your employer.

@@ -7,6 +7,7 @@ images: [/img/image241.png]
 thumbnail: /img/image241.png
 draft: false
 canonical: https://www.howtogeek.com/29694/how-to-crack-your-forgotten-windows-password/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbkeytu2d"
 ---
 
 Here at How-To Geek, we’ve covered many different ways to reset your password for Windows—but what if you can’t reset your password? Or what if you’re using drive encryption that would wipe out your files if you changed the password? It’s time to crack the password instead.

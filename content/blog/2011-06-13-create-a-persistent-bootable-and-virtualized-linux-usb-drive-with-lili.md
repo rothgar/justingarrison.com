@@ -7,6 +7,7 @@ images: [/img/img_5cd9ff1ceced2.png]
 thumbnail: /img/img_5cd9ff1ceced2.png
 draft: false
 canonical: https://www.howtogeek.com/65888/create-a-persistent-bootable-and-virtualized-linux-usb-drive-with-lili/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbhfzru2d"
 ---
 
 A [Linux live USB drive](https://www.howtogeek.com/1261/create-a-bootable-ubuntu-usb-flash-drive-the-easy-way/) is normally a blank slate each time you boot it. You can boot it up, install programs, save files, and change settings. But, as soon as you reboot, all your changes are wiped away and you’re back to a fresh system. This can be useful, but if you want a system that picks up where you left off, you can create a live USB with persistent storage.

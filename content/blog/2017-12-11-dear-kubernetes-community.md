@@ -6,6 +6,7 @@ date: 2018-01-18
 images: [/img/dear-kubernetes-banner.jpg]
 thumbnail: /img/dear-kubernetes-banner.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbb7k7u2d"
 ---
 
 Dear Kubernetes Community,

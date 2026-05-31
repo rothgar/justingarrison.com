@@ -7,6 +7,7 @@ images: [/img/devices.png]
 thumbnail: /img/devices.png
 draft: false
 canonical: https://www.howtogeek.com/27374/upgrade-your-old-ipod-with-rockbox/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbkqtqu2d"
 ---
 
 If you are tired of trying to keep up with Apple’s new iPod releases, upgrade your old iPod for free with Rockbox. Rockbox allows you to upgrade your aging iPod with new themes, fonts, games, and more.

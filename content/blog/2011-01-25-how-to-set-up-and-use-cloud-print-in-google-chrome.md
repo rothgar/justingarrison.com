@@ -7,6 +7,7 @@ images: [/img/image55.png]
 thumbnail: /img/image55.png
 draft: false
 canonical: https://www.howtogeek.com/37748/how-to-set-up-and-use-cloud-print-in-google-chrome/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbiqo242d"
 ---
 
 Google recently launched the ability to print to your local printers from anywhere in the world using Google Cloud Print, but it didn’t work anywhere until today. Here’s how to set it up, get it running, and print from your mobile phone.

@@ -5,6 +5,7 @@ date: 2020-01-27
 description: "Palm Companion Review: Mission Accomplished"
 thumbnail: /img/palm-phone.jpg 
 images: [/img/palm-phone.jpg]
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbamcye2d"
 ---
 
 The fine folks at Palm offered to send me their new [Companion phone](https://palm.com/pages/companion) in exchange for writing a review. I am grateful for their generosity and wish to fulfill my portion of the bargain below.

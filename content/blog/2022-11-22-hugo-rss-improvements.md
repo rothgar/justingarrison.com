@@ -5,6 +5,7 @@ date = 2022-11-22T12:00:00-07:00
 thumbnail = "/img/hugo-rss-banner.png"
 images = ["/img/hugo-rss-banner.png"]
 draft = false
+atUri = "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb65x6e2d"
 +++
 
 This site is generated with [hugo](https://gohugo.io/) which I love, but the default RSS template is very basic.

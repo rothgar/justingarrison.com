@@ -5,6 +5,7 @@ date: 2023-08-29T22:01:58-07:00
 images: [/img/terraform-gitops-si-banner.png]
 thumbnail: /img/terraform-gitops-si-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb5bsru2d"
 ---
 
 Infrastructure has come a long way in the past 5 years, and yet infrastructure as code has been stuck with the same promises and tools for much longer.

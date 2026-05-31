@@ -6,6 +6,7 @@ thumbnail = "/img/automated-immutable-declarative-banner.jpg"
 images = ["/img/automated-immutable-declarative-banner.jpg"]
 draft = false
 pinned = true
+atUri = "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb6exru2d"
 +++
 
 The goals of infrastructure since I started managing it has been to automate it, make it immutable, and make it declarative.

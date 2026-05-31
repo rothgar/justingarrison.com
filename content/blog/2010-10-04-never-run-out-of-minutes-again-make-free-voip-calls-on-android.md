@@ -7,6 +7,7 @@ images: [/img/sshot4ca93891af2af.jpg]
 thumbnail: /img/sshot4ca93891af2af.jpg
 draft: false
 canonical: https://www.howtogeek.com/30090/never-run-out-of-minutes-again-make-free-voip-calls-on-android/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbkcomu2d"
 ---
 
 Android phones with Google Voice can make and receive calls at an extremely disounted rate, but you still need a voice plan to make these calls. Using Google Voice, Android, and Sipgate, you can get around that limitation and make calls for free.

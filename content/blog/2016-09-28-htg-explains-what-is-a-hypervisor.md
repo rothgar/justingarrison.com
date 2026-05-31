@@ -7,6 +7,7 @@ images: [/img/banner11.png]
 thumbnail: /img/banner11.png
 draft: false
 canonical: https://www.howtogeek.com/66734/htg-explains-what-is-a-hypervisor/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbca75e2d"
 ---
 
 Hypervisors are what make virtual machines possible, and they aren’t just for servers anymore. You probably use one every day and don’t even know it. If you don’t use one now, you will in the near future.

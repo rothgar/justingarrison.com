@@ -7,6 +7,7 @@ images: [/img/person-cleaning-a-smartphone-with-soap.jpg]
 thumbnail: /img/person-cleaning-a-smartphone-with-soap.jpg
 draft: false
 canonical: https://www.howtogeek.com/66827/how-to-clean-your-smartphone/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbhdlnu2d"
 ---
 
 We have already shown you how to [clean your keyboard without breaking it](https://www.howtogeek.com/65073/how-to-thoroughly-clean-your-keyboard-without-breaking-anything/), but did you know your smartphone can be just as dirty and covered with bacteria? Here is [how to properly clean your smartphone](https://www.howtogeek.com/660848/how-to-disinfect-your-smartphone/).

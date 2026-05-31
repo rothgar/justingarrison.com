@@ -6,6 +6,7 @@ date: 2011-08-16
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbgtb742d"
 ---
 
 Much of my site is dedicated to home theater computers because it is one of those hobbies that never seems to get old. Even though HTPCs are very niche, I can’t help but love having one and love the freedom it brings to my TV.Despite the great things they can do, I always find features that are missing no matter what the software. Thanks to plugin support, most HTPC software can easily be extended beyond what features “come out of the box”. Here are a few plugin ideas I have for anyone willing to code them.

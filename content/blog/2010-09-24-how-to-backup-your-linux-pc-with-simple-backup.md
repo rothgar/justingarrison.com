@@ -7,6 +7,7 @@ images: [/img/install-1.png]
 thumbnail: /img/install-1.png
 draft: false
 canonical: https://www.howtogeek.com/29518/how-to-backup-your-linux-pc-with-simple-backup/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbkhd2u2d"
 ---
 
 It doesn’t matter if you are using Windows, OS X, or Linux, everyone should do regular backups of their information. In Linux one of the easiest ways to do automated backups is with Simple Backup (SBackup). Here is how you can set up SBackup to make sure you have a backup of all your important files.

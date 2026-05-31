@@ -6,6 +6,7 @@ date: 2016-09-07
 images: [/img/1_MpmOn_iiKVVTgDi82DmEEA.jpeg]
 thumbnail: /img/1_MpmOn_iiKVVTgDi82DmEEA.jpeg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbcgaiu2d"
 ---
 
 Docker has been available on the Raspberry Pi for a while but 1.12 makes installation much easier. So I figured it was time to stop paying for a shared server and use my own hardware.

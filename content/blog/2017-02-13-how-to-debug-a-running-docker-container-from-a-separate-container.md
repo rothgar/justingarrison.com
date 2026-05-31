@@ -6,6 +6,7 @@ date: 2017-02-13
 images: [/img/debug-docker-banner.png]
 thumbnail: /img/debug-docker-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbbgwke2d"
 ---
 
 ## Alternate title: How-to debug freaking go binary containers

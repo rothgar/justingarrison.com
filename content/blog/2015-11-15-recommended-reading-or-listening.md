@@ -6,6 +6,7 @@ date: 2015-11-15
 images: [/img/1_AvKho-JuIFVkOmHh57mPVA.jpeg]
 thumbnail: /img/1_AvKho-JuIFVkOmHh57mPVA.jpeg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbddxoe2d"
 ---
 
 At my current job I have the luxury of a typical Southern California commute. It’s the worst part of my job.

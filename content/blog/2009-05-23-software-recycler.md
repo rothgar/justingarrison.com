@@ -6,6 +6,7 @@ date: 2009-05-23
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbm2ax42d"
 ---
 
 I had an idea a while ago for a website that I know I will never be able to act on so I thought I would just post it here and maybe someday someone will find it and have the time and know-how to complete it.

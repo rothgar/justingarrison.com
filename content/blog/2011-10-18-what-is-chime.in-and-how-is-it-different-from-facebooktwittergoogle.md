@@ -7,6 +7,7 @@ images: [/img/banner4-1.png]
 thumbnail: /img/banner4-1.png
 draft: false
 canonical: https://www.howtogeek.com/77121/what-is-chime.in-and-how-is-it-different-from-facebooktwittergoogle/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbgbop42d"
 ---
 
 Chime.in is a social network brought to you by UberMedia; the people behind UberSocial apps and Echofon. They aim to improve your social network experience by integrating rich media, community discovery, and flexible user following.

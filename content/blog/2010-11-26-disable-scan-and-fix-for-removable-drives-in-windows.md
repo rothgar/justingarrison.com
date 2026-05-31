@@ -7,6 +7,7 @@ images: [/img/sshot4cefeb8551f60.jpg]
 thumbnail: /img/sshot4cefeb8551f60.jpg
 draft: false
 canonical: https://www.howtogeek.com/35622/disable-scan-and-fix-for-removable-drives-in-windows/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbjm3xu2d"
 ---
 
 Sometimes you’ll be prompted to scan and fix a removable disk before using it in Windows. The proper way to fix this is to scan for filesystem errors, but here is how you can make the prompt go away permanently.

@@ -6,6 +6,7 @@ date: 2016-12-16
 images: [/img/nest-vs-ring-banner.jpg]
 thumbnail: /img/nest-vs-ring-banner.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbbttn42d"
 ---
 
 The outdoor security camera market didn’t exist much before this year. Then startups realized it was a ripe market for disruption, the old options were terrible, and cameras got smart with motion detection and other features some people never asked for.

@@ -5,6 +5,7 @@ date: 2026-01-04
 images: [/img/2025-best-books-banner.png]
 thumbnail: /img/2025-best-books-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb2l3fe2d"
 ---
 
 In 2025 I tried to spend less time on social media and more time reading long-form content.

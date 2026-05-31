@@ -7,6 +7,7 @@ images: [/img/media-files-png.png]
 thumbnail: /img/media-files-png.png
 draft: false
 canonical: https://www.howtogeek.com/24609/create-a-windows-7-theme-pack-from-scratch/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbl4bxm2d"
 ---
 
 Windows customization isn’t anything new, but with Windows 7, customization got a lot easier with theme packs. Here is how you can create your own theme pack from scratch.

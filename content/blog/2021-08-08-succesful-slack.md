@@ -5,6 +5,7 @@ date: 2021-08-08
 description: "Tips for using Slack in a work environment."
 thumbnail: /img/slack-banner.png 
 images: [/img/slack-banner.png]
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb72ib42d"
 ---
 
 Slack is a major part of how we communicate at work. If you still think it’s just about chat then chances are you’re using it wrong. Other collaboration tools exist and some have similar features but Slack is the dominant choice.

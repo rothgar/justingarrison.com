@@ -9,6 +9,7 @@ pinned: true
 url: /cubernetes
 aliases:
   - /blog/2022-07-06-cubernetes
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb6kofm2d"
 ---
 
 It took a few months to plan and about three weeks to build my latest Kubernetes hardware lab.

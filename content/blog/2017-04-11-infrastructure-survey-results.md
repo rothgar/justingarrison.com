@@ -6,6 +6,7 @@ date: 2017-04-11
 images: [/img/infrastructure-survey-results-10.webp]
 thumbnail: /img/infrastructure-survey-results-10.webp
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbbbxem2d"
 ---
 
 I recently ran a survey about infrastructure and applications for some research. I wanted to open up the results for everyone to see.

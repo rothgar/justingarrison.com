@@ -7,6 +7,7 @@ images: [/img/banner15.png]
 thumbnail: /img/banner15.png
 draft: false
 canonical: https://www.howtogeek.com/69869/when-should-you-properly-eject-your-thumb-drive/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbgvsau2d"
 ---
 
 When do you safely remove a device? Some users put caution to the wind and yank out any device, while others perform religious rituals every time. Here are some tips and guidelines for practicing safe drive removal.

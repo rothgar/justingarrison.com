@@ -7,6 +7,7 @@ images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
 canonical: https://www.howtogeek.com/45137/how-to-transfer-all-your-information-to-a-new-ps3-video-tutorial/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbi72ku2d"
 ---
 
 We have already shown you the steps needed to [transfer all your information to a new PS3](https://www.howtogeek.com/44392/how-to-transfer-all-your-information-to-a-new-ps3/), but for those of you who would like to see the whole process from start to finish we put together this video.

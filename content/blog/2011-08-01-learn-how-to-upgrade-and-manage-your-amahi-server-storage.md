@@ -7,6 +7,7 @@ images: [/img/banner3-3.png]
 thumbnail: /img/banner3-3.png
 draft: false
 canonical: https://www.howtogeek.com/69192/learn-how-to-upgrade-and-manage-your-amahi-server-storage/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbh3exm2d"
 ---
 
 We have just [shown you that you can upgrade your Windows Home Server for free](https://www.howtogeek.com/63253/upgrade-your-windows-home-server-with-amahi/) by choosing the open source Amahi server. Now that it’s installed, here’s how to manage your drives, shares, and storage pool.

@@ -6,6 +6,7 @@ date: 2016-01-24
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbcslz42d"
 ---
 
 Here’s my talk from the Southern California Linux Expo 14 (SCALE14x) this weekend.

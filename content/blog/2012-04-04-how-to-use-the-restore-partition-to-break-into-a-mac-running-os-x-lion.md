@@ -7,6 +7,7 @@ images: [/img/banner.jpg]
 thumbnail: /img/banner.jpg
 draft: false
 canonical: https://www.howtogeek.com/109582/how-to-use-the-restore-partition-to-break-into-a-mac-running-os-x-lion/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbfixom2d"
 ---
 
 It’s trivial to break into a Mac [using an OS X boot disk](https://www.howtogeek.com/30983/how-to-reset-your-forgotten-mac-os-x-password/), but new Macs use a restore partition for OS installations. Here’s how you can use that partition to reset a user password and break into a Mac.

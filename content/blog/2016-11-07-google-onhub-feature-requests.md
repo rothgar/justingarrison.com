@@ -6,6 +6,7 @@ date: 2016-11-07
 images: [/img/onhub-wish-banner.jpg]
 thumbnail: /img/onhub-wish-banner.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbbynwm2d"
 ---
 
 [Large scale DDoS](http://dyn.com/blog/dyn-statement-on-10212016-ddos-attack/) are not rare occasions anymore. What we need to help protect the Internet is to make home routers smarter. I hope Google can start this trend and maybe it would catch on as standard features.

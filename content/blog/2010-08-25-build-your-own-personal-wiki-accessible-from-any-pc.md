@@ -7,6 +7,7 @@ images: [/img/tiddly-dl.png]
 thumbnail: /img/tiddly-dl.png
 draft: false
 canonical: https://www.howtogeek.com/26515/build-your-own-personal-wiki-accessible-from-any-pc/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbkvi6u2d"
 ---
 
 A personal wiki is an amazing place to store all of your notes, to-do lists, projects, and links. Traditional wikis are no easy task to set up and typically cost money for web hosting and software licensing. With TiddlyWiki and Dropbox you can set up your own wiki that is easy to use and available from anything with a web browser. Here is how to get started.

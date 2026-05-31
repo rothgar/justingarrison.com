@@ -7,6 +7,7 @@ images: [/img/tools-menu.png]
 thumbnail: /img/tools-menu.png
 draft: false
 canonical: https://www.howtogeek.com/28478/copy-and-paste-in-outlook-without-messing-up-your-formatting/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbkojju2d"
 ---
 
 Often times you will need to copy and paste text into an email from various sources. By default Outlook keeps the formatting of whatever it is that you are pasting instead of the formatting of the email you are composing. Here is a quick tip on how to change that behavior.

@@ -7,6 +7,7 @@ images: [/img/jailbreak-atv-banner.webp]
 thumbnail: /img/jailbreak-atv-banner.webp
 draft: false
 canonical: https://www.howtogeek.com/106085/how-to-jailbreak-your-2nd-generation-apple-tv/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbfofj42d"
 ---
 
 Jailbreaking your iDevices allows for more options when it comes to software and usage. The Apple TV is no exception. Here’s how to jailbreak your second generation Apple TV so you can install software like XBMC, Plex, or aTV Flash.

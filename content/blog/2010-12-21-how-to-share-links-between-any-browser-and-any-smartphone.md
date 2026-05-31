@@ -7,6 +7,7 @@ images: [/img/sshot4d0efba212379.jpg]
 thumbnail: /img/sshot4d0efba212379.jpg
 draft: false
 canonical: https://www.howtogeek.com/37282/how-to-share-links-between-any-browser-and-any-smartphone/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbjcr5e2d"
 ---
 
 It happens all the time, you find an article to read but then nature calls. Do you take your laptop with you? With site to phone you can share links between any browser and any smartphone with a single click.

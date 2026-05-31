@@ -6,6 +6,7 @@ images: [/img/document-driven-meetings-banner.png]
 thumbnail: /img/document-driven-meetings-banner.png
 draft: false
 pinned: true
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb5ebv42d"
 ---
 
 This article is best to experience before reading the details.

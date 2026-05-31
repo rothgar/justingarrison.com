@@ -6,6 +6,7 @@ date: 2013-12-30
 images: [/img/0_Xwv4lhAoVEpVOXIF.JPG]
 thumbnail: /img/0_Xwv4lhAoVEpVOXIF.JPG
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbe4kru2d"
 ---
 
 In January 2014 I will have been using a standing desk as my [main desk for three years](https://plus.google.com/photos/114290766308602004678/albums/5873003211889499937). Here are three tips I’ve learned along the way to make your endeavors with a standing desk a success.

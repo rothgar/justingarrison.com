@@ -6,6 +6,7 @@ date: 2015-12-30
 images: [/img/crowd-surfing.jpeg]
 thumbnail: /img/crowd-surfing.jpeg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbd76e42d"
 ---
 
 ![Me in the hospital with a broken arm](/img/crowd-surfing.jpeg)

@@ -5,6 +5,7 @@ date: 2023-10-20T11:20:57-07:00
 images: [/img/git-resume-banner.png]
 thumbnail: /img/git-resume-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb4zuuu2d"
 ---
 
 I use Git to track my resume revisions and job applications.

@@ -5,6 +5,7 @@ date: 2020-05-28
 description: "My experience switching from an engineer to a developer advocate"
 thumbnail: /img/prepend-sudo.gif 
 images: [/img/prepend-sudo.gif]
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbagcm42d"
 ---
 
 If your an engineer you probably spend a lot of time using a terminal. Some of your best productivity gains will come from understanding it better and making small improvements to repetitive tasks.

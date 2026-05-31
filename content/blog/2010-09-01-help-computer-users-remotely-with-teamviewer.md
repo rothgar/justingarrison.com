@@ -7,6 +7,7 @@ images: [/img/full-version-download.png]
 thumbnail: /img/full-version-download.png
 draft: false
 canonical: https://www.howtogeek.com/27120/help-computer-users-remotely-with-teamviewer/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbkt22u2d"
 ---
 
 Before remote software, helping your friends and family with computer problems often meant hours on the phone trying to remember what a menu looked like or where a file was saved. Here we look at helping them remotely with TeamViewer.

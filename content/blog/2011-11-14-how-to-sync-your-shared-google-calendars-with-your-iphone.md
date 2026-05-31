@@ -7,6 +7,7 @@ images: [/img/banner13.png]
 thumbnail: /img/banner13.png
 draft: false
 canonical: https://www.howtogeek.com/97566/how-to-sync-your-shared-google-calendars-with-your-iphone/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbg6rwe2d"
 ---
 
 Smartphones are essential to our daily lives. They help us stay connected and keep us organized. But when it comes to calendar syncing and Gmail there are limitations. Here’s how you can sync your shared calendars and contacts from Gmail.

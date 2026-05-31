@@ -5,6 +5,7 @@ date: 2020-08-31
 description: "Tips for new employee's first week"
 thumbnail: /img/remotly.jpg 
 images: [/img/remotly.jpg]
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnba3so42d"
 ---
 
 I think there’s a rule that any helpful tweet with 10k likes should be a blog post.

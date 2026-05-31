@@ -6,6 +6,7 @@ images: [/img/platform-banner.png]
 thumbnail: /img/platform-banner.png
 draft: false
 pinned: true
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb5hjfm2d"
 ---
 
 The platform engineering hype wave is almost over—thank you AI, but too many companies are still full steam ahead building one.

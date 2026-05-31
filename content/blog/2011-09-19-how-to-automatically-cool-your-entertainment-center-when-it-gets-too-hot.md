@@ -7,6 +7,7 @@ images: [/img/sshot4e78a87fc6903.jpg]
 thumbnail: /img/sshot4e78a87fc6903.jpg
 draft: false
 canonical: https://www.howtogeek.com/74654/how-to-automatically-cool-your-entertainment-center-when-it-gets-too-hot/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbgqege2d"
 ---
 
 Keeping your home stereo in a cabinet helps with noise and protects your equipment from pets and kids. Game consoles, receivers, and STBs don’t work well in saunas; so here’s how to keep your entertainment center cool automatically.

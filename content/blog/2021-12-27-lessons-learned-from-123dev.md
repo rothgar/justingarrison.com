@@ -5,6 +5,7 @@ date: 2021-12-27
 description: "One year of failures and tips for new and existing newsletters"
 thumbnail: /img/123-dev.jpg 
 images: [/img/123-dev.jpg]
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb6y52u2d"
 ---
 
 I have been running [123dev newsletter](https://123dev.email/) for a full year. 52 weeks in a row. I’m really proud of myself for writing more, being consistant, and—unlike my exercise plans—sticking to a new habit.

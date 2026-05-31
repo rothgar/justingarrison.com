@@ -6,6 +6,7 @@ date: 2013-08-08
 images: [/img/1_DWXllKnapKmy_arxOxup2Q.png]
 thumbnail: /img/1_DWXllKnapKmy_arxOxup2Q.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbeenl42d"
 ---
 
 I had this idea while driving into work with a friend and, like a lot of my ideas, I just wanted to throw it out there to discuss how, why, and what’s wrong with the idea. Please feel free to leave a comment to discuss.

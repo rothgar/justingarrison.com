@@ -7,6 +7,7 @@ images: [/img/book-economics-banner.jpg]
 thumbnail: /img/book-economics-banner.jpg
 draft: false
 pinned: true
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbb2l242d"
 ---
 
 I am not an expert. I have co-authored a single book in 2017 called *[Cloud Native Infrastructure](http://www.cnibook.info/)* for O’Reilly Media. Many people have asked me what it was like so I will attempt to explain the process, time investment, and financial incentive here.

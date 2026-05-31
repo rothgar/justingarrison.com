@@ -7,6 +7,7 @@ images: [/img/banner9.png]
 thumbnail: /img/banner9.png
 draft: false
 canonical: https://www.howtogeek.com/60310/enable-editing-for-all-office-2010-documents-by-disabling-protected-view/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbhtzzm2d"
 ---
 
 Protected View can stop viruses from installing onto your computer but comes at the price of clicking a button every time you want to edit a document. Here’s how to permanently disable Protected View for all documents in Microsoft Office.

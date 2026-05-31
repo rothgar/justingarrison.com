@@ -6,6 +6,7 @@ date: 2013-03-04
 images: [/img/1_dn-3NYIkCS-3Xr6ddF1wzQ.png]
 thumbnail: /img/1_dn-3NYIkCS-3Xr6ddF1wzQ.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbexe7e2d"
 ---
 
 A while ago a friend of mine set out on a quest to make a 3D map of my work. At first the process seemed really easy. Just import some blueprints into [Google SketchUp](http://www.sketchup.com/product/newin7.html), export that into [Valve’s Hammer](https://developer.valvesoftware.com/wiki/Main_Page), tweak some spawn points, and BOOM you have a Counter-Strike map. The process obviously wasn’t that easy and after 2 years of painstakingly editing textures, walls, and even the sky, the Azusa Pacific University (APU) Counter-Strike map was born compiled.

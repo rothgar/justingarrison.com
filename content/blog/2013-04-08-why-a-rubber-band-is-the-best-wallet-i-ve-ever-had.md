@@ -6,6 +6,7 @@ date: 2013-04-08
 images: [/img/1_tur6A3xGnvjdMPOBBU_QAg.jpeg]
 thumbnail: /img/1_tur6A3xGnvjdMPOBBU_QAg.jpeg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbemscu2d"
 ---
 
 I have always had a bad relationship with wallets. It was just one more thing I had to carry because there was no way to keep IDs and money organized in my pocket on its own. After one of my wallets wore to the point of me actually throwing it away, I decided I’d try to make the most efficient wallet ever.

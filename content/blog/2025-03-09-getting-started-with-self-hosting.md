@@ -5,6 +5,7 @@ date: 2025-03-09T21:00:17-07:00
 images: [/img/start-self-hosting-banner.png]
 thumbnail: /img/start-self-hosting-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb2yi442d"
 ---
 
 I've been running a home lab in various states for over 20 years.

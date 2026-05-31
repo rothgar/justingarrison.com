@@ -7,6 +7,7 @@ images: [/img/banner14.png]
 thumbnail: /img/banner14.png
 draft: false
 canonical: https://www.howtogeek.com/65963/what-is-arduino/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbgnrg42d"
 ---
 
 Arduino is an open-source electronics prototyping platform based on flexible, easy-to-use hardware and software. Today we will help you get started by showing you some of the options available and how easy it is to get started.

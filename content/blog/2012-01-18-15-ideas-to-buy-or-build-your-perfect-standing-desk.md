@@ -7,6 +7,7 @@ images: [/img/banner12.png]
 thumbnail: /img/banner12.png
 draft: false
 canonical: https://www.howtogeek.com/100748/15-ideas-to-buy-or-build-your-perfect-standing-desk/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbfqume2d"
 ---
 
 Once you’ve tried using a standing desk for yourself and decided you want something more permanent, your next option is to build a desk of your own or buy something you can use full time.

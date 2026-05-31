@@ -6,6 +6,7 @@ date: 2015-10-10
 images: [/img/1_rubmozqhrZKgFIoFa47x0Q.jpeg]
 thumbnail: /img/1_rubmozqhrZKgFIoFa47x0Q.jpeg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbdngfu2d"
 ---
 
 Ambient lights help with eye strain and glare from overhead lights. This is a simple light you can install in 10 minutes and should cost less than $20. There are other (more expensive) LED shelf lights you can get from IKEA but I had an old one lying around I wasn’t doing anything with.

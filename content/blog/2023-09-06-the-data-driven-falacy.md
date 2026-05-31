@@ -5,6 +5,7 @@ date: 2023-09-06T21:01:18-07:00
 images: [/img/data-driven-banner.png]
 thumbnail: /img/data-driven-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb56uzu2d"
 ---
 
 "Show me the data."

@@ -7,6 +7,7 @@ images: [/img/000_add-action.png]
 thumbnail: /img/000_add-action.png
 draft: false
 canonical: https://www.howtogeek.com/20396/batch-edit-photos-with-phatch/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnblhhf42d"
 ---
 
 If you have ever needed to edit a whole folder of photos with the same effect or need to repeatedly crop, add watermarks, or drop shadows to images for the web, Phatch is the tool for the job. Phatch is a photo batch editor written in python so it works on any operating system.

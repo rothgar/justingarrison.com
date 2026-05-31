@@ -7,6 +7,7 @@ images: [/img/sshot4d3e6bef58287.jpg]
 thumbnail: /img/sshot4d3e6bef58287.jpg
 draft: false
 canonical: https://www.howtogeek.com/41382/how-to-use-linux-commands-in-windows-with-cygwin/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbio2zu2d"
 ---
 
 Windows command-line tools have advanced a lot with PowerShell, but Linux has had a much more usable terminal for many years. Here’s how you can get the best of both worlds with Cygwin, a ‘nix-style terminal for Windows PCs.

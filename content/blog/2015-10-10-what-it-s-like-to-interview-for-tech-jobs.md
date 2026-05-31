@@ -6,6 +6,7 @@ date: 2015-10-10
 images: [/img/0_zTdQf2TfO3yyvQL1.jpg]
 thumbnail: /img/0_zTdQf2TfO3yyvQL1.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbdgthu2d"
 ---
 
 Over the past year I have had great opportunities to interview for positions at companies I respect, and some I didn’t. I wanted to share my experiences to help others looking to go down this job path and some general interviewing tips.

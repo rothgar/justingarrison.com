@@ -6,6 +6,7 @@ date: 2010-05-17
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnblotpm2d"
 ---
 
 I would like to take a couple minutes to share with everyone how she made it, and what software I used to help her edit it.First of all, here was the setup.

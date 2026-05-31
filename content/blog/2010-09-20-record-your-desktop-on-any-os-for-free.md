@@ -7,6 +7,7 @@ images: [/img/image159.png]
 thumbnail: /img/image159.png
 draft: false
 canonical: https://www.howtogeek.com/28680/record-your-desktop-on-any-os-for-free/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbkm6dm2d"
 ---
 
 Sometimes screen shots just aren’t enough to explain how to do something or to show the steps you took to reproduce an error. There are a few tools available that will let you record your desktop but none are as easy, free, or cross platform as Screen Toaster.

@@ -7,6 +7,7 @@ images: [/img/banner3-2.png]
 thumbnail: /img/banner3-2.png
 draft: false
 canonical: https://www.howtogeek.com/99961/how-to-modify-your-existing-desk-to-make-it-a-standing-desk/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbfzgzm2d"
 ---
 
 Whether you want to stand because it’s trendy, or you want to test the benefits, one of the biggest hurdles from a standing desk is the cost involved. Here are some standing desk options you can build for free.

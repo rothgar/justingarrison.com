@@ -5,6 +5,7 @@ date: 2024-01-06T00:49:06-08:00
 images: [/img/nu-way-banner.png]
 thumbnail: /img/nu-way-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb4uvp42d"
 ---
 
 I had a csv file with data that looked like this.

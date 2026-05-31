@@ -7,6 +7,7 @@ images: [/img/banner_crop_win_logo.png]
 thumbnail: /img/banner_crop_win_logo.png
 draft: false
 canonical: https://www.howtogeek.com/41091/how-to-customize-your-mac-boot-logo/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbit36u2d"
 ---
 
 Tired of the grey Apple logo on your Mac? Why not “think different” and “switch” it to something else? “The notebook for everyone” doesn’t give you “the power to be your best” without a little personalization.

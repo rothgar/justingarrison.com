@@ -6,6 +6,7 @@ date: 2012-01-01
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbfwm7e2d"
 ---
 
 As usual, here are my predictions for what will happen in 2012. Last year I played it pretty safe and was right on almost all of my predictions. [Check it out here](http://1n73r.net/2011/01/01/2011-tech-predictions) and see how I did for yourself.

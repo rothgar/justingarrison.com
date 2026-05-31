@@ -6,6 +6,7 @@ date: 2013-06-24
 images: [/img/bellroy-wallet-1.jpg]
 thumbnail: /img/bellroy-wallet-1.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbekbb42d"
 ---
 
 As a follow-up to my recent article about [the best wallet ever](http://1n73r.net/2013/04/04/the-best-wallet-ever/), I was given the opportunity to test some of the slim wallets available on the market. These wallets are all designed to slim down your wallet and protect your cards. As an added bonus they all look better than a rubber band! I used each of these wallets for a minimum of one week so I could try it out in day-to-day life with my usual set of cards, cash, and papers. This comparison is to help you decide on which wallet might best fit your needs. I try to stay away from picking “the best” because user preference varies drastically and the features I’m looking for in a wallet may not be yours.

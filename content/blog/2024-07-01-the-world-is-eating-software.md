@@ -8,6 +8,7 @@ images:
   - /img/world-eating-software-banner.png
 thumbnail: /img/world-eating-software-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb3kxvm2d"
 ---
 In 2011, Marc Andreessen famously said "[software is eating the world](https://a16z.com/why-software-is-eating-the-world/)."
 The article has been interpreted many different ways over the past 13 years, but the fundamental claim is that there is so much software running so many different industries that the "software companies" should be valued higher than they are.

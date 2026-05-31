@@ -6,6 +6,7 @@ date: 2016-04-06
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbclfk42d"
 ---
 
 Microsoft recently announced Windows Subsystem for Linux (WSL) which allows you to run some Linux binaries on top of Windows using an API remapping layer to translate Linux API calls to Windows API calls. If you want specifics you should probably ready the [Ars article](http://arstechnica.com/information-technology/2016/04/why-microsoft-needed-to-make-windows-run-linux-software/) because I’m not going to go into the history or reasoning. Instead I want to look into why it doesn’t matter for the future of Windows development.

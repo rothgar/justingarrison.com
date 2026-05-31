@@ -5,6 +5,7 @@ date: 2025-07-23T22:43:04-07:00
 images: [/img/dollar-driven-banner.png]
 thumbnail: /img/dollar-driven-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb2ses42d"
 ---
 Company leadership say they're data driven, and they may even believe it.
 But the only data that actually matters is money.

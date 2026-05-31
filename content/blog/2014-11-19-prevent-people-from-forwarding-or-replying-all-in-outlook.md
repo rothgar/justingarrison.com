@@ -7,6 +7,7 @@ images: [/img/img_546c0ad49888d.jpg]
 thumbnail: /img/img_546c0ad49888d.jpg
 draft: false
 canonical: https://www.howtogeek.com/28535/prevent-people-from-forwarding-or-replying-all-in-outlook/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbdq4du2d"
 ---
 
 If you frequently send out mass email news letters and keep getting users replying to all recipients, or need to disable the ability to forward an email, Microsoft Exchange and Outlook have you covered.

@@ -6,6 +6,7 @@ date: 2015-12-30
 images: [/img/0_yY4TGtxk7moR3qMr.png]
 thumbnail: /img/0_yY4TGtxk7moR3qMr.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbd44p42d"
 ---
 
 _Earlier this week, we [compared the iPhone and Android in a knockdown showdown](http://lifehacker.com/5559357/iphone-vs-android-showdown-which-phone-is-best-for-power-users) of features that matter to us. Upset with the lack of representation for webOS, reader [Rothgar](http://lifehacker.com/commenter/Rothgar/) repurposed our chart and offered this thoughtful (and sometimes angry) counterpoint._

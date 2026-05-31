@@ -5,6 +5,7 @@ date: 2021-02-02
 description: "Options for personal and shared whiteboarding"
 thumbnail: /img/whiteboarding-banner.jpg 
 images: [/img/whiteboarding-banner.jpg]
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb7tlxu2d"
 ---
 
 One of the things I miss most about working in an office is diagramming with coworkers. I’m a very visual learner and drawing what I’m thinking and having others explain their thoughts in picture form help me a lot. If you’ve seen any of my conference talks you’ll also probably know that I like props too!

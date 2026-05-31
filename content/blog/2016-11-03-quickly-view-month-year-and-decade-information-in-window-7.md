@@ -7,6 +7,7 @@ images: [/img/banner8.png]
 thumbnail: /img/banner8.png
 draft: false
 canonical: https://www.howtogeek.com/56443/quickly-view-month-year-and-decade-information-in-window-7/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbc35z42d"
 ---
 
 Windows 7 gives the ability to quickly pull up a calendar from the taskbar by clicking on the time. What you may not know is that you can also quickly jump to dates in different months and years.

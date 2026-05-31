@@ -6,6 +6,7 @@ date: 2016-01-24
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbcqepu2d"
 ---
 
 This article is in reply to a [post on Lifehacker](http://lifehacker.com/set-top-box-showdown-apple-tv-vs-nexus-player-vs-rok-1754810806). While I think they usually do a pretty good job I think there were a lot of day-to-day usability things they missed.

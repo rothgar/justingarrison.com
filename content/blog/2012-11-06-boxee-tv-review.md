@@ -6,6 +6,7 @@ date: 2012-11-06
 images: [/img/1_VT7kcRvyKXohLCkfaIVuGw.jpeg]
 thumbnail: /img/1_VT7kcRvyKXohLCkfaIVuGw.jpeg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbfdqou2d"
 ---
 
 It’s not very often that I am so excited for a product that I go get it on launch day. Usually I am a skeptic who waits at least for a few reviews to come out before rushing out to get whatever it is. The Boxee TV however was one of those products I had very high hopes for and wanted to spend as much as it would take to try it out for myself (I had $325 saved up just for this). I have debated for the past year to buy the original Boxee Box +live TV tuner but after years of [using an HTPC](http://1n73r.net/htpc-log/) and cable DVR I couldn’t bring myself to live by TV schedule anymore.

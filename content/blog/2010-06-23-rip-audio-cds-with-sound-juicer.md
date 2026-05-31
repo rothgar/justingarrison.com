@@ -7,6 +7,7 @@ images: [/img/01_software-manager.png]
 thumbnail: /img/01_software-manager.png
 draft: false
 canonical: https://www.howtogeek.com/20126/rip-audio-cds-with-sound-juicer/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbllzum2d"
 ---
 
 There are a plethora of programs that can rip audio CDs on Linux, but very few are as simple as Sound Juicer. Sound Juicer is a GUI front-end for the command line only tool cdparanoia, but it adds quite features that make it worth a look.

@@ -7,6 +7,7 @@ images: [/img/sshot201010151002147.jpg]
 thumbnail: /img/sshot201010151002147.jpg
 draft: false
 canonical: https://www.howtogeek.com/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbdsqde2d"
 ---
 
 In the open source community you’ll often hear the phrase “free as in speech” or “free as in beer” in reference to software products, but what do these phrases actually mean? Let’s walk you through the meaning behind each.

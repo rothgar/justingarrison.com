@@ -7,6 +7,7 @@ images: [/img/banner2-3.png]
 thumbnail: /img/banner2-3.png
 draft: false
 canonical: https://www.howtogeek.com/43724/how-to-view-netflix-watch-instantly-in-xbmc/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbij7r42d"
 ---
 
 Netflix streaming isn’t just a feature that is nice to have, for many people it is a must have for any video streaming software. Unfortunately it has been missing from XBMC for various reasons, until today.

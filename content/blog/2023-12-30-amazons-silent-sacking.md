@@ -6,6 +6,7 @@ images: [/img/amazons-silent-sacking-banner.jpg]
 thumbnail: /img/amazons-silent-sacking-banner.jpg
 draft: false
 pinned: true
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb4xfrm2d"
 ---
 
 _This is not financial advice and I am not an expert._

@@ -7,6 +7,7 @@ images: [/img/banner16.png]
 thumbnail: /img/banner16.png
 draft: false
 canonical: https://www.howtogeek.com/67766/how-to-migrate-from-facebook-to-google/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbhbgd42d"
 ---
 
 If you have a lot of time and information invested in Facebook, it’s not easy moving to a new social network. Here are a few tips on moving your information from your Facebook account to your shiny new Google+ account.

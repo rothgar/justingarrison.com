@@ -7,6 +7,7 @@ images: [/img/banner4.png]
 thumbnail: /img/banner4.png
 draft: false
 canonical: https://www.howtogeek.com/64927/cleanup-your-windows-7-login-screen-and-remove-unwanted-logon-items/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbhia3u2d"
 ---
 
 Windows 7 adds functionality to your login screen to give you additional logon options. If you want to lose the clutter, here is how to disable some or all of your credential providers.

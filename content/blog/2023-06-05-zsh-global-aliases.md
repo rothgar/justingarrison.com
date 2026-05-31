@@ -5,6 +5,7 @@ date: 2023-06-05T22:28:41-07:00
 images: [/img/global-aliases-banner.jpg]
 thumbnail: /img/global-aliases-banner.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb5kbc42d"
 ---
 
 Shell aliases are great, but they have some limitations.

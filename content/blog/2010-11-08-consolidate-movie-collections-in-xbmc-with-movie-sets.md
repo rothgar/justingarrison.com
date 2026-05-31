@@ -7,6 +7,7 @@ images: [/img/og-image.png]
 thumbnail: /img/HP-collection-0.png
 draft: false
 canonical: https://www.howtogeek.com/33873/consolidate-movie-collections-in-xbmc-with-movie-sets/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbjyhi42d"
 ---
 
 XBMC already has an advanced movie library that can gather fan art, movie posters, and cast information all with a simple scan. With XBMC 10.0 you can also combine movie collections into a single entry in your library.

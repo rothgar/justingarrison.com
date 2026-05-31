@@ -5,6 +5,7 @@ date: 2019-05-29
 description: "Things I've learned from working remote full time for 6 months"
 thumbnail: /img/six-months-remote-banner.png 
 images: [/img/six-months-remote-banner.png]
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbavjvu2d"
 ---
 
 I’ve been working full time remote for Disney Streaming for the past 6 months. This is my first full time remote position.

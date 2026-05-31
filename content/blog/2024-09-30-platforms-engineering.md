@@ -6,6 +6,7 @@ images: [/img/platforms-engineering-banner.png]
 thumbnail: /img/platforms-engineering-banner.png
 draft: false
 pinned: true
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb36kgu2d"
 ---
 
 Platform engineering teams are fooling themselves if they think they can build a single platform that will fit everyone's needs.

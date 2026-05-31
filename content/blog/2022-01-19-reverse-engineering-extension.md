@@ -5,6 +5,7 @@ date: 2022-01-19
 description: "Finding hidden APIs for fun and flexibility"
 thumbnail: /img/revue-banner.png 
 images: [/img/revue-banner.png]
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb6vh4u2d"
 ---
 
 I’ve been using [Revue](https://www.getrevue.co/) for my [123dev](https://123dev.email/) newsletter and wanted an easier way to save URLs to include in future emails. If you’re not familiar with it, Revue has a chrome extension so you can send URLs to a queue which shows up next to the editor.

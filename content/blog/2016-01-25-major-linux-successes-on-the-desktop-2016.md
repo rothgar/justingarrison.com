@@ -6,6 +6,7 @@ date: 2016-01-25
 images: [/img/og-image.png]
 thumbnail: /img/og-image.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbcnzjm2d"
 ---
 
 After reading the [Major Linux Problems on the Desktop](http://itvision.altervista.org/why.linux.is.not.ready.for.the.desktop.current.html) article I thought I would point out some of the major successes for Linux on the desktop that I probably wouldn’t have known about if I weren’t using Linux on my laptop and multiple desktops. Let me be clear that I mostly agree with the points in the above article. I read the whole thing, including some comments, and also read the [Best Linux Distro for the Desktop](http://itvision.altervista.org/best-linux-distro-this-year.html) from the same author. There are many bug report links, mailing list threads, and various comments on that page that detail some problems people have had. I would also argue, given the time, similar lists could be made for OS X and Windows.

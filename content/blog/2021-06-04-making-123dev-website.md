@@ -5,6 +5,7 @@ date: 2021-06-04
 description: "Problems I figured out when creating 123dev.email"
 thumbnail: /img/123dev-post-banner.png 
 images: [/img/123dev-post-banner.png]
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb77zym2d"
 ---
 
 I wanted a landing page for the [123dev newsletter](https://123dev.email/) and it was the perfect opportunity to try a few new things.

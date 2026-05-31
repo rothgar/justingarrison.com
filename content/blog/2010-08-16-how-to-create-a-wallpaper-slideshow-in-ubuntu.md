@@ -7,6 +7,7 @@ images: [/img/menu.png]
 thumbnail: /img/menu.png
 draft: false
 canonical: https://www.howtogeek.com/25549/how-to-create-a-wallpaper-slideshow-in-ubuntu/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbkzypu2d"
 ---
 
 Just like Windows 7 and OS X, Ubuntu has the ability to create a slideshow wallpaper thanks to GNOME 2.28. Here is how you can take control of your wallpaper slideshows with a simple to use GUI tool or a down and dirty text editor.

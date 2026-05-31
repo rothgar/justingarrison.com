@@ -6,6 +6,7 @@ date: 2012-01-10
 images: [/img/0_pNrEgwqivoCGyQwt.jpg]
 thumbnail: /img/0_pNrEgwqivoCGyQwt.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbftljm2d"
 ---
 
 I recently started playing Tiny Towers (a couple weeks ago) and although I’m not an expert at the game, I found it intriguing because of the amount of planning you can use, or not use, while playing the game. Here are some things I picked up on while playing to help you scale your tower.

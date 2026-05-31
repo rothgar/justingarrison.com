@@ -7,6 +7,7 @@ images: [/img/image25.png]
 thumbnail: /img/image25.png
 draft: false
 canonical: https://www.howtogeek.com/40108/the-best-of-ces-consumer-electronics-show-in-2011/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbj2aom2d"
 ---
 
 ![](https://www.howtogeek.com/wp-content/uploads/2011/01/?width=1198&trim=1,1&bg-color=000&pad=1,1)

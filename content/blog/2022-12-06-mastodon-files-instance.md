@@ -5,6 +5,7 @@ date = 2022-12-06T07:00:00-07:00
 thumbnail = "/img/mastodon-files-banner.png"
 images = ["/img/mastodon-files-banner.png"]
 draft = false
+atUri = "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb63e642d"
 +++
 
 Mastodon is built on the [ActivityPub](https://activitypub.rocks/) protocol which is based on [Activity Streams](https://www.w3.org/TR/activitystreams-core/) which stores data in [JSON Linked Data (JSON-LD)](https://json-ld.org/primer/latest/).

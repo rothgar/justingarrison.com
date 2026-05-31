@@ -7,6 +7,7 @@ images: [/img/banner2-2.png]
 thumbnail: /img/banner2-2.png
 draft: false
 canonical: https://www.howtogeek.com/76587/how-to-control-a-remote-computer-using-only-your-chrome-web-browser/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbgkwlu2d"
 ---
 
 Going remote with friends and family is helpful when you need to show them how to do something or fix a problem. Here’s how you can offer cross platform remote assistance using only Google Chrome and an extension.

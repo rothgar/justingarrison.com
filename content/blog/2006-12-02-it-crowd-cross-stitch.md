@@ -6,6 +6,7 @@ date: 2006-12-02
 images: [/img/it-crowd-banner.jpg]
 thumbnail: /img/it-crowd-banner.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbmbpa42d"
 ---
 
 I have mentioned the IT Crowd before and if you haven’t seen it yet you need to check out the recently released [DVD](http://www.amazon.co.uk/The-IT-Crowd/dp/B000EU1OYC) or at least read some of the [1337 subtitles](http://forums.somethingawful.com/showthread.php?s=&threadid=2175768). In honor of the show my wife Beth has cross-stitched a great tribute the IT Crowd using a pattern we made from screen shots of the intro. Hope you enjoy!

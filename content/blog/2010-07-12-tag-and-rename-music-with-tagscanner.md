@@ -7,6 +7,7 @@ images: [/img/00_tagscanner.png]
 thumbnail: /img/00_tagscanner.png
 draft: false
 canonical: https://www.howtogeek.com/21245/tag-and-rename-music-with-tagscanner/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbld2r42d"
 ---
 
 There are plenty of automatic music organization tools but for those who like to do things by hand, TagScanner is a powerful music organization tool that can be run from a USB drive, and it’s free.

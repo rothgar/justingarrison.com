@@ -5,6 +5,7 @@ date: 2026-04-03T08:08:13-07:00
 images: [/img/k8s-carrier-v2.png]
 thumbnail: /img/k8s-carrier-v2.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnb2d7gu2d"
 ---
 
 In preperation for conferences this year I wanted to update my [PETaflop cluster](./petaflop-cluster) to something that was easier to travel with.

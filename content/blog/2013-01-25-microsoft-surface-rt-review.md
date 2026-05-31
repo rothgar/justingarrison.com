@@ -6,6 +6,7 @@ date: 2013-01-25
 images: [/img/0_BP7VGqJTwL6NzSgO.jpg]
 thumbnail: /img/0_BP7VGqJTwL6NzSgO.jpg
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mmdnbf225e2d"
 ---
 
 I was going to write a full review of the Surface RT but I just couldn’t bring myself to write a review for a device a have no reason to use. Here’s a quick rundown of my thoughts after having the device for a week.
