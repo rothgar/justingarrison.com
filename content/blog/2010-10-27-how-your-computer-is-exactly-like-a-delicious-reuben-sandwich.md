@@ -7,6 +7,7 @@ images: [/img/image337.png]
 thumbnail: /img/image337.png
 draft: false
 canonical: https://www.howtogeek.com/32506/how-your-computer-is-exactly-like-a-delicious-reuben-sandwich/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mn7ecvorok2q"
 ---
 
 Computers are complex devices that cannot easily be explained, like say, a delicious Reuben sandwich. Let’s break down and explain your computer, over lunch.

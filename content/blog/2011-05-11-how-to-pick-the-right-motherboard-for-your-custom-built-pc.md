@@ -7,6 +7,7 @@ images: [/img/image52.png]
 thumbnail: /img/image52.png
 draft: false
 canonical: https://www.howtogeek.com/62588/how-to-pick-the-right-motherboard-for-your-custom-built-pc/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mn7ecvc7dk2q"
 ---
 
 Motherboards are the most complex component in your computer. Fitted with hundreds of components and dozens of options it can be difficult to choose. Let’s look at the most important factors to help you decide before building your next computer.

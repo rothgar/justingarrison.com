@@ -7,6 +7,7 @@ images: [/img/skin-confluence.png]
 thumbnail: /img/skin-confluence.png
 draft: false
 canonical: https://www.howtogeek.com/33870/screenshot-tour-xbmc-media-center-10-has-add-ons-skins-and-more/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mn7ecvlqys2q"
 ---
 
 XBMC has come a long way since its humble beginnings as an Xbox media player. Let’s take a look at the latest 10.0 release of XBMC, also known as “Dharma”, to see what’s new.

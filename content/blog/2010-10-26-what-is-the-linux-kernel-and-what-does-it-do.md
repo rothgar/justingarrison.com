@@ -7,6 +7,7 @@ images: [/img/image324.png]
 thumbnail: /img/image324.png
 draft: false
 canonical: https://www.howtogeek.com/31632/what-is-the-linux-kernel-and-what-does-it-do/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mn7ecvrucs2q"
 ---
 
 With over 13 million lines of code, the Linux kernel is one of the largest open source projects in the world, but what is a kernel and what is it used for?

@@ -7,6 +7,7 @@ images: [/img/banner-2.png]
 thumbnail: /img/banner-2.png
 draft: false
 canonical: https://www.howtogeek.com/37176/20-windows-keyboard-shortcuts-you-might-not-know/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mn7ecvitas2q"
 ---
 
 Mastering the keyboard will not only increase your navigation speed but it can also help with wrist fatigue. Here are some lesser known Windows shortcuts to help you become a keyboard ninja.

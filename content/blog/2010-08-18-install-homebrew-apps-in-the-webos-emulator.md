@@ -7,6 +7,7 @@ images: [/img/emulator-2.png]
 thumbnail: /img/emulator-2.png
 draft: false
 canonical: https://www.howtogeek.com/25710/install-homebrew-apps-in-the-webos-emulator/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mn7ecvuzus2q"
 ---
 
 After your webOS emulator is set up, it can get boring without any new apps to play with. The official Palm App Catalog isn’t supported in the emulator but luckily the homebrew Preware app is supported. Here is how to get more apps in your webOS emulator.

@@ -7,6 +7,7 @@ images: [/img/banner21.png]
 thumbnail: /img/banner21.png
 draft: false
 canonical: https://www.howtogeek.com/56538/how-to-remotely-control-your-pc-even-when-it-crashes/
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mn7ecvewas2q"
 ---
 
 Being able to remotely control your computer is an age old geek trick. But what about changing BIOS settings or installing an operating system remotely? With Intel AMT KMS this is within reach for any geek with the right hardware.
