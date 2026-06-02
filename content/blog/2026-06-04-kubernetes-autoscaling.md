@@ -9,7 +9,7 @@ draft: true
 
 > This post is sponsored by [Cast AI](https://cast.ai), but comes from my real world experiences.
 
-Automatically scaling nodes is a cloud parlor trick.
+Automatically scaling nodes is a cloud parlor trick you don't get to opt out of.
 
 Is it required?
 Only to make the economics make sense.
@@ -18,14 +18,16 @@ Sometimes.
 Is it cool?
 Absolutely.
 
-Cloud pricing makes static provisioning expensive, so you're forced into autoscaling. Autoscaling creates problems you didn't have on-prem. Then you spend years buying tools to manage them.
+Cloud pricing makes static provisioning expensive, so you're forced to dynamically scale.
+But autoscaling introduces problems you didn't have on-prem.
+Then you spend years turning knobs to make the problems managable.
 
-I've seen way too many engineers waste their time fine tuning autoscaling when they could be contributing to business initiatives.
+I've seen many engineers lose months tuning autoscaling when they should be contributing to business initiatives.
 The company and engineer moved from a static, on-prem environment and the thing that used to be extremely difficult — adding and removing compute capacity — is now trivial and fun.
 So they tune the knobs until they get it _just_ right.
 Six months later all of their assumptions were wrong and they either do it again, hand it off to someone else, or automate it.
 
-Some of this blog post is in video form if you'd prefer to watch it.
+The video to assist this blog post dives more into autoscaling, my role promoting it, and what a possible solution could be.
 
 {{< youtube 38r60gJsqLQ >}}
 
@@ -104,9 +106,10 @@ When you combine all this data and control, the sum is greater than the parts.
 
 Cast AI originally asked me to review their platform 3 years ago.
 At the time I was working at AWS on Karpenter and Cast AI claimed it worked better than Karpenter with no public data to corroborate their claims.
+I said no because I didn't think I could be a unbiased reviewer.
 
-This time, when they reached out, they let me know they built integrations so it can work with a cluster already managing autoscaling with Karpenter.
-Obviously the long term goal would be to get rid of Karpenter or the Cluster Autoscaler and only use Cast AI's autoscaling capabilities.
+This time, when they reached out, they let me know they built integrations so works with a cluster already managing autoscaling with Karpenter.
+Obviously, the long term goal would be to get rid of Karpenter or the Cluster Autoscaler and only use Cast AI's autoscaling capabilities.
 I assume that's where a lot of enterprises will end up.
 
 In the cloud, autoscaling and cost reporting are the same job. The industry calls it FinOps. The pricing model is continuous, so the management is continuous.
@@ -117,6 +120,6 @@ Even so, on-prem Kubernetes clusters end up running cloud autoscaling tools.
 Does it make sense?
 No — the hardware is already a sunk cost.
 Will leadership ask why on-prem clusters don't need it?
-No — asking that question means admitting they don't already know the answer.
+No — asking that question admits they don't already know the answer.
 Will you install it anyway?
 Yes.
