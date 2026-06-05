@@ -10,11 +10,12 @@ draft: true
 > This post is sponsored by [Cast AI](https://cast.ai), but comes from my real world experiences.
 
 Automatically scaling nodes is a cloud parlor trick you don't get to opt out of.
+If you run in a hyperscaler you have to play by their rules weather you need it or not.
 
-Is it required?
-Only to make the economics make sense.
 Is it useful?
 Sometimes.
+Is it required?
+Yes, to make the economics make sense.
 Is it cool?
 Absolutely.
 
@@ -27,7 +28,7 @@ The company and engineer moved from a static, on-prem environment and the thing 
 So they tune the knobs until they get it _just_ right.
 Six months later all of their assumptions were wrong and they either do it again, hand it off to someone else, or automate it.
 
-The video to assist this blog post dives more into autoscaling, my role promoting it, and what a possible solution could be.
+The video to assist this blog post dives more into autoscaling, my history with it, and what a possible solution could be.
 
 {{< youtube 38r60gJsqLQ >}}
 
@@ -36,10 +37,10 @@ The video to assist this blog post dives more into autoscaling, my role promotin
 Kubernetes adds a workload native, portable API on top of cloud APIs.
 While clouds _can_ auto scale, not all clouds are able to scale equally.
 
-This causes a problem for portability, which most companies don't actually do, because any "enterprise" will use a bit of everything and they'll group similar functions to save org chart money.
+This causes a problem for portability because any "enterprise" will use a bit of everything and they'll group similar functions to save money on their org chart.
 This creates a centralized team of reliability and scalability to figure out how to handle multiple workloads in multiple clouds with different use cases and constraints.
 
-Naturally, the team will try to make a similar interface to do their job as consistently as possible and use tools they're familiar with.
+Naturally, the team will try to make a similar interface to do their job as consistently as possible and they'll use tools they're familiar with.
 15 years ago this meant boto3 or ansible.
 In 2026 this means Kubernetes.
 
@@ -54,29 +55,30 @@ You're offering your developers elastic compute, storage, and networking and you
 Except, it's not good enough and unless your workloads are very mature, you're going to have problems.
 
 The problems start with eager user-data scripts that assume `apt` repositories are always available.
-That you can install packages at runtime and not worry about building AMIs ever again.
-That makes your startup time too slow so you build AMIs anyway.
+That you can install packages at runtime and not worry about managaging AMIs ever again.
+This line of thinking makes your startup time too slow so you build AMIs to make your provisioning more reliable.
 
 Then you start hitting limits.
-Not engineering limits of the hardware, but cloud limits you have to open requests to solve.
+Not engineering limits of hardware capacity, but artificial, cloud limits you have to open requests to solve.
 If you scale large enough, eventually your instances get iced, meaning you need to request a wider variety of instance types.
 
 After you solve those problems you'll end up with inconsistent performance characteristics and bugs that you're not able to reproduce.
 This will push you further down the observability rabbit hole to identify problems sooner and understand them more holistically.
 
-A lot of this is to solve self-induced problems.
+A lot of this is to solve cloud-induced problems.
 
 Are there benefits to better application observability? Absolutely.
-Do you need 4 years of 5 second infrastructure granularity? Most certainly not.
+Do you need 4 years of 5 second infrastructure granularity? Most certainly not (unless regulations require it).
 
-It's surprising you never had these problems when you were on-prem.
+It's surprising you never had these problems or needed this level of granularity when you were on-prem.
 The reason you didn't is because you did most of the work up front with load testing and planning.
 Having a static environment is much easier to understand and troubleshoot.
+This assumes you have some level of reproducability and auditability of changes.
 
 ## The autoscaling tax
 
 One of the problems with the Kubernetes autoscaling options is they fill different needs.
-Horizontal Pod Autoscaler (HPA), Vertical Pod Autoscaler (VPA), Kubernetes Event-Driven Autoscaling (KEDA) and others will scale workloads up, down, and sideways.
+Horizontal Pod Autoscaler (HPA), Vertical Pod Autoscaler (VPA), Event-Driven Autoscaling (KEDA) and others will scale workloads up, down, and sideways.
 Cluster Autoscaler (CA) and Karpenter will manage the nodes.
 
 But each of these autoscalers have their own unique idiosyncrasies that require lots of experience to ~~get right~~ not mess up.
@@ -89,7 +91,7 @@ They're not going to get that from GitOps or YAML.
 You can't rely on your cloud provider to be the sole source of cost savings because Kubernetes runs a lot more places than a single cloud provider.
 And some cloud providers have terrible cost reporting data.
 
-You could build reporting with ~~Kubecost~~Apptio (an IBM project), but this just turns into another source of questionable alerts.
+You could build reporting with ~~Kubecost~~ Apptio (an IBM project), but this just turns into another source of questionable alerts.
 It _can_ do some automation, but that's not really what it was built for.
 I'm sure it's perfectly fine (I've never used it).
 
@@ -100,7 +102,7 @@ You can't opt out of this in the cloud. The economics won't let you treat infras
 
 This is where [Cast AI](https://cast.ai) comes in.
 I've never used it in anger (a.k.a. in production) so I'm not an expert in all the ways it works or doesn't.
-I've only used it to learn enough about how it works to feel confident enough to know it does more than the autoscaling projects and OpenCost.
+I've only used it to learn enough about how it works to feel confident enough to know it does more than Karpenter and OpenCost.
 
 When you combine all this data and control, the sum is greater than the parts.
 
@@ -108,7 +110,7 @@ Cast AI originally asked me to review their platform 3 years ago.
 At the time I was working at AWS on Karpenter and Cast AI claimed it worked better than Karpenter with no public data to corroborate their claims.
 I said no because I didn't think I could be a unbiased reviewer.
 
-This time, when they reached out, they let me know they built integrations so works with a cluster already managing autoscaling with Karpenter.
+This time, when they reached out, they let me know they built integrations so it works with a cluster already managing autoscaling with Karpenter.
 Obviously, the long term goal would be to get rid of Karpenter or the Cluster Autoscaler and only use Cast AI's autoscaling capabilities.
 I assume that's where a lot of enterprises will end up.
 
