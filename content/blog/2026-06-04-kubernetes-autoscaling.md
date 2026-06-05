@@ -1,10 +1,10 @@
 ---
 title: "Kubernetes Autoscaling"
 description: "Workload and node autoscaling in 2026"
-date: 2026-05-31
+date: 2026-06-04
 images: [/img/autoscaling-banner.png]
 thumbnail: /img/autoscaling-banner.png
-draft: true
+draft: false
 ---
 
 > This post is sponsored by [Cast AI](https://cast.ai), but comes from my real world experiences.
