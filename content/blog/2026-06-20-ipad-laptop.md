@@ -4,7 +4,7 @@ description: "What I loved and hated"
 date: 2026-06-20
 images: [/img/ipad-laptop-banner.png]
 thumbnail: /img/ipad-laptop-banner.png
-draft: true
+draft: false
 ---
 
 I really tried to make it work.
