@@ -5,7 +5,7 @@ description: ""
 date: 2018-11-08
 images: [/img/goodbye-disney-banner.jpg]
 thumbnail: /img/goodbye-disney-banner.jpg
-draft: true
+draft: false
 ---
 
 I never would have imagined I would be a part of such an amazing place. Being able to work on technology and help make cartoons kids all of the world love has been awesome.
