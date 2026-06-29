@@ -5,6 +5,7 @@ date: 2026-06-04
 images: [/img/autoscaling-banner.png]
 thumbnail: /img/autoscaling-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mphe7gxdkc2c"
 ---
 
 > This post is sponsored by [Cast AI](https://cast.ai), but comes from my real world experiences.

@@ -5,6 +5,7 @@ date: 2026-06-20
 images: [/img/ipad-laptop-banner.png]
 thumbnail: /img/ipad-laptop-banner.png
 draft: false
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mphe7gunmc2c"
 ---
 
 I really tried to make it work.
