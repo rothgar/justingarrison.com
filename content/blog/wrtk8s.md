@@ -6,10 +6,9 @@ description: "Parts list and build process for Linksys homelab"
 thumbnail: /img/wrtk8s-banner.png
 images: [/img/wrtk8s-banner.png]
 pinned: true
-url: /wrtk8s
 aliases:
+  - /wrtk8s
   - /blog/2026-06-30-wrtk8s
-atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mphe7gqwhs2c"
 ---
 
 This build took much longer than I anticipated.
