@@ -9,6 +9,7 @@ pinned: true
 aliases:
   - /wrtk8s
   - /blog/2026-06-30-wrtk8s
+atUri: "at://did:plc:p7uix7mresfq4nfzxp3klgfa/site.standard.document/3mpieb5sfcc2c"
 ---
 
 This build took much longer than I anticipated.
