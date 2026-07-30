@@ -10,10 +10,7 @@
   </p>
   You can use the filter to find submissions for different conferences, years, or status.
   Click on any row to see the full submission with abstract. 
-  <p class="text-xlarge font-bold mt-4">My current CFP acceptance rate is <span id="acceptanceRate">
-  {{ $total_cfps := float (len ( .Pages )) }}
-  {{ $accepted_cfps := float ( len ( where .Pages ".Params.Status" "==" "accepted" )) }}
-  {{ math.Round ( mul 100 ( div $accepted_cfps $total_cfps )) }}%</span>
+  <p class="text-xlarge font-bold mt-4">My current CFP acceptance rate is <span id="acceptanceRate"></span>
   </p>
   </div>
 
@@ -33,7 +30,7 @@
     <td class="border borer-slate-200 border-collapse p-2">{{ with .Params.confDate }}{{ . | dateFormat "2006-01" }}{{ end }}</td>
     <td class="border borer-slate-200 border-collapse p-2">{{ .Title }}</td>
     <td class="border borer-slate-200 border-collapse p-2">{{ .Params.Conference }}</td>
-    <td class="border borer-slate-200 border-collapse p-2">{{ .Params.Status | title }}</td>
+    <td class="border borer-slate-200 border-collapse p-2">{{ .Params.Status }}</td>
     <td style="display:none;">{{ .Params.Abstract }}</td>
   </tr>
   {{ end }}
@@ -84,12 +81,12 @@ function filterTable() {
 
 document.querySelector('#myInput').addEventListener('keyup', filterTable, false);
 
-// Pre-fill from ?filter=... URL param
+// Pre-fill from ?filter=... URL param, then compute the initial rate.
 var presetFilter = new URLSearchParams(window.location.search).get('filter');
 if (presetFilter) {
     document.querySelector('#myInput').value = presetFilter;
-    filterTable();
 }
+filterTable();
 </script>
 
 {{- partial "social.html" . -}}
