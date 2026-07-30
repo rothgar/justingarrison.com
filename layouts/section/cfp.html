@@ -18,7 +18,7 @@
   </div>
 
   <div class="flex">
-<input class="border-4 border-slate-800 p-3 mb-4 mx-auto text-xl font-bold rounded-md w-1/2" type="text" id="myInput" onkeyup="filterTable()" placeholder="Filter CFPs" title="Filter CFPs">
+<input class="border-4 border-slate-800 p-3 mb-4 mx-auto text-xl font-bold rounded-md w-1/2 bg-white dark:text-black" type="text" id="myInput" onkeyup="filterTable()" placeholder="Filter CFPs" title="Filter CFPs">
 </div>
 
 <table id="cfpTable" class="sortable m-6 border-collapse border border-slate-400">
@@ -41,28 +41,45 @@
 </div>
 <script>
 
-function filterTable(event) {
-    var filter = event.target.value.toUpperCase();
+function filterTable() {
+    var input = document.querySelector('#myInput');
+    var filter = input.value.toUpperCase();
     var rows = document.querySelector("#cfpTable tbody").rows;
-    
+
     // start after the header
     for (var i = 1; i < rows.length; i++) {
         var firstCol = rows[i].cells[0].textContent.toUpperCase();
         var secondCol = rows[i].cells[1].textContent.toUpperCase();
         var thirdCol = rows[i].cells[2].textContent.toUpperCase();
         var fourthCol = rows[i].cells[3].textContent.toUpperCase();
-        if (firstCol.indexOf(filter) > -1 
+        if (firstCol.indexOf(filter) > -1
             || secondCol.indexOf(filter) > -1
             || thirdCol.indexOf(filter) > -1
             || fourthCol.indexOf(filter) > -1) {
             rows[i].style.display = "";
         } else {
             rows[i].style.display = "none";
-        }      
+        }
     }
+
+    // Reflect current filter in the URL without adding history entries
+    var url = new URL(window.location);
+    if (input.value) {
+        url.searchParams.set('filter', input.value);
+    } else {
+        url.searchParams.delete('filter');
+    }
+    history.replaceState(null, '', url);
 }
 
 document.querySelector('#myInput').addEventListener('keyup', filterTable, false);
+
+// Pre-fill from ?filter=... URL param
+var presetFilter = new URLSearchParams(window.location.search).get('filter');
+if (presetFilter) {
+    document.querySelector('#myInput').value = presetFilter;
+    filterTable();
+}
 </script>
 
 {{- partial "social.html" . -}}
