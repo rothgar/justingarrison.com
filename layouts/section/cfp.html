@@ -10,10 +10,10 @@
   </p>
   You can use the filter to find submissions for different conferences, years, or status.
   Click on any row to see the full submission with abstract. 
-  <p class="text-xlarge font-bold mt-4">My current CFP acceptance rate is 
+  <p class="text-xlarge font-bold mt-4">My current CFP acceptance rate is <span id="acceptanceRate">
   {{ $total_cfps := float (len ( .Pages )) }}
   {{ $accepted_cfps := float ( len ( where .Pages ".Params.Status" "==" "accepted" )) }}
-  {{ math.Round ( mul 100 ( div $accepted_cfps $total_cfps )) }}%
+  {{ math.Round ( mul 100 ( div $accepted_cfps $total_cfps )) }}%</span>
   </p>
   </div>
 
@@ -70,6 +70,16 @@ function filterTable() {
         url.searchParams.delete('filter');
     }
     history.replaceState(null, '', url);
+
+    // Recompute acceptance rate over visible rows
+    var visible = 0, accepted = 0;
+    for (var j = 1; j < rows.length; j++) {
+        if (rows[j].style.display === "none") continue;
+        visible++;
+        if (rows[j].cells[3].textContent.trim().toUpperCase() === "ACCEPTED") accepted++;
+    }
+    document.querySelector('#acceptanceRate').textContent =
+        visible === 0 ? "—" : Math.round(100 * accepted / visible) + "%";
 }
 
 document.querySelector('#myInput').addEventListener('keyup', filterTable, false);
