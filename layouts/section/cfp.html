@@ -23,12 +23,12 @@
 
 <table id="cfpTable" class="sortable m-6 border-collapse border border-slate-400">
   <tr class="header" class="m-2">
-    <th class="text-2xl" style="width:10%;">Year</th>
+    <th class="text-2xl" style="width:10%;">Date</th>
     <th class="text-2xl" style="width:50%;">Title</th>
     <th class="text-2xl" style="width:40%;">Conference</th>
     <th class="text-2xl" style="width:10%;">Status</th>
   </tr>
-  {{ range .RegularPagesRecursive }}
+  {{ range sort .RegularPagesRecursive ".Params.confDate" "desc" }}
   <tr class="hover:bg-gray-100 dark:hover:bg-blue-900" style='cursor: pointer; cursor: hand;' onclick="window.location={{ .Permalink }};">
     <td class="border borer-slate-200 border-collapse p-2">{{ with .Params.confDate }}{{ . | dateFormat "2006-01" }}{{ end }}</td>
     <td class="border borer-slate-200 border-collapse p-2">{{ .Title }}</td>
