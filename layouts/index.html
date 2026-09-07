@@ -67,6 +67,7 @@
       let autoRotateInterval = null;
       let isTransitioning = false;
       const originalCount = originalSlides.length;
+      const AUTO_ROTATE_MS = 6000;
 
       // Clone slides for infinite loop
       function setupInfiniteLoop() {
@@ -168,7 +169,7 @@
       });
 
       function startAutoRotate() {
-        autoRotateInterval = setInterval(goNext, 3000);
+        autoRotateInterval = setInterval(goNext, AUTO_ROTATE_MS);
       }
 
       function stopAutoRotate() {
